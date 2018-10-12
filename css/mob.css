@@ -54,23 +54,48 @@ html {
 
 /*自己写的*/
 
-@media screen and (min-width:480px) and (max-width:767px) and (orientation:portrait){
+@media screen and (min-width:480px) and (max-width:599px) and (orientation:portrait){
     html { font-size: 937.5%; }
 }
 
-@media screen and (min-width:768px) and (max-width:1023px) and (orientation:portrait){
+@media screen and (min-width:600px) and (max-width:767px) and (orientation:portrait){
+    html { font-size: 1171.88%; }
+}
+
+
+@media screen and (min-width:768px) and (max-width:799px) and (orientation:portrait){
     html { font-size: 1500%; }
 }
 
+@media screen and (min-width:800px) and (max-width:1023px) and (orientation:portrait){
+    html { font-size: 1562.5%; }
+}
 
-@media screen and (min-width:1024px) and (orientation:portrait){
+@media screen and (min-width:1024px) and (max-width:1079px) and (orientation:portrait){
     html { font-size: 2000%; }
 }
 
-
-@media screen and (min-width:1200px) and (orientation:portrait){
-    html { font-size: 2343.75%; }
+@media screen and (min-width:1080px) and (max-width:1151px) and (orientation:portrait){
+    html { font-size: 2000%; }
 }
+
+@media screen and (min-width:1152px) and (max-width:1199px) and (orientation:portrait){
+    html { font-size: 2148.44%; }
+}
+
+@media screen and (min-width:1200px) and (max-width:1299px) and (orientation:portrait){
+    html { font-size: 2250%; }
+}
+
+
+@media screen and (min-width:1300px) and (max-width:1439px) and (orientation:portrait){
+    html { font-size: 2539.06%; }
+}
+
+@media screen and (min-width:1440px) and (max-width:1399px) and (orientation:portrait){
+    html { font-size: 2812.5%; }
+}
+
 
 
 /*设计稿px换算直接/100即可得到rem值。*/
