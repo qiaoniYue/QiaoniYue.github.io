@@ -6,9 +6,11 @@ header {
 }
 
 .header-bg {
+    width: 100%;
     padding: 4% 0;
     background-color: #0078d7;
     overflow: hidden;
+    box-sizing: border-box;
 }
 
 .navBox {
@@ -24,13 +26,13 @@ header {
 
 .navIcon img {
     width: .2rem;
-    vertical-align: middle;
+    vertical-align: top;
 }
 
 .nav {
     position: absolute;
-    left: 10%;
-    top: 3%;
+    left: .35rem;
+    top: .13rem;
     width: 25%;
     background: #efefef;
     color: #313131;
@@ -231,19 +233,20 @@ header {
     text-align: center;
     font-size: .12rem;
     color: #fff;
+    background-image: url("../img/bottomBan.jpg");
+    background-position: center;
 }
 
-.columns-des-banner {
+/*.columns-des-banner {
     width: 100%;
     vertical-align: top;
-}
+}*/
 
 .columns-des-text{
-    position:absolute;
+    /*position:absolute;
     top: .2rem;
-    left: 0;
-    padding: .2rem;
-    padding-top: 0;
+    left: 0;*/
+    padding: .2rem .2rem .2rem .2rem;
     z-index: 999;
 }
 
@@ -260,9 +263,9 @@ header {
 
 .footerBox {
     width: 100%;
-    padding:0 .1rem;
+    padding:0 .2rem;
     box-sizing: border-box;
-    background: #313131;
+    background: #303030;
     color: #d8dde0;
     font-size: .12rem;
     line-height: .25rem;

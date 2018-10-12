@@ -68,6 +68,9 @@ html {
 }
 
 
+@media screen and (min-width:1200px) and (orientation:portrait){
+    html { font-size: 2343.75%; }
+}
 
 
 /*设计稿px换算直接/100即可得到rem值。*/
