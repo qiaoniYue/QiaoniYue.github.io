@@ -27,8 +27,8 @@
     </header>
 
     <!--首页banner-->
-    <div class="banner">
-        <img src="img/index-banner.jpg">
+    <div class="banner"  id='bannerWrap'>
+        <img src="img/index-banner-1.jpg" id="indexBannerImg">
     </div>
 
     <!--提供服务-->
@@ -239,5 +239,25 @@
             }
         }
     }
+    /*以下为轮播图的代码*/
+    var k=0;  //当前的索引
+    var ss = new Array(); //数组，用来存放图片
+    ss[0] = "img/index-banner-1.jpg";
+    ss[1] = "img/index-banner-2.jpg";
+    ss[2] = "img/index-banner-3.jpg";
+    ss[3] = "img/index-banner-4.jpg";
+    function scrollPic(){
+        if(k>ss.length-1){ //如果当前函数超过数组下标的最大值，k=0
+            k=0;
+        }
+        for(var i=0;i<ss.length;i++){ //遍历数组
+            if(i==k){ //如果当前索引等于当前数组下标
+                document.getElementById("indexBannerImg").src=ss[i]; //改变图片路径
+            }
+        }
+        k++; //k++,执行下一次操作
+    }
+
+    setInterval("scrollPic()",2000); //设置定时器
 </script>
 </html>

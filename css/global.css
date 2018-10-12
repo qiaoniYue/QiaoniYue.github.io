@@ -59,7 +59,7 @@ header {
     font-size: 0;
 }
 
-.banner img {
+.banner .banner-content {
     width: 100%;
 }
 
