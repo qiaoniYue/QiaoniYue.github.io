@@ -25,6 +25,12 @@ html {
     font-size: 625%;
 }
 
+@media (min-width: 375px) {
+    html {
+        font-size: 100px;
+    }
+}
+
 /*各分辨率媒体查询换算*/
 
 @media screen and (min-width:360px) and (max-width:374px) and (orientation:portrait) {
@@ -46,19 +52,22 @@ html {
     html { font-size: 843.75%; }
 }
 
+/*自己写的*/
 
-
-
-/*大屏的屏幕查询还需优化*/
-@media screen and (min-width:480px) and (max-width:768px) and (orientation:portrait){
-    html { font-size: 1000%; }
+@media screen and (min-width:480px) and (max-width:767px) and (orientation:portrait){
+    html { font-size: 937.5%; }
 }
-@media screen and (min-width:769px) and (max-width:1024px) and (orientation:portrait){
-    html { font-size: 1025%; }
+
+@media screen and (min-width:768px) and (max-width:1023px) and (orientation:portrait){
+    html { font-size: 1500%; }
 }
-@media screen and (min-width:1025px) and (max-width:2000px) and (orientation:portrait){
+
+
+@media screen and (min-width:1024px) and (orientation:portrait){
     html { font-size: 2000%; }
 }
+
+
 
 
 /*设计稿px换算直接/100即可得到rem值。*/
