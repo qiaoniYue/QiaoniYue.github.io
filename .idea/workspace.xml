@@ -2,9 +2,211 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42c63de5-884d-44f1-8983-b3098961240a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/PC/css/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mob.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mob.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/css/mob.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/css/zt.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/images/0.6em" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/images/ad680x80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/images/app_k.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/images/bfmm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/images/hd_bgx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/images/i.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/images/img/img174x109_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/images/img/img266x167_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/images/ku6app.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/images/ku6logo114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/images/ku6logo72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/images/loadingif.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/images/pngku6logo57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/images/s_k.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/images/search24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/images/share24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/images/sj_k.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/images/statics/images/ku6app.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/images/zeq.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/images/zeq.eot@" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/images/zeq.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/images/zeq.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/images/zeq.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/images/zt_pre.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/images/zt_rpt2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/js/cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/js/jquery-1.9.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/js/mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/js/official_install_beacon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/js/swipe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/statics/kplayer/kplayer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/uploadfile/2013/1104/20131104035148928.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/uploadfile/2013/1104/20131104040033262.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/uploadfile/2013/1104/20131104043934570.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/uploadfile/poster/mycar2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7387b8204/zhengwen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/about-detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/assess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/carried.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/collection.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/complete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/contract.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/coupon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/css/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/css/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/css/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/css/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/css/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/css/loaders.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/css/loading.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/css/mui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/css/mui.min1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/css/mui.picker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/css/mui.picker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/css/mui.poppicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/css/page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/css/swiper.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/empty-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/entire.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/entrust.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/extension.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/house-details.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/img/bao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/img/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/img/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/img/che.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/img/checketwo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/img/checktwo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/img/chuang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/img/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/img/closetwo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/img/detail-iocn001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/img/detail-iocn01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/img/dui.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/img/fang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/img/huangbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/img/index-banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/img/left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/img/left2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/img/lou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/img/lvbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/img/map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/img/people.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/img/right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/img/right2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/img/self.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/img/shang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/img/tel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/img/touxiang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/img/water.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/img/woshou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/img/xia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/img/xiu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/img/zhi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/index其中的一部分.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/join.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/js/city.data-3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/js/city.data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/js/fastclick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/js/global.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/js/hmt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/js/jquery-1.8.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/js/jquery.SuperSlide.2.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/js/jquery.leanModal.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/js/menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/js/mobiscroll.2.13.2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/js/mui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/js/mui.picker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/js/mui.picker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/js/mui.poppicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/js/psong.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/js/rem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/js/swiper.jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/js/swiper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/js/tchuang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/js/yhq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/landlord.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/lease.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/life-service.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/lose.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/map-house.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/modify.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/order.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/p-center.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/pay-rent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/payment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/profit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/recharge.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/rent-order.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/schedule.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/service-details.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/short.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/sign.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/slick/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/slick/fonts/slick.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/slick/fonts/slick.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/slick/fonts/slick.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/slick/fonts/slick.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/slick/slick.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/slick/slick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/slick/slick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/slick/slick.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/success.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/upload/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/upload/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/upload/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/upload/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/upload/ht.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/upload/list-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/upload/list-tu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/upload/map.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/upload/room.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/upload/roomlist.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5bbc7463be461/upload/yunshu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup-mob-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/backup.css" beforeDir="false" afterPath="$PROJECT_DIR$/Backup/css/backup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/Backup/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/Backup/css/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Backup/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mob.css" beforeDir="false" afterPath="$PROJECT_DIR$/Backup/css/mob.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/normal.css" beforeDir="false" afterPath="$PROJECT_DIR$/Backup/css/normal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/html-demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bottomBan.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Backup/img/bottomBan.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/company-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backup/img/company-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/company-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backup/img/company-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/company-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backup/img/company-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/company-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backup/img/company-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/company-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backup/img/company-5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/company-6.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backup/img/company-6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/company-7.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backup/img/company-7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/company-8.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backup/img/company-8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/content-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backup/img/content-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/content-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backup/img/content-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/content-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backup/img/content-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/content-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backup/img/content-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/index-banner-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Backup/img/index-banner-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/index-banner-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Backup/img/index-banner-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/index-banner-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Backup/img/index-banner-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/index-banner-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Backup/img/index-banner-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/nav.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backup/img/nav.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/people-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backup/img/people-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/people.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backup/img/people.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/service-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backup/img/service-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/service-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backup/img/service-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/service-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backup/img/service-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/service-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Backup/img/service-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Backup/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/PC/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mob-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Backup/mob-index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -69,35 +271,42 @@
     <session id="-557719255">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.9" value="5" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="19" />
-          <entry key="html" value="12" />
+          <entry key="css" value="24" />
+          <entry key="html" value="18" />
+          <entry key="ico" value="1" />
+          <entry key="js" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="19" />
-          <entry key="HTML" value="12" />
+          <entry key="CSS" value="24" />
+          <entry key="HTML" value="18" />
+          <entry key="Image" value="1" />
+          <entry key="JavaScript" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="257" />
-          <entry key="html" value="204" />
+          <entry key="css" value="4232" />
+          <entry key="html" value="3074" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="257" />
-          <entry key="HTML" value="204" />
+          <entry key="CSS" value="4232" />
+          <entry key="HTML" value="3074" />
         </counts>
       </usages-collector>
     </session>
@@ -106,46 +315,71 @@
     <favorites_list name="Project" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.6612426">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/global.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/mob.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="403">
-                  <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/mob-index.html">
+            <entry file="file://$PROJECT_DIR$/PC/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="37" column="14" lean-forward="true" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+                <state relative-caret-position="306">
+                  <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
                   <folding>
-                    <element signature="n#head#0;n#html#0;n#!!top" />
-                    <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#li#4;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#li#6;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#li#7;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#a#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#a#2;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#a#3;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#a#1;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#a#2;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#a#0;n#div#1;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#a#1;n#div#1;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#a#2;n#div#1;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#a#0;n#div#0;n#div#1;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#div#1;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#div#1;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#a#0;n#div#0;n#div#1;n#div#1;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#5;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="e#10513#12442#0" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/base.css">
+            <entry file="file://$PROJECT_DIR$/html-demo.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-425">
-                  <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+                <state relative-caret-position="391">
+                  <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/PC/css/base.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="340">
+                  <caret line="58" column="15" lean-forward="true" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="32" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/PC/css/global.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="442">
+                  <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -153,12 +387,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/css/global.css">
+            <entry file="file://$PROJECT_DIR$/PC/css/global.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="295">
-                  <caret line="116" column="19" selection-start-line="116" selection-start-column="19" selection-end-line="116" selection-end-column="19" />
+                <state relative-caret-position="329">
+                  <caret line="292" selection-start-line="292" selection-end-line="302" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -186,6 +420,15 @@
       <find>fle</find>
       <find>columns-des</find>
       <find>columns-ser-itemIcon</find>
+      <find>main-container</find>
+      <find>main-processBox</find>
+      <find>main-gamesBox</find>
+      <find>main-topic-games</find>
+      <find>cccccc</find>
+      <find>e8e8e8</find>
+      <find>main-topic</find>
+      <find>main-container-center</find>
+      <find>index-main</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -223,6 +466,10 @@
         <option value="$PROJECT_DIR$/mob-index.html" />
         <option value="$PROJECT_DIR$/css/mob.css" />
         <option value="$PROJECT_DIR$/css/global.css" />
+        <option value="$PROJECT_DIR$/backup-mob-index.html" />
+        <option value="$PROJECT_DIR$/PC/css/base.css" />
+        <option value="$PROJECT_DIR$/PC/css/global.css" />
+        <option value="$PROJECT_DIR$/PC/index.html" />
       </list>
     </option>
   </component>
@@ -232,11 +479,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="702" />
-    <option name="y" value="13" />
-    <option name="width" value="891" />
-    <option name="height" value="838" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="625" />
+    <option name="y" value="25" />
+    <option name="width" value="863" />
+    <option name="height" value="779" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -246,7 +493,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,12 +503,19 @@
             <path>
               <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="QiaoniYue.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="PC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QiaoniYue.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="PC" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,6 +526,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GitHubProject\QiaoniYue.github.io\PC" />
+      <recent name="C:\GitHubProject\QiaoniYue.github.io\Backup" />
+      <recent name="C:\GitHubProject\QiaoniYue.github.io" />
       <recent name="C:\Project" />
     </key>
   </component>
@@ -315,12 +571,19 @@
       <workItem from="1539339506027" duration="38000" />
       <workItem from="1539339918317" duration="158000" />
       <workItem from="1539340508104" duration="6087000" />
-      <workItem from="1539348421804" duration="1475000" />
+      <workItem from="1539348421804" duration="1672000" />
+      <workItem from="1539396442673" duration="181000" />
+      <workItem from="1539398790392" duration="2540000" />
+      <workItem from="1539401397311" duration="656000" />
+      <workItem from="1539414833206" duration="983000" />
+      <workItem from="1539570285073" duration="1205000" />
+      <workItem from="1539572135414" duration="33944000" />
+      <workItem from="1539654390399" duration="13202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110227000" />
+    <option name="totallyTimeSpent" value="163135000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -332,10 +595,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920762" visible="true" weight="0.12875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920762" visible="true" weight="0.155" />
       <window_info id="Structure" order="1" sideWeight="0.50158733" side_tool="true" weight="0.25625" />
       <window_info id="Favorites" order="2" sideWeight="0.5011287" side_tool="true" weight="0.3828198" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -361,138 +623,37 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/Project.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/delete/腾讯移动分析 免费移动应用APP统计  H5统计 渠道统计 用户画像.htm" />
-    <entry file="file://$USER_HOME$/Desktop/Project/html-demo.html" />
-    <entry file="file://$PROJECT_DIR$/css/less-1200.css" />
-    <entry file="file://$PROJECT_DIR$/5bbc7463be461/css/mui.min1.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5bbc7463be461/css/mui.picker.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5bbc7463be461/css/mui.poppicker.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5bbc7463be461/css/page.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5bbc7463be461/css/swiper.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5bbc7463be461/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1416">
-          <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5bbc7463be461/js/city.data.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5bbc7463be461/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5bbc7463be461/css/loading.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5bbc7463be461/success.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5bbc7387b8204/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="65" column="48" lean-forward="true" selection-start-line="65" selection-start-column="48" selection-end-line="65" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5bbc7463be461/sign.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5bbc7463be461/css/all.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5bbc7463be461/css/app.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5bbc7463be461/css/iconfont.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/5bbc7463be461/css/mui.min1.css" />
+    <entry file="file://$PROJECT_DIR$/5bbc7463be461/css/mui.picker.min.css" />
+    <entry file="file://$PROJECT_DIR$/5bbc7463be461/css/mui.poppicker.css" />
+    <entry file="file://$PROJECT_DIR$/5bbc7463be461/css/page.css" />
+    <entry file="file://$PROJECT_DIR$/5bbc7463be461/css/swiper.min.css" />
+    <entry file="file://$PROJECT_DIR$/5bbc7463be461/js/app.js" />
+    <entry file="file://$PROJECT_DIR$/5bbc7463be461/js/city.data.js" />
+    <entry file="file://$PROJECT_DIR$/5bbc7463be461/about.html" />
+    <entry file="file://$PROJECT_DIR$/5bbc7463be461/css/loading.css" />
+    <entry file="file://$PROJECT_DIR$/5bbc7463be461/success.html" />
+    <entry file="file://$PROJECT_DIR$/5bbc7387b8204/index.html" />
+    <entry file="file://$PROJECT_DIR$/5bbc7463be461/sign.html" />
+    <entry file="file://$PROJECT_DIR$/5bbc7463be461/css/all.css" />
+    <entry file="file://$PROJECT_DIR$/5bbc7463be461/css/app.css" />
+    <entry file="file://$PROJECT_DIR$/5bbc7463be461/css/iconfont.svg" />
     <entry file="file://$PROJECT_DIR$/111.html" />
     <entry file="file://$PROJECT_DIR$/delete.html" />
     <entry file="file://$PROJECT_DIR$/index-test.html" />
     <entry file="file://$PROJECT_DIR$/index-响应式.html" />
     <entry file="file://$PROJECT_DIR$/index-适配.html" />
-    <entry file="file://$PROJECT_DIR$/5bbc7463be461/css/loaders.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5bbc7463be461/js/rem.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5bbc7463be461/complete.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5bbc7463be461/css/mui.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="383" column="16" lean-forward="true" selection-start-line="383" selection-start-column="16" selection-end-line="383" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5bbc7463be461/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="179" column="19" lean-forward="true" selection-start-line="179" selection-start-column="19" selection-end-line="179" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5bbc7463be461/index其中的一部分.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/5bbc7463be461/css/loaders.min.css" />
+    <entry file="file://$PROJECT_DIR$/5bbc7463be461/js/rem.js" />
+    <entry file="file://$PROJECT_DIR$/5bbc7463be461/complete.html" />
+    <entry file="file://$PROJECT_DIR$/5bbc7463be461/css/mui.min.css" />
+    <entry file="file://$PROJECT_DIR$/5bbc7463be461/css/base.css" />
+    <entry file="file://$PROJECT_DIR$/5bbc7463be461/index其中的一部分.html" />
     <entry file="file://$PROJECT_DIR$/test-2.html" />
     <entry file="file://$PROJECT_DIR$/test-调试.html" />
     <entry file="file://$PROJECT_DIR$/index-nav.html" />
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.html" />
-    <entry file="file://$PROJECT_DIR$/5bbc7463be461/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/5bbc7463be461/index.html" />
     <entry file="file://$PROJECT_DIR$/test-4.html" />
     <entry file="file://C:/Windows/System32/drivers/etc/hosts">
       <provider selected="true" editor-type-id="text-editor">
@@ -504,77 +665,121 @@
     <entry file="file://$PROJECT_DIR$/test-3.html" />
     <entry file="file://$PROJECT_DIR$/css/base-2.css" />
     <entry file="file://$PROJECT_DIR$/css/responsive.css" />
-    <entry file="file://$PROJECT_DIR$/css/normal.css">
+    <entry file="file://$PROJECT_DIR$/Backup/css/normal.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
+    <entry file="file://$PROJECT_DIR$/Backup/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="703">
           <caret line="108" column="18" lean-forward="true" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backup-mob-index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/Backup/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="577">
           <caret line="245" column="21" lean-forward="true" selection-start-line="245" selection-start-column="21" selection-end-line="245" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html-demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/backup.css">
+    <entry file="file://$PROJECT_DIR$/Backup/css/backup.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/base.css">
+    <entry file="file://$PROJECT_DIR$/backup-mob-index.html" />
+    <entry file="file://$PROJECT_DIR$/Backup/css/mob.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-425">
-          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        <state relative-caret-position="578">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/mob.css">
+    <entry file="file://$PROJECT_DIR$/Backup/mob-index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+        <state relative-caret-position="391">
+          <caret line="35" column="38" lean-forward="true" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/global.css">
+    <entry file="file://$PROJECT_DIR$/Backup/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        <state relative-caret-position="144">
+          <caret line="109" column="30" lean-forward="true" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mob-index.html">
+    <entry file="file://$PROJECT_DIR$/js/main.js" />
+    <entry file="file://$PROJECT_DIR$/PC/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backup/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="37" column="14" lean-forward="true" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+        <state relative-caret-position="221">
+          <caret line="13" column="3" lean-forward="true" selection-end-line="90" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html-demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="58" column="15" lean-forward="true" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
           <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#4;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#6;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#7;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#2;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#3;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#1;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#2;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#div#1;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#1;n#div#1;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#2;n#div#1;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#1;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#1;n#div#1;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#5;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#10513#12442#0" />
           </folding>
         </state>
       </provider>
