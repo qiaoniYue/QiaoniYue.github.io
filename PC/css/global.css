@@ -72,8 +72,9 @@ css命名一般不采用下划线
 .sub-nav li {
     float: left;
     display: inline;
-    margin-right: 5px;
+    height: 40px;
     line-height: 40px;
+    margin-right: 5px;
 }
 
 .sub-nav li a {
