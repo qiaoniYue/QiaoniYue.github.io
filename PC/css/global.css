@@ -41,9 +41,15 @@ css命名一般不采用下划线
 }
 
 .nav-itemTxt {
+    display: block;
     font-size: 18px;
     line-height: 60px;
     padding: 0 10px;
+    color: #313131;
+}
+
+.nav-current {
+    color: #0078d7;
 }
 
 .nav-itemTxt:hover,
@@ -64,28 +70,36 @@ css命名一般不采用下划线
 
 .sub-nav {
     width: 836px;
-    margin: 0 auto;
     padding-left: 364px;
-    /*box-sizing: border-box;*/
+    margin: 0 auto;
 }
 
 .sub-nav li {
     float: left;
     display: inline;
+    margin-right: 5px;
     height: 40px;
     line-height: 40px;
-    margin-right: 5px;
 }
 
 .sub-nav li a {
     display: block;
     padding: 0 10px;
     font-size: 14px;
+    height: 40px;
+    line-height: 40px;
     color: #aeaeae;
+    background-color: #313131;
+}
+
+.sub-nav li .sub-nav-current {
+    background-color: #4d4d4d;
+    color: #fff;
 }
 
 .sub-nav li a:hover,
 .sub-nav li a:active {
+    background-color: #4d4d4d;
     color: #fff;
 }
 
@@ -115,7 +129,7 @@ css命名一般不采用下划线
     display: block;
     width: 180px;
     height: 80px;
-    background: url("../images/indexBtn1-normal.png") no-repeat top left;
+    background: url("../images/indexBtn1-normal.png") no-repeat center center;
     position: absolute;
     top: 270px;
     left: 44px;
@@ -124,6 +138,67 @@ css命名一般不采用下划线
 .indexBtn1 a:hover {
     background: url("../images/indexBtn1-click.png") no-repeat top left;
 }
+
+/*SDK分页banner*/
+
+.bannerPage-Wrap {
+    background: #4085f1 url("../images/banner-data.jpg") no-repeat center center;
+    position: relative;
+}
+
+.bannerPage-data {
+    background-image: url("../images/banner-data.jpg");
+}
+
+.bannerPage-social {
+    background-image: url("../images/banner-social.jpg");
+}
+
+.bannerPage-intelligent {
+    background-image: url("../images/banner-intelligent.jpg");
+}
+
+.bannerPage {
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 70%;
+    text-align: center;
+}
+/*
+.bannerPage-btn {
+    display: inline-block;
+    width: 225px;
+    height: 55px;
+    margin: 0 15px;
+    background-color:rgba(255,255,255,0.05);
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 24px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}*/
+
+.bannerPage-btn {
+    display: inline-block;
+    width: 225px;
+    height: 55px;
+    margin: 0 15px;
+    color: #fff;
+    font-size: 24px;
+    line-height: 55px;
+    text-align: center;
+    cursor: pointer;
+    background: url("../images/page/bannerPage-btn1.png") no-repeat center center;
+}
+
+.bannerPage-btn:hover,
+.bannerPage-btn:active {
+    background: url("../images/page/bannerPage-btn2.png") no-repeat center center;
+}
+
 
 /*中心内容*/
 .index-main {
@@ -188,6 +263,8 @@ css命名一般不采用下划线
     padding-top: 100px;
 }
 
+/*小标题的代码*/
+/*
 .main-titleBox {
     width: 600px;
     margin: 0 auto;
@@ -198,6 +275,12 @@ css命名一般不采用下划线
 .main-titleBoxL {
     width: 660px;
 }
+
+.main-titleBoxS {
+    width: 450px;
+}
+
+
 
 .main-mod-left {
     float: left;
@@ -221,6 +304,10 @@ css命名一般不采用下划线
     width: 360px;
 }
 
+.main-titleS {
+    width: 150px;
+}
+
 .main-mod-right {
     float: left;
     width: 130px;
@@ -229,6 +316,43 @@ css命名一般不采用下划线
     margin-top: 23px;
     margin-left: 20px;
 }
+
+*/
+
+.main-titleBox {
+    display: table;
+    margin: auto;
+    padding-bottom: 40px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.main-mod-left {
+    float: left;
+    width: 130px;
+    height: 2px;
+    font-size: 0;
+    background-color: #313131;
+    margin-top: 24px;
+}
+
+.main-title {
+    float: left;
+    padding: 0 20px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 48px;
+}
+
+.main-mod-right {
+    float: left;
+    width: 130px;
+    height: 2px;
+    font-size: 0;
+    background-color: #313131;
+    margin-top: 23px;
+}
+
 
 .main-topic {
     width: 1200px;
@@ -298,7 +422,6 @@ css命名一般不采用下划线
     width: 368px;
     height: 220px;
     border: 1px solid #e8e8e8;
-    /*box-sizing: border-box;*/
     margin-right: 45px;
     -moz-box-shadow: 3px 3px 5px #c1c1c1; /* 老的 Firefox */
     box-shadow: 3px 3px 5px #c1c1c1;
@@ -317,7 +440,6 @@ css命名一般不采用下划线
     width: 208px;
     height: 45px;
     padding-left: 20px;
-    /*box-sizing: border-box;*/
     background-color: #0078d7;
     font-size: 32px;
     line-height: 45px;
@@ -378,10 +500,9 @@ css命名一般不采用下划线
 }
 
 .main-gamesWrap {
-    width: 100%;
-    height: 143px;
+    width: 374px;
+    height: 142px;
     border: 1px solid #e8e8e8;
-    box-sizing: border-box;
     border-top: 0;
 }
 

@@ -80,3 +80,7 @@ a:hover,
 a:active {
     text-decoration: none;
 }
+
+.mt10 {
+    margin-top: 10px;
+}

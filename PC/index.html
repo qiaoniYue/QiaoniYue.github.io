@@ -8,72 +8,118 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/base.css" type="text/css">
     <link rel="stylesheet" href="css/global.css" type="text/css">
+
     <!--[if lte IE 7]>
     <style type="text/css">
-        .main-processBox {
-            width: 366px;
-        }
+        /*头部*/
         .sub-nav {
             width: 1200px;
             margin: 0 auto;
         }
+
+        /*内容小标题*/
+        .main-titleBox {
+            display: block;
+            width: 600px;
+            margin: 0 auto;
+        }
+
+        .main-titleBoxL {
+            width: 660px;
+        }
+
+        .main-titleBoxNormal {
+            width: 550px;
+        }
+
+        .main-titleBoxS {
+            width: 450px;
+        }
+
+
+        .main-title {
+            float: left;
+            width: 300px;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .main-titleL {
+            width: 360px;
+        }
+
+        .main-titleNormal {
+            width: 250px;
+        }
+
+        .main-titleS {
+            width: 150px;
+        }
+
+
+        /*首页快速接入流程*/
+        .main-processBox {
+            width: 366px;
+        }
     </style>
     <![endif]-->
+
 </head>
 <body>
+
 <!--头部开始-->
 <div class="header">
     <div class="topBox">
-        <a href="#" class="logoBox">
+        <a href="index.html" class="logoBox">
             <img src="images/logo.png" alt="MIRACLE GAMES开放平台" class="logo">
         </a>
         <div class="navBox">
             <ul class="navWrap">
                 <li class="nav-item">
-                    <a href="#" class="nav-itemTxt">首页</a>
+                    <a href="index.html" class="nav-itemTxt nav-current">首页</a>
                 </li>
                 <li class="nav-item" id="nav-item-SDK">
-                    <a href="#" class="nav-itemTxt">SDK服务</a>
+                    <a href="data.html" class="nav-itemTxt">SDK服务</a>
                     <div class="sub-navBox" id="nav-item-SDK-Content">
                         <ul class="sub-nav">
                             <li>
-                                <a href="#">精准数据分析</a>
+                                <a href="data.html">精准数据分析</a>
                             </li>
                             <li>
-                                <a href="#">便捷的社交服务</a>
+                                <a href="social.html">便捷的社交服务</a>
                             </li>
                             <li>
-                                <a href="#">领先的微软智能</a>
+                                <a href="intelligent.html">领先的微软智能</a>
                             </li>
                             <li>
-                                <a href="#">多样的支付功能</a>
+                                <a href="pay.html">多样的支付功能</a>
                             </li>
                             <li>
-                                <a href="#">完善的游戏中心</a>
+                                <a href="game.html">完善的游戏中心</a>
                             </li>
                             <li>
-                                <a href="#">社区sdk接入</a>
+                                <a href="community.html">社区sdk接入</a>
                             </li>
                         </ul>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-itemTxt">SDK下载</a>
+                    <a href="download.html" class="nav-itemTxt">SDK下载</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-itemTxt">开发文档</a>
+                    <a href="document.html" class="nav-itemTxt">开发文档</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-itemTxt">数据中心</a>
+                    <a href="records.html" class="nav-itemTxt">数据中心</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-itemTxt">广告平台</a>
+                    <a href="advertising.html" class="nav-itemTxt">广告平台</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-itemTxt">MG平台</a>
+                    <a href="platformMG.html" class="nav-itemTxt">MG平台</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-itemTxt">GWGC</a>
+                    <a href="meeting.html" class="nav-itemTxt">GWGC</a>
                 </li>
             </ul>
         </div>
@@ -167,9 +213,9 @@
     <!--快速接入流程-->
     <div class="main-container-center">
         <!--小标题-->
-        <div class="main-titleBox">
+        <div class="main-titleBox main-titleBoxS">
             <div class="main-mod-left"></div>
-            <h1 class="main-title">快速接入流程</h1>
+            <h1 class="main-title main-titleS">快速接入流程</h1>
             <div class="main-mod-right"></div>
         </div>
         <!--内容-->
@@ -240,9 +286,9 @@
     <!--客户服务-->
     <div class="main-container-center">
         <!--小标题-->
-        <div class="main-titleBox">
+        <div class="main-titleBox main-titleBoxNormal">
             <div class="main-mod-left"></div>
-            <h1 class="main-title">听我们合作伙伴说</h1>
+            <h1 class="main-title main-titleNormal">听我们合作伙伴说</h1>
             <div class="main-mod-right"></div>
         </div>
         <!--内容-->
@@ -344,55 +390,6 @@
 <!--底部结束-->
 
 </body>
-<script>
-    window.onload = function(){
-        /*头部nav简单特效*/
-        var sdkItem = document.getElementById("nav-item-SDK");
-        var sdkContent = document.getElementById("nav-item-SDK-Content");
-        sdkItem.onmouseover = function(){
-            sdkContent.style.display = "block";
-        }
-        sdkItem.onmouseout = function () {
-            sdkContent.style.display = "none";
-        }
-
-        /*全球热门游戏推荐，鼠标经过，出现border*/
-        /*游戏第一个*/
-        var mainGamesWrap1 = document.getElementById("main-gamesWrap1");
-        var mainGamesBox1 = document.getElementById("main-gamesBox1");
-        mainGamesBox1.onmouseover = function () {
-            mainGamesWrap1.style.border = "1px solid #0078d7";
-            mainGamesWrap1.style.borderTop = "0";
-        }
-        mainGamesBox1.onmouseout = function () {
-            mainGamesWrap1.style.border = "1px solid #e8e8e8";
-            mainGamesWrap1.style.borderTop = "0";
-
-        }
-        /*游戏第二个*/
-        var mainGamesWrap2 = document.getElementById("main-gamesWrap2");
-        var mainGamesBox2 = document.getElementById("main-gamesBox2");
-        mainGamesBox2.onmouseover = function () {
-            mainGamesWrap2.style.border = "1px solid #0078d7";
-            mainGamesWrap2.style.borderTop = "0";
-        }
-        mainGamesBox2.onmouseout = function () {
-            mainGamesWrap2.style.border = "1px solid #e8e8e8";
-            mainGamesWrap2.style.borderTop = "0";
-
-        }
-        /*游戏第三个*/
-        var mainGamesWrap3 = document.getElementById("main-gamesWrap3");
-        var mainGamesBox3 = document.getElementById("main-gamesBox3");
-        mainGamesBox3.onmouseover = function () {
-            mainGamesWrap3.style.border = "1px solid #0078d7";
-            mainGamesWrap3.style.borderTop = "0";
-        }
-        mainGamesBox3.onmouseout = function () {
-            mainGamesWrap3.style.border = "1px solid #e8e8e8";
-            mainGamesWrap3.style.borderTop = "0";
-
-        }
-    }
-</script>
+<script src="js/nav.js" type="text/javascript"></script>
+<script src="js/gameBorder.js" type="text/javascript"></script>
 </html>
