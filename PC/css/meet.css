@@ -453,6 +453,92 @@
     transform: translateY(-50%);
 }
 
+/*会员权益*/
+.meetEquityBox {
+    width: 1200px;
+    height: 176px;
+    overflow: hidden;
+}
+
+.meetEquity {
+    width: 392px;
+    height: 176px;
+    float: left;
+    margin-right: 12px;
+}
+
+.meetEquity li {
+    float: left;
+    display: inline;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+.meetEquity-L {
+    width: 35px;
+    height: 146px;
+    background-color: #0078d7;
+    padding: 15px;
+    writing-mode: vertical-lr;/*从左向右 从右向左是 writing-mode: vertical-rl;*/
+    writing-mode: tb-lr;/*IE浏览器的从左向右 从右向左是 writing-mode: tb-rl；*/
+    margin-right: 3px;
+}
+
+.meetEquity-M {
+    width: 274px;
+    height: 176px;
+    margin-right: 4px;
+}
+
+.meetEquity-M-pro {
+    width: 100%;
+    height: 46px;
+    margin-bottom: 3px;
+    line-height: 46px;
+    background-color: #0078d7;
+}
+
+.meetEquity-M-list {
+    height: 127px;
+    overflow: hidden;
+    display: table;
+    vertical-align: middle;
+}
+
+.meetEquity-M-list span {
+    vertical-align: middle;
+    float: left;
+    width: 73px;
+    height: 91px;
+    margin-right: 3px;
+    padding: 8px;
+    background-color: #0078d7;
+    text-align: left;
+    padding-top: 28px;
+}
+
+.meetEquity-M-list .meetEquity-M-last{
+    width: 74px;
+    margin-right: 0;
+}
+
+.meetEquity-R {
+    width: 46px;
+    height: 176px;
+    line-height: 46px;
+    background-color: #0078d7;
+    writing-mode: vertical-lr;/*从左向右 从右向左是 writing-mode: vertical-rl;*/
+    writing-mode: tb-lr;/*IE浏览器的从左向右 从右向左是 writing-mode: tb-rl；*/
+    text-align: center;
+    /*padding-left: 10px;*/
+}
+
+
+
+
+
+
 /*加入会员*/
 .meetAddBox {
     width: 100%;
