@@ -54,7 +54,6 @@ abbr,article,aside,audio,canvas,datalist,details,figure,footer,header,hgroup,men
 }
 
 body {
-    background: #fff;
     color: #313131;
     font: 14px 'Microsoft YaHei', 'SimSun', '\5b8b\4f53', sans-serif;
     line-height: 1.5em;
@@ -83,4 +82,8 @@ a:active {
 
 .mt10 {
     margin-top: 10px;
+}
+
+.mt60 {
+    margin-top: 60px;
 }
