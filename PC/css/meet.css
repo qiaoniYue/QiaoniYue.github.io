@@ -137,6 +137,13 @@
     overflow: hidden;
 }
 
+
+.meetTitleS {
+    width: 1200px;
+    margin: 60px auto 40px auto;
+    overflow: hidden;
+}
+
 .meetTitleDe {
     float: left;
     width: 4px;
@@ -234,171 +241,138 @@
     margin: 0 auto;
 }
 
-.meetChance {
-    width: 1200px;
-    height: 390px;
-    margin-left: 7px;
-    margin-top: 7px;
+/*轮切图的展示--开始*/
+
+.meetTurn {
+    overflow: hidden;
 }
 
-.meetChance-item {
+.meetTurn li {
     float: left;
-    width: 314px;
-    height: 404px;
-    margin-top: -7px;
-    margin-left: -7px;
+    display: inline;
+    width: 24%;
+    height: 376px;
+    margin: 24px 0;
 }
 
-.meetChance-item-2 {
-    margin-left: -14px;
+.meetTurn .active {
+    width: 28%;
+    margin: 0;
+    padding: 24px 0;
+    z-index: 1;
+    background-color: #0078d7;
 }
 
-.meetChance-item-3 {
-    margin-left: -21px;
-}
-
-.meetChance-item-4 {
-    margin-left: -28px;
-}
-
-.meetChance-item .meetChanceSmall {
-    width: 300px;
-    height: 390px;
-    margin-top: 7px;
-    margin-left: 7px;
-    display: block;
+.meetTurn li .meetTurnN {
+    width: 288px;
+    height: 376px;
     position: relative;
+    display: block;
 }
 
-.meetChanceSmall-1 {
-    z-index: 10001;
-}
-
-
-.meetChanceSmall-2 {
-    z-index: 10102;
-}
-
-
-.meetChanceSmall-3 {
-    z-index: 10203;
-}
-
-.meetChanceSmall-4 {
-    z-index: 10304;
-}
-
-.meetChance-item:hover .meetChanceSmall {
+.meetTurn .active .meetTurnN {
     display: none;
 }
 
-.meetChanceCon-img {
-    width: 300px;
+.meetTurn li .meetTurnN img {
+    width: 288px;
+    min-height: 376px;
     text-align: center;
     vertical-align: middle;
 }
 
-.meetChanceCon {
-    width: 300px;
-    height: 390px;
-    background: url("../images/meet/meetHigh390.png") repeat-x;
+.meetDarkChance {
+    width: 100%;
+    height: 315px;
+    padding-top: 61px;
+    background: url("../images/meet/meetHigh376.png") repeat-x;
     position: absolute;
     top: 0;
     left: 0;
 }
 
-
-.meetChanceCon span {
+.meetNum {
     display: block;
-    width: 300px;
-    background-image: url("../images/meet/meetChanceIcon.png");
-    background-repeat: no-repeat;
+    width: 288px;
+    height: 105px;
     overflow: hidden;
+    background: url("../images/meet/meetNum.png") no-repeat 0 0px;
 }
 
-.meetChanceCon-num {
-    height: 110px;
-    background-position:0 -64px;
-    margin-top: 64px;
+.meetNum2 {
+    background-position: -288px 0;
 }
 
-.meetChanceCon-num-2 {
-    background-position: -300px -64px;
+.meetNum3 {
+    background-position: -576px 0;
 }
 
-.meetChanceCon-num-3 {
-    background-position: -600px -64px;
+.meetNum4 {
+    background-position: -864px 0;
 }
 
-.meetChanceCon-num-4 {
-    background-position: -900px -64px;
+.meetIcon {
+    display: block;
+    width: 288px;
+    height: 94px;
+    margin-top: 34px;
+    background: url("../images/meet/meetIcon-small.png") no-repeat 0 0;
 }
 
-
-
-
-.meetChanceCon-icon {
-    height:97px;
-    background-position:0 -208px;
-    margin-top: 35px;
+.meetIcon2 {
+    background-position: -288px 0;
 }
 
-.meetChanceCon-icon-2 {
-    background-position:-300px -208px;
+.meetIcon3 {
+    background-position: -576px 0;
 }
 
-.meetChanceCon-icon-3 {
-    background-position:-600px -208px;
+.meetIcon4 {
+    background-position: -864px 0;
 }
 
-.meetChanceCon-icon-4 {
-    background-position:-900px -208px;
-}
-
-.meetChance-item .meetChanceBig {
-    width: 314px;
-    height: 404px;
-    background-image: url("../images/meet/meetChanceIcon-2.png");
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    overflow: hidden;
+.meetTurn li .meetTurnH {
+    width: 336px;
+    height: 424px;
     display: none;
 }
-
-.meetChanceBig-1 {
-    z-index: 10401;
-}
-.meetChanceBig-2 {
-    z-index: 10502;
-}
-.meetChanceBig-3 {
-    z-index: 10603;
-}
-.meetChanceBig-4 {
-    z-index: 10704;
-}
-
-.meetChance-item:hover .meetChanceBig {
+.meetTurn .active .meetTurnH {
     display: block;
 }
 
-.meetChance-item .meetChanceBig-2 {
-    background-position: -314px 0;
-}
-.meetChance-item .meetChanceBig-3 {
-    background-position: -628px 0;
-}
-.meetChance-item .meetChanceBig-4 {
-    background-position: -942px 0;
+.meetEmpty {
+    display: block;
+    width: 100%;
+    height: 84px;
 }
 
-.meetChance-item .meetChanceBig p {
-    width: 234px;
+.meetIconBig {
+    display: block;
+    width: 100%;
+    height: 104px;
+    background: url("../images/meet/meetIcon-big.png") no-repeat 0 0;
+}
+
+.meetIconBig2 {
+    background-position: -336px 0;
+}
+
+.meetIconBig3 {
+    background-position: -672px 0;
+}
+
+.meetIconBig4 {
+    background-position: -1008px 0;
+}
+
+.meetTurnTxt {
+    width: 256px;
+    margin: 35px auto 0 auto;
+    color: #fff;
     font-size: 16px;
     line-height: 28px;
-    color: #fff;
-    margin: 210px 40px 10px 40px;
 }
+
 
 /*专家顾问团*/
 .meetExpertBox {
@@ -465,6 +439,10 @@
     height: 176px;
     float: left;
     margin-right: 12px;
+}
+
+.meetEquity-last {
+    margin-right: 0;
 }
 
 .meetEquity li {
@@ -534,12 +512,140 @@
     /*padding-left: 10px;*/
 }
 
+.meetEquity-mr3 {
+    margin-right: 3px;
+}
+
+.meetEquity-rec {
+    width: 293px;
+    height: 176px;
+    margin-right: 4px;
+}
+
+.meetEquity-recWin {
+    width: 100%;
+    height: 46px;
+    background-color: #0078d7;
+    margin-bottom: 3px;
+    line-height: 46px;
+}
+
+.meetEquity-recGen {
+    width: 100%;
+    height: 127px;
+}
+
+.meetEquity-recGen1,
+.meetEquity-recGen2{
+    float: left;
+    display: inline;
+    width: 145px;
+    height: 127px;
+    background-color: #0078d7;
+}
+
+.meetEquity-recGen1 {
+    margin-right: 3px;
+}
+
+.meetEquity-recMon {
+    /*margin-bottom: 20px;*/
+    padding: 20px;
+}
+
+.meetEquity-recGen2 {
+    padding-top: 38px;
+}
+
+.meetEquity-Sp {
+    width: 125px;
+    height: 176px;
+    margin-right: 3px;
+}
+
+.meetEquity-Sp1 {
+    width: 100%;
+    height: 65px;
+    padding-top: 22px;
+    background-color: #0078d7;
+    margin-bottom: 3px;
+}
+
+.meetEquity-Sp2 {
+    width: 100%;
+    height: 65px;
+    padding-top: 22px;
+    background-color: #0078d7;
+}
+
+.meetEquity-In {
+    width: 215px;
+    height: 176px;
+    margin-right: 3px;
+}
+
+.meetEquity-InN {
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    margin-bottom: 3px;
+    background-color: #0078d7;
+}
+
+.meetEquity-Start {
+    width: 100%;
+    height: 41px;
+    background-color: #0078d7;
+}
+
+.meetEquity-Start1 {
+    float: left;
+    display: inline;
+    width: 106px;
+    height: 41px;
+    line-height: 41px;
+    margin-right: 3px;
+    background-color: #0078d7;
+}
+
+.meetEquity-Start2 {
+    float: left;
+    display: inline;
+    width: 106px;
+    height: 41px;
+    line-height: 18px;
+    background-color: #0078d7;
+    margin-top: 2px;
+}
 
 
 
 
 
-/*加入会员*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*加入会员*/
 .meetAddBox {
     width: 100%;
     height: 260px;
@@ -562,8 +668,4 @@
 .meetAdd .meetAddFirst {
     padding-top: 60px;
 }
-
-
-
-
 
