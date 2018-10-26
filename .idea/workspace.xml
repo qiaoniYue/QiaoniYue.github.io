@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42c63de5-884d-44f1-8983-b3098961240a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/aboutMeet.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/aboutMeet.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/data.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/data.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/download.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/download.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/game.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/game.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PC/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/intelligent.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/intelligent.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/meeting.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/meeting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/pay.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/social.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/social.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -126,11 +117,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PC/aboutMeet.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="238">
+              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -175,11 +166,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PC/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="4" selection-end-column="56" />
+            <state relative-caret-position="289">
+              <caret line="352" column="10" lean-forward="true" selection-start-line="352" selection-start-column="10" selection-end-line="352" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -349,7 +340,6 @@
         <option value="$PROJECT_DIR$/PC/aboutMeet2.html" />
         <option value="$PROJECT_DIR$/PC/css/meet.css" />
         <option value="$PROJECT_DIR$/PC/css/global.css" />
-        <option value="$PROJECT_DIR$/PC/index.html" />
         <option value="$PROJECT_DIR$/PC/data.html" />
         <option value="$PROJECT_DIR$/PC/social.html" />
         <option value="$PROJECT_DIR$/PC/intelligent.html" />
@@ -358,6 +348,7 @@
         <option value="$PROJECT_DIR$/PC/download.html" />
         <option value="$PROJECT_DIR$/PC/meeting.html" />
         <option value="$PROJECT_DIR$/PC/aboutMeet.html" />
+        <option value="$PROJECT_DIR$/PC/index.html" />
       </list>
     </option>
   </component>
@@ -485,12 +476,12 @@
       <workItem from="1540269434281" duration="23074000" />
       <workItem from="1540347014661" duration="2350000" />
       <workItem from="1540472377230" duration="38000" />
-      <workItem from="1540520017259" duration="1410000" />
+      <workItem from="1540520017259" duration="1794000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="321611000" />
+    <option name="totallyTimeSpent" value="321995000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -735,13 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PC/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="4" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PC/social.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -786,8 +770,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PC/aboutMeet.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="238">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -828,6 +812,13 @@
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="352" column="10" lean-forward="true" selection-start-line="352" selection-start-column="10" selection-end-line="352" selection-end-column="10" />
         </state>
       </provider>
     </entry>
