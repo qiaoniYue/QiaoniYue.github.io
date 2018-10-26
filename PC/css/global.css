@@ -682,11 +682,11 @@ css命名一般不采用下划线
     margin: 0 auto;
     text-align: center;
     color: #fff;
-    padding: 100px 0;
+    padding: 90px 0 120px 0;
 }
 
 .bottom-public h1 {
-    font-size: 40px;
+    font-size: 36px;
     line-height: 100px;
 }
 
