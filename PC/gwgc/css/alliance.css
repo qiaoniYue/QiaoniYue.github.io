@@ -448,7 +448,8 @@
 /*联系我们*/
 .devContactBox {
     width: 100%;
-    padding:75px 4% 0 4%;
+    padding:50px 4% 0 4%;
+    box-sizing: border-box;
 }
 
 .devContactBar {
