@@ -394,7 +394,8 @@ css命名一般不采用下划线
     display: block;
     float: left;
     width: 280px;
-    height: 196px;
+    /*height: 196px;*/
+    height: 220px;
     border: 1px solid #e8e8e8;
     margin-right: 24px;
     box-sizing: border-box;
@@ -489,13 +490,15 @@ css命名一般不采用下划线
 }
 
 .main-topic-games {
-    height: 342px;
+    /*height: 342px;*/
+    height: 377px;
     margin-bottom: 40px;
 }
 
 .main-gamesBox {
     width: 376px;
-    height:338px;
+    /*height:338px;*/
+    height:373px;
     margin-right: 36px;
     overflow: hidden;
     -moz-box-shadow: 3px 3px 5px #c1c1c1; /* 老的 Firefox */
@@ -523,7 +526,7 @@ css命名一般不采用下划线
 
 .main-gamesWrap {
     width: 374px;
-    height: 142px;
+    height: 177px;
     border: 1px solid #e8e8e8;
     border-top: 0;
 }
@@ -538,7 +541,8 @@ css命名一般不采用下划线
 
 .main-games{
     width: 330px;
-    height: 65px;
+    /*height: 65px;*/
+    height: 100px;
     margin: 0 auto;
     text-align: left;
 }
@@ -682,7 +686,7 @@ css命名一般不采用下划线
     margin: 0 auto;
     text-align: center;
     color: #fff;
-    padding: 90px 0 120px 0;
+    padding: 20px 0;
 }
 
 .bottom-public h1 {
@@ -832,18 +836,21 @@ css命名一般不采用下划线
     display: inline;
     margin-top: 20px;
     margin-right: 40px;
+    width: 200px;
+    text-align: center;
 }
 
 .bottomIn-weChat img {
-    display: block;
     width: 100px;
     height: 100px;
+    margin-bottom: 10px;
 }
 
 .bottomIn-weChat p {
+    text-align: center;
     font-size: 16px;
     color: #d4d6d9;
-    line-height: 48px;
+    line-height: 30px;
 }
 
 .bottomIn-mid {
