@@ -179,7 +179,7 @@
 .devPartValue h4 {
     padding-top: 75px;
     text-align: center;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 50px;
     color: #595c5e;
     font-weight: 500;
@@ -219,7 +219,7 @@
 .devServeValue h4 {
     padding-top: 75px;
     text-align: center;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 50px;
     color: #fff;
     font-weight: 500;
@@ -259,7 +259,7 @@
 .devStepValue p {
     padding-top: 10px;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 40px;
     color: #4e5357;
 }
@@ -282,7 +282,7 @@
 
 .devStepLinkBox {
     position: absolute;
-    bottom: 15%;
+    bottom: 5%;
     left: 0;
     width: 100%;
 }
