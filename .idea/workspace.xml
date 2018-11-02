@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42c63de5-884d-44f1-8983-b3098961240a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PC/css/records.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PC/rec_active.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/PC/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/PC/css/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/data.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/data.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/document.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/download.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/download.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/game.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/game.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/gwgc/css/alliance.css" beforeDir="false" afterPath="$PROJECT_DIR$/PC/gwgc/css/alliance.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PC/gwgc/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/gwgc/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/images/banner-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/PC/images/banner-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/images/banner-game.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/PC/images/banner-game.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/images/banner-intelligent.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/PC/images/banner-intelligent.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/images/banner-pay.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/PC/images/banner-pay.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/images/banner-social.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/PC/images/banner-social.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/intelligent.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/intelligent.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/pay.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/records.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/records.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/social.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/social.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/文档/命名规范.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/文档/命名规范.xlsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -122,14 +101,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="18307" />
-          <entry key="html" value="14544" />
+          <entry key="html" value="14549" />
           <entry key="js" value="87" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="18307" />
-          <entry key="HTML" value="14544" />
+          <entry key="HTML" value="14549" />
           <entry key="JavaScript" value="87" />
         </counts>
       </usages-collector>
@@ -142,11 +121,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.60336906">
       <split-first>
         <leaf>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/PC/gwgc/home.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="244">
-                  <caret line="340" lean-forward="true" selection-start-line="340" selection-end-line="340" />
+                <state relative-caret-position="442">
+                  <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
                   <folding>
                     <element signature="n#div#0;n#div#0;n#div#1;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" />
                   </folding>
@@ -154,11 +133,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/PC/records.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="336">
-                  <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
+                <state relative-caret-position="98">
+                  <caret line="118" column="6" lean-forward="true" selection-start-line="118" selection-start-column="6" selection-end-line="118" selection-end-column="6" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
@@ -294,7 +273,6 @@
         <option value="$PROJECT_DIR$/PC/gwgc/home-backUp.html" />
         <option value="$PROJECT_DIR$/PC/gwgc/css/alliance.css" />
         <option value="$PROJECT_DIR$/PC/css/base.css" />
-        <option value="$PROJECT_DIR$/PC/gwgc/home.html" />
         <option value="$PROJECT_DIR$/PC/css/global.css" />
         <option value="$PROJECT_DIR$/PC/index.html" />
         <option value="$PROJECT_DIR$/PC/data.html" />
@@ -306,6 +284,7 @@
         <option value="$PROJECT_DIR$/PC/rec_active.html" />
         <option value="$PROJECT_DIR$/PC/css/records.css" />
         <option value="$PROJECT_DIR$/PC/records.html" />
+        <option value="$PROJECT_DIR$/PC/gwgc/home.html" />
       </list>
     </option>
   </component>
@@ -456,12 +435,12 @@
       <workItem from="1541042235965" duration="25414000" />
       <workItem from="1541124087747" duration="6776000" />
       <workItem from="1541130919191" duration="327000" />
-      <workItem from="1541131640570" duration="25549000" />
+      <workItem from="1541131640570" duration="25978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="390329000" />
+    <option name="totallyTimeSpent" value="390758000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -775,16 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PC/gwgc/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="340" lean-forward="true" selection-start-line="340" selection-end-line="340" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PC/rec_active.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -804,12 +773,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PC/records.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
+        <state relative-caret-position="98">
+          <caret line="118" column="6" lean-forward="true" selection-start-line="118" selection-start-column="6" selection-end-line="118" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/gwgc/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
