@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/base.css" type="text/css">
     <link rel="stylesheet" href="css/global.css" type="text/css">
     <link rel="stylesheet" href="css/records.css" type="text/css">
-
+    <script src="js/records.js" type="text/javascript"></script>
 
     <!--[if lte IE 7]>
     <style type="text/css">
@@ -110,6 +110,7 @@
                     <a href="#" class="recRankLink">
                         <div class="recRankIcon recRankIcon-4"></div>
                         <p>win10行业报告</p>
+                        <div class="recRankSplit"></div>
                     </a>
                 </li>
 
@@ -136,9 +137,11 @@
             </div>
             <!--右边部分-->
             <div class="recShowBox">
-                <iframe name="contentFac" frameborder="0" scrolling="no" width="950" style="min-height: 600px;" onLoad="this.height=this.contentWindow.document.body.scrollHeight" src="rec_active.html">
+                <!--右边部分的框架内容-->
+                <iframe name="contentFac" frameborder="0" scrolling="no" width="940" height="" onLoad="this.height=this.contentWindow.document.body.scrollHeight" src="rec_active.html" onload=reloadPage() onload="document.all.ifrmname.document.location.reload()">
                     此网站使用了框架技术，但是您的浏览器不支持框架，请升级您的浏览器以便正常访问。
                 </iframe>
+
             </div>
         </div>
         <!--用户画像~内容-->
@@ -147,68 +150,33 @@
             <div class="recClassBox">
                 <ul class="recClassBar" id="recSex">
                     <li class="current">
-                        <a href="rec_sex.html" target="recUser">性别比例</a>
+                        <a href="rec_brand.html" target="contentSex">年龄比例</a>
                     </li>
                     <li>
-                        <a href="rec_age.html" target="recUser">年龄比例</a>
+                        <a href="rec_brand.html" target="contentSex">职业比例</a>
                     </li>
                     <li>
-                        <a href="rec_job.html" target="recUser">职业比例</a>
-                    </li>
-                    <li>
-                        <a href="rec_dis.html" target="recUser">国家分布</a>
+                        <a href="rec_active.html" target="contentSex">性别比例</a>
                     </li>
                 </ul>
             </div>
             <!--右边部分-->
             <div class="recShowBox">
-                <iframe name="recUser" frameborder="0" scrolling="no" width="950" style="min-height:600px;" onLoad="this.height=this.contentWindow.document.body.scrollHeight" src="rec_sex.html">
-                    此网站使用了框架技术，但是您的浏览器不支持框架，请升级您的浏览器以便正常访问。
-                </iframe>
+                <div style="clear: both;">
+                    <!--右边部分的框架内容-->
+                    <iframe name="contentSex" frameborder="0" scrolling="no" width="940" height="1200" onLoad="this.height=this.contentWindow.document.body.scrollHeight" src="rec_brand.html" onload="document.all.ifrmname.document.location.reload()">
+                        此网站使用了框架技术，但是您的浏览器不支持框架，请升级您的浏览器以便正常访问。
+                    </iframe>
+                </div>
             </div>
         </div>
         <!--应用行情~内容-->
         <div class="recCon">
-            <!--左边部分-->
-            <div class="recClassBox">
-                <ul class="recClassBar" id="recApply">
-                    <li class="current">
-                        <a href="rec_game.html" target="recGame">游戏</a>
-                    </li>
-                    <li>
-                        <a href="rec_apply.html" target="recGame">应用</a>
-                    </li>
-                </ul>
-            </div>
-            <!--右边部分-->
-            <div class="recShowBox">
-                <iframe name="recGame" frameborder="0" scrolling="no" width="950" style="min-height:600px;" onLoad="this.height=this.contentWindow.document.body.scrollHeight" src="rec_game.html">
-                    此网站使用了框架技术，但是您的浏览器不支持框架，请升级您的浏览器以便正常访问。
-                </iframe>
-            </div>
+            <div>应用行情</div>
         </div>
         <!--win10行业报告~内容-->
         <div class="recCon">
-            <!--左边部分-->
-            <div class="recClassBox">
-                <ul class="recClassBar" id="recReport">
-                    <li class="current">
-                        <a href="rec_win.html" target="recWinReport">微软官方报告</a>
-                    </li>
-                    <li>
-                        <a href="rec_official.html" target="recWinReport">MG官方报告</a>
-                    </li>
-                    <li>
-                        <a href="rec_theme.html" target="recWinReport">主题报告</a>
-                    </li>
-                </ul>
-            </div>
-            <!--右边部分-->
-            <div class="recShowBox">
-                <iframe name="recWinReport" frameborder="0" scrolling="no" width="950" style="min-height:600px;" onLoad="this.height=this.contentWindow.document.body.scrollHeight" src="rec_win.html">
-                    此网站使用了框架技术，但是您的浏览器不支持框架，请升级您的浏览器以便正常访问。
-                </iframe>
-            </div>
+            win10行业报告
         </div>
     </div>
 </div>
@@ -312,7 +280,6 @@
 <script>
 
 </script>
-
 
 
 </body>

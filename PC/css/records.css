@@ -145,7 +145,7 @@
     /*右边内容的部分*/
 
 .recShowBox {
-    float: left;
+    float: right;
     display: inline;
     width: 950px;
 }
