@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42c63de5-884d-44f1-8983-b3098961240a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/PC/gwgc/css/alliance.css" beforeDir="false" afterPath="$PROJECT_DIR$/PC/gwgc/css/alliance.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/gwgc/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/gwgc/home.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -133,8 +133,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/PC/gwgc/home.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="57" column="29" lean-forward="true" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+                <state relative-caret-position="459">
+                  <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
                   <folding>
                     <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -278,8 +278,8 @@
         <option value="$PROJECT_DIR$/PC/rec_win.html" />
         <option value="$PROJECT_DIR$/PC/records.html" />
         <option value="$PROJECT_DIR$/PC/rec_job.html" />
-        <option value="$PROJECT_DIR$/PC/gwgc/home.html" />
         <option value="$PROJECT_DIR$/PC/gwgc/css/alliance.css" />
+        <option value="$PROJECT_DIR$/PC/gwgc/home.html" />
       </list>
     </option>
   </component>
@@ -442,12 +442,12 @@
       <workItem from="1541381619730" duration="34740000" />
       <workItem from="1541421841197" duration="88000" />
       <workItem from="1541470969929" duration="27000" />
-      <workItem from="1541472396799" duration="770000" />
+      <workItem from="1541472396799" duration="950000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="426674000" />
+    <option name="totallyTimeSpent" value="426854000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -837,8 +837,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PC/gwgc/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="57" column="29" lean-forward="true" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+        <state relative-caret-position="459">
+          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
