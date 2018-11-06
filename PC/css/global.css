@@ -577,7 +577,7 @@ css命名一般不采用下划线
 }
 
 .main-customer {
-    width: 1190px;
+    width: 1000px;
     height: 250px;
     margin: 5px auto;
     border: 1px solid #e8e8e8;
@@ -612,7 +612,7 @@ css命名一般不采用下划线
 .main-customer-info {
     float: left;
     /*margin-right: 35px;*/
-    width: 825px;
+    width: 670px;
 }
 
 .main-customer-infoL {
@@ -628,7 +628,7 @@ css命名一般不采用下划线
     font-weight: bold;
     height: 40px;
     line-height: 40px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .main-customer-infoL h3 {
@@ -637,8 +637,8 @@ css命名一般不采用下划线
 
 .main-customer-info h4 {
     font-size: 20px;
-    height: 70px;
-    line-height: 70px;
+    height: 60px;
+    line-height: 60px;
 }
 
 .main-customer-infoL h4 {
@@ -647,6 +647,8 @@ css命名一般不采用下划线
 
 .main-customer-info p {
     text-align: left;
+    font-size: 15px;
+    line-height: 25px;
 }
 
 .main-brand {
