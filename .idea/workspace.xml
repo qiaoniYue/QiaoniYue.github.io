@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="42c63de5-884d-44f1-8983-b3098961240a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/PC/css/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/images/banner-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/PC/images/banner-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/images/banner-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/PC/images/banner-5.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -68,19 +69,19 @@
     <session id="-557719255">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="52" />
-          <entry key="project.open.time.10" value="8" />
+          <entry key="project.closed" value="55" />
+          <entry key="project.open.time.10" value="10" />
           <entry key="project.open.time.11" value="9" />
           <entry key="project.open.time.12" value="7" />
-          <entry key="project.open.time.13" value="5" />
+          <entry key="project.open.time.13" value="6" />
           <entry key="project.open.time.14" value="3" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="8" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.9" value="8" />
-          <entry key="project.opened" value="54" />
+          <entry key="project.open.time.9" value="9" />
+          <entry key="project.opened" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -125,8 +126,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/PC/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="326" column="42" lean-forward="true" selection-start-line="326" selection-start-column="42" selection-end-line="326" selection-end-column="42" />
+                <state relative-caret-position="374">
+                  <caret line="328" column="26" lean-forward="true" selection-start-line="328" selection-start-column="26" selection-end-line="328" selection-end-column="26" />
                   <folding>
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
@@ -138,7 +139,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/PC/css/global.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="278">
+                <state relative-caret-position="9350">
                   <caret line="550" column="17" selection-start-line="550" selection-start-column="17" selection-end-line="550" selection-end-column="17" />
                 </state>
               </provider>
@@ -147,12 +148,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/PC/css/global.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="261">
-                  <caret line="640" column="18" selection-start-line="640" selection-start-column="18" selection-end-line="640" selection-end-column="18" />
+                <state relative-caret-position="499">
+                  <caret line="555" column="20" lean-forward="true" selection-start-line="555" selection-start-column="20" selection-end-line="555" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
@@ -270,7 +271,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="651" />
     <option name="y" value="106" />
     <option name="width" value="1073" />
@@ -419,11 +420,15 @@
       <workItem from="1541486558000" duration="1088000" />
       <workItem from="1541489856767" duration="11284000" />
       <workItem from="1541508596369" duration="502000" />
+      <workItem from="1541555873977" duration="603000" />
+      <workItem from="1541557177265" duration="638000" />
+      <workItem from="1541561483349" duration="113000" />
+      <workItem from="1541574931577" duration="1258000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="447622000" />
+    <option name="totallyTimeSpent" value="450234000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -436,6 +441,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920762" visible="true" weight="0.161875" />
       <window_info id="Structure" order="1" sideWeight="0.50158733" side_tool="true" weight="0.25625" />
@@ -632,22 +638,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/轮播图代码/轮播图-4.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/图片轮播-2/轮播图-1/statics/js/jquery.SuperSlide.2.1.1.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/图片轮播-2/轮播图-1/statics/css/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/图片轮播-2/轮播图-1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/轮播图代码/轮播图-4.html" />
+    <entry file="file://$USER_HOME$/Desktop/图片轮播-2/轮播图-1/statics/js/jquery.SuperSlide.2.1.1.js" />
+    <entry file="file://$USER_HOME$/Desktop/图片轮播-2/轮播图-1/statics/css/style.css" />
+    <entry file="file://$USER_HOME$/Desktop/图片轮播-2/轮播图-1/index.html" />
     <entry file="file://$PROJECT_DIR$/PC/x.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -683,20 +677,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/图片轮播-2/轮播图下载的源文件/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="60" column="18" lean-forward="true" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/图片轮播-2/轮播图-2/statics/js/swiper.animate1.0.2.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="1" column="1667" selection-start-line="1" selection-start-column="1667" selection-end-line="1" selection-end-column="1667" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/图片轮播-2/轮播图下载的源文件/index.html" />
+    <entry file="file://$USER_HOME$/Desktop/图片轮播-2/轮播图-2/statics/js/swiper.animate1.0.2.min.js" />
     <entry file="file://$PROJECT_DIR$/PC/data.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -799,15 +781,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PC/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
+        <state relative-caret-position="9350">
           <caret line="550" column="17" selection-start-line="550" selection-start-column="17" selection-end-line="550" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PC/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="326" column="42" lean-forward="true" selection-start-line="326" selection-start-column="42" selection-end-line="326" selection-end-column="42" />
+        <state relative-caret-position="374">
+          <caret line="328" column="26" lean-forward="true" selection-start-line="328" selection-start-column="26" selection-end-line="328" selection-end-column="26" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
