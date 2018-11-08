@@ -230,72 +230,6 @@
     background-image: url("../images/page/MG-2.png");
 }
 
-
-
-/*图标的设置与hover*/
-
-/*
-
-.sdkAccessIcon {
-    float: left;
-    width: 88px;
-    height: 70px;
-    background: url("../images/page/win-1.png") no-repeat center center;
-
-
-}
-*/
-
-/*.sdkAccessLink .sdkAccessIcon-Cocos {
-    background-image: url("../images/page/Cocos-1.png");
-}
-
-.sdkAccessLink:hover .sdkAccessIcon-Cocos {
-    background-image: url("../images/page/Cocos-2.png");
-}
-
-.sdkAccessLink .sdkAccessIcon-unity {
-    background-image: url("../images/page/unity-1.png");
-}
-
-.sdkAccessLink:hover .sdkAccessIcon-unity {
-    background-image: url("../images/page/unity-2.png");
-}
-
-.sdkAccessLink .sdkAccessIcon-exe {
-    background-image: url("../images/page/exe-1.png");
-}
-
-.sdkAccessLink:hover .sdkAccessIcon-exe {
-    background-image: url("../images/page/exe-2.png");
-}
-
-.sdkAccessLink .sdkAccessIcon-game {
-    background-image: url("../images/page/game-1.png");
-}
-
-.sdkAccessLink:hover .sdkAccessIcon-game {
-    background-image: url("../images/page/game-2.png");
-}
-
-.sdkAccessLink .sdkAccessIcon-h5 {
-    background-image: url("../images/page/h5-1.png");
-}
-
-.sdkAccessLink:hover .sdkAccessIcon-h5 {
-    background-image: url("../images/page/h5-2.png");
-}
-
-.sdkAccessLink .sdkAccessIcon-win {
-    background-image: url("../images/page/win-1.png");
-}
-
-.sdkAccessLink:hover .sdkAccessIcon-win {
-    background-image: url("../images/page/win-2.png");
-}*/
-/*图标设置hover结束*/
-
-
 .sdkAccessLink .sdkAccessDec {
     float: left;
     width: 1px;
@@ -321,3 +255,94 @@
     color: #fff;
 }
 
+/*二级页面-便捷的社交服务*/
+.sdkSerItem {
+    width: 1200px;
+    overflow: hidden;
+}
+
+.sdkSerFlo-L {
+    float: left;
+    display: inline;
+}
+
+.sdkSerImgBox {
+    width: 540px;
+}
+
+.sdkSerBgDec {
+    width: 100%;
+    padding-top: 40px;
+}
+
+.sdkSerBgDec img {
+    width: 162px;
+    height: 135px;
+}
+
+.sdkSerImg {
+    width: 100%;
+    padding-top: 40px;
+}
+
+.sdkSerImg img {
+    width: 450px;
+    height: 268px;
+}
+
+.sdkSerImg-txtL {
+    text-align: left;
+}
+
+.sdkSerImg-txtR {
+    text-align: right;
+}
+
+.sdkSerTxtBox {
+    width: 660px;
+}
+
+.sdkSerTxtBox h2 {
+    font-size: 36px;
+    line-height: 40px;
+    color: #0078d7;
+    font-weight: 600;
+}
+
+.sdkSerExplain {
+    padding: 40px 0;
+    font-size: 16px;
+    color: #313131;
+    line-height: 30px;
+}
+
+.sdkSerTxtBox h3 {
+    font-size: 24px;
+    line-height: 40px;
+    color: #212121;
+}
+
+.sdkSerList {
+    width: 100%;
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+.sdkSerList-dec {
+    float: left;
+    width: 4px;
+    height: 113px;
+    background: url("../images/page/sdk-social-dec.png") no-repeat;
+    margin-top: 10px;
+}
+
+.sdkSerList ul {
+    float: left;
+    margin-left: 20px;
+}
+
+.sdkSerList ul li {
+    font-size: 13px;
+    line-height: 30px;
+    color: #4c4c4c;
+}
