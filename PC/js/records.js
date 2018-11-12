@@ -39,23 +39,36 @@ window.onload=function(){
     /*左侧选项-用户画像列表的点击事件*/
     var oUlSex = document.getElementById("recSex");
     var aLiSex = oUlSex.getElementsByTagName("li");
+
+    var oRecAllotFigure = document.getElementById("recAllot_figure");
+    var aRecAllotFigure = oRecAllotFigure.getElementsByClassName("recShow");
+
     for(var i=0;i<aLiSex.length;i++){
+        aLiSex[i].index = i;
         aLiSex[i].onclick = function(){
-            for(var j=0;j<aLiSex.length;j++){
-                aLiSex[j].className = "";
+            for(var i=0;i<aLiSex.length;i++){
+                aLiSex[i].className = "";
+                aRecAllotFigure[i].style.display = 'none';
             }
             this.className = "current";
+            aRecAllotFigure[this.index].style.display='block';
         }
     }
     /*左侧选项-应用行情列表的点击事件*/
     var oUlApply = document.getElementById("recApply");
     var aUlApply = oUlApply.getElementsByTagName("li");
+
+    var oRecGameFigure = document.getElementById("recGame_figure");
+    var aRecGameFigure = oRecGameFigure.getElementsByClassName("recShow");
     for(var i=0;i<aUlApply.length;i++){
+        aUlApply[i].index = i;
         aUlApply[i].onclick = function(){
-            for(var j=0;j<aUlApply.length;j++){
-                aUlApply[j].className = "";
+            for(var i=0;i<aUlApply.length;i++){
+                aUlApply[i].className = "";
+                aRecGameFigure[i].style.display = "none";
             }
             this.className = "current";
+            aRecGameFigure[this.index].style.display = "block";
         }
     }
     /*左侧选项-win10行业报告列表的点击事件*/

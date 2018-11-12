@@ -5,18 +5,25 @@
     <title>MIRACLE GAMES开放平台-数字化助力中国泛互联网开发者深层次出海</title>
     <meta name="keywords" content="MIRACLE GAMES,广告,Windows Phone,WindowsPhone,WP,Phone,微软,广告平台,积分墙,推广墙,第三方支付,支付,服务,开发者,WP开发者,dev,游戏,应用,推广,媒介,刷榜,评论,榜单">
     <meta name="description" content="MIRACLE GAMES（MG）是一家致力于移动互联网和游戏社交平台的IT企业，公司开发运营的MIRACLE GAMES平台是微软Windows 10以及Windows Phone（WP）系统上的游戏竞技和社交网络平台，为全球开发者提供跨平台SDK服务，可以免费使用包括且不仅限于：游戏中心、社交分享、支付解决方案与交叉推广等功能。MIRACLE GAMES作为微软全球顶级合作伙伴之一、诺基亚战略合作伙伴之一，致力于打造全球化最大的Windows10游戏平台及发行商。">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/base.css" type="text/css">
     <link rel="stylesheet" href="css/records.css" type="text/css">
 </head>
 <body>
-<div class="recShow">
+<div class="recShow" id="recAllot_age" style="display: block">
     <div class="recShowTitle">
-        <span>性别比例</span>
+        <span>年龄分布</span>
     </div>
     <div class="recShowBar">
-        <h2 class="recShowGuide">中国和海外年龄比例</h2>
+        <h2 class="recShowGuide">
+            <span>年龄分布占比</span>
+            <span class="recShowGuide-help">按照统计设备的登录信息，结合微软开发者管理后台数据，得到的统计比率</span>
+        </h2>
         <div id="chartmainAge" style="width:800px;min-height:400px;"></div>
-        <div id="chartmainAgeAbr" style="width:800px;min-height:400px;margin-top: 30px;"></div>
+        <div id="chartmainAgeAbr" style="width:800px;min-height:400px;margin-top: 20px;"></div>
+        <div class="recShowSource">
+            <span>数据来源：MG大数据研究中心</span>
+        </div>
     </div>
 </div>
 
@@ -27,7 +34,7 @@
         title: {
             x: 'center',
             text: '中国',
-            subtext: '年龄比例',
+            /*subtext: '年龄分布',*/
         },
         tooltip: {
             trigger: 'item',
@@ -96,15 +103,12 @@
         title: {
             x: 'center',
             text: '海外',
-            subtext: '年龄比例',
+            /*subtext: '年龄分布',*/
         },
         tooltip: {
             trigger: 'item',
             formatter: '{b}:\n{c}%'
         },
-
-
-
         calculable: true,
         grid: {
             borderWidth: 0,
@@ -160,6 +164,10 @@
     var myChartAgeAbr = echarts.init(document.getElementById('chartmainAgeAbr'));
     //使用制定的配置项和数据显示图表
     myChartAgeAbr.setOption(optionAbr);
+
+
+
+
 
 </script>
 </body>

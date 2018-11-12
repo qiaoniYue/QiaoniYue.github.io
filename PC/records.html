@@ -9,8 +9,6 @@
     <link rel="stylesheet" href="css/base.css" type="text/css">
     <link rel="stylesheet" href="css/global.css" type="text/css">
     <link rel="stylesheet" href="css/records.css" type="text/css">
-
-
     <!--[if lte IE 7]>
     <style type="text/css">
         /*头部*/
@@ -20,7 +18,6 @@
         }
     </style>
     <![endif]-->
-
 </head>
 <body>
 <!--头部开始-->
@@ -112,7 +109,6 @@
                         <p>win10行业报告</p>
                     </a>
                 </li>
-
             </ul>
         </div>
     </div>
@@ -127,18 +123,29 @@
             <div class="recClassBox">
                 <ul class="recClassBar" id="recFacility">
                     <li class="current">
-                        <a href="rec_active.html" target="contentFac">活跃设备</a>
-                    </li>
-                    <li>
-                        <a href="rec_brand.html" target="contentFac">设备品牌分布</a>
+                        <a href="javascript:void(0);">设备活跃指数</a>
                     </li>
                 </ul>
             </div>
             <!--右边部分-->
             <div class="recShowBox">
-                <iframe name="contentFac" frameborder="0" scrolling="no" width="950" style="min-height: 600px;" onLoad="this.height=this.contentWindow.document.body.scrollHeight" src="rec_active.html">
-                    此网站使用了框架技术，但是您的浏览器不支持框架，请升级您的浏览器以便正常访问。
-                </iframe>
+                <div class="recShow" style="display: block;">
+                    <div class="recShowTitle">
+                        <span>设备活跃指数</span>
+                    </div>
+                    <div class="recShowBar">
+                        <h2 class="recShowGuide">
+                            <span>Win10全球设备活跃排行</span>
+                            <span class="recShowGuide-help">按照设备活跃度进行排序，百分比为该设备占总数据量的比例</span>
+                        </h2>
+                        <div style="width:800px;height:400px;">
+                            <img src="images/records/recActive.png" width="800" height="383">
+                        </div>
+                        <div class="recShowSource">
+                            <span>数据来源：MG大数据研究中心</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <!--用户画像~内容-->
@@ -147,24 +154,76 @@
             <div class="recClassBox">
                 <ul class="recClassBar" id="recSex">
                     <li class="current">
-                        <a href="rec_sex.html" target="recUser">性别比例</a>
+                        <a href="javascript:void(0);">性别分布</a>
                     </li>
                     <li>
-                        <a href="rec_age.html" target="recUser">年龄比例</a>
+                        <a href="javascript:void(0);">年龄分布</a>
                     </li>
                     <li>
-                        <a href="rec_job.html" target="recUser">职业比例</a>
-                    </li>
-                    <li>
-                        <a href="rec_dis.html" target="recUser">国家分布</a>
+                        <a href="javascript:void(0);">国家分布</a>
                     </li>
                 </ul>
             </div>
             <!--右边部分-->
-            <div class="recShowBox">
-                <iframe name="recUser" frameborder="0" scrolling="no" width="950" style="min-height:600px;" onLoad="this.height=this.contentWindow.document.body.scrollHeight" src="rec_sex.html">
-                    此网站使用了框架技术，但是您的浏览器不支持框架，请升级您的浏览器以便正常访问。
-                </iframe>
+            <div class="recShowBox" id="recAllot_figure">
+                <!--性别分布内容-->
+                <div class="recShow" id="recAllot_sex" style="display: block">
+                    <div class="recShowTitle">
+                        <span>性别比例</span>
+                    </div>
+                    <div class="recShowBar">
+                        <h2 class="recShowGuide">
+                            <span>性别分布占比</span>
+                            <span class="recShowGuide-help">按照统计设备的登录信息，结合微软开发者管理后台数据，得到的统计比率</span>
+                        </h2>
+                        <!--<div id="chartmainSex" style="width:800px;min-height:400px;"></div>-->
+                        <div style="width: 800px;height: 400px;">
+                            <img src="images/records/recSex.png" height="380" width="auto" style="vertical-align: middle;">
+                        </div>
+                        <div class="recShowSource">
+                            <span>数据来源：MG大数据研究中心</span>
+                        </div>
+                    </div>
+                </div>
+                <!--年龄分布内容-->
+                <div class="recShow" id="recAllot_age">
+                    <div class="recShowTitle">
+                        <span>年龄分布</span>
+                    </div>
+                    <div class="recShowBar">
+                        <h2 class="recShowGuide">
+                            <span>年龄分布占比</span>
+                            <span class="recShowGuide-help">按照统计设备的登录信息，结合微软开发者管理后台数据，得到的统计比率</span>
+                        </h2>
+                        <div style="width:800px;min-height:400px;">
+                            <img src="images/records/rec-age-china.png" width="800" height="400">
+                        </div>
+                        <div style="width:800px;min-height:400px;margin-top: 20px;">
+                            <img src="images/records/rec-age-oversea.png">
+                        </div>
+                        <div class="recShowSource">
+                            <span>数据来源：MG大数据研究中心</span>
+                        </div>
+                    </div>
+                </div>
+                <!--国家分布内容-->
+                <div class="recShow" id="recAllot_dis">
+                    <div class="recShowTitle">
+                        <span>国家分布</span>
+                    </div>
+                    <div class="recShowBar">
+                        <h2 class="recShowGuide">
+                            <span>Win10全球用户国家分布</span>
+                            <span class="recShowGuide-help">按照统计设备的用户信息，展示全球不同国家用户的分布情况</span>
+                        </h2>
+                        <div style="width:800px;min-height:400px;">
+                            <img src="images/records/rec-dis.png">
+                        </div>
+                        <div class="recShowSource">
+                            <span>数据来源：MG大数据研究中心</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <!--应用行情~内容-->
@@ -173,18 +232,53 @@
             <div class="recClassBox">
                 <ul class="recClassBar" id="recApply">
                     <li class="current">
-                        <a href="rec_game.html" target="recGame">游戏</a>
+                        <a href="javascript:void(0);">游戏</a>
                     </li>
                     <li>
-                        <a href="rec_apply.html" target="recGame">应用</a>
+                        <a href="javascript:void(0);">应用</a>
                     </li>
                 </ul>
             </div>
             <!--右边部分-->
-            <div class="recShowBox">
-                <iframe name="recGame" frameborder="0" scrolling="no" width="950" style="min-height:600px;" onLoad="this.height=this.contentWindow.document.body.scrollHeight" src="rec_game.html">
-                    此网站使用了框架技术，但是您的浏览器不支持框架，请升级您的浏览器以便正常访问。
-                </iframe>
+            <div class="recShowBox" id="recGame_figure">
+                <!--游戏-->
+                <div class="recShow" id="recGameType" style="display: block">
+                    <div class="recShowTitle">
+                        <span>游戏类型</span>
+                    </div>
+                    <div class="recShowBar">
+                        <h2 class="recShowGuide">
+                            <span>微软官方商店游戏类型分布</span>
+                            <span class="recShowGuide-help">按照统计全球微软官方商店TOP200游戏类型，得到的统计比率</span>
+                        </h2>
+                        <div style="width: 800px;height: 400px;">
+                            <img src="images/records/recGame.png" width="764" height="394">
+                        </div>
+                        <!--<div id="chartmainGame" style="width:800px;height:400px;"></div>-->
+                        <div class="recShowSource">
+                            <span>数据来源：MG大数据研究中心</span>
+                        </div>
+                    </div>
+                </div>
+                <!--应用-->
+                <div class="recShow" id="recApplyType">
+                    <div class="recShowTitle">
+                        <span>应用类型</span>
+                    </div>
+                    <div class="recShowBar">
+                        <h2 class="recShowGuide">
+                            <span>微软官方商店应用类型分布</span>
+                            <span class="recShowGuide-help">按照统计全球微软官方商店TOP200应用类型，得到的统计比率</span>
+                        </h2>
+                        <div style="width:800px;height:500px;">
+                            <img src="images/records/rec-apply.png">
+                        </div>
+                        <div class="recShowSource">
+                            <span>数据来源：MG大数据研究中心</span>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
         <!--win10行业报告~内容-->
@@ -193,21 +287,47 @@
             <div class="recClassBox">
                 <ul class="recClassBar" id="recReport">
                     <li class="current">
-                        <a href="rec_win.html" target="recWinReport">微软官方报告</a>
-                    </li>
-                    <li>
-                        <a href="rec_official.html" target="recWinReport">MG官方报告</a>
-                    </li>
-                    <li>
-                        <a href="rec_theme.html" target="recWinReport">主题报告</a>
+                        <a href="javascript:void(0);">行业报告发布</a>
                     </li>
                 </ul>
             </div>
             <!--右边部分-->
-            <div class="recShowBox">
-                <iframe name="recWinReport" frameborder="0" scrolling="no" width="950" style="min-height:600px;" onLoad="this.height=this.contentWindow.document.body.scrollHeight" src="rec_win.html">
-                    此网站使用了框架技术，但是您的浏览器不支持框架，请升级您的浏览器以便正常访问。
-                </iframe>
+            <div class="recShowBox" id="recReport_figure">
+                <div class="recShow" id="recWinReport" style="display: block;">
+                    <div class="recShowTitle">
+                        <span>行业报告发布</span>
+                    </div>
+                    <div class="recShowBar">
+                        <div class="recWinKList">
+                            <ul>
+                                <li>
+                                    <a href="resource/report_pdf/Windows 10全球游戏产业2018年度白皮书.pdf" class="recWinKItem" target="_blank">
+                                        <i class="recWinKDot"></i>
+                                        <div class="recWinTitle">
+                                            Windows 10全球游戏产业2018年度白皮书
+                                        </div>
+                                        <div class="recWinDate">
+                                            2018-08-04
+                                        </div>
+                                    </a>
+                                </li>
+                                <div class="recWinKSep"></div>
+                                <li>
+                                    <a href="resource/report_pdf/2016年上半年Win10行业数据报告.pdf" class="recWinKItem" target="_blank">
+                                        <i class="recWinKDot"></i>
+                                        <div class="recWinTitle">
+                                            2016年上半年Win10行业数据报告
+                                        </div>
+                                        <div class="recWinDate">
+                                            2016-08-23
+                                        </div>
+                                    </a>
+                                </li>
+                                <div class="recWinKSep"></div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -317,12 +437,6 @@
 <script src="js/nav.js" type="text/javascript"></script>
 <!--records.js代码是数据中心颈部图标的切换-->
 <script src="js/records.js" type="text/javascript"></script>
-<!--左边代码的切换-->
-<script>
-
-</script>
-
-
 
 </body>
 </html>
