@@ -357,7 +357,14 @@
     color: #4c4c4c;
 }
 
-/*多样的支付功能-特殊化的样式*/
+.sdkSerList ul .sdkPayBgExplain {
+    color: #888;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+
+    /*多样的支付功能-特殊化的样式*/
 .sdkPayImg {
     width: 100%;
 }
