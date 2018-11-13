@@ -1,0 +1,204 @@
+.introTxtBox {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.introProIndent {
+    line-height: 24px;
+    margin-top: 25px;
+    color: #313131;
+}
+
+.introProIndent-First {
+    margin-top: 0;
+}
+
+/*管理团队*/
+
+.introManBox {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.introManPerson {
+    margin-top: 40px;
+}
+
+.introManPersonFirst {
+    margin-top: 0;
+}
+
+.introManBar {
+    width: 100%;
+    height: 240px;
+    background: url("../images/intro/administrator-bg.png") no-repeat;
+    overflow: hidden;
+}
+
+.introManImg {
+    float: left;
+    display: inline;
+    width: 240px;
+    height: 240px;
+}
+
+.introManTxtBar {
+    float: left;
+    display: table;
+    width: 810px;
+    height: 190px;
+    margin-left: 75px;
+    padding-top: 25px;
+    position: relative;
+}
+
+.introManTxt {
+/*    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);*/
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.introManTxt p {
+    text-indent: 2em;
+    font-size: 13px;
+    color: #404d83;
+    line-height: 23px;
+}
+
+.introManName {
+    font-size: 15px;
+    color: #000;
+    font-weight: 600;
+}
+
+.introManLeader {
+    font-size: 23px;
+    line-height: 35px;
+}
+
+/*加入我们*/
+.introJoinNav {
+    float: left;
+    display: inline;
+    padding: 25px 0 25px 70px;
+    width: 200px;
+    background-color: #f3f4f9;
+}
+
+.introJoinItem {
+    width: 180px;
+    padding-left: 20px;
+}
+
+.introJoinItem h1 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #120061;
+    line-height: 40px;
+}
+
+.introJoinTab {
+    margin-bottom: 40px;
+}
+
+.introJoinTab li a{
+    display: block;
+    font-size: 13px;
+    color: #848484;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.introJoinTab li a:hover {
+    background-color: #fff;
+    color: #2558db;
+}
+
+.introJoinTab li .active {
+    background-color: #fff;
+    color: #2558db;
+}
+
+.introJoinContent {
+    float: left;
+    display: inline;
+    width: 850px;
+    margin-left: 80px;
+}
+
+.introJoinPost {
+    width: 100%;
+    padding:25px 0;
+    border-bottom:1px dashed #dbdbdb;
+}
+
+.introJoinPost h2 {
+    font-size: 22px;
+    color: #2558db;
+    line-height: 40px;
+}
+
+.introJoinReq {
+    font-size: 13px;
+    color: #848484;
+    line-height: 24px;
+}
+
+.introJoinDec {
+    margin-top: 10px;
+}
+
+/*联系我们*/
+.introContactMap {
+    width: 100%;
+    height: 552px;
+}
+
+.introContactBox {
+    width: 100%;
+    overflow: hidden;
+}
+
+.introContact {
+    float: left;
+    display: inline;
+    padding-left: 25px;
+    width: 625px;
+    padding-top: 60px;
+}
+
+.introContactSetBar {
+    width: 625px;
+    overflow: hidden;
+}
+
+.introContactSet {
+    float: left;
+    display: inline;
+    width: 44px;
+    height: 46px;
+}
+
+.introContactTxt {
+    float: left;
+    height: 46px;
+    display: inline;
+    line-height: 40px;
+    font-size: 18px;
+    color: #737472;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+

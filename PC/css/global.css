@@ -37,12 +37,12 @@ css命名一般不采用下划线
 .nav-item {
     float: left;
     display: inline;
-    margin-left: 13px;
+    margin-left: 10px;
 }
 
 .nav-itemTxt {
     display: block;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 60px;
     padding: 0 10px;
     color: #313131;
@@ -67,6 +67,20 @@ css命名一般不采用下划线
     display: none;
     z-index: 10000;
 }
+/*
+.sub-navBox {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #313131;
+    z-index: 10000;
+}
+
+.sub-navBar {
+    width: 100%;
+    height: 40px;
+}*/
 
 .sub-nav {
     box-sizing: border-box;
