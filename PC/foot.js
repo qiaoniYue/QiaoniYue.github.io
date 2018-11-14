@@ -1,4 +1,3 @@
-document.writeln("");
 document.writeln("<div class=\'bottom-publicBox\'>");
 document.writeln("    <div class=\'bottom-public\'>");
 document.writeln("        <h1>数字化助力中国泛互联网开发者深层次出海</h1>");
@@ -18,7 +17,7 @@ document.writeln("                    <li>");
 document.writeln("                        <a href=\'javascript:void(0)\'>公司动态</a>");
 document.writeln("                    </li>");
 document.writeln("                    <li>");
-document.writeln("                        <a href=\'javascript:void(0)\'>加入我们</a>");
+document.writeln("                        <a href=\'join.html\' target=\'_blank\'>加入我们</a>");
 document.writeln("                    </li>");
 document.writeln("                    <li>");
 document.writeln("                        <a href=\'javascript:void(0)\'>友情链接</a>");
@@ -58,3 +57,4 @@ document.writeln("            <p>京ICP备16022485号-2 | 京网文[2017]1979-17
 document.writeln("        </div>");
 document.writeln("    </div>");
 document.writeln("</div>");
+document.writeln("<!--底部备份结束-->");
