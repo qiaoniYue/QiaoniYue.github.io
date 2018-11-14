@@ -5,12 +5,42 @@
     <title>MIRACLE GAMES开放平台-数字化助力中国泛互联网开发者深层次出海</title>
     <meta name="keywords" content="MIRACLE GAMES,广告,Windows Phone,WindowsPhone,WP,Phone,微软,广告平台,积分墙,推广墙,第三方支付,支付,服务,开发者,WP开发者,dev,游戏,应用,推广,媒介,刷榜,评论,榜单">
     <meta name="description" content="MIRACLE GAMES（MG）是一家致力于移动互联网和游戏社交平台的IT企业，公司开发运营的MIRACLE GAMES平台是微软Windows 10以及Windows Phone（WP）系统上的游戏竞技和社交网络平台，为全球开发者提供跨平台SDK服务，可以免费使用包括且不仅限于：游戏中心、社交分享、支付解决方案与交叉推广等功能。MIRACLE GAMES作为微软全球顶级合作伙伴之一、诺基亚战略合作伙伴之一，致力于打造全球化最大的Windows10游戏平台及发行商。">
+
+<!--
+
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+-->
+    <meta name="format-detection" content="telephone=no">
+
+
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/base.css" type="text/css">
     <link rel="stylesheet" href="css/global.css" type="text/css">
     <link rel="stylesheet" href="css/swiper.css" />
     <link rel="stylesheet" href="css/animate.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+<!--    <style>
+        .slide1_only {
+            background: url("images/banner-1.jpg") no-repeat center center;
+        }
+        .slide2_only {
+            background: url("images/banner-2.jpg") no-repeat center center;
+        }
+        .slide3_only {
+            background: url("images/banner-3.jpg") no-repeat center center;
+        }
+        .slide4_only {
+            background: url("images/banner-4.jpg") no-repeat center center;
+        }
+        .slide5_only {
+            background: url("images/banner-5.jpg") no-repeat center center;
+        }
+
+    </style>-->
     <style>
         .slide1_only {
             background: url("images/banner-1.jpg") no-repeat center center;
@@ -25,6 +55,33 @@
             background: url("images/banner-4.jpg") no-repeat center center;
         }
         .slide5_only {
+            background: url("images/banner-5.jpg") no-repeat center center;
+        }
+        .swiper-slide-1200 {
+            display: block;
+            width: 1200px;
+            height: 430px;
+            margin: 0 auto;
+            overflow-x: visible;
+        }
+
+        .swiper-slide1-1200 {
+            background: url("images/banner-1.jpg") no-repeat center center;
+        }
+
+        .swiper-slide2-1200 {
+            background: url("images/banner-2.jpg") no-repeat center center;
+        }
+
+        .swiper-slide3-1200 {
+            background: url("images/banner-3.jpg") no-repeat center center;
+        }
+
+        .swiper-slide4-1200 {
+            background: url("images/banner-4.jpg") no-repeat center center;
+        }
+
+        .swiper-slide5-1200 {
             background: url("images/banner-5.jpg") no-repeat center center;
         }
 
@@ -172,26 +229,29 @@
 <!--头部结束-->
 
 <!--banner-->
-<div class="bannerBox">
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
+<div class="bannerBox" style="min-width:1200px;margin:0 auto">
+    <div class="swiper-container" style="min-width:1200px;margin:0 auto">
+        <div class="swiper-wrapper" style="width:1200px">
             <div class="swiper-slide slide1 slide1_only">
-                <a href="social.html" class="bannerLink" target="_blank">
+                <a href="social.html" target="_blank" class="swiper-slide-1200 swiper-slide1-1200">
+
                 </a>
             </div>
-            <div class="swiper-slide slide2 slide2_only">
-                <a href="records.html" class="bannerLink" target="_blank">
+            <div class="swiper-slide slide2 slide2_only" >
+                <a href="records.html" target="_blank" class="swiper-slide-1200 swiper-slide2-1200">
                 </a>
             </div>
             <div class="swiper-slide slide3 slide3_only">
-                <a href="javascript:void(0)" class="bannerLink" target="_blank">
+                <a href="javascript:void(0)" target="_blank" class="swiper-slide-1200 swiper-slide3-1200">
                 </a>
             </div>
-            <div class="swiper-slide slide4 slide4_only">
-                <a href="http://www.quwp.com" class="bannerLink" target="_blank"></a>
+            <div class="swiper-slide slide4 slide4_only" >
+                <a href="http://www.quwp.com" target="_blank" class="swiper-slide-1200 swiper-slide4-1200">
+                </a>
             </div>
             <div class="swiper-slide slide5 slide5_only">
-                <a href="gwgc/home.html" class="bannerLink" target="_blank"></a>
+                <a href="gwgc/home.html" target="_blank" class="swiper-slide-1200 swiper-slide5-1200">
+                </a>
             </div>
         </div>
         <div class="pagination"></div>
@@ -433,9 +493,12 @@
     </div>
 </div>
 
+
 <!--调入底部js模板-->
 <script type="text/javascript" src="foot.js"></script>
 <!--调入底部js模板结束-->
+
+
 
 <script src="js/nav.js" type="text/javascript"></script>
 <script src="js/gameBorder.js" type="text/javascript"></script>

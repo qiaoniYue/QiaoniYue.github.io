@@ -5,10 +5,85 @@
     <title>MIRACLE GAMES开放平台-数字化助力中国泛互联网开发者深层次出海</title>
     <meta name="keywords" content="MIRACLE GAMES,广告,Windows Phone,WindowsPhone,WP,Phone,微软,广告平台,积分墙,推广墙,第三方支付,支付,服务,开发者,WP开发者,dev,游戏,应用,推广,媒介,刷榜,评论,榜单">
     <meta name="description" content="MIRACLE GAMES（MG）是一家致力于移动互联网和游戏社交平台的IT企业，公司开发运营的MIRACLE GAMES平台是微软Windows 10以及Windows Phone（WP）系统上的游戏竞技和社交网络平台，为全球开发者提供跨平台SDK服务，可以免费使用包括且不仅限于：游戏中心、社交分享、支付解决方案与交叉推广等功能。MIRACLE GAMES作为微软全球顶级合作伙伴之一、诺基亚战略合作伙伴之一，致力于打造全球化最大的Windows10游戏平台及发行商。">
+
+
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+
+
+
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/base.css" type="text/css">
     <link rel="stylesheet" href="css/global.css" type="text/css">
+    <link rel="stylesheet" href="css/swiper.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!--    <style>
+            .slide1_only {
+                background: url("images/banner-1.jpg") no-repeat center center;
+            }
+            .slide2_only {
+                background: url("images/banner-2.jpg") no-repeat center center;
+            }
+            .slide3_only {
+                background: url("images/banner-3.jpg") no-repeat center center;
+            }
+            .slide4_only {
+                background: url("images/banner-4.jpg") no-repeat center center;
+            }
+            .slide5_only {
+                background: url("images/banner-5.jpg") no-repeat center center;
+            }
 
+        </style>-->
+    <style>
+        .slide1_only {
+            background: url("images/banner-1.jpg") no-repeat center center;
+        }
+        .slide2_only {
+            background: url("images/banner-2.jpg") no-repeat center center;
+        }
+        .slide3_only {
+            background: url("images/banner-3.jpg") no-repeat center center;
+        }
+        .slide4_only {
+            background: url("images/banner-4.jpg") no-repeat center center;
+        }
+        .slide5_only {
+            background: url("images/banner-5.jpg") no-repeat center center;
+        }
+        .swiper-slide-1200 {
+            display: block;
+            width: 1200px;
+            height: 430px;
+            margin: 0 auto;
+            overflow-x: visible;
+        }
+
+        .swiper-slide1-1200 {
+            background: url("images/banner-1.jpg") no-repeat center center;
+        }
+
+        .swiper-slide2-1200 {
+            background: url("images/banner-2.jpg") no-repeat center center;
+        }
+
+        .swiper-slide3-1200 {
+            background: url("images/banner-3.jpg") no-repeat center center;
+        }
+
+        .swiper-slide4-1200 {
+            background: url("images/banner-4.jpg") no-repeat center center;
+        }
+
+        .swiper-slide5-1200 {
+            background: url("images/banner-5.jpg") no-repeat center center;
+        }
+
+    </style>
     <!--[if lte IE 7]>
     <style type="text/css">
         /*头部*/
@@ -63,7 +138,6 @@
         }
     </style>
     <![endif]-->
-
 </head>
 <body>
 
@@ -79,23 +153,23 @@
                     <a href="index.html" class="nav-itemTxt nav-current">首页</a>
                 </li>
                 <li class="nav-item" id="nav-item-SDK">
-                    <a href="data.html" class="nav-itemTxt">SDK服务</a>
+                    <a href="social.html" class="nav-itemTxt">SDK服务</a>
                     <div class="sub-navBox" id="nav-item-SDK-Content">
                         <ul class="sub-nav">
-                            <li>
-                                <a href="data.html">精准的数据分析</a>
-                            </li>
                             <li>
                                 <a href="social.html">便捷的社交服务</a>
                             </li>
                             <li>
-                                <a href="intelligent.html">领先的微软智能</a>
+                                <a href="data.html">精准的数据分析</a>
                             </li>
                             <li>
                                 <a href="pay.html">多样的支付功能</a>
                             </li>
                             <li>
                                 <a href="game.html">完善的游戏中心</a>
+                            </li>
+                            <li>
+                                <a href="intelligent.html">领先的微软智能</a>
                             </li>
                         </ul>
                     </div>
@@ -110,13 +184,41 @@
                     <a href="records.html" class="nav-itemTxt">数据中心</a>
                 </li>
                 <li class="nav-item">
-                    <a href="advertising.html" class="nav-itemTxt">广告平台</a>
+                    <a href="javascript:void(0)" class="nav-itemTxt">广告平台</a>
                 </li>
                 <li class="nav-item">
-                    <a href="http://www.quwp.com" class="nav-itemTxt">MIRACLE GAMES平台</a>
+                    <a href="http://www.quwp.com" class="nav-itemTxt" target="_blank">奇游助手</a>
                 </li>
                 <li class="nav-item">
                     <a href="gwgc/home.html" class="nav-itemTxt" target="_blank">GWGC</a>
+                </li>
+                <li class="nav-item" id="nav-item-aboutUs">
+                    <a href="introduce.html" class="nav-itemTxt">关于我们</a>
+                    <div class="sub-navBox" id="nav-item-aboutUs-Content">
+                        <ul class="sub-nav">
+                            <li>
+                                <a href="introduce.html">公司介绍</a>
+                            </li>
+                            <li>
+                                <a href="history.html">发展历程</a>
+                            </li>
+                            <li>
+                                <a href="management.html">管理团队</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">公司动态</a>
+                            </li>
+                            <li>
+                                <a href="join.html">加入我们</a>
+                            </li>
+                            <li>
+                                <a href="cooperation.html">商务合作</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">联系我们</a>
+                            </li>
+                        </ul>
+                    </div>
                 </li>
             </ul>
         </div>
@@ -126,13 +228,32 @@
 
 <!--banner-->
 <div class="bannerBox">
-    <ul>
-        <li class="bannerWrap1">
-            <div class="indexBtn1">
-                <a href="http://doc.mguwp.net/" target="_blank">&nbsp;</a>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide1 slide1_only">
+                <a href="social.html" target="_blank" class="swiper-slide-1200 swiper-slide1-1200">
+
+                </a>
             </div>
-        </li>
-    </ul>
+            <div class="swiper-slide slide2 slide2_only" >
+                <a href="records.html" target="_blank" class="swiper-slide-1200 swiper-slide2-1200">
+                </a>
+            </div>
+            <div class="swiper-slide slide3 slide3_only">
+                <a href="javascript:void(0)" target="_blank" class="swiper-slide-1200 swiper-slide3-1200">
+                </a>
+            </div>
+            <div class="swiper-slide slide4 slide4_only" >
+                <a href="http://www.quwp.com" target="_blank" class="swiper-slide-1200 swiper-slide4-1200">
+                </a>
+            </div>
+            <div class="swiper-slide slide5 slide5_only">
+                <a href="gwgc/home.html" target="_blank" class="swiper-slide-1200 swiper-slide5-1200">
+                </a>
+            </div>
+        </div>
+        <div class="pagination"></div>
+    </div>
 </div>
 
 <!--中心内容-->
@@ -159,7 +280,7 @@
         </div>
     </div>
     <!--平台提供-->
-    <div class="main-container-center">
+    <div class="main-container-40">
         <!--小标题-->
         <div class="main-titleBox">
             <div class="main-mod-left"></div>
@@ -169,46 +290,43 @@
         <!--内容-->
         <div class="main-topic">
 
-            <a class="main-provideBox" href="#">
+            <a class="main-provideBox" href="http://doc.mguwp.net/" target="_blank">
                 <img src="images/provide1.png" class="main-provideIcon">
                 <div class="main-provide">
-                    <em>产品接入</em>
-                    <p>帮助全球开发者高效便捷的将Android，iOS，网页游戏，主机游戏，h5游戏等多终端移植为Windows10版本，为不同终端提供完善的移植解决方案，从而大幅度降低移植版本的综合成本。</p>
+                    <em>研发提升</em>
+                    <p>MG核心内部服务，多年Win10应用开发技术沉淀，提供开发者将安卓、iOS、H5、Web、Win32等应用快捷移植Win10 UWP版本解决方案，并提供技术支持服务</p>
                 </div>
             </a>
 
-
-
-            <a class="main-provideBox" href="#">
+            <a class="main-provideBox" href="social.html" target="_blank">
                 <img src="images/provide2.png" class="main-provideIcon">
                 <div class="main-provide">
-                    <em>SDK服务</em>
-                    <p>MIRACLE GAMES的SDK为全球开发者免费提供应用于Windws10，h5等多终端的登录，支付，广告变现，微软人工智能等多功能服务，完美实现同一产品跨终端的数据同步，全面提升产品收益。</p>
+                    <em>用户增长</em>
+                    <p>将你的应用接入MG开放平台，让你的应用支持MG、Facebook、Google、WeChat、微博等全球知名社交平台登陆、分享、支付等功能，共享全球海量用户</p>
                 </div>
             </a>
 
 
-            <a class="main-provideBox" href="#">
+            <a class="main-provideBox" href="cooperation.html" target="_blank">
                 <img src="images/provide3.png" class="main-provideIcon">
                 <div class="main-provide">
-                    <em>开放能力</em>
-                    <p>MIRACLE GAMES为全球合作伙伴提升Windows10，h5等多终端产品全球市场的定制化的宣传推广运营资源，同时嫁接全球资源助力中国开发者产品推广海外同时，引进海外产品进入中国市场。</p>
+                    <em>营收赋能</em>
+                    <p>依托MG大数据，通过丰富的广告样式为广大流量主提供最优质的商业化解决方案，同时打造MG游戏发行服务平台，全方位助力与中小开发者推广合作共赢</p>
                 </div>
             </a>
 
-
-            <a class="main-provideBox main-provideBox-last" href="#">
+            <a class="main-provideBox main-provideBox-last" href="gwgc/home.html" target="_blank">
                 <img src="images/provide4.png" class="main-provideIcon">
                 <div class="main-provide">
                     <em>GWGC</em>
-                    <p>MIRACLE GAMES旗下Windows全球开发者联盟（Globe Windows Game Conference 简称GWGC，致力于为全球从事微软市场应用开发的企业及独立开发者提供全球化交流分享平台。</p>
+                    <p>坚持政府引导，融合MG流量、数据与生态优势，协同产业链上下游资源，致力打造一站式服务体系，为各类极致创新应用开发者提供全方位孵化支持，成就梦想</p>
                 </div>
             </a>
 
         </div>
     </div>
     <!--快速接入流程-->
-    <div class="main-container-center">
+    <div class="main-container-40">
         <!--小标题-->
         <div class="main-titleBox main-titleBoxS">
             <div class="main-mod-left"></div>
@@ -217,31 +335,31 @@
         </div>
         <!--内容-->
         <div class="main-topic main-topic-process">
-            <a class="main-processBox" href="#">
+            <a class="main-processBox" href="http://doc.mguwp.net/?method=migrate1.html" target="_blank">
                 <div class="main-processTitle">版本移植</div>
                 <div class="main-process">
-                    <p>MIRACLE GAMES技术研发团队由微软MVP组建，为全球开发者提供免费的技术咨询与支持，从Android，iOS，网页游戏，主机游戏，h5游戏等多终端移植为Windows10版本仅需1-2周时间。</p>
+                    <p>MG技术支持团队为全球开发者提供免费的技术咨询与支持服务，解决Unity、H5、Cocos等不同开发引擎移植Win10 UWP版本技术难题</p>
                     <img src="images/process1.png">
                 </div>
             </a>
-            <a class="main-processBox" href="#">
-                <div class="main-processTitle">SDK</div>
+            <a class="main-processBox" href="http://doc.mguwp.net/?method=uwpvs.html" target="_blank">
+                <div class="main-processTitle">接入SDK</div>
                 <div class="main-process">
-                    <p>MIRACLE GAMES的SDK为开发者提供登录，支付，广告变现，数据统计等一整套服务，为开发者登录Win10商店做到保驾护航的同时，大幅度提高收益</p>
+                    <p>下载对应SDK，通过工程为你的应用接入SDK，可以参考我们提供的工程Demo，自主选择MGSDK提供的登陆、支付、广告等多样化功能</p>
                     <img src="images/process2.png">
                 </div>
             </a>
-            <a class="main-processBox main-processBox-last" href="#">
-                <div class="main-processTitle">产品上线</div>
+            <a class="main-processBox main-processBox-last"  href="cooperation.html" target="_blank">
+                <div class="main-processTitle">分发应用</div>
                 <div class="main-process">
-                    <p>MIRACLE GAMES在Win10商店依托自己的广告平台，可以快速高效的为开发者提供精准的推广服务，促进双方达到共赢良性发展</p>
+                    <p>上传已嵌入SDK的Win10 UWP应用到微软官方商店，依托MG自有渠道用户，高效为开发者提供精准的全球推广发行服务，实现互利共赢</p>
                     <img src="images/process3.png">
                 </div>
             </a>
         </div>
     </div>
     <!--全球热门游戏-->
-    <div class="main-container-center">
+    <div class="main-container-40">
         <!--小标题-->
         <div class="main-titleBox main-titleBoxL">
             <div class="main-mod-left"></div>
@@ -250,38 +368,39 @@
         </div>
         <!--内容-->
         <div class="main-topic main-topic-games">
-            <a class="main-gamesBox" href="#" id="main-gamesBox1">
+            <a class="main-gamesBox" id="main-gamesBox1">
                 <div class="main-gamesImg">
                     <img src="images/indexGame1.png">
                 </div>
                 <div class="main-gamesWrap" id="main-gamesWrap1">
-                    <p class="main-gamesTitle">《Omega Zodiac》</p>
-                    <p class="main-games">这款产品由香港上市公司Game Hollywood ，该产品为典型的高成本研发的全球化页游产品，移植为Windows10版本后，在微软官方商店全球100多个国家排名前5的好成绩，同时已经陆续登陆微软商店3款产品，与MG深度捆绑共拓Windows10全球市场。</p>
+                    <p class="main-gamesTitle">天天头条UWP(原今日头条UWP)</p>
+                    <p class="main-games">我们使用MG广告平台已经有两年多时间了，给我们提供了丰厚的广告收益，可以使用的广告形式很多，其中自定义事件提供我们很多数据分析上的支持，能够解决很多个性化的需求，推荐开发者使用MG广告平台。</p>
                 </div>
             </a>
-            <a class="main-gamesBox" href="#" id="main-gamesBox2">
+            <a class="main-gamesBox" id="main-gamesBox2">
                 <div class="main-gamesImg">
                     <img src="images/indexGame2.png">
                 </div>
                 <div class="main-gamesWrap" id="main-gamesWrap2">
-                    <p class="main-gamesTitle">《一骑当千》</p>
-                    <p class="main-games">这款产品由新三板上市公司北京一骑当千科技有限公司研发，产品属于典型的中国传统三国题材产品，完美重现了千人同屏战斗的恢弘场面，千种兵种战法的组合策略性，深受玩家的喜好，同时荣获多次微软官方推荐位。</p>
+                    <p class="main-gamesTitle">Rage of Kings:列王之怒</p>
+                    <p class="main-games">我们通过与MG发行Win10版本，霸榜微软官方商店40多个国家与地区游戏排行榜TOP5，次留存35%，30日留存10%，平均日流水1.5万美金，部署在Azure云，同时集成微软人工智能服务，极大提高全球玩家用户体验。</p>
                 </div>
             </a>
-            <a class="main-gamesBox main-gamesBox-last" href="#" id="main-gamesBox3">
+            <a class="main-gamesBox main-gamesBox-last" id="main-gamesBox3" href="http://www.gamehollywood.com/thread-528.html" target="_blank">
                 <div class="main-gamesImg">
-                    <img src="images/indexGame1.png">
+                    <img src="images/indexGame3.png">
                 </div>
                 <div class="main-gamesWrap" id="main-gamesWrap3">
-                    <p class="main-gamesTitle">《Rage of Kings》</p>
-                    <p class="main-games">这款产品由北京天龙互动科技有限公司研发，典型的创业团队首款产品，由中国知名海外发行公司代理，因为种种原因，Android和ios并未取得较好成绩，但在Windows10市场已经运营16个月，累计收入超300万美金，同时第二款产品也即将登陆微软市场。</p>
+                    <p class="main-gamesTitle">Dragon Awaken:龙之领主</p>
+                    <p class="main-games">GameHollywood集团(港股代码:2022.HK)是一家具有手游、页游的研发、推广与海外发行，数据分析能力的大型综合性互动娱乐集团企业，我们已经连续三款产品与MG合作，深度捆绑共同开拓Win10全球市场。</p>
                 </div>
             </a>
         </div>
-        <a href="#" class="main-gamesMore">了解更多</a>
+        <!--了解更多暂时隐藏-->
+        <!--<a href="javascript:void(0)" class="main-gamesMore">了解更多</a>-->
     </div>
     <!--听我们合作伙伴说-->
-    <div class="main-container-center">
+    <div class="main-container-40">
         <!--小标题-->
         <div class="main-titleBox main-titleBoxNormal">
             <div class="main-mod-left"></div>
@@ -293,12 +412,12 @@
             <div class="main-topic-customer">
                 <div class="main-customer">
                     <a href="#" class="main-customer-img">
-                        <img src="images/indexPeople.png">
+                        <img src="images/indexLeader-1.jpg">
                     </a>
                     <div class="main-customer-info">
                         <h3>玉轶</h3>
-                        <h4>艮山资本创始人</h4>
-                        <p>MIRACLE GAMES嫁接全球多终端市场资源，在Windows10全球市场的已趋于寡头地位，旗下GWGC联盟成员涵盖全球优质研发公司及开发者，双方已在互联网产业孵化与投融资并购项目深度合作，为联盟成员提供整套孵化资金支持方案，达到创新共赢之目标。</p>
+                        <h4>艮山资本  创始人</h4>
+                        <p>MIRACLE GAMES嫁接全球多终端市场资源，在Windows 10全球市场的已趋于寡头地位，旗下GWGC联盟成员涵盖全球优质研发公司及开发者，双方已在互联网产业孵化与投融资并购项目深度合作，为联盟成员提供整套孵化资金支持方案，达到创新共赢目标。</p>
                     </div>
                 </div>
             </div>
@@ -306,18 +425,18 @@
                 <div class="main-customer">
                     <div class="main-customer-info main-customer-infoL">
                         <h3>刘迪</h3>
-                        <h4>XCLOUDGAME-CEO</h4>
-                        <p>XCLOUDGAME自2013年成立以来，平台用户超过2000万注册用户，在巴西拥有本土团队，而MIRACLE GAMES作为全球Windows10市场的最大发行平台，双方资源互补，同时协助MIRACLE GAMES在巴西本地成立了拉美子公司，共拓拉美全终端市场，达到深度捆绑战略合作目标。</p>
+                        <h4>XCLOUDGAME CO.,LIMITED. CEO</h4>
+                        <p>以改变拉美互联网生态为愿景，我们将在XCLOUDGAME内部组建一个全新的团队，通过MIRACLE GAMES平台加速完成海外用户的覆盖，同时为Windows 10全球玩家提供更多的游戏体验，他们的行业实力和影响力将为我们提供宝贵的参考。</p>
                     </div>
                     <a href="#" class="main-customer-img">
-                        <img src="images/indexPeople.png">
+                        <img src="images/indexLeader-2.jpg">
                     </a>
                 </div>
             </div>
         </div>
     </div>
     <!--客户服务~品牌名称-->
-    <div class="main-container-center">
+    <div class="main-container-40">
         <!--小标题-->
         <div class="main-titleBox main-titleBoxL">
             <div class="main-mod-left"></div>
@@ -327,124 +446,68 @@
         <!--内容-->
         <div class="main-topic">
             <ul class="main-brand">
-                <li><img src="images/indexIcon1.png"></li>
-                <li><img src="images/indexIcon2.png"></li>
-                <li><img src="images/indexIcon3.png"></li>
-                <li><img src="images/indexIcon4.png"></li>
-                <li><img src="images/indexIcon5.png"></li>
-                <li><img src="images/indexIcon6.png"></li>
-                <li><img src="images/indexIcon7.png"></li>
-                <li><img src="images/indexIcon8.png"></li>
+                <li>
+                    <a href="https://www.azure.cn/partnerancasestudy/case-studies/miracle-games/" target="_blank">
+                        <img src="images/indexIcon1.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <img src="images/indexIcon2.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <img src="images/indexIcon3.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <img src="images/indexIcon4.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <img src="images/indexIcon5.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <img src="images/indexIcon6.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <img src="images/indexIcon7.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <img src="images/indexIcon8.png">
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
 </div>
 
-<!--首页宣传banner-->
-<div class="bottom-publicBox">
-    <div class="bottom-public">
-        <h1>数字化助力中国泛互联网开发者深层次出海</h1>
-        <p>
-            MIRACLE GAMES开放平台是专注于Windows 10终端应用和游戏推广运营的服务平台，<br>
-            我们的目标是帮助开发者在Windows 10等平台上快速获取用户和快速变现。
-        </p>
 
-    </div>
-</div>
-
-<!--底部版本2-开始-->
-<div class="bottomIn-bar">
-    <div class="bottomIn">
-        <div class="bottomIn-itemBar">
-            <div class="bottomIn-item">
-                <h2>关于我们</h2>
-                <ul class="bottomIn-Con">
-                    <li>
-                        <a href="javascript:void(0)">关于MG</a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)">联系我们</a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)">友情链接</a>
-                    </li>
-                </ul>
-            </div>
+<!--调入底部js模板-->
+<script type="text/javascript" src="foot.js"></script>
+<!--调入底部js模板结束-->
 
 
-            <div class="bottomIn-item">
-                <h2>开发者服务</h2>
-                <ul class="bottomIn-Con">
-                    <li>
-                        <a href="http://dev.mguwp.net/main/index" target="_blank">注册登录</a>
-                    </li>
-                    <li>
-                        <a href="http://doc.mguwp.net/" target="_blank">文档中心</a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)">技术论坛</a>
-                    </li>
-                </ul>
-            </div>
 
-            <!--
-            <div class="bottomIn-item bottomIn-itemBig">
-                <h2>Quick Links</h2>
-                <ul class="bottomIn-ConBig">
-                    <li>
-                        <a href="javascript:void(0)">
-                            主页
-                        </a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)">
-                            积分墙
-                        </a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)">合作</a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)">支付系统</a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)">关于</a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)">代理发行</a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)">联系</a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)">推广服务</a>
-                    </li>
-                </ul>
-            </div>
-            -->
-
-
-            <div class="bottomIn-weChat">
-                <img src="images/weChat.jpg">
-                <p>MIRACLE GAMES</p>
-                <P>微信公众号</P>
-            </div>
-        </div>
-        <div class="bottomIn-mid">
-            <div class="bottomIn-mid1"></div>
-            <div class="bottomIn-mid2"></div>
-        </div>
-        <div class="bottomIn-copy">
-            <p>北京奇游灵动科技有限公司版权所有 COPYRIGHT© 2016 MIRACLE GAMES INC. ALL RIGHTS RESERVED.</p>
-            <p>京ICP备16022485号-2 | 京网文[2017]1979-172号</p>
-        </div>
-    </div>
-</div>
-<!--底部版本2-结束-->
-
-</body>
 <script src="js/nav.js" type="text/javascript"></script>
 <script src="js/gameBorder.js" type="text/javascript"></script>
+<!--控制轮播图js-->
+<script src="js/slideShow/jquery-1.10.1.min.js"></script>
+<script src="js/slideShow/swiper.min.js"></script>
+<script src="js/slideShow/swiper.animate1.0.2.min.js"></script>
+<script src="js/slideShow/slideshow.js"></script>
+<script src="js/slideShow/slideBannerLink.js"></script>
+<!--控制轮播图js结束-->
+</body>
 
 
 </html>

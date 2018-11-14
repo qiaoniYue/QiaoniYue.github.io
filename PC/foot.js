@@ -1,10 +1,12 @@
 document.writeln("<div class=\'bottom-publicBox\'>");
-document.writeln("    <div class=\'bottom-public\'>");
-document.writeln("        <h1>数字化助力中国泛互联网开发者深层次出海</h1>");
-document.writeln("        <p>");
-document.writeln("            MIRACLE GAMES开放平台是专注于Windows 10终端应用和游戏推广运营的服务平台，<br>");
-document.writeln("            我们的目标是帮助开发者在Windows 10等平台上快速获取用户和快速变现。");
-document.writeln("        </p>");
+document.writeln("    <div class=\'bottom-publicBar\'>");
+document.writeln("        <div class=\'bottom-public\'>");
+document.writeln("            <h1>数字化助力中国泛互联网开发者深层次出海</h1>");
+document.writeln("            <p>");
+document.writeln("                MIRACLE GAMES开放平台是专注于Windows 10终端应用和游戏推广运营的服务平台，<br>");
+document.writeln("                我们的目标是帮助开发者在Windows 10等平台上快速获取用户和快速变现。");
+document.writeln("            </p>");
+document.writeln("        </div>");
 document.writeln("    </div>");
 document.writeln("</div>");
 document.writeln("<div class=\'bottomIn-bar\'>");
@@ -57,4 +59,3 @@ document.writeln("            <p>京ICP备16022485号-2 | 京网文[2017]1979-17
 document.writeln("        </div>");
 document.writeln("    </div>");
 document.writeln("</div>");
-document.writeln("<!--底部备份结束-->");

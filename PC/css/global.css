@@ -82,6 +82,12 @@ css命名一般不采用下划线
     height: 40px;
 }*/
 
+.sub-navBar-1200 {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #313131;
+}
+
 .sub-nav {
     box-sizing: border-box;
     display: table;
@@ -121,7 +127,6 @@ css命名一般不采用下划线
 .bannerBox {
     width: 100%;
     height: 430px;
-    overflow: hidden;
 }
 
 .bannerBox ul li {
@@ -195,6 +200,49 @@ css命名一般不采用下划线
     background-image: url("../images/banner-download.jpg");
 }
 
+.bannerPage-aboutUs {
+    background-image: url("../images/banner-GWGC.jpg");
+}
+
+
+.bannerPage-Bar {
+    width: 1200px;
+    height: 430px;
+    background: #4085f1 url("../images/banner-data.jpg") no-repeat center center;
+    margin: 0 auto;
+}
+
+.bannerPage-Bar-social {
+    background-image: url("../images/banner-social.jpg");
+}
+
+.bannerPage-Bar-data {
+    background-image: url("../images/banner-data.jpg");
+}
+
+
+.bannerPage-Bar-intelligent {
+    background-image: url("../images/banner-intelligent.jpg");
+}
+
+.bannerPage-Bar-pay {
+    background-image: url("../images/banner-pay.jpg");
+}
+
+.bannerPage-Bar-game {
+    background-image: url("../images/banner-game.jpg");
+}
+
+.bannerPage-Bar-download {
+    background-image: url("../images/banner-download.jpg");
+}
+
+.bannerPage-Bar-aboutUs {
+    background-image: url("../images/banner-GWGC.jpg");
+}
+
+
+
 .bannerPage {
     position: absolute;
     display: block;
@@ -202,6 +250,18 @@ css命名一般不采用下划线
     top: 70%;
     text-align: center;
 }
+
+.bannerPage-1200 {
+    position: absolute;
+    display: block;
+    width: 1200px;
+    top: 70%;
+    text-align: center;
+}
+
+
+
+
 /*
 .bannerPage-btn {
     display: inline-block;
@@ -714,8 +774,17 @@ css命名一般不采用下划线
 /*底图不随文字而动*/
 .bottom-publicBox {
     width: 100%;
+    /*height: 190px;*/
     margin-top: 40px;
-    background: url("../images/index-bg.jpg") no-repeat fixed center center;
+    /*background: url("../images/index-bg.jpg") no-repeat fixed center center;*/
+    background: url("../images/index-bg.jpg") no-repeat center center;
+}
+
+.bottom-publicBar {
+    width: 1200px;
+    margin: 0 auto;
+    /*height: 190px;*/
+    background: url("../images/index-bg.jpg") no-repeat center center;
 }
 
 .bottom-public {
@@ -816,6 +885,7 @@ css命名一般不采用下划线
     width: 1200px;
     margin: 0 auto;
     padding-top: 20px;
+    background-color: #2f3133;
 }
 
 .bottomIn-itemBar {

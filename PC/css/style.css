@@ -161,6 +161,20 @@ a {
 	overflow: hidden;
 	background: url(../images/bg-pc5.jpg) no-repeat center center;
 }
+
+.swiper-slide-Link {
+	display: block;
+	width: 1200px;
+	height: 430px;
+	margin: 0 auto;
+	background-color: #0078d7;
+}
+
+
+
+
+
+
 /*
 .slide2 .img1 {
 	left: 0px;

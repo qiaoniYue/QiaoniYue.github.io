@@ -1,4 +1,6 @@
 /*banner的点击链接跳转*/
+/*
+
 window.onload = function(){
     var oBanData = document.getElementById("bannerLinkData");
     var oBanGame = document.getElementById("bannerLinkGame");
@@ -13,5 +15,6 @@ window.onload = function(){
         window.open("gwgc/home.html");
     }
 }
+*/
 
 
