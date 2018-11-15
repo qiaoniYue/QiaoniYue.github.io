@@ -104,14 +104,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="23125" />
-          <entry key="html" value="22568" />
+          <entry key="html" value="22569" />
           <entry key="js" value="1100" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="23125" />
-          <entry key="HTML" value="22568" />
+          <entry key="HTML" value="22569" />
           <entry key="JavaScript" value="1100" />
         </counts>
       </usages-collector>
@@ -433,12 +433,12 @@
       <workItem from="1542247221919" duration="1954000" />
       <workItem from="1542254745005" duration="599000" />
       <workItem from="1542258623531" duration="1796000" />
-      <workItem from="1542263488266" duration="8067000" />
+      <workItem from="1542263488266" duration="8219000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="612628000" />
+    <option name="totallyTimeSpent" value="612780000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
