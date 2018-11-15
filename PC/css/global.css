@@ -201,7 +201,27 @@ css命名一般不采用下划线
 }
 
 .bannerPage-aboutUs {
-    background-image: url("../images/banner-GWGC.jpg");
+    background-image: url("../images/intro/introBanner-introduce.jpg");
+}
+
+.bannerPage-history {
+    background-image: url("../images/intro/introBanner-history.jpg");
+}
+
+.bannerPage-manage {
+    background-image: url("../images/intro/introBanner-manage.jpg");
+}
+
+.bannerPage-join {
+    background-image: url("../images/intro/introBanner-join.jpg");
+}
+
+.bannerPage-coop {
+    background-image: url("../images/intro/introBanner-coop.jpg");
+}
+
+.bannerPage-contact {
+    background-image: url("../images/intro/introBanner-contact.jpg");
 }
 
 
@@ -238,10 +258,28 @@ css命名一般不采用下划线
 }
 
 .bannerPage-Bar-aboutUs {
-    background-image: url("../images/banner-GWGC.jpg");
+    background-image: url("../images/intro/introBanner-introduce.jpg");
 }
 
+.bannerPage-Bar-history {
+    background-image: url("../images/intro/introBanner-history.jpg");
+}
 
+.bannerPage-Bar-manage {
+    background-image: url("../images/intro/introBanner-manage.jpg");
+}
+
+.bannerPage-Bar-join {
+    background-image: url("../images/intro/introBanner-join.jpg");
+}
+
+.bannerPage-Bar-coop {
+    background-image: url("../images/intro/introBanner-coop.jpg");
+}
+
+.bannerPage-Bar-contact {
+    background-image: url("../images/intro/introBanner-contact.jpg");
+}
 
 .bannerPage {
     position: absolute;
