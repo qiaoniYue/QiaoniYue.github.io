@@ -26,6 +26,26 @@ css命名一般不采用下划线
     border: none 0;
 }
 
+.navDeveloper {
+    float: right;
+    display: inline;
+    padding: 0 15px;
+    height:40px;
+    line-height:40px;
+    margin-top:10px;
+    margin-left: 10px;
+    font-size: 14px;
+    background-color: #0078d7;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.navDeveloper:hover,
+.navDeveloper:active {
+    background-color: #0387ef;
+    text-decoration: underline;
+}
+
 .navBox {
     float: right;
 }
@@ -37,7 +57,7 @@ css命名一般不采用下划线
 .nav-item {
     float: left;
     display: inline;
-    margin-left: 10px;
+    /*margin-left: 10px;*/
 }
 
 .nav-itemTxt {

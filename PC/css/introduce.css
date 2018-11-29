@@ -328,7 +328,16 @@
     font-size: 18px;
     color: #313131;
     font-weight: 600;
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
+    line-height: 30px;
+}
+
+.introContact-addName-mB {
+    font-size: 18px;
+    color: #313131;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 20px;
 }
 
 /*商务合作*/
