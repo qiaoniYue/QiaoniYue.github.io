@@ -10,81 +10,84 @@
     <link rel="stylesheet" href="css/pattern.css" type="text/css">
     <link rel="stylesheet" href="css/main.css" type="text/css">
     <link rel="stylesheet" href="css/category.css" type="text/css">
+    <!--为了按钮的css，后期优化-->
+    <link rel="stylesheet" href="css/btn/buttons.css" type="text/css">
+
 </head>
 <body>
+    <!--头部nav开始-->
+    <div id="roof" class="roof">
+        <div class="roof-box">
+            <div class="roof-bar">
+                <div class="roof-logo">
+                    <a href="principal.html" class="roof-logo-link">
+                        <img src="images/roof-logo.png">
+                    </a>
+                </div>
+                <div class="roof-sign">
+                    <div class="roof-sign-bar">
+                        <a class="roof-register" href="registration.html" target="_blank">注册</a>
+                        <a class="roof-login" href="launcher.html" target="_blank">登录</a>
+                    </div>
+                </div>
+                <div class="roof-nav">
+                    <ul class="roof-nav-bar" id="roof-nav-bar">
+                        <li class="roof-nav-sort">
+                            <a href="principal.html" class="roof-nav-content">
+                                首页
+                                <span>&nbsp;</span>
+                            </a>
+                        </li>
+                        <li class="roof-nav-sort">
+                            <a href="advertisers.html" class="roof-nav-content">
+                                广告主
+                                <span>&nbsp;</span>
+                            </a>
+                        </li>
+                        <li class="roof-nav-sort">
+                            <a href="developers.html" class="roof-nav-content">
+                                开发者
+                                <span>&nbsp;</span>
+                            </a>
+                        </li>
+                        <li class="roof-nav-sort">
+                            <a href="receive.html" class="roof-nav-content">
+                                广告SDK
+                                <span>&nbsp;</span>
+                            </a>
+                        </li>
+                        <li class="roof-nav-sort">
+                            <a href="platform.html" class="roof-nav-content">
+                                数据平台
+                                <span>&nbsp;</span>
+                            </a>
+                        </li>
+                        <li class="roof-nav-sort">
+                            <a href="javascript:void(0)" class="roof-nav-content">
+                                关于我们
+                                <span>&nbsp;</span>
+                            </a>
+                            <ul class="roof-nav-sub-item">
+                                <li>
+                                    <a href="../introduce.html" target="_blank">关于MG</a>
+                                </li>
+                                <li>
+                                    <a href="../join.html" target="_blank">招贤纳士</a>
+                                </li>
+                                <li>
+                                    <a href="../contact.html" target="_blank">联系我们</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--头部nav结束-->
     <div class="public-shears">
         <!--第一主题屏-->
         <div class="public-topic">
-            <!--头部nav开始-->
-            <div id="roof">
-                <div class="roof-box">
-                    <div class="roof-bar">
-                        <div class="roof-logo">
-                            <a href="principal.html" class="roof-logo-link">
-                                <img src="images/roof-logo.png">
-                            </a>
-                        </div>
-                        <div class="roof-sign">
-                            <div class="roof-sign-bar">
-                                <a class="roof-register" href="registration.html" target="_blank">注册</a>
-                                <a class="roof-login" href="launcher.html" target="_blank">登录</a>
-                            </div>
-                        </div>
-                        <div class="roof-nav">
-                            <ul class="roof-nav-bar" id="roof-nav-bar">
-                                <li class="roof-nav-sort">
-                                    <a href="principal.html" class="roof-nav-content">
-                                        首页
-                                        <span>&nbsp;</span>
-                                    </a>
-                                </li>
-                                <li class="roof-nav-sort">
-                                    <a href="advertisers.html" class="roof-nav-content">
-                                        广告主
-                                        <span>&nbsp;</span>
-                                    </a>
-                                </li>
-                                <li class="roof-nav-sort">
-                                    <a href="developers.html" class="roof-nav-content">
-                                        开发者
-                                        <span>&nbsp;</span>
-                                    </a>
-                                </li>
-                                <li class="roof-nav-sort">
-                                    <a href="receive.html" class="roof-nav-content">
-                                        广告SDK
-                                        <span>&nbsp;</span>
-                                    </a>
-                                </li>
-                                <li class="roof-nav-sort">
-                                    <a href="platform.html" class="roof-nav-content">
-                                        数据平台
-                                        <span>&nbsp;</span>
-                                    </a>
-                                </li>
-                                <li class="roof-nav-sort">
-                                    <a href="javascript:void(0)" class="roof-nav-content">
-                                        关于我们
-                                        <span>&nbsp;</span>
-                                    </a>
-                                    <ul class="roof-nav-sub-item">
-                                        <li>
-                                            <a href="../introduce.html" target="_blank">关于MG</a>
-                                        </li>
-                                        <li>
-                                            <a href="../join.html" target="_blank">招贤纳士</a>
-                                        </li>
-                                        <li>
-                                            <a href="../contact.html" target="_blank">联系我们</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--头部nav结束-->
             <div class="public-topic-bar">
                 <span class="public-topic-dec-left">&nbsp;</span>
                 <span class="public-topic-dec-text">MG AD致力构建全球化一站式服务平台</span>
@@ -98,7 +101,15 @@
                 <div class="public-download-txt">
                     该白皮书从微软Windows 10发展趋势、Windows 10设备数据、全球用户分布等方面为业内人士真实解读Windows 10市场现状，同时Miracle Games为开发者们提供一站式解决方案。
                 </div>
-                <a class="public-download-btn" href="#">下载白皮书</a>
+                <!--<a class="public-download-btn" href="#">下载白皮书</a>-->
+                <div style="position: relative;height: 100px;">
+<!--                    <button class="button button&#45;&#45;ujarak button&#45;&#45;border-thin button&#45;&#45;text-thick">
+                        下载白皮书
+                    </button>-->
+                    <button class="button button&#45;&#45;ujarak button&#45;&#45;border-thin button&#45;&#45;text-thick" style="width: 240px;height: 56px;box-sizing: border-box;font-size: 16px;border-radius: 28px;margin: 0 auto;margin-left: 480px;">
+                        下载白皮书
+                    </button>
+                </div>
             </div>
         </div>
         <!--数据驱动-->
@@ -354,7 +365,7 @@
     <script type="text/javascript">
         $(function(){
 
-            var nav=$(".one"); //得到导航对象
+            var nav=$("#roof"); //得到导航对象
 
             var win=$(window); //得到窗口对象
 
@@ -362,12 +373,12 @@
 
             win.scroll(function(){
 
-                if(sc.scrollTop()>=600){
+                if(sc.scrollTop()>=200){
 
-                    nav.addClass("fix");
+                    nav.addClass("roof-scroll");
                 }else{
 
-                    nav.removeClass("fix");
+                    nav.removeClass("roof-scroll");
                 }
 
             });
