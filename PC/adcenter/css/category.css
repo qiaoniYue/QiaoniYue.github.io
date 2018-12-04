@@ -1,0 +1,117 @@
+/*底部的样式-引入的是MG平台的底部样式*/
+.bottomIn-bar {
+    min-width: 1200px;
+    border-top: 10px solid #0078d7;
+    width: 100%;
+    background-color: #2f3133;
+}
+
+.bottomIn {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+    background-color: #2f3133;
+}
+
+.bottomIn-itemBar {
+    overflow: hidden;
+}
+
+.bottomIn-item {
+    float: left;
+    display: inline;
+    width: 200px;
+}
+
+.bottomIn-itemBig {
+    width: 340px;
+}
+
+.bottomIn-item h2 {
+    font-size: 22px;
+    line-height: 60px;
+    color: #fff;
+}
+
+.bottomIn-Con li a{
+    font-size: 16px;
+    color: #d4d6d9;
+    line-height: 48px;
+}
+
+.bottomIn-Con li a:hover,
+.bottomIn-Con li a:active {
+    color: #fff;
+}
+
+.bottomIn-ConBig {
+    width: 340px;
+}
+
+.bottomIn-ConBig li {
+    float: left;
+    width: 170px;
+}
+
+.bottomIn-ConBig li a{
+    font-size: 16px;
+    color: #d4d6d9;
+    line-height: 48px;
+}
+
+.bottomIn-ConBig li a:hover,
+.bottomIn-ConBig li a:active {
+    color: #fff;
+}
+
+.bottomIn-weChat {
+    float: right;
+    display: inline;
+    margin-top: 20px;
+    margin-right: 40px;
+    width: 200px;
+    text-align: center;
+}
+
+.bottomIn-weChat img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.bottomIn-weChat p {
+    text-align: center;
+    font-size: 16px;
+    color: #d4d6d9;
+    line-height: 30px;
+}
+
+.bottomIn-mid {
+    width: 1200px;
+    height: 2px;
+    font-size: 0;
+    line-height: 0;
+    padding: 30px 0 20px 0;
+}
+
+.bottomIn-mid1 {
+    width: 100%;
+    height: 1px;
+    background-color: #1c1d1e;
+}
+
+.bottomIn-mid2 {
+    width: 100%;
+    height: 1px;
+    background-color: #404243;
+}
+
+.bottomIn-copy {
+    font-size: 16px;
+    color: #d4d6d9;
+    line-height: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/*引入的底部样式结束*/
