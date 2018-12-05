@@ -192,6 +192,7 @@
 /*头部结束*/
 
 .public-shears {
+    min-width: 1200px;
     width: 100%;
 }
 
@@ -201,6 +202,14 @@
     height: 800px;
     background:#2a4fb8 url("../images/public-topic-bg.jpg") no-repeat center center;
     background-size: cover;
+}
+
+.public-topic-adv-bg {
+    background-image: url("../images/public-topic-bg-adv.png");
+}
+
+.public-topic-exp-bg {
+    background-image: url("../images/public-topic-exp-bg.png");
 }
 
 .public-topic-bar {
@@ -236,6 +245,35 @@
     background-color: #fff;
     margin-top: 29px;
     margin-left: 20px;
+}
+
+.public-topic-adv {
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    color: #fff;
+    position:relative;
+}
+
+.public-topic-adv-mid {
+    float: left;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.public-topic-title {
+    font-size: 46px;
+    line-height: 80px;
+    padding: 40px 0;
+    font-weight: bold;
+}
+
+.public-topic-describe {
+    font-size: 20px;
+    width: 600px;
+    line-height: 40px;
 }
 
 .public-download {
@@ -431,12 +469,21 @@
     text-align: center;
 }
 
+.public-show-connect-txt-adv {
+    width: 1030px;
+    font-size: 20px;
+    color: #000;
+    line-height: 40px;
+    margin: 0 auto;
+}
+
 .public-access-bg {
     background:url("../images/public-access-bg.jpg") no-repeat center center;
     background-size: cover;
 }
 
 .public-access-describe {
+    font-size: 20px;
     width: 750px;
     line-height: 40px;
     margin-bottom: 50px;
@@ -570,7 +617,6 @@
     text-align: center;
     color: #000;
 }
-
 
 .public-logo-detail-bar {
     margin-bottom: 50px;
