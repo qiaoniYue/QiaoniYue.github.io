@@ -10,81 +10,13 @@
     <link rel="stylesheet" href="css/pattern.css" type="text/css">
     <link rel="stylesheet" href="css/main.css" type="text/css">
     <link rel="stylesheet" href="css/category.css" type="text/css">
-    <!--为了按钮的css，后期优化-->
-    <link rel="stylesheet" href="css/btn/buttons.css" type="text/css">
-
 </head>
 <body>
-    <!--头部nav开始-->
-    <div id="roof" class="roof">
-        <div class="roof-box">
-            <div class="roof-bar">
-                <div class="roof-logo">
-                    <a href="principal.html" class="roof-logo-link">
-                        <img src="images/roof-logo.png">
-                    </a>
-                </div>
-                <div class="roof-sign">
-                    <div class="roof-sign-bar">
-                        <a class="roof-register" href="registration.html" target="_blank">注册</a>
-                        <a class="roof-login" href="launcher.html" target="_blank">登录</a>
-                    </div>
-                </div>
-                <div class="roof-nav">
-                    <ul class="roof-nav-bar" id="roof-nav-bar">
-                        <li class="roof-nav-sort">
-                            <a href="principal.html" class="roof-nav-content">
-                                首页
-                                <span>&nbsp;</span>
-                            </a>
-                        </li>
-                        <li class="roof-nav-sort">
-                            <a href="advertisers.html" class="roof-nav-content">
-                                广告主
-                                <span>&nbsp;</span>
-                            </a>
-                        </li>
-                        <li class="roof-nav-sort">
-                            <a href="developers.html" class="roof-nav-content">
-                                开发者
-                                <span>&nbsp;</span>
-                            </a>
-                        </li>
-                        <li class="roof-nav-sort">
-                            <a href="receive.html" class="roof-nav-content">
-                                广告SDK
-                                <span>&nbsp;</span>
-                            </a>
-                        </li>
-                        <li class="roof-nav-sort">
-                            <a href="platform.html" class="roof-nav-content">
-                                数据平台
-                                <span>&nbsp;</span>
-                            </a>
-                        </li>
-                        <li class="roof-nav-sort">
-                            <a href="javascript:void(0)" class="roof-nav-content">
-                                关于我们
-                                <span>&nbsp;</span>
-                            </a>
-                            <ul class="roof-nav-sub-item">
-                                <li>
-                                    <a href="../introduce.html" target="_blank">关于MG</a>
-                                </li>
-                                <li>
-                                    <a href="../join.html" target="_blank">招贤纳士</a>
-                                </li>
-                                <li>
-                                    <a href="../contact.html" target="_blank">联系我们</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--头部nav结束-->
+    <!--调入头部nav的js模板-->
+    <script type="text/javascript" src="head.js"></script>
+    <!--调入头部nav的js模板结束-->
+
+    <!--中心内容-->
     <div class="public-shears">
         <!--第一主题屏-->
         <div class="public-topic">
@@ -101,14 +33,13 @@
                 <div class="public-download-txt">
                     该白皮书从微软Windows 10发展趋势、Windows 10设备数据、全球用户分布等方面为业内人士真实解读Windows 10市场现状，同时Miracle Games为开发者们提供一站式解决方案。
                 </div>
-                <!--<a class="public-download-btn" href="#">下载白皮书</a>-->
-                <div style="position: relative;height: 100px;">
-<!--                    <button class="button button&#45;&#45;ujarak button&#45;&#45;border-thin button&#45;&#45;text-thick">
+                <div class="public-download-btn-box">
+                    <a href="javascript:void(0)" class="set_1_btn Vbtn-1">
+                        <svg>
+                            <rect x="0" y="0" fill="none" width="100%" height="100%"></rect>
+                        </svg>
                         下载白皮书
-                    </button>-->
-                    <button class="button button&#45;&#45;ujarak button&#45;&#45;border-thin button&#45;&#45;text-thick" style="width: 240px;height: 56px;box-sizing: border-box;font-size: 16px;border-radius: 28px;margin: 0 auto;margin-left: 480px;">
-                        下载白皮书
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -300,89 +231,25 @@
                 <div class="public-partner-detail">
                     <h2 class="public-partner-title">想成为我们的合作伙伴吗？</h2>
                     <div class="public-partner-content">
-                        <a href="#" class="public-partner-contact">联系商务</a>
+                        <a href="commercial.html" class="public-partner-contact" target="_blank">联系商务</a>
                         <span>或继续探索</span>
-                        <a href="#" class="public-partner-ad">广告主</a>
-                        <a href="#">开发者</a>
+                        <a href="advertisers.html" class="public-partner-ad" target="_blank">广告主</a>
+                        <a href="developers.html" target="_blank">开发者</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--底部-->
-    <div class="bottomIn-bar">
-        <div class="bottomIn">
-            <div class="bottomIn-itemBar">
-                <div class="bottomIn-item">
-                    <h2>关于我们</h2>
-                    <ul class="bottomIn-Con">
-                        <li>
-                            <a href="javascript:void(0)">公司动态</a>
-                        </li>
-                        <li>
-                            <a href="../join.html" target="_blank">加入我们</a>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0)">友情链接</a>
-                        </li>
-                    </ul>
-                </div>
 
+    <!--调入底部js模板-->
+    <script type="text/javascript" src="foot.js"></script>
+    <!--调入底部js模板结束-->
 
-                <div class="bottomIn-item">
-                    <h2>开发者服务</h2>
-                    <ul class="bottomIn-Con">
-                        <li>
-                            <a href="http://dev.mguwp.net/main/index" target="_blank">注册登录</a>
-                        </li>
-                        <li>
-                            <a href="http://doc.mguwp.net/" target="_blank">文档中心</a>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0)">技术论坛</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="bottomIn-weChat">
-                    <img src="images/weChat.jpg">
-                    <p>MIRACLE GAMES</p>
-                    <P>微信公众号</P>
-                </div>
-            </div>
-            <div class="bottomIn-mid">
-                <div class="bottomIn-mid1"></div>
-                <div class="bottomIn-mid2"></div>
-            </div>
-            <div class="bottomIn-copy">
-                <p>北京奇游灵动科技有限公司版权所有 COPYRIGHT© 2016 MIRACLE GAMES LIMITED. ALL RIGHTS RESERVED.</p>
-                <p>京ICP备16022485号-2 | 京网文[2017]1979-172号</p>
-            </div>
-        </div>
-    </div>
     <script src="js/jquery.min.js" type="text/javascript"></script>
+    <!--实现头部nav切换-->
     <script src="js/roofnav.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        $(function(){
+    <!--实现头部始终处于顶部-->
+    <script src="js/holden.js" type="text/javascript"></script>
 
-            var nav=$("#roof"); //得到导航对象
-
-            var win=$(window); //得到窗口对象
-
-            var sc=$(document);//得到document文档对象。
-
-            win.scroll(function(){
-
-                if(sc.scrollTop()>=200){
-
-                    nav.addClass("roof-scroll");
-                }else{
-
-                    nav.removeClass("roof-scroll");
-                }
-
-            });
-        });
-    </script>
 </body>
 </html>
