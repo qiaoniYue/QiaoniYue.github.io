@@ -220,6 +220,18 @@
     background-image: url("../images/public-topic-flow-bg.png");
 }
 
+.public-topic-sell-bg {
+    background-image: url("../images/public-topic-sell-bg.png");
+}
+
+.public-topic-tec-bg {
+    background-image: url("../images/public-topic-tec-bg.png");
+}
+
+.public-topic-ser-bg {
+    background-image: url("../images/public-topic-ser-bg.png");
+}
+
 .public-topic-bar {
     width: 1200px;
     height: 62px;

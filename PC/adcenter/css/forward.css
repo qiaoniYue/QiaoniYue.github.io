@@ -370,13 +370,217 @@
     font-size: 18px;
 }
 
+.adv-partner-contact:hover {
+    background-color: #008eff;
+    border: 2px solid #008eff;
+}
+
 /*开发者页面*/
+.expand-mode {
+    width: 100%;
+}
 
+.expand-mode-center {
+    width: 1200px;
+    margin: 0 auto;
+}
 
+.expand-fast {
+    height: 200px;
+    overflow: hidden;
+}
 
+.expand-fast-item {
+    float: left;
+    width: 240px;
+    height: 175px;
+    padding-top: 25px;
+}
 
+.expand-fast-icon {
+    display: block;
+    width: 240px;
+    height: 100px;
+    overflow: hidden;
+    font-size: 0;
+    background: url("../images/expand-fast--icon.png") no-repeat 0 0;
+}
 
+.expand-fast-icon2 {
+    background-position: -240px 0;
+}
 
+.expand-fast-icon3 {
+    background-position: -480px 0;
+}
 
+.expand-fast-icon4 {
+    background-position: -720px 0;
+}
 
+.expand-fast-icon5 {
+    background-position: -960px 0;
+}
+
+.expand-fast-item a {
+    display: block;
+    line-height: 75px;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+}
+
+.expand-fast-item a:hover,
+.expand-fast-item a:active {
+    color: #008eff;
+}
+
+.expand-ue-pro {
+    width: 100%;
+}
+
+.expand-ue-pro-center {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.expand-ue-pro-bar {
+    width: 1200px;
+    height: 800px;
+}
+
+.expand-ue-pro-img {
+    float: left;
+    margin-top: 80px;
+    width: 500px;
+    height: 640px;
+    background-image: url("../images/expand-ue-pro-img.png");
+}
+
+.expand-ue-pro-dec {
+    float: right;
+    width: 700px;
+    color: #000;
+    height: 800px;
+    position: relative;
+}
+
+.expand-ue-pro-sur {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.expand-ue-pro-title {
+    font-size: 46px;
+    line-height: 80px;
+    padding: 40px 0;
+    font-weight: bold;
+    text-align: left;
+}
+
+.expand-ue-pro-content {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.expand-acc-pro-img {
+    float: left;
+    margin-top: 175px;
+    width: 680px;
+    height: 450px;
+    background-image: url("../images/expand-acc-pro-img.png");
+}
+
+.expand-acc-pro-dec {
+    float: right;
+    width: 500px;
+    color: #000;
+    height: 800px;
+    position: relative;
+}
+
+.expand-coo-pro {
+    width: 100%;
+    color: #000;
+}
+
+.expand-coo-pro-dec-l {
+    display: block;
+    width: 162px;
+    height: 134px;
+    overflow: hidden;
+    background: url("../images/expand-coo-pro-dec.png") no-repeat 0 0;
+}
+
+.expand-coo-pro-dec-r {
+    float: right;
+    background-position: -172px 0;
+}
+
+.expand-coo-pro-txt {
+    width: 876px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.expand-coo-pro-txt-r {
+    overflow: hidden;
+}
+
+.expand-coo-pro-au {
+    float: right;
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #000;
+    margin-right: 15px;
+}
+
+.expand-coo-pro-line {
+    float: right;
+    display: inline;
+    width: 50px;
+    height: 1px;
+    font-size: 0;
+    margin-top: 20px;
+    background-color: #000;
+}
+
+.expand-coo-logo {
+    width: 1200px;
+    overflow: hidden;
+}
+
+.expand-coo-gat {
+    width: 400px;
+    height: 100px;
+    margin: 0 auto;
+    background: url("../images/expand-coo-pro-more.png");
+}
+
+.expand-coo-gat span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 80px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #313131;
+}
+
+.expand-coo-gat-dec {
+    display: block;
+    width: 80px;
+    height: 20px;
+    background: url("../images/expand-coo-pro-more-d.png") no-repeat;
+    overflow: hidden;
+    margin-left: 160px;
+}
 
