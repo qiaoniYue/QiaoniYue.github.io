@@ -208,8 +208,16 @@
     background-image: url("../images/public-topic-bg-adv.png");
 }
 
+.public-topic-dev-bg {
+    background-image: url("../images/public-topic-bg-dev.png");
+}
+
 .public-topic-exp-bg {
     background-image: url("../images/public-topic-exp-bg.png");
+}
+
+.public-topic-flow-bg {
+    background-image: url("../images/public-topic-flow-bg.png");
 }
 
 .public-topic-bar {
@@ -257,10 +265,17 @@
 
 .public-topic-adv-mid {
     float: left;
+    width: 1200px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
+    overflow: hidden;
+}
+
+.public-topic-adv-r {
+    float: right;
+    width: 700px;
 }
 
 .public-topic-title {
@@ -274,6 +289,14 @@
     font-size: 20px;
     width: 600px;
     line-height: 40px;
+    margin-bottom: 50px;
+}
+
+.public-topic-describe-r {
+    width: 700px;
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 50px;
 }
 
 .public-download {

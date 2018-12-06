@@ -286,6 +286,92 @@
     margin-bottom: 40px;
 }
 
+.adv-global-app {
+    width: 880px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.adv-global-app-dec {
+    float: left;
+    width: 230px;
+    height: 1px;
+    background-color: #737373;
+    margin-top: 20px;
+    font-size: 0;
+}
+
+.adv-global-app-txt {
+    float: left;
+    width: 405px;
+    font-size: 20px;
+    line-height: 40px;
+    color: #404040;
+    text-align: center;
+}
+
+.adv-global-app-item {
+    float: left;
+    display: inline;
+    width: 240px;
+    height: 100px;
+}
+
+.adv-global-app-item img {
+    width: 240px;
+    height: 100px;
+}
+
+.adv-partner-bg {
+    height: 400px;
+    background:url("../images/adv-partner-bg.png") no-repeat center center;
+    background-size: cover;
+
+}
+
+.public-partner-center {
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    display: table;
+}
+
+.public-partner-detail {
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.adv-partner-title {
+    width: 100%;
+    text-align: center;
+    height: 56px;
+    line-height: 56px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.adv-partner-content {
+    width: 100%;
+    height: 56px;
+}
+
+.adv-partner-contact {
+    display: block;
+    width: 240px;
+    height: 52px;
+    text-align: center;
+    line-height: 52px;
+    margin: 60px auto 0 auto;
+    border: 2px solid #fff;
+    border-radius: 26px;
+    color: #fff;
+    font-size: 18px;
+}
+
+/*开发者页面*/
+
 
 
 
