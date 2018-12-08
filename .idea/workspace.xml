@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42c63de5-884d-44f1-8983-b3098961240a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PC/adcenter/commercialBackUp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PC/adcenter/email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PC/x-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PC/x-4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/adcenter/commercial.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/adcenter/commercial.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/adcenter/css/forward.css" beforeDir="false" afterPath="$PROJECT_DIR$/PC/adcenter/css/forward.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/adcenter/images/expand-coo-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/PC/adcenter/images/expand-coo-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/adcenter/receive.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/adcenter/receive.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/文档/命名规范.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/文档/命名规范.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/adcenter/commercialBackUp.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -98,7 +90,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="275" />
-          <entry key="html" value="818" />
+          <entry key="html" value="819" />
           <entry key="ico" value="8" />
           <entry key="js" value="65" />
         </counts>
@@ -106,7 +98,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="275" />
-          <entry key="HTML" value="818" />
+          <entry key="HTML" value="819" />
           <entry key="Image" value="8" />
           <entry key="JavaScript" value="65" />
         </counts>
@@ -114,14 +106,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="33065" />
-          <entry key="html" value="30869" />
+          <entry key="html" value="30888" />
           <entry key="js" value="1446" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="33065" />
-          <entry key="HTML" value="30869" />
+          <entry key="HTML" value="30888" />
           <entry key="JavaScript" value="1446" />
         </counts>
       </usages-collector>
@@ -135,14 +127,24 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PC/adcenter/commercial.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="109" column="17" selection-start-line="109" selection-start-column="17" selection-end-line="109" selection-end-column="17" />
+            <state relative-caret-position="323">
+              <caret line="109" column="20" lean-forward="true" selection-start-line="109" selection-start-column="20" selection-end-line="109" selection-end-column="20" />
               <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="e#4035#4041#1" expanded="true" />
-                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PC/adcenter/advertisers.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+              <folding>
+                <element signature="e#10090#10096#0" expanded="true" />
+                <element signature="e#10102#10108#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,21 +155,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="329">
               <caret line="847" column="17" lean-forward="true" selection-start-line="847" selection-start-column="17" selection-end-line="847" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PC/adcenter/commercialBackUp.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="111" selection-end-column="59" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#4395#4401#1" expanded="true" />
-                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -284,8 +271,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="88" />
+    <option name="y" value="138" />
     <option name="width" value="1268" />
     <option name="height" value="836" />
   </component>
@@ -326,20 +313,6 @@
               <item name="PC" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="adcenter" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
-            <path>
-              <item name="QiaoniYue.github.io" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="PC" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="adcenter" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="QiaoniYue.github.io" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="PC" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="adcenter" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="images" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -355,15 +328,15 @@
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GitHubProject\QiaoniYue.github.io\PC\adcenter" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\GitHubProject\QiaoniYue.github.io\PC\js\slideShow" />
       <recent name="C:\GitHubProject\QiaoniYue.github.io\PC" />
       <recent name="C:\GitHubProject\QiaoniYue.github.io\PC\gwgc" />
       <recent name="C:\GitHubProject\QiaoniYue.github.io\Backup" />
       <recent name="C:\GitHubProject\QiaoniYue.github.io" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\GitHubProject\QiaoniYue.github.io\PC\adcenter" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -518,12 +491,12 @@
       <workItem from="1544158390630" duration="19312000" />
       <workItem from="1544190077092" duration="299000" />
       <workItem from="1544240960031" duration="5827000" />
-      <workItem from="1544251251491" duration="9288000" />
+      <workItem from="1544251251491" duration="10757000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="788906000" />
+    <option name="totallyTimeSpent" value="790375000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -824,17 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PC/adcenter/advertisers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-731">
-          <caret line="5" column="48" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="48" />
-          <folding>
-            <element signature="e#10090#10096#0" expanded="true" />
-            <element signature="e#10102#10108#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PC/adcenter/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
@@ -927,13 +889,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PC/adcenter/css/forward.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="847" column="17" lean-forward="true" selection-start-line="847" selection-start-column="17" selection-end-line="847" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PC/adcenter/commercialBackUp.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -947,16 +902,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PC/adcenter/advertisers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="e#10090#10096#0" expanded="true" />
+            <element signature="e#10102#10108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/adcenter/css/forward.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="847" column="17" lean-forward="true" selection-start-line="847" selection-start-column="17" selection-end-line="847" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PC/adcenter/commercial.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="109" column="17" selection-start-line="109" selection-start-column="17" selection-end-line="109" selection-end-column="17" />
+        <state relative-caret-position="323">
+          <caret line="109" column="20" lean-forward="true" selection-start-line="109" selection-start-column="20" selection-end-line="109" selection-end-column="20" />
           <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="e#4035#4041#1" expanded="true" />
-            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
