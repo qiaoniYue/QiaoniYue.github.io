@@ -232,6 +232,30 @@
     background-image: url("../images/public-topic-ser-bg.png");
 }
 
+.public-topic-rec-bg {
+    background-image: url("../images/public-topic-rec-bg.png");
+}
+
+.public-topic-rec-bg {
+    background-image: url("../images/public-topic-bus-bg.png");
+}
+
+.public-topic-data-bg {
+    background-image: url("../images/public-topic-data-bg.png");
+}
+
+.public-topic-fig-bg {
+    background-image: url("../images/public-topic-fig-bg.png");
+}
+
+.public-topic-bet-bg {
+    background-image: url("../images/public-topic-bet-bg.png");
+}
+
+.public-topic-win-bg {
+    background-image: url("../images/public-topic-win-bg.png");
+}
+
 .public-topic-bar {
     width: 1200px;
     height: 62px;
@@ -295,6 +319,18 @@
     line-height: 80px;
     padding: 40px 0;
     font-weight: bold;
+}
+
+.public-topic-title-little {
+    font-size: 46px;
+    line-height: 80px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.public-topic-title-center {
+    text-align: center;
 }
 
 .public-topic-describe {
