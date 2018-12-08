@@ -547,6 +547,14 @@
     position: relative;
 }
 
+.expand-acc-pro-dec-small {
+    float: right;
+    width: 500px;
+    color: #000;
+    height: 650px;
+    position: relative;
+}
+
 .expand-coo-pro {
     width: 100%;
     color: #000;
@@ -919,9 +927,14 @@
     background-position: -182px 0;
 }
 
+.expand-ue-portrait-bar {
+    width: 1200px;
+    height: 650px;
+}
+
 .expand-ue-portrait-img {
     float: left;
-    margin-top: 136px;
+    margin-top: 61px;
     width: 600px;
     height: 528px;
     background-image: url("../images/expand-ue-portrait-img.png");
