@@ -1,7 +1,7 @@
 /*底部的样式-引入的是MG平台的底部样式*/
 .bottomIn-bar {
     min-width: 1200px;
-    border-top: 10px solid #0078d7;
+/*    border-top: 10px solid #0078d7;*/
     width: 100%;
     background-color: #2f3133;
 }

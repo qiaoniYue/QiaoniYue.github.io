@@ -213,7 +213,8 @@
 }
 
 .public-topic-exp-bg {
-    background-image: url("../images/public-topic-exp-bg.png");
+    height: 600px;
+    background: url("../images/public-topic-exp-bg.png") no-repeat center center;
 }
 
 .public-topic-flow-bg {
@@ -299,6 +300,14 @@
     position:relative;
 }
 
+.public-topic-adv-lit-600 {
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    color: #fff;
+    position:relative;
+}
+
 .public-topic-adv-mid {
     float: left;
     width: 1200px;
@@ -323,6 +332,14 @@
 
 .public-topic-title-little {
     font-size: 46px;
+    line-height: 90px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.public-topic-title-txtL {
+    font-size: 50px;
     line-height: 80px;
     padding-top: 40px;
     padding-bottom: 10px;
@@ -345,6 +362,11 @@
     font-size: 20px;
     line-height: 40px;
     margin-bottom: 50px;
+}
+
+.public-topic-describe-big {
+    font-size: 26px;
+    line-height: 70px;
 }
 
 .public-download {
@@ -464,6 +486,12 @@
     font-size: 20px;
     line-height: 30px;
     margin-bottom: 40px;
+}
+
+.public-show-describe-big {
+    font-size: 26px;
+    line-height: 70px;
+    margin-bottom: 50px;
 }
 
 .public-driver-detail {
