@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42c63de5-884d-44f1-8983-b3098961240a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/PC/adcenter/principal.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/adcenter/principal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/adcenter/commercialBackUp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/adcenter/email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/x-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/x-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/adcenter/commercial.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/adcenter/commercial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/adcenter/css/forward.css" beforeDir="false" afterPath="$PROJECT_DIR$/PC/adcenter/css/forward.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/adcenter/images/expand-coo-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/PC/adcenter/images/expand-coo-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/adcenter/receive.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/adcenter/receive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/文档/命名规范.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/文档/命名规范.xlsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -67,8 +76,8 @@
     <session id="-557719255">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="113" />
-          <entry key="project.open.time.10" value="21" />
+          <entry key="project.closed" value="114" />
+          <entry key="project.open.time.10" value="22" />
           <entry key="project.open.time.11" value="18" />
           <entry key="project.open.time.12" value="12" />
           <entry key="project.open.time.13" value="12" />
@@ -83,36 +92,36 @@
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="6" />
           <entry key="project.open.time.9" value="22" />
-          <entry key="project.opened" value="118" />
+          <entry key="project.opened" value="119" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="273" />
-          <entry key="html" value="799" />
+          <entry key="css" value="275" />
+          <entry key="html" value="818" />
           <entry key="ico" value="8" />
           <entry key="js" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="273" />
-          <entry key="HTML" value="799" />
+          <entry key="CSS" value="275" />
+          <entry key="HTML" value="818" />
           <entry key="Image" value="8" />
           <entry key="JavaScript" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="33040" />
-          <entry key="html" value="30326" />
+          <entry key="css" value="33065" />
+          <entry key="html" value="30869" />
           <entry key="js" value="1446" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="33040" />
-          <entry key="HTML" value="30326" />
+          <entry key="CSS" value="33065" />
+          <entry key="HTML" value="30869" />
           <entry key="JavaScript" value="1446" />
         </counts>
       </usages-collector>
@@ -122,61 +131,48 @@
     <favorites_list name="Project" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7143951">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/PC/adcenter/receive.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="476">
-                  <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/PC/adcenter/commercial.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/PC/adcenter/principal.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="227">
-                  <caret line="158" column="25" selection-start-line="158" selection-start-column="25" selection-end-line="158" selection-end-column="25" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/PC/adcenter/css/main.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="295">
-                  <caret line="327" column="24" selection-start-line="327" selection-start-column="24" selection-end-line="327" selection-end-column="24" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/PC/adcenter/css/main.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="431">
-                  <caret line="238" column="20" selection-start-line="238" selection-start-column="1" selection-end-line="238" selection-end-column="20" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PC/adcenter/commercial.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="109" column="17" selection-start-line="109" selection-start-column="17" selection-end-line="109" selection-end-column="17" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#4035#4041#1" expanded="true" />
+                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PC/adcenter/css/forward.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="847" column="17" lean-forward="true" selection-start-line="847" selection-start-column="17" selection-end-line="847" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PC/adcenter/commercialBackUp.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="111" selection-end-column="59" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#4395#4401#1" expanded="true" />
+                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -189,8 +185,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>adv-partner</find>
-      <find>public-partner-bg</find>
       <find>public-topic-adv</find>
       <find>public-shears</find>
       <find>transform</find>
@@ -200,7 +194,6 @@
       <find>build-score-game-icon</find>
       <find>expand-coo-gat</find>
       <find>adv-partner-content</find>
-      <find>expand-tra-link</find>
       <find>注册</find>
       <find>adv-global-app</find>
       <find>public-show-describe</find>
@@ -219,6 +212,9 @@
       <find>expand-coo-pro-txt</find>
       <find>MG AD</find>
       <find>Miracle Games</find>
+      <find>expand-tra-link</find>
+      <find>test</find>
+      <find>expand-fill-ar</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -227,10 +223,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PC/foot.html" />
-        <option value="$PROJECT_DIR$/PC/foot.js" />
-        <option value="$PROJECT_DIR$/PC/index_backup.html" />
-        <option value="$PROJECT_DIR$/PC/gwgc/home.html" />
         <option value="$PROJECT_DIR$/PC/css/introduce.css" />
         <option value="$USER_HOME$/Desktop/r2/game.html" />
         <option value="$PROJECT_DIR$/PC/css/global.css" />
@@ -268,16 +260,20 @@
         <option value="$PROJECT_DIR$/PC/x.html" />
         <option value="$PROJECT_DIR$/PC/records.html" />
         <option value="$PROJECT_DIR$/PC/x-2.html" />
-        <option value="$PROJECT_DIR$/PC/adcenter/receive.html" />
         <option value="$PROJECT_DIR$/PC/adcenter/advertisers.html" />
         <option value="$PROJECT_DIR$/PC/adcenter/developers.html" />
         <option value="$PROJECT_DIR$/PC/adcenter/platform.html" />
-        <option value="$PROJECT_DIR$/PC/adcenter/css/forward.css" />
         <option value="$PROJECT_DIR$/PC/adcenter/head.html" />
         <option value="$PROJECT_DIR$/PC/adcenter/head.js" />
         <option value="$PROJECT_DIR$/PC/adcenter/css/main.css" />
-        <option value="$PROJECT_DIR$/PC/adcenter/commercial.html" />
         <option value="$PROJECT_DIR$/PC/adcenter/principal.html" />
+        <option value="$PROJECT_DIR$/PC/adcenter/receive.html" />
+        <option value="$PROJECT_DIR$/PC/adcenter/email.html" />
+        <option value="$PROJECT_DIR$/PC/x-3.html" />
+        <option value="$PROJECT_DIR$/PC/x-4.html" />
+        <option value="$PROJECT_DIR$/PC/adcenter/commercialBackUp.html" />
+        <option value="$PROJECT_DIR$/PC/adcenter/css/forward.css" />
+        <option value="$PROJECT_DIR$/PC/adcenter/commercial.html" />
       </list>
     </option>
   </component>
@@ -287,11 +283,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="194" />
-    <option name="y" value="11" />
-    <option name="width" value="956" />
-    <option name="height" value="855" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1268" />
+    <option name="height" value="836" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -301,6 +297,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project" type="47feb1d3:ProjectViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -326,16 +333,12 @@
               <item name="adcenter" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
             <path>
-              <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="QiaoniYue.github.io" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="PC" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="adcenter" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="images" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -514,12 +517,13 @@
       <workItem from="1544148944269" duration="9039000" />
       <workItem from="1544158390630" duration="19312000" />
       <workItem from="1544190077092" duration="299000" />
-      <workItem from="1544240960031" duration="3959000" />
+      <workItem from="1544240960031" duration="5827000" />
+      <workItem from="1544251251491" duration="9288000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="777750000" />
+    <option name="totallyTimeSpent" value="788906000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -534,7 +538,7 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920762" visible="true" weight="0.18375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920762" visible="true" weight="0.2325" />
       <window_info id="Structure" order="1" sideWeight="0.50158733" side_tool="true" weight="0.25625" />
       <window_info id="Favorites" order="2" sideWeight="0.5011287" side_tool="true" weight="0.3828198" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -579,24 +583,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PC/adcenter/principal-backUp.html" />
-    <entry file="file://$PROJECT_DIR$/PC/adcenter/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/adcenter/js/holden.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/adcenter/foot.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="21" lean-forward="true" selection-end-line="46" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PC/adcenter/foot.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
@@ -774,13 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PC/x.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PC/records.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -809,25 +788,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PC/x-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PC/adcenter/head.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="46" lean-forward="true" selection-end-line="67" selection-end-column="6" />
-          <folding>
-            <element signature="e#874#880#1" expanded="true" />
-            <element signature="e#1133#1139#1" expanded="true" />
-            <element signature="e#1391#1397#1" expanded="true" />
-            <element signature="e#1648#1654#1" expanded="true" />
-            <element signature="e#1905#1911#1" expanded="true" />
-            <element signature="e#2188#2194#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -846,22 +810,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PC/adcenter/css/forward.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="575" column="19" selection-start-line="575" selection-start-column="1" selection-end-line="575" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PC/adcenter/developers.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="6" column="51" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="51" />
-          <folding>
-            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#h1#0;n#div#0;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -869,27 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/adcenter/platform.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="6" column="218" selection-start-line="6" selection-start-column="205" selection-end-line="6" selection-end-column="218" />
-          <folding>
-            <element signature="n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/adcenter/registration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -904,31 +835,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PC/adcenter/receive.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PC/adcenter/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="327" column="24" selection-start-line="327" selection-start-column="24" selection-end-line="327" selection-end-column="24" />
+        <state relative-caret-position="648">
+          <caret line="328" column="22" selection-start-line="328" selection-start-column="22" selection-end-line="328" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PC/adcenter/commercial.html">
+    <entry file="file://$PROJECT_DIR$/PC/x.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/x-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/x-3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/adcenter/email.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/x-4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/adcenter/receive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/adcenter/platform.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="6" column="218" selection-start-line="6" selection-start-column="205" selection-end-line="6" selection-end-column="218" />
+          <folding>
+            <element signature="n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PC/adcenter/principal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="158" column="25" selection-start-line="158" selection-start-column="25" selection-end-line="158" selection-end-column="25" />
+        <state relative-caret-position="17">
+          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding>
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/adcenter/registration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/adcenter/css/forward.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="847" column="17" lean-forward="true" selection-start-line="847" selection-start-column="17" selection-end-line="847" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/adcenter/commercialBackUp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="111" selection-end-column="59" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#4395#4401#1" expanded="true" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/adcenter/commercial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="109" column="17" selection-start-line="109" selection-start-column="17" selection-end-line="109" selection-end-column="17" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#4035#4041#1" expanded="true" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>

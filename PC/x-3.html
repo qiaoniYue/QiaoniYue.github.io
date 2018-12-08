@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>邮件发送</title>
+</head>
+<body>
+
+
+
+
+<a href="mailto:yueqiaoni@mguwp.com?subject:The%20subject%20of%20the%20mail&body=">联系商务</a>
+
+
+
+
+
+
+
+
+
+<!--<table width="100%" border="0" cellspacing="5" cellpadding="5">
+    <tr>
+        <td width="16%">#author#</td>
+        <td width="84%">#lastUpdate#</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td>#remarks#</td>     //1.remark变量，表示“留言内容”  2.在邮件里面，留言内容是不换行的？——remark是SalesOrderComment.java的属性，留言的时候，也用了回车键，而且在.jsp页面里面显示的时候，remark留言内容是换行的……只是在邮件里面，为什么它就没有换行？
+    </tr>
+</table>-->
+
+
+
+<!--<a href="mailto:yueqiaoni@mguwp.com?cc=name2@rapidtables.com&bcc=name3@rapidtables.com
+&subject=The%20subject%20of%20the%20email
+&body=内容">给岳巧妮发送邮件</a>-->
+
+
+<!--<a href="mailto:yueqiaoni@mguwp.com?body=Line1-text%0D%0ALine2-text">Send mail</a>-->
+
+<!--<a href="mailto:yueqiaoni@mguwp.com?subject=%E6%AC%A2%E8%BF%8E%E5%92%8CMG%20AD%E5%90%88%E4%BD%9C&amp;body=%E5%90%8D%E5%AD%97%EF%BC%9A%3Cinput%20type%3D%22text%22%3E%0A%E5%90%8D%E5%AD%97%09%0A%E8%81%94%E7%B3%BB%E7%94%B5%E8%AF%9D%09%0A%0A">联系商务</a>-->
+
+
+<!--
+<form name='sendmail' action='mailto:sample@163.com'>
+    <input name='cc' type='text' value='sample@hotmail.com'>
+    <input name='subject' type='text' value='test'>
+    <input name='body' type='text' value='use mailto sample'>
+</form>
+-->
+
+<!--
+
+<%set mail=server.createobject("CDONTS.NewMail")
+
+mail.to=yueqiaoni@mguwp.com
+mail.from=smail
+mail.MailFormat = 0
+mail.bodyFormat = 0
+mail.subject="邮件的标题"
+
+html=html&"<html>"
+html=html&"<head>"
+    html=html&"</head>"
+html=html&"</html>"
+html=html&"<div align=""center""> "
+html=html&"<table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""100%"" align=""center"">"
+html=html&"<tbody>"
+html=html&"<tr>"
+    html=html&"<td width=""100%"">"
+    html=html&"<table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""100%"">"
+    html=html&"<tbody>"
+html=html&"<tr>"
+    html=html&"<td colspan=""2"" valign=""top"" height=""5"">"
+    html=html&"<table width=""100%"" cellspacing=""0"" cellpadding=""0"">"
+    html=html&"<tr valign=""top"">"
+html=html&"<td width=""100%"">"
+
+html=html&"<table width=""100%"" cellspacing=""0"" cellpadding=""0"" height=""100%"">"
+html=html&"<tr>"
+    html=html&"<td>"
+
+        html=html&"<table width=""100%"" cellpadding=""1""  align=""center"" border=""0"">"
+        html=html&"<tr align=""center"" valign=""top"" >"
+html=html&"<td>"
+    html=html&"<table width=""100%"" cellspacing=""0"" cellpadding=""0"" height=""100%"">"
+    html=html&"<tr>"
+        html=html&"<td>"
+            html=html&"<table width=""100%"" cellspacing=""0"" cellpadding=""0"" height=""100%"" border=""0"" align=""left"" >"
+            html=html&"<tr>"
+        html=html&"<td height=""8"">"
+        html=html&"</td>"
+        html=html&"</tr>"
+    html=html&"<tr>"
+        html=html&"<td height=""10"">"
+        html=html&yname
+        html=html&"</td>"
+        html=html&"</tr>"
+    html=html&"<tr>"
+        html=html&"<td height=""5"">"
+        html=html&"</td>"
+        html=html&"</tr>"
+    html=html&"<tr>"
+        html=html&"<td>"
+            html=html&msg
+            html=html&"</td>"
+        html=html&"</tr>"
+    html=html&"<tr>"
+        html=html&"<td height=""5"">"
+        html=html&"</td>"
+        html=html&"</tr>"
+    html=html&"<tr>"
+        html=html&"<td>"
+            html=html&sname
+            html=html&"&nbsp;"
+            html=html&date()
+            html=html&"</font>"
+            html=html&"</td>"
+        html=html&"</tr>"
+    html=html&"<tr>"
+        html=html&"<td height=""5"">"
+        html=html&"</td>"
+        html=html&"</tr>"
+    html=html&"</table>"
+    html=html&"</td>"
+html=html&"</tr>"
+html=html&"<tr>"
+    html=html&"<td height=""1"">"
+    html=html&"</td>"
+    html=html&"</tr>"
+html=html&"</table>"
+html=html&"</td>"
+html=html&"</tr>"
+html=html&"</table>"
+html=html&"<br>"
+html=html&"<br>"
+html=html&"</td>"
+html=html&"</tr>"
+html=html&"<tr align=""left"">"
+html=html&"<td height=""15"">"
+html=html&"<a href=""http://www.yqhr.com.cn"" >"
+html=html&"乐清人才网 www.yqhr.com.cn"
+html=html&"</a>"
+html=html&"</td>"
+html=html&"</tr>"
+html=html&"<tr align=""left"">"
+html=html&"<td height=""10"">"
+html=html&"</td>"
+html=html&"</tr>"
+html=html&"<tr>"
+    html=html&"<td>单位名称："
+        html=html&dws1
+        html=html&"</td>"
+    html=html&"</tr>"
+html=html&"<tr align=""left"">"
+html=html&"<td height=""10"">"
+html=html&"</td>"
+html=html&"</tr>"
+html=html&"<tr>"
+    html=html&"<td>招聘职位："
+        html=html&zws1
+        html=html&"</td>"
+    html=html&"</tr>"
+html=html&"<tr align=""left"">"
+html=html&"<td height=""10"">"
+html=html&"</td>"
+html=html&"</tr>"
+html=html&"<tr align=""left"">"
+html=html&"<td height=""30"">"
+html=html&"详细信息请查看：""<a href=""http://www.yqhr.com.cn/zhaopin/zhaopinviews.asp?uname"
+html=html&"="
+html=html&ids1
+html=html&""">"
+html=html&"http://www.yqhr.com.cn/zhaopin/zhaopinviews.asp"
+html=html&"</a>"
+html=html&"</td>"
+html=html&"</tr>"
+html=html&"</table>"
+html=html&"</td>"
+html=html&"</tr>"
+html=html&"</table>"
+html=html&"</td>"
+html=html&"</tr>"
+html=html&"<tr>"
+    html=html&"<td colspan=""2"" valign=""top"">"
+    html=html&"</td>"
+    html=html&"</tr>"
+html=html&"</tbody>"
+html=html&"</table>"
+html=html&"</td>"
+html=html&"</tr>"
+html=html&"</tbody>"
+html=html&"</table>"
+
+mail.body=html
+mail.send
+%>
+-->
+
+</body>
+</html>
