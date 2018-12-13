@@ -2,40 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42c63de5-884d-44f1-8983-b3098961240a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PC/recreation/css/recreation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PC/recreation/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PC/recreation/recreation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PC/x-one.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/recreation/js/ga-dis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC/recreation/js/ga-par.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/adcenter/advertisers.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/adcenter/advertisers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/adcenter/developers.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/adcenter/developers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/adcenter/email.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/adcenter/foot.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/adcenter/foot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/adcenter/foot.js" beforeDir="false" afterPath="$PROJECT_DIR$/PC/adcenter/foot.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/adcenter/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/adcenter/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/adcenter/head.js" beforeDir="false" afterPath="$PROJECT_DIR$/PC/adcenter/head.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/adcenter/platform.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/adcenter/platform.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/advertising.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/common/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/PC/recreation/css/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/cooperation.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/cooperation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/data.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/data.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/download.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/download.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/game.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/game.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/history.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/intelligent.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/intelligent.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/introduce.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/introduce.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/join.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/join.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/management.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/management.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/pay.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/records.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/records.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/social.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/social.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/x-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/x-3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/x-4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/x.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/the-chart-example.html.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/文档/命名规范.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/文档/命名规范.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/recreation/css/recreation.css" beforeDir="false" afterPath="$PROJECT_DIR$/PC/recreation/css/recreation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/recreation/images/ga-dis-img.png" beforeDir="false" afterPath="$PROJECT_DIR$/PC/recreation/images/ga-dis-img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/recreation/recreation.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/recreation/recreation.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -121,32 +93,32 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="311" />
-          <entry key="html" value="901" />
+          <entry key="css" value="313" />
+          <entry key="html" value="906" />
           <entry key="ico" value="8" />
-          <entry key="js" value="70" />
+          <entry key="js" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="311" />
-          <entry key="HTML" value="901" />
+          <entry key="CSS" value="313" />
+          <entry key="HTML" value="906" />
           <entry key="Image" value="8" />
-          <entry key="JavaScript" value="70" />
+          <entry key="JavaScript" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="37335" />
-          <entry key="html" value="34144" />
-          <entry key="js" value="1446" />
+          <entry key="css" value="37667" />
+          <entry key="html" value="34470" />
+          <entry key="js" value="1469" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="37335" />
-          <entry key="HTML" value="34144" />
-          <entry key="JavaScript" value="1446" />
+          <entry key="CSS" value="37667" />
+          <entry key="HTML" value="34470" />
+          <entry key="JavaScript" value="1469" />
         </counts>
       </usages-collector>
     </session>
@@ -155,21 +127,42 @@
     <favorites_list name="Project" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.5971944">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+        <leaf>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/PC/recreation/recreation.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="359">
-                  <caret line="157" column="33" lean-forward="true" selection-start-line="157" selection-start-column="33" selection-end-line="157" selection-end-column="33" />
+                <state relative-caret-position="408">
+                  <caret line="704" column="10" lean-forward="true" selection-start-line="704" selection-start-column="10" selection-end-line="704" selection-end-column="10" />
                   <folding>
                     <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#li#4;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#li#5;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#li#6;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#li#7;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#li#1;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#a#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#ul#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
@@ -190,7 +183,33 @@
                     <element signature="n#ul#1;n#div#0;n#div#1;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#li#0;n#ul#1;n#div#0;n#div#1;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#li#1;n#ul#1;n#div#0;n#div#1;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/PC/recreation/js/ga-par.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="595">
+                  <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/PC/recreation/js/ga-dis.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="561">
+                  <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -203,8 +222,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/PC/recreation/css/recreation.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="278">
-                  <caret line="706" column="19" selection-start-line="706" selection-start-column="19" selection-end-line="706" selection-end-column="19" />
+                <state relative-caret-position="-2684">
+                  <caret line="551" selection-start-line="551" selection-end-line="551" />
                 </state>
               </provider>
             </entry>
@@ -216,20 +235,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>expand-acc-pro-dec</find>
-      <find>expand-coo-pro-txt</find>
-      <find>MG AD</find>
-      <find>Miracle Games</find>
-      <find>expand-tra-link</find>
-      <find>test</find>
       <find>expand-fill-ar</find>
       <find>以客户体验为中心</find>
       <find>public-topic-adv</find>
@@ -254,6 +267,12 @@
       <find>ga-bro</find>
       <find>#</find>
       <find>active</find>
+      <find>ga-dis-prev</find>
+      <find>ga-dis-det</find>
+      <find>ga-dis-det-bar</find>
+      <find>ga-dis-det-box</find>
+      <find>ga-par-icon</find>
+      <find>ga-par-next-a</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -262,11 +281,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PC/adcenter/js/roofNav.js" />
-        <option value="$PROJECT_DIR$/PC/adcenter/js/roofnav-2.js" />
-        <option value="$PROJECT_DIR$/PC/adcenter/js/roofnav.js" />
-        <option value="$PROJECT_DIR$/PC/adcenter/addown.html" />
-        <option value="$PROJECT_DIR$/PC/adcenter/main.html" />
         <option value="$PROJECT_DIR$/PC/adcenter/registration.html" />
         <option value="$PROJECT_DIR$/PC/adcenter/launcher.html" />
         <option value="$PROJECT_DIR$/PC/adcenter/css/patten.css" />
@@ -311,6 +325,11 @@
         <option value="$PROJECT_DIR$/PC/adcenter/advertisers.html" />
         <option value="$PROJECT_DIR$/PC/adcenter/foot.html" />
         <option value="$PROJECT_DIR$/PC/adcenter/foot.js" />
+        <option value="$USER_HOME$/Desktop/滚动条/滚动条-4.html" />
+        <option value="$PROJECT_DIR$/PC/x-one.html" />
+        <option value="$PROJECT_DIR$/PC/recreation/js/imgScroll.js" />
+        <option value="$PROJECT_DIR$/PC/recreation/js/ga-dis.js" />
+        <option value="$PROJECT_DIR$/PC/recreation/js/ga-par.js" />
         <option value="$PROJECT_DIR$/PC/recreation/recreation.html" />
         <option value="$PROJECT_DIR$/PC/recreation/css/recreation.css" />
       </list>
@@ -325,14 +344,14 @@
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1107" />
+    <option name="width" value="1029" />
     <option name="height" value="836" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -341,7 +360,25 @@
           <expand>
             <path>
               <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="QiaoniYue.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QiaoniYue.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="PC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QiaoniYue.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="PC" type="462c0819:PsiDirectoryNode" />
+              <item name="recreation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QiaoniYue.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="PC" type="462c0819:PsiDirectoryNode" />
+              <item name="recreation" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -568,12 +605,12 @@
       <workItem from="1544602700856" duration="10674000" />
       <workItem from="1544613558485" duration="2505000" />
       <workItem from="1544667364129" duration="836000" />
-      <workItem from="1544670168955" duration="10171000" />
+      <workItem from="1544670168955" duration="19874000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="867113000" />
+    <option name="totallyTimeSpent" value="876816000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -588,7 +625,7 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920762" visible="true" weight="0.185625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920762" visible="true" weight="0.165" />
       <window_info id="Structure" order="1" sideWeight="0.50158733" side_tool="true" weight="0.25625" />
       <window_info id="Favorites" order="2" sideWeight="0.5011287" side_tool="true" weight="0.3828198" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -633,34 +670,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PC/css/introduce.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="307" column="18" lean-forward="true" selection-start-line="307" selection-start-column="18" selection-end-line="307" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="944" column="22" selection-start-line="944" selection-start-column="22" selection-end-line="944" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="78" column="10" lean-forward="true" selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/build-up-score/build-score-home.html" />
     <entry file="file://$USER_HOME$/Desktop/build-up-score/css/build-score-main.css" />
     <entry file="file://$PROJECT_DIR$/PC/adcenter/launcher.html">
@@ -909,29 +918,87 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PC/x-one.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state>
+          <caret selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/滚动条/滚动条-4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/滚动条-实际需要的/广告滚动-1/滚动条-4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="58" column="11" lean-forward="true" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/recreation/js/ga-dis.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/recreation/js/ga-par.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PC/recreation/css/recreation.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="706" column="19" selection-start-line="706" selection-start-column="19" selection-end-line="706" selection-end-column="19" />
+        <state relative-caret-position="-2684">
+          <caret line="551" selection-start-line="551" selection-end-line="551" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PC/recreation/recreation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="157" column="33" lean-forward="true" selection-start-line="157" selection-start-column="33" selection-end-line="157" selection-end-column="33" />
+        <state relative-caret-position="408">
+          <caret line="704" column="10" lean-forward="true" selection-start-line="704" selection-start-column="10" selection-end-line="704" selection-end-column="10" />
           <folding>
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#4;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#5;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#6;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#7;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#1;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ul#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
@@ -952,6 +1019,8 @@
             <element signature="n#ul#1;n#div#0;n#div#1;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#0;n#ul#1;n#div#0;n#div#1;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#1;n#ul#1;n#div#0;n#div#1;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>

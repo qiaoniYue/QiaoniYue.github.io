@@ -337,34 +337,43 @@ body {
     margin-top: 180px;
 }
 
-.ga-dis-det {
+.ga-dis-det-box {
     float: left;
     width: 692px;
-    padding: 0 8px;
+    height: 400px;
+    /*padding: 0 8px;*/
+    margin: 0 8px;
+    overflow: hidden;
+    position: relative;
 }
 
+.ga-dis-det-bar {
+    width: 10000rem;
+    position: absolute;
+}
+
+
 .ga-dis-det-list {
+    height: 400px;
     overflow: hidden;
 }
 
 .ga-dis-det-item {
     float: left;
     width: 336px;
-    height: 189px;
-    /*margin-right: 36px;*/
-    margin-right: 20px;
-    /*margin-left: 18px;*/
+    height: 400px;
+    margin: 0 5px;
+}
+
+.ga-dis-det-up {
+    display: block;
+    width: 336px;
+    height: 190px;
     margin-top: 10px;
 }
 
-.ga-dis-det-item a {
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
-.ga-dis-det-item2n {
-    margin-right: 0;
+.ga-dis-det-item-2n {
+    margin: 0 5px;
 }
 
 .ga-guess {
@@ -490,7 +499,7 @@ body {
 }
 
 .ga-par {
-    padding: 10px 50px;
+    padding: 10px 30px;
 }
 
 .ga-par-prev {
@@ -499,6 +508,7 @@ body {
     height: 50px;
     overflow: hidden;
     margin-top: 45px;
+    margin-right: 20px;
 }
 
 .ga-par-prev a {
@@ -519,22 +529,25 @@ body {
     width: 1000px;
     height: 140px;
     overflow: hidden;
+    position: relative;
 }
 
 .ga-par-icon-list {
-    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 .ga-par-icon-item {
     float: left;
     width: 200px;
-    height: 70px;
-    overflow: hidden;
+    height: 140px;
 }
 
 .ga-par-icon-item img {
-    width: 200px;
-    height: 70px;
+    display: block;
+    width: 100%;
+    height: 50%;
 }
 
 .ga-par-next {
@@ -543,6 +556,7 @@ body {
     height: 50px;
     overflow: hidden;
     margin-top: 45px;
+    margin-left: 20px;
 }
 
 .ga-par-next a {
