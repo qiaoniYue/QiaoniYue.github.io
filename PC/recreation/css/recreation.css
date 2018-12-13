@@ -1,0 +1,727 @@
+body {
+    background-color: #041316;
+    color: #fff;
+}
+
+.ga-top {
+    min-width: 1200px;
+    width: 100%;
+    height: 345px;
+    background: url("../images/ga-top.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.ga-nav {
+    min-width: 1200px;
+    width: 100%;
+    height: 52px;
+}
+
+.ga-nav-box {
+    width: 1200px;
+    height: 100%;
+    background-color: #2b5775;
+    margin: 0 auto;
+}
+
+.ga-nav-bar {
+    width: 990px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.ga-nav-bar li {
+    float: left;
+    width: 165px;
+    height: 100%;
+}
+
+.ga-nav-bar li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    line-height: 52px;
+    font-size: 18px;
+}
+
+.ga-nav-bar li a:hover,
+.ga-nav-bar li a:active {
+    background-color: #184461;
+}
+
+.ga-shears {
+    min-width: 1200px;
+    width: 100%;
+}
+
+.ga-con {
+    width: 1200px;
+    margin: 10px auto 10px auto;
+}
+
+.ga-bro {
+    min-width: 1200px;
+    width: 100%;
+    height: auto;
+    background: #041316 url("../images/ga-bro-bg.jpg") no-repeat center bottom;
+}
+
+
+.ga-con-re {
+    height: 440px;
+}
+
+.ga-con-left {
+    float: left;
+    width: 800px;
+    display: inline;
+    margin-right: 10px;
+    height: 100%;
+    background-color: #1c202a;
+    border: 1px solid #474c52;
+    box-sizing: border-box;
+}
+
+.ga-int{
+    padding: 0 45px;
+}
+
+.ga-int-tit {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.ga-int-img {
+    float: left;
+/*
+    width: 116px;
+    height: 116px;
+    */
+    overflow: hidden;
+}
+
+.ga-int-img img {
+    width: 116px;
+    height: 116px;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+
+.ga-int-img img:hover {
+    transform: scale(1.2);
+}
+
+.ga-int-name {
+    float: left;
+    display: inline;
+    margin-left: 20px;
+}
+
+.ga-int-name h2,
+.ga-int-name h3 {
+    font-size: 20px;
+    line-height: 58px;
+    font-weight: normal;
+}
+
+.ga-int-de {
+    padding: 20px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.ga-int-rel {
+    margin-top: 10px;
+}
+
+.ga-int-link {
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.ga-int-link a {
+    float: left;
+    display: inline;
+    width: 85px;
+    height: 36px;
+    border: 1px solid #353f42;
+    background-color: #021013;
+    color: #ff0000;
+    margin-right: 85px;
+    font-size: 13px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.ga-int-link .ga-int-dwn {
+    line-height: 18px;
+}
+
+.ga-int-link .ga-int-dwn:hover,
+.ga-int-link .ga-int-dwn:active {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.ga-int-link .ga-int-get {
+    border-color: #464b28;
+    color: #eed906;
+}
+
+.ga-int-link .ga-int-get:hover,
+.ga-int-link .ga-int-get:active {
+    background-color: #cbbb1d;
+    color: #fff;
+}
+
+.ga-int-link .ga-int-fac {
+    color: #00d2ff;
+}
+
+.ga-int-link .ga-int-fac:hover,
+.ga-int-link .ga-int-fac:active {
+    background-color: #05bfe7;
+    color: #fff;
+}
+
+.ga-int-link .ga-int-ord {
+    color: #3cff15;
+    margin-right: 0;
+}
+
+.ga-int-link .ga-int-ord:hover,
+.ga-int-link .ga-int-ord:active {
+    background-color: #2cd30b;
+    color: #fff;
+}
+
+.ga-con-right {
+    float: right;
+    width: 390px;
+    display: inline;
+    height: 100%;
+    background-color: #1c202a;
+    border: 1px solid #474c52;
+    box-sizing: border-box;
+}
+
+.ga-new-tit {
+    width: 100%;
+    height: 44px;
+    text-align: center;
+    font:700 18px/44px "Microsoft YaHei";
+    border-bottom: 4px solid #041316;
+    overflow: hidden;
+}
+
+.ga-new-item {
+    font-size: 15px;
+    color: #fff;
+}
+
+.ga-new-item-mb8 {
+    margin-bottom: 8px;
+}
+
+.ga-new-list {
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    overflow: hidden;
+}
+
+.ga-new-list i {
+    float: left;
+    display: inline;
+    width: 45px;
+    margin-left: 8px;
+    color: #00c6ff;
+    font-size: 16px;
+}
+
+.ga-new-list a {
+    float: left;
+    display: inline;
+    width: 335px;
+    height: 35px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.ga-new-list a:hover,
+.ga-new-list a:active {
+    color: #00c6ff;
+    text-decoration: underline;
+}
+
+.ga-new-more {
+    display: block;
+    width: 380px;
+    text-align: right;
+    line-height: 32px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.ga-new-more:hover,
+.ga-new-more:active {
+    text-decoration: underline;
+}
+
+.ga-con-pro {
+    height: 480px;
+}
+
+.ga-con-tit {
+    width: 100%;
+    height: 58px;
+    border-bottom: 2px solid #ff7e0b;
+}
+
+.ga-con-tit span {
+    float: left;
+    display: inline;
+    padding-left: 15px;
+    font : 700 32px/58px "Microsoft YaHei";
+}
+
+.ga-con-tit a {
+    float: right;
+    display: inline;
+    padding-right: 15px;
+    font : 500 16px/58px "Microsoft YaHei";
+    color: #fff;
+}
+
+.ga-con-tit a:hover,
+.ga-con-tit a:active {
+    text-decoration: underline;
+}
+
+.ga-dis {
+    width: 100%;
+}
+
+.ga-dis-prev {
+    float: left;
+    display: inline;
+    width: 45px;
+}
+
+.ga-dis-prev a {
+    display: block;
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    background: url("../images/ga-dis-prev.png") no-repeat 0 0;
+    margin-top: 180px;
+}
+
+.ga-dis-next {
+    float: right;
+    display: inline;
+    width: 45px;
+}
+
+.ga-dis-next a {
+    display: block;
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    background: url("../images/ga-dis-prev.png") no-repeat -55px 0;
+    margin-top: 180px;
+}
+
+.ga-dis-det {
+    float: left;
+    width: 692px;
+    padding: 0 8px;
+}
+
+.ga-dis-det-list {
+    overflow: hidden;
+}
+
+.ga-dis-det-item {
+    float: left;
+    width: 336px;
+    height: 189px;
+    /*margin-right: 36px;*/
+    margin-right: 20px;
+    /*margin-left: 18px;*/
+    margin-top: 10px;
+}
+
+.ga-dis-det-item a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.ga-dis-det-item2n {
+    margin-right: 0;
+}
+
+.ga-guess {
+    margin-top: 18px;
+    padding: 0 22px;
+}
+
+.ga-guess-list {
+    width: 344px;
+    overflow: hidden;
+}
+
+.ga-guess-item {
+    float: left;
+    width: 100px;
+    height: 130px;
+    margin-right: 22px;
+    text-align: center;
+}
+
+.ga-guess-item-3n {
+    margin-right: 0;
+}
+
+.ga-guess-link {
+    color: #fff;
+}
+
+.ga-guess-link img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.ga-guess-link span {
+    font : 600 16px/30px "Microsoft YaHei";
+}
+
+.ga-guess-link span:hover,
+.ga-guess-link span:active {
+    color: #00c6ff;
+    text-decoration: underline;
+}
+
+.ga-guess-item-3n {
+    margin-right: 0;
+}
+
+.ga-con-tac {
+    height: 260px;
+}
+
+.ga-tac {
+    padding: 9px 45px;
+    overflow: hidden;
+}
+
+.ga-tac-list-pri {
+    float: left;
+    width: 350px;
+    overflow: hidden;
+}
+
+.ga-tac-list-pri li {
+    width: 100%;
+    height: 36px;
+    overflow: hidden;
+}
+
+.ga-tac-list-pri li a {
+    font-size: 16px;
+    line-height: 36px;
+    color: #fff;
+}
+
+.ga-tac-list-pri li a:hover,
+.ga-tac-list-pri li a:active {
+    color: #00c6ff;
+    text-decoration: underline;
+}
+
+.ga-tac-list-next {
+    float: right;
+}
+
+.ga-gift {
+    padding: 9px 45px;
+    overflow: hidden;
+}
+
+.ga-gift-list-pri {
+    float: left;
+    width: 145px;
+    overflow: hidden;
+}
+
+.ga-gift-list-pri li {
+    width: 100%;
+    height: 36px;
+    overflow: hidden;
+}
+
+.ga-gift-list-pri li a {
+    font-size: 16px;
+    line-height: 36px;
+    color: #fff;
+}
+
+.ga-gift-list-pri li a:hover,
+.ga-gift-list-pri li a:active {
+    color: #00c6ff;
+    text-decoration: underline;
+}
+
+.ga-gift-list-next {
+    float: right;
+}
+
+.ga-con-par {
+    height: 160px;
+    background-color: #fff;
+}
+
+.ga-par {
+    padding: 10px 50px;
+}
+
+.ga-par-prev {
+    float: left;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    margin-top: 45px;
+}
+
+.ga-par-prev a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    background: url("../images/ga-par-prev.png") no-repeat 0 0;
+}
+
+.ga-par-prev a:hover,
+.ga-par-prev a:active {
+    background-position: 0 -60px;
+}
+
+.ga-par-icon {
+    float: left;
+    width: 1000px;
+    height: 140px;
+    overflow: hidden;
+}
+
+.ga-par-icon-list {
+    overflow: hidden;
+}
+
+.ga-par-icon-item {
+    float: left;
+    width: 200px;
+    height: 70px;
+    overflow: hidden;
+}
+
+.ga-par-icon-item img {
+    width: 200px;
+    height: 70px;
+}
+
+.ga-par-next {
+    float: right;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    margin-top: 45px;
+}
+
+.ga-par-next a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    background: url("../images/ga-par-prev.png") no-repeat -60px 0;
+}
+
+.ga-par-next a:hover,
+.ga-par-next a:active {
+    background-position: -60px -60px;
+}
+
+.ga-talk-full {
+    width: 100%;
+    height: auto;
+    background: #041316 url("../images/ga-talk-bg.jpg") center bottom;
+}
+
+.ga-talk {
+    background-color: #1c202a;
+}
+
+.ga-talk-dwn {
+    width: 1160px;
+    height: 60px;
+    margin: 10px auto 0 auto;
+    text-align: center;
+    line-height: 60px;
+    background-color: #575c67;
+}
+
+.ga-talk-dwn a {
+    color: #fff;
+    font-size: 16px;
+}
+
+.ga-talk-dwn a:hover,
+.ga-talk-dwn a:active {
+    text-decoration: underline;
+}
+
+.ga-talk-con {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.ga-talk-tit {
+    margin: 30px 0;
+    height: 20px;
+    padding-left: 10px;
+    border-left: 4px solid #ec5f0d;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.ga-talk-box {
+    width: 100%;
+    overflow: hidden;
+}
+
+.ga-talk-item {
+    overflow: hidden;
+    margin-bottom: 45px;
+}
+
+.ga-talk-peo {
+    float: left;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+}
+
+.ga-talk-peo img {
+    width: 60px;
+    height: 60px;
+}
+
+.ga-talk-abo {
+    float: left;
+    margin: 0 15px;
+    width: 940px;
+    overflow: hidden;
+    font-size: 16px;
+    color: #fff;
+    line-height: 30px;
+}
+
+.ga-talk-name {
+    height: 30px;
+}
+
+.ga-talk-name a {
+    font-size: 16px;
+    color: #fff;
+    line-height: 30px;
+}
+
+.ga-talk-name span {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.ga-talk-name a:hover,
+.ga-talk-name a:active {
+    text-decoration: underline;
+}
+
+.ga-talk-fe {
+    float: right;
+    width: 130px;
+}
+
+.ga-talk-fe-date {
+    display: block;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 14px;
+    text-align: right;
+}
+
+.ga-talk-pra-bar {
+    overflow: hidden;
+}
+
+.ga-talk-pra-num {
+    float: right;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.ga-talk-pra {
+    float: right;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    color: #fff;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+.ga-talk-more {
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.ga-talk-more a {
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.ga-talk-more a:hover,
+.ga-talk-more a:active {
+    text-decoration: underline;
+    color: #00c6ff;
+}
+
+.ga-bottom {
+    min-width: 1200px;
+    width: 100%;
+    background-color: #041316;
+    padding: 20px 0;
+}
+
+.ga-bottom-cen {
+    width: 1200px;
+    margin: 0 auto;
+    color: #606366;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+
+

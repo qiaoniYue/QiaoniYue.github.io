@@ -8,7 +8,7 @@ document.writeln("                </a>");
 document.writeln("            </div>");
 document.writeln("            <div class=\'roof-sign\'>");
 document.writeln("                <div class=\'roof-sign-bar\'>");
-document.writeln("                    <a class=\'roof-register\' href=\'http://dev.mguwp.net\' target=\'_blank\'>注册</a>");
+document.writeln("                    <a class=\'roof-register\' href=\'http://dev.mguwp.net/main/registerIndex\' target=\'_blank\'>注册</a>");
 document.writeln("                    <a class=\'roof-login\' href=\'http://dev.mguwp.net\' target=\'_blank\'>登录</a>");
 document.writeln("                </div>");
 document.writeln("            </div>");

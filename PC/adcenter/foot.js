@@ -8,7 +8,7 @@ document.writeln("                    <li>");
 document.writeln("                        <a href=\'javascript:void(0)\'>公司动态</a>");
 document.writeln("                    </li>");
 document.writeln("                    <li>");
-document.writeln("                        <a href=\'../join.html\' target=\'_blank\'>加入我们</a>");
+document.writeln("                        <a href=\'http://www.mguwp.net/join.html\' target=\'_blank\'>加入我们</a>");
 document.writeln("                    </li>");
 document.writeln("                    <li>");
 document.writeln("                        <a href=\'javascript:void(0)\'>友情链接</a>");
