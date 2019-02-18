@@ -1,0 +1,220 @@
+
+/*弹出框*/
+.popup {
+    width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.pop-title {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    background-color: #de3f05;
+    border-radius: 1em 1em 0 0;
+    behavior: url(PIE.htc);
+}
+
+.pop-title h1 {
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.pop-close {
+    float: right;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    margin-right: 10px;
+    margin-top: 15px;
+    background: url("../images/h-close-pop.png") no-repeat;
+}
+
+.pop-close:hover,
+.pop-close:active {
+    background-image: url("../images/h-close.png");
+}
+
+.pop-content {
+    width: 100%;
+    padding: 2em 5%;
+    background-color: #fff;
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 0 0 1em 1em;
+    behavior: url(PIE.htc);
+}
+
+.pop-result-box {
+    width: 100%;
+    overflow: hidden;
+}
+
+.pop-result-bar {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+.pop-result {
+    float: left;
+    overflow: hidden;
+    font-size: 1.5em;
+    position: relative;
+    left: -50%;
+}
+
+.pop-result img {
+    float: left;
+    width: auto;
+    height: 1.5em;
+    max-width: 100%;
+    max-height: 100%;
+    margin-right: .3em;
+}
+
+.pop-result span {
+    float: left;
+    color: #de3f05;
+    font-weight: 900;
+}
+
+.pop-content h2 {
+    color: #333232;
+    font-size: 1.25em;
+    line-height: 1.6em;
+    font-weight: 700;
+}
+
+.pop-content p {
+    color: #666564;
+    font-size: 1.25em;
+    line-height: 1.6em;
+}
+
+.pop-btn-box {
+    width: 100%;
+    overflow: hidden;
+}
+
+.pop-btn-bar {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+.pop-btn {
+    float: left;
+    position: relative;
+    left: -50%;
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    /*margin-left: 15px;*/
+    text-align: center;
+    font-size: 1.25em;
+    color: #fff;
+    font-weight: 900;
+    border-radius: .4em;
+    background-color: #de3f05;
+    border: none 0;
+    outline: none 0;
+    behavior: url(PIE.htc);
+}
+
+.pop-btn:hover,
+.pop-btn:active {
+    background-color: #cb3a06;
+    outline: none 0;
+    border: none 0;
+}
+
+.pop-code {
+    width: 100%;
+    overflow: hidden;
+}
+
+.pop-code-bar {
+    width: 100%;
+    height: 3em;
+    line-height: 3em;
+    margin: 0 auto;
+    overflow: hidden;
+    font-size: 1.2em;
+}
+
+.pop-code-tit {
+    float: left;
+    width: 35%;
+    height: 100%;
+    text-align: center;
+    background-color: #de3f05;
+    color: #fff;
+    border-radius: 0.3em 0 0 0.3em;
+}
+
+.pop-code-con {
+    float: left;
+    width: 65%;
+    height: 100%;
+    padding-left: .5em;
+    box-sizing: border-box;
+    border: 2px solid #de3f05;
+    color: #333332;
+    border-radius: 0 0.3em 0.3em 0;
+}
+
+.pop-code-notice-bar {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    line-height: 1.5em;
+    font-size: 0.9em;
+}
+
+.pop-code-no {
+    float: left;
+    width: 35%;
+    height: 100%;
+}
+
+.pop-code-notice {
+    float: left;
+    width: 65%;
+    box-sizing: border-box;
+    color: #999796;
+}
+
+.pop-mt1 {
+    margin-bottom: 1em;
+}
+
+
+.pop-mt2 {
+    margin-bottom: 2em;
+}
+
+@media screen and (min-width:1000px) {
+    .pop-btn {
+        margin-right: 30px;
+    }
+
+    .pop-code-bar {
+        width: 80%;
+        height: 4em;
+        line-height: 4em;
+    }
+
+    .pop-code-notice-bar {
+        width: 80%;
+        font-size: 1em;
+    }
+}

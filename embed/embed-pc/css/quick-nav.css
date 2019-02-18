@@ -1,0 +1,98 @@
+.h-quick-bar {
+    width: 100%;
+    height: 130px;
+    overflow: hidden;
+}
+
+.h-quick-bar li {
+    float: left;
+    width: 112px;
+    height: 100%;
+}
+
+.h-quick-bar li .h-quick-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.h-quick-bar li .h-quick-link .h-quick-link-bg {
+    display: block;
+    width: 104px;
+    height: 104px;
+    margin: 0 4px;
+    background: url("../images/quick-nav/quick-pay.png") no-repeat;
+}
+
+/*快捷nav的背景*/
+.h-quick-bar li .h-quick-link .h-quick-link-fri {
+    background-image: url("../images/quick-nav/quick-friend.png");
+}
+
+.h-quick-bar li .h-quick-link .h-quick-link-mes {
+    background-image: url("../images/quick-nav/quick-message.png");
+}
+
+.h-quick-bar li .h-quick-link .h-quick-link-ser {
+    background-image: url("../images/quick-nav/quick-service.png");
+}
+
+/*快捷nav的鼠标经过背景切换*/
+.h-quick-bar li .h-quick-link:hover .h-quick-link-bg,
+.h-quick-bar li .h-quick-link:active .h-quick-link-bg{
+    background-image: url("../images/quick-nav/quick-pay-over.png");
+}
+
+.h-quick-bar li .h-quick-link:hover .h-quick-link-fri,
+.h-quick-bar li .h-quick-link:active .h-quick-link-fri{
+    background-image: url("../images/quick-nav/quick-friend-over.png");
+}
+
+.h-quick-bar li .h-quick-link:hover .h-quick-link-mes,
+.h-quick-bar li .h-quick-link:active .h-quick-link-mes{
+    background-image: url("../images/quick-nav/quick-message-over.png");
+}
+
+.h-quick-bar li .h-quick-link:hover .h-quick-link-ser,
+.h-quick-bar li .h-quick-link:active .h-quick-link-ser{
+    background-image: url("../images/quick-nav/quick-service-over.png");
+}
+
+.h-quick-link-txt {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    line-height: 15px;
+    color: #fff;
+    /*color: #b3b3b3;*/
+    /*font-family: Consolas, Monaco, monospace;*/
+    /*text-transform: uppercase;*/
+}
+
+.h-quick-bar li .h-quick-link:hover .h-quick-link-txt,
+.h-quick-bar li .h-quick-link:active .h-quick-link-txt{
+    color: #de3f05;
+}
+
+/*nav对应的li当前态current*/
+.h-quick-bar li.current .h-quick-link .h-quick-link-bg{
+    background-image: url("../images/quick-nav/quick-pay-over.png");
+}
+
+.h-quick-bar li.current .h-quick-link .h-quick-link-fri{
+    background-image: url("../images/quick-nav/quick-friend-over.png");
+}
+
+.h-quick-bar li.current .h-quick-link .h-quick-link-mes{
+    background-image: url("../images/quick-nav/quick-message-over.png");
+}
+
+.h-quick-bar li.current .h-quick-link .h-quick-link-ser{
+    background-image: url("../images/quick-nav/quick-service-over.png");
+}
+
+.h-quick-bar li.current .h-quick-link .h-quick-link-txt {
+    color: #de3f05;
+}

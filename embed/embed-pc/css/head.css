@@ -1,0 +1,253 @@
+/*Header*/
+.header {
+    width: 100%;
+    min-width:800px;
+    max-width:2000px;
+    height: 148px;
+    border-bottom: 2px solid #de3f05;
+    background-color: #1a1a1a;
+    font-size: 12px;
+}
+
+.header section {
+    overflow: hidden;
+}
+
+.h-per {
+    float: left;
+    width: 350px;
+    height: 148px;
+    overflow: hidden;
+}
+
+.h-back-box {
+    height: 24px;
+}
+
+.h-back {
+    display: block;
+    height: 24px;
+    overflow: hidden;
+}
+
+.h-back-icon {
+    float: left;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+    margin-top: 2px;
+    margin-left: 5px;
+    background: url("../images/h-back.png") no-repeat;
+}
+
+.h-back-icon:hover,
+.h-back-icon:active {
+    background-image: url("../images/h-back-hover.png");
+}
+
+.h-back span {
+    float: left;
+    display: inline-block;
+    color: #86868a;
+    font-size: 10px;
+    line-height: 24px;
+}
+
+.h-back span:hover,
+.h-back span:active {
+    color: #fff;
+}
+
+.h-info {
+    width: 100%;
+    height: 124px;
+    overflow: hidden;
+}
+
+.h-port {
+    float: left;
+    width: 110px;
+    height: 110px;
+    margin: 0 10px 0 5px;
+    background-color: #de3f05;
+    border: 5px solid #fff;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.h-port img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    cursor: pointer;
+}
+
+.h-detail {
+    float: left;
+    width: 225px;
+    height: 128px;
+    overflow: hidden;
+}
+
+.h-name {
+    width: 100%;
+    height: 24px;
+    overflow: hidden;
+    color: #fff;
+    white-space:nowrap;
+}
+
+.h-name h1 {
+    float: left;
+    display: inline-block;
+    max-width: 167px;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16px;
+    margin-top: 8px;
+    margin-right: 3px;
+    overflow: hidden;
+    position: relative;
+    white-space:nowrap;
+}
+
+.h-vip {
+    float: left;
+    width: 55px;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.h-quit {
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-top: 6px;
+    background-image: url("../images/h-quit.png");
+}
+
+.h-quit:hover,
+.h-quit:active {
+    background-image: url("../images/h-quit-hover.png");
+    outline: none;
+    text-decoration: none;
+}
+
+.h-list {
+    width: 100%;
+    height: 26px;
+    color: #999;
+    line-height: 26px;
+    overflow: hidden;
+    white-space:nowrap;
+    position: relative;
+}
+
+.h-list span {
+    color: #fff;
+    white-space:nowrap;
+}
+
+.h-list .h-beans {
+    color: #ffca44;
+}
+
+.h-list .h-account{
+    cursor: pointer;
+}
+
+.h-dot-line {
+    width: 100%;
+    height: 1px;
+    border-top: 1px dashed #999;
+    margin: 5px 0;
+}
+
+.h-hide-end {
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3.5em;
+    height: 28px;
+    background: linear-gradient(to right,rgba(26,26,26,0),rgba(26,26,26,1));
+}
+
+
+.h-sign-in {
+    display: inline-block;
+    width: auto;
+    padding: 0 10px;
+    height: 22px;
+    line-height: 20px;
+    color: #fff;
+    background-color: #de3f05;
+    border-radius: 11px;
+    margin-left: 5px;
+    overflow: hidden;
+}
+
+.h-sign-in:hover,
+.h-sign-in:active {
+    background-color: #f3571e;
+}
+
+.h-sign-in img {
+    float: left;
+    width: 16px;
+    height: auto;
+    margin-top: 3px;
+    margin-right: 3px;
+}
+
+.h-sign-in span {
+    float: left;
+    line-height: 20px;
+}
+
+.h-quick {
+    float: right;
+    width: 450px;
+    height: 148px;
+    overflow: hidden;
+}
+
+.h-aff {
+    width: auto;
+    height: 18px;
+    overflow: hidden;
+}
+
+.h-close {
+    float: right;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    margin-right: 5px;
+    background: url("../images/h-close.png") no-repeat;
+}
+
+.h-close:hover,
+.h-close:active {
+    background-image: url("../images/h-close-hover.png");
+}
+
+.h-wall {
+    float: right;
+    width: 21px;
+    height: 18px;
+    line-height: 18px;
+    margin-right: 5px;
+    background: url("../images/h-wall.png") no-repeat;
+}
+
+.h-wall:hover,
+.h-wall:active {
+    background-image: url("../images/h-wall-over.png");
+}
+

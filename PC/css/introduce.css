@@ -181,13 +181,11 @@
 .introContact {
     float: left;
     display: inline;
-    padding-left: 25px;
-    width: 625px;
+    width: 680px;
     padding-top: 60px;
 }
 
 .introContactSetBar {
-    width: 625px;
     overflow: hidden;
 }
 
@@ -255,7 +253,7 @@
 .introContact-code {
     float: left;
     display: inline;
-    width: 550px;
+    width: 520px;
     overflow: hidden;
 }
 
@@ -268,8 +266,9 @@
 
 .introContact-codeMes {
     float: left;
-    width: 390px;
-    margin-left: 30px;
+    /*width: 350px;*/
+    width: 380px;
+    margin-left: 10px;
     display: inline;
     font-size: 14px;
     color: #a0a0a0;

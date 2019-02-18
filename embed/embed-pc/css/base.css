@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors Anne
+ * @date    2019-01-22
+ * @diffent True, about body&a&...
+ */
+a,blockquote,body,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,img,legend,li,ol,p,table,td,th,ul {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size:100%;
+    font-weight:normal;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+fieldset,
+img {
+    border: none;
+    outline: 0;
+}
+
+a,
+input,
+img {
+    vertical-align: middle;
+}
+
+abbr,article,aside,audio,canvas,datalist,details,figure,footer,header,hgroup,menu,nav,output,progress,section,video {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+body,button,input,label,select,option,textarea,button,fieldset,legend,ins{font:12px/1.5 'Microsoft YaHei', Arial,'Lucida Grande',\5FAE\8F6F\96C5\9ED1,Verdana,Tahoma,\5b8b\4f53,Helvetica,sans-serif;}
+
+body {
+    font-size: 12px;
+    background-color: #333130;
+    color: #ccc;
+}
+
+a{
+    color:#0278c5;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    blr:expression(this.onFocus=this.blur());
+    outline: 0;
+}
+
+input,select,textarea {
+    outline: none 0;
+}
+
+/*a:hover {text-decoration:underline;}*/
+/*a:focus {outline:none; -moz-outline:none}*/
+a:focus,
+input:focus,
+select:focus,
+textarea:focus{
+    outline:none 0;
+    -moz-outline:none
+}
+
+/*media*/
+
+@media screen and (min-width:1362px) and (max-width:1600px) {
+    body,button,input,label,select,option,textarea,button,fieldset,legend,ins, sup{
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width:1601px) and (max-width:1920px) {
+    body,button,input,label,select,option,textarea,button,fieldset,legend,ins, sup{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:1921px){
+    body,button,input,label,select,option,textarea,button,fieldset,legend,ins, sup{
+        font-size: 16px;
+    }
+}
+
+/*内容 & max &min*/
+.wrap {
+    max-width:2000px;
+    min-width:800px;
+    margin:0 auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.blue {
+    color: #1195e4;
+}
+
+.strong {
+    font-weight: 900;
+}
+
+.red {
+    color: #de3f05;
+}

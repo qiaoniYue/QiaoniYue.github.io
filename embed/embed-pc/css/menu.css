@@ -1,0 +1,45 @@
+.main-menu {
+    width: 100%;
+    max-width:2000px;
+    min-width:800px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #4d4948;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.main-menu ul{
+    width: 80%;
+    max-width: 2000px;
+    min-width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.main-menu li {
+    float: left;
+    width: 19%;
+    margin: 0 0.5%;
+
+}
+
+.main-menu li a {
+    display: block;
+    font-size: 1.0714285714285714em;
+    color:#fff;
+    text-align: center;
+}
+
+.main-menu .current a {
+    background-color: #de3f05;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.main-menu li a:hover {
+    background-color: #de3f05;
+    text-decoration: none;
+    font-weight: 700;
+}

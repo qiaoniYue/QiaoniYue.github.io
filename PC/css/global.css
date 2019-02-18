@@ -8,7 +8,7 @@ css命名一般不采用下划线
 .header {
     width: 100%;
     height: 60px;
-    background-color: #fdfdfd;
+    /*background-color: #fdfdfd;*/
 }
 
 .topBox {
