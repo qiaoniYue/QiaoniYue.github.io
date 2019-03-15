@@ -317,6 +317,7 @@
     line-height: 40px;
     color: #0078d7;
     font-weight: 600;
+    text-transform: capitalize;
 }
 
 .sdkSerExplain {
