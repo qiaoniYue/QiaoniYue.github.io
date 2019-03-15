@@ -54,7 +54,7 @@ document.writeln("            <div class=\'bottomIn-mid1\'></div>");
 document.writeln("            <div class=\'bottomIn-mid2\'></div>");
 document.writeln("        </div>");
 document.writeln("        <div class=\'bottomIn-copy\'>");
-document.writeln("            <p>COPYRIGHT© 2016 MIRACLE GAMES LIMITED. ALL RIGHTS RESERVED. </p>");
+document.writeln("            <p>COPYRIGHT© 2016 MIRACLE GAMES INC ALL RIGHTS RESERVED. </p>");
 document.writeln("            <p>Beijing ICP 16022485-2 | Article [2017]1979-172</p>");
 document.writeln("        </div>");
 document.writeln("    </div>");

@@ -2,27 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42c63de5-884d-44f1-8983-b3098961240a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/PC/en/ad/default.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/adcenter/advertisers.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/adcenter/advertisers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB_English/adcenter/advertisers.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_English/adcenter/advertisers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB_English/adcenter/css/forward.css" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_English/adcenter/css/forward.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB_English/adcenter/developers.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_English/adcenter/developers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB_English/adcenter/images/adv-reverse-pro-img.png" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_English/adcenter/images/adv-reverse-pro-img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB_English/adcenter/images/expand-loc.png" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_English/adcenter/images/expand-loc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB_English/adcenter/principal.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_English/adcenter/principal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB_English/adcenter/receive.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_English/adcenter/receive.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB_English/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_English/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB_English/css/introduce.css" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_English/css/introduce.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB_English/css/pageSDK.css" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_English/css/pageSDK.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WEB_English/foot.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_English/foot.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WEB_English/foot.js" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_English/foot.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB_English/gwgc/css/alliance.css" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_English/gwgc/css/alliance.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB_English/gwgc/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_English/gwgc/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB_English/images/intro/contact-map.png" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_English/images/intro/contact-map.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB_English/images/intro/introBus-pat.png" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_English/images/intro/introBus-pat.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB_English/images/intro/introBus-pro1.png" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_English/images/intro/introBus-pro1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB_English/images/intro/introBus-pro2.png" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_English/images/intro/introBus-pro2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB_English/join.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_English/join.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_English/introduce.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_English/introduce.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -87,7 +71,7 @@
     <session id="-557719255">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="221" />
+          <entry key="project.closed" value="225" />
           <entry key="project.open.time.10" value="34" />
           <entry key="project.open.time.11" value="39" />
           <entry key="project.open.time.12" value="27" />
@@ -103,41 +87,41 @@
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="16" />
-          <entry key="project.open.time.7" value="7" />
-          <entry key="project.open.time.8" value="17" />
+          <entry key="project.open.time.7" value="9" />
+          <entry key="project.open.time.8" value="19" />
           <entry key="project.open.time.9" value="34" />
-          <entry key="project.opened" value="226" />
+          <entry key="project.opened" value="230" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="585" />
           <entry key="htc" value="1" />
-          <entry key="html" value="1682" />
+          <entry key="html" value="1688" />
           <entry key="ico" value="13" />
-          <entry key="js" value="97" />
+          <entry key="js" value="98" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="585" />
-          <entry key="HTML" value="1682" />
+          <entry key="HTML" value="1688" />
           <entry key="Image" value="13" />
-          <entry key="JavaScript" value="97" />
+          <entry key="JavaScript" value="98" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="76073" />
-          <entry key="html" value="66394" />
+          <entry key="html" value="66427" />
           <entry key="js" value="2154" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="76073" />
-          <entry key="HTML" value="66394" />
+          <entry key="HTML" value="66427" />
           <entry key="JavaScript" value="2154" />
         </counts>
       </usages-collector>
@@ -147,35 +131,7 @@
     <favorites_list name="Project" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WEB_English/gwgc/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="74" column="23" lean-forward="true" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -233,8 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PC_English/intelligent.html" />
-        <option value="$PROJECT_DIR$/PC_English/game.html" />
         <option value="$PROJECT_DIR$/PC_English/pay.html" />
         <option value="$PROJECT_DIR$/PC_English/css/pageSDK.css" />
         <option value="$PROJECT_DIR$/PC_English/index.html" />
@@ -254,7 +208,6 @@
         <option value="$PROJECT_DIR$/WEB_English/download.html" />
         <option value="$PROJECT_DIR$/WEB_English/game.html" />
         <option value="$PROJECT_DIR$/WEB_English/intelligent.html" />
-        <option value="$PROJECT_DIR$/WEB_English/introduce.html" />
         <option value="$PROJECT_DIR$/WEB_English/management.html" />
         <option value="$PROJECT_DIR$/WEB_English/pay.html" />
         <option value="$PROJECT_DIR$/WEB_English/social.html" />
@@ -270,8 +223,6 @@
         <option value="$PROJECT_DIR$/WEB_English/adcenter/foot.html" />
         <option value="$PROJECT_DIR$/WEB_English/adcenter/foot.js" />
         <option value="$PROJECT_DIR$/WEB_English/adcenter/css/main.css" />
-        <option value="$PROJECT_DIR$/WEB_English/foot.html" />
-        <option value="$PROJECT_DIR$/WEB_English/foot.js" />
         <option value="$PROJECT_DIR$/WEB_English/css/pageSDK.css" />
         <option value="$PROJECT_DIR$/WEB_English/join.html" />
         <option value="$PROJECT_DIR$/WEB_English/css/introduce.css" />
@@ -284,6 +235,11 @@
         <option value="$PROJECT_DIR$/WEB_English/adcenter/developers.html" />
         <option value="$PROJECT_DIR$/WEB_English/contact.html" />
         <option value="$PROJECT_DIR$/WEB_English/adcenter/receive.html" />
+        <option value="$PROJECT_DIR$/PC/en/index.html" />
+        <option value="$PROJECT_DIR$/PC/en/ad/default.html" />
+        <option value="$PROJECT_DIR$/WEB_English/introduce.html" />
+        <option value="$PROJECT_DIR$/WEB_English/foot.html" />
+        <option value="$PROJECT_DIR$/WEB_English/foot.js" />
       </list>
     </option>
   </component>
@@ -307,6 +263,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QiaoniYue.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QiaoniYue.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB_English" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -331,28 +303,6 @@
               <item name="PC" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="recreation" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QiaoniYue.github.io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QiaoniYue.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB_English" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QiaoniYue.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB_English" type="462c0819:PsiDirectoryNode" />
-              <item name="gwgc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -641,11 +591,15 @@
       <workItem from="1552625315831" duration="153000" />
       <workItem from="1552630001612" duration="10567000" />
       <workItem from="1552643723180" duration="54000" />
+      <workItem from="1552644298306" duration="602000" />
+      <workItem from="1552646782224" duration="43000" />
+      <workItem from="1552646915228" duration="110000" />
+      <workItem from="1552648163256" duration="427000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1605254000" />
+    <option name="totallyTimeSpent" value="1606436000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -704,10 +658,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PC_English/the-chart-example.html.html" />
-    <entry file="file://$PROJECT_DIR$/PC_English/the-chart-example.html-3.html" />
-    <entry file="file://$PROJECT_DIR$/PC_English/the-chart-example.html-2.html" />
-    <entry file="file://$PROJECT_DIR$/PC_English/the-chart-example.html-4.html" />
     <entry file="file://$PROJECT_DIR$/PC_English/the-chart-example.html-5.html" />
     <entry file="file://$PROJECT_DIR$/PC_English/the-chart-example.html-6.html" />
     <entry file="file://$PROJECT_DIR$/PC_English/records.html" />
@@ -790,13 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WEB_English/introduce.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="122" column="32" lean-forward="true" selection-start-line="122" selection-start-column="32" selection-end-line="122" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WEB_English/records.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
@@ -858,20 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="324" column="1" selection-start-line="324" selection-start-column="1" selection-end-line="324" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB_English/foot.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="35" column="46" lean-forward="true" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB_English/foot.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="14" column="39" lean-forward="true" selection-end-line="61" />
         </state>
       </provider>
     </entry>
@@ -997,25 +926,56 @@
     <entry file="file://$PROJECT_DIR$/WEB_English/gwgc/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
-          <caret line="74" column="23" lean-forward="true" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <caret line="74" column="23" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/x-one.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/en/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/en/ad/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB_English/foot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="46" column="45" lean-forward="true" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB_English/foot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB_English/introduce.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="174" column="17" lean-forward="true" selection-start-line="174" selection-start-column="17" selection-end-line="174" selection-end-column="17" />
         </state>
       </provider>
     </entry>
