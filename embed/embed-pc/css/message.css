@@ -119,19 +119,29 @@
     overflow: hidden;
 }
 
+.mod-right-bar-top {
+    float: left;
+    width: 75%;
+    margin-left: 1%;
+    padding-top: 1em;
+    box-sizing: border-box;
+    height: 100%;
+    overflow: hidden;
+}
+
 .mod-right {
     width: 100%;
     height: 100%;
     overflow-y: auto;
     border: 1px solid #232121;
     box-sizing: border-box;
-
 }
 
 /*我的消息*/
 .mes-box {
     width: 100%;
     overflow: hidden;
+    font-size: 1.0714285714285714em;
 }
 
 .mes-bar {
@@ -322,7 +332,7 @@
 
 .mes-con-community-txt {
     float: left;
-    width: 89%;
+    width: 79%;
     padding-right: 1%;
     overflow: hidden;
     color: #999999;
@@ -426,10 +436,9 @@
     overflow: hidden;
 }
 
-
 .mes-con-del {
     float: right;
-    width: 2%;
+    width: 3%;
 }
 
 .mes-con-del img {
@@ -458,13 +467,205 @@
     text-decoration: underline;
 }
 
+.mes-con-edit {
+    width: 100%;
+    overflow: hidden;
+    padding-top: .5em;
+}
+
+.mes-con-write {
+    display: block;
+    width: 100%;
+    height: 5em;
+    overflow-y: auto;
+    border: 1px solid #5b3525;
+    -moz-box-shadow:0 0 20px rgba(255,111,47,.2) inset;               /* For Firefox3.6+ */
+    -webkit-box-shadow:0 0 20px rgba(255,111,47,.2) inset;               /* For Chrome5+, Safari5+ */
+    box-shadow:0 0 20px rgba(255,111,47,.2) inset;                  /* For Latest Opera */
+    box-sizing: border-box;
+    padding: .5em 1em;
+    background-color: #242222;
+    color: #666260;
+}
+
+.mes-con-present {
+    width: 100%;
+    overflow: hidden;
+}
+
+.mes-con-upload {
+    float: left;
+    height: 1.8em;
+    width: auto;
+    margin-right: .5em;
+    margin-top: .5em;
+}
+
+.mes-con-att {
+    float: left;
+    line-height: 1.8em;
+    overflow: hidden;
+    margin-top: .5em;
+}
+
+.mes-con-att img {
+    float: left;
+    height: 1.2em;
+    margin-top: .3em;
+    margin-right: .2em;
+}
+
+.mes-con-att span {
+    float: left;
+}
+
+.mes-con-confirm {
+    float: right;
+    overflow: hidden;
+    margin-top: .5em;
+}
+
+.mes-con-se {
+    float: left;
+    height: 1.8em;
+    padding: 0 1em;
+    line-height: 1.8em;
+    color: #fff;
+    background-color: #f55410;
+    margin-left: .5em;
+    border-radius: .1em;
+}
+
+.mes-con-se:hover,
+.mes-con-se:active {
+    background-color: #de3f05;
+}
+
+.mes-con-give {
+    float: left;
+    height: 1.8em;
+    padding: 0 .3em;
+    line-height: 1.8em;
+    color: #807878;
+}
+
+.mes-con-give:hover,
+.mes-con-give:active {
+    color: #eee;
+    /*text-decoration: underline;*/
+}
+
+.mes-con-view {
+    width: 100%;
+    margin-top: .5em;
+}
+
+.mes-con-img-box {
+    float: left;
+    width: 11%;
+    margin-right: 2%;
+    overflow: hidden;
+}
+
+.mes-con-img-bar {
+    width: 100%;
+    padding-top: 100%;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #666260;
+    box-sizing: border-box;
+}
+
+.mes-con-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+}
+
+.mes-con-img-del {
+    width: 20%;
+    height: 20%;
+    background: rgba(0,0,0,0.8);
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+}
+
+.mes-con-img-del-icon {
+    display: block;
+    width: 60%;
+    padding: 20% 0 0 20%;
+}
+
+.mes-rev {
+    width: 100%;
+    overflow: hidden;
+    padding-top: .5em;
+}
+
+.mes-rev-dec {
+    width: 100%;
+}
+
+.mes-rev-dec img {
+    width: 100%;
+    height: auto;
+}
+
+.mes-rev-ctn {
+    width: 100%;
+    background-color: #2e2b2b;
+    color: #ddd;
+    padding: .5em;
+    box-sizing: border-box;
+    margin-top: .5em;
+}
+
+.mes-myself {
+    width: 100%;
+    overflow: hidden;
+}
+
+.mes-show {
+    width: 100%;
+    line-height: 1.8em;
+}
+
+.mes-show-begin {
+    color: #808080;
+}
+
+.mes-show-begin-off {
+    color: #f55410;
+}
+
+.mes-show img {
+    vertical-align: bottom;
+    height: 7em;
+    width: auto;
+}
+
+.mes-rev-line {
+    width: 100%;
+    height: 1px;
+    background-color: #4d4948;
+    border-bottom: 1px solid #1a1818;
+    margin: .5em 0;
+}
+
+.mes-official {
+    width: 100%;
+    overflow: hidden;
+}
 
 @media screen and (max-width:1000px){
     .mes-con-title {
         width: 79%;
-    }
-    .mes-con-time {
-        width: 20%;
     }
 
     .mes-con-part-txt {
@@ -475,13 +676,25 @@
         width: 79%;
     }
 
+    .mes-con-time {
+        width: 20%;
+    }
 
-    .mes-con-part-txt {
+    .mes-con-system-txt {
         width: 69%;
     }
+
+    .mes-con-private-txt {
+        width: 69%;
+    }
+
     .mes-btn-bar {
         width: 30%;
     }
+}
+
+@media screen and (min-width:1001px) and (max-width:1100px) {
+
 }
 
 @media screen and (min-width:1101px) {

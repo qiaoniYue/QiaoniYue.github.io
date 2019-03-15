@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chart</title>
+    <script src="js/echarts.common.min.js"></script>
+</head>
+<body>
+
+<!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+<div id="main" style="width: 1000px;height: 600px"></div>
+<script type="text/javascript">
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main'));
+
+    // 指定图表的配置项和数据
+    var option = {
+        title: {
+            text: 'ECharts 入门示例'
+        },
+        tooltip: {},
+        /*            legend: {
+                        data:['销量']
+                    },*/
+        xAxis: {
+            data: ["RPG","Strategy","Action","Cards&Chess","Education","Music","Riddle","Racing","Shooting","Simulation","Sports","Others"]
+        },
+        yAxis: {},
+        series: [{
+            name: '销量',
+            type: 'bar',
+            data: [2, 5, 36, 16, 7, 1,13, 4, 2, 7, 3, 4],
+            itemStyle: {
+                normal: {
+                    color: function(params) {
+                        // build a color map as your need.
+                        var colorList = [
+                            '#0078d7','#B5C334','#FCCE10','#E87C25','#27727B',
+                            '#FE8463','#9BCA63','#FAD860','#F3A43B','#60C0DD',
+                            '#D7504B','#C6E579','#F4E001','#F0805A','#26C0C0',
+                            '#C1232B','#B5C334','#FCCE10','#E87C25','#27727B',
+                        ];
+                        return colorList[params.dataIndex]
+                    },
+                    label: {
+                        show: true,
+                        position: 'top',
+                        /*formatter: '{b}\n{c}'*/
+                        formatter: '{b}\n{c}%'
+                    }
+                }
+            },
+        }],
+
+
+
+
+
+
+
+    };
+
+    // 使用刚指定的配置项和数据显示图表。
+    myChart.setOption(option);
+</script>
+
+</body>
+</html>

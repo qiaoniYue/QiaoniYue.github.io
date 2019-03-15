@@ -1,0 +1,671 @@
+.meetBox {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.meetPro {
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.meetItem {
+    float: left;
+    display: block;
+    margin-right: 60px;
+    width: 570px;
+    height: 372px;
+    position: relative;
+}
+
+.meetItem-2n {
+    margin-right: 0;
+}
+
+.meetItemImg {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.meetItemDark {
+    width: 100%;
+    height: 100%;
+    background: url("../images/meet/meetCover.png") repeat-x;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.meetItemLink {
+    display: block;
+    width: 196px;
+    height: 65px;
+    background: url("../images/meet/meetItemLink.png") no-repeat;
+    position: absolute;
+    top: 152px;
+    left: 186px;
+    color: #fff;
+    text-align: center;
+    line-height: 65px;
+    font-size: 22px;
+}
+
+.meetItemLink:hover {
+    background: url("../images/meet/meetItemLink-2.png") no-repeat;
+}
+
+.meetItemTxt {
+    width: 100%;
+    position: absolute;
+    top: 136px;
+    left: 0;
+    text-align: center;
+    color: #fff;
+}
+
+.meetItemTxt h3 {
+    font-size: 40px;
+    height: 60px;
+    line-height: 50px;
+}
+
+.meetItemTxt p {
+    font-size: 20px;
+    height: 40px;
+    line-height: 50px;
+}
+
+/*项目报名详细内容*/
+
+.meetDetailBox {
+    width: 1200px;
+    margin: 100px auto;
+    overflow: hidden;
+}
+
+.meetDetail {
+    float: left;
+    width: 630px;
+    height: 346px;
+    overflow: hidden;
+}
+
+.meetDetail img {
+    width: 630px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.meetTxtBar {
+    float: left;
+    padding-left: 30px;
+    width: 540px;
+}
+
+.meetTxtBar h4 {
+    text-align: center;
+    font-size: 22px;
+    line-height: 45px;
+    margin-bottom: 8px;
+}
+
+.meetTxtBar p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.meetTxtBar a {
+    display: block;
+    width: 174px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #0078d7;
+    border-radius: 2px;
+    margin: 20px auto 0 auto;
+}
+
+.meetTxtBar a:hover {
+    background-color: #0080e5;
+}
+
+.meetTitle {
+    width: 1200px;
+    margin: 100px auto 40px auto;
+    overflow: hidden;
+}
+
+
+.meetTitleS {
+    width: 1200px;
+    margin: 60px auto 40px auto;
+    overflow: hidden;
+}
+
+.meetTitleDe {
+    float: left;
+    width: 4px;
+    height: 28px;
+    background-color: #0078d7;
+    margin-right: 20px;
+}
+
+.meetTitleTxt {
+    float: left;
+    font-size: 23px;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+.meetMien {
+    overflow: hidden;
+}
+
+.meetMienItem {
+    float: left;
+    width: 285px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.meetMienItem:nth-child(4n) {
+    margin-right: 0;
+}
+
+.meetMienImg {
+    width: 285px;
+    height: 186px;
+    overflow: hidden;
+}
+
+.meetMienImg img {
+    width: 285px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.meetMienImg .meetMienImgPass {
+    width: 285px;
+    height: 186px;
+    background-color:rgba(0,120,215,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    text-align: center;
+    display: none;
+}
+
+.meetMienImg:hover .meetMienImgPass {
+    display: block;
+}
+
+.meetMienImg .meetMienImgPass h3 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 60px;
+}
+
+.meetMienImg .meetMienImgPass span {
+    font-size: 14px;
+}
+
+.meetMienTxt {
+    margin-top: 10px;
+    max-height: 100px;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.meetBottomBox {
+    width: 100%;
+    margin-top: 60px;
+    background-color: #313131;
+    padding: 30px 0;
+    text-align: center;
+    color: #e1e1e1;
+    font-size: 12px;
+    line-height: 32px;
+}
+
+.meetBottomBox-mt0 {
+    margin-top: 0;
+}
+
+.meetBigBox {
+    width: 1214px;
+    height: 404px;
+    margin: 0 auto;
+}
+
+/*轮切图的展示--开始*/
+
+.meetTurn {
+    overflow: hidden;
+}
+
+.meetTurn li {
+    float: left;
+    display: inline;
+    width: 24%;
+    height: 376px;
+    margin: 24px 0;
+}
+
+.meetTurn .active {
+    width: 28%;
+    margin: 0;
+    padding: 24px 0;
+    z-index: 1;
+    background-color: #0078d7;
+}
+
+.meetTurn li .meetTurnN {
+    width: 288px;
+    height: 376px;
+    position: relative;
+    display: block;
+}
+
+.meetTurn .active .meetTurnN {
+    display: none;
+}
+
+.meetTurn li .meetTurnN img {
+    width: 288px;
+    min-height: 376px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.meetDarkChance {
+    width: 100%;
+    height: 315px;
+    padding-top: 61px;
+    background: url("../images/meet/meetHigh376.png") repeat-x;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.meetNum {
+    display: block;
+    width: 288px;
+    height: 105px;
+    overflow: hidden;
+    background: url("../images/meet/meetNum.png") no-repeat 0 0px;
+}
+
+.meetNum2 {
+    background-position: -288px 0;
+}
+
+.meetNum3 {
+    background-position: -576px 0;
+}
+
+.meetNum4 {
+    background-position: -864px 0;
+}
+
+.meetIcon {
+    display: block;
+    width: 288px;
+    height: 94px;
+    margin-top: 34px;
+    background: url("../images/meet/meetIcon-small.png") no-repeat 0 0;
+}
+
+.meetIcon2 {
+    background-position: -288px 0;
+}
+
+.meetIcon3 {
+    background-position: -576px 0;
+}
+
+.meetIcon4 {
+    background-position: -864px 0;
+}
+
+.meetTurn li .meetTurnH {
+    width: 336px;
+    height: 424px;
+    display: none;
+}
+.meetTurn .active .meetTurnH {
+    display: block;
+}
+
+.meetEmpty {
+    display: block;
+    width: 100%;
+    height: 84px;
+}
+
+.meetIconBig {
+    display: block;
+    width: 100%;
+    height: 104px;
+    background: url("../images/meet/meetIcon-big.png") no-repeat 0 0;
+}
+
+.meetIconBig2 {
+    background-position: -336px 0;
+}
+
+.meetIconBig3 {
+    background-position: -672px 0;
+}
+
+.meetIconBig4 {
+    background-position: -1008px 0;
+}
+
+.meetTurnTxt {
+    width: 256px;
+    margin: 35px auto 0 auto;
+    color: #fff;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+
+/*专家顾问团*/
+.meetExpertBox {
+    width: 1200px;
+    overflow: hidden;
+}
+
+.meetExpert {
+    float: left;
+    display: inline;
+    width: 638px;
+    overflow: hidden;
+    padding-right: 20px;
+    margin-top: 26px;
+}
+
+.meetExpert li {
+    float: left;
+    display: inline;
+    width: 287px;
+    height: 147px;
+    margin-left: 32px;
+    margin-bottom: 26px;
+}
+
+.meetExpert li img {
+    width: 287px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.meetExpertTxt {
+    float: left;
+    display: table;
+    margin: auto;
+    width: 542px;
+    height: 374px;
+    background-image: url("../images/meet/meetExpertTxt.png");
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.meetExpertTxt p {
+    display: block;
+    width: 395px;
+    margin-left: 87px;
+    color: #fff;
+    font-size: 24px;
+    line-height: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/*会员权益*/
+.meetEquityBox {
+    width: 1200px;
+    height: 176px;
+    overflow: hidden;
+}
+
+.meetEquity {
+    width: 392px;
+    height: 176px;
+    float: left;
+    margin-right: 12px;
+}
+
+.meetEquity-last {
+    margin-right: 0;
+}
+
+.meetEquity li {
+    float: left;
+    display: inline;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+.meetEquity-L {
+    width: 35px;
+    height: 146px;
+    background-color: #0078d7;
+    padding: 15px;
+    writing-mode: vertical-lr;/*从左向右 从右向左是 writing-mode: vertical-rl;*/
+    writing-mode: tb-lr;/*IE浏览器的从左向右 从右向左是 writing-mode: tb-rl；*/
+    margin-right: 3px;
+}
+
+.meetEquity-M {
+    width: 274px;
+    height: 176px;
+    margin-right: 4px;
+}
+
+.meetEquity-M-pro {
+    width: 100%;
+    height: 46px;
+    margin-bottom: 3px;
+    line-height: 46px;
+    background-color: #0078d7;
+}
+
+.meetEquity-M-list {
+    height: 127px;
+    overflow: hidden;
+    display: table;
+    vertical-align: middle;
+}
+
+.meetEquity-M-list span {
+    vertical-align: middle;
+    float: left;
+    width: 73px;
+    height: 91px;
+    margin-right: 3px;
+    padding: 8px;
+    background-color: #0078d7;
+    text-align: left;
+    padding-top: 28px;
+}
+
+.meetEquity-M-list .meetEquity-M-last{
+    width: 74px;
+    margin-right: 0;
+}
+
+.meetEquity-R {
+    width: 46px;
+    height: 176px;
+    line-height: 46px;
+    background-color: #0078d7;
+    writing-mode: vertical-lr;/*从左向右 从右向左是 writing-mode: vertical-rl;*/
+    writing-mode: tb-lr;/*IE浏览器的从左向右 从右向左是 writing-mode: tb-rl；*/
+    text-align: center;
+    /*padding-left: 10px;*/
+}
+
+.meetEquity-mr3 {
+    margin-right: 3px;
+}
+
+.meetEquity-rec {
+    width: 293px;
+    height: 176px;
+    margin-right: 4px;
+}
+
+.meetEquity-recWin {
+    width: 100%;
+    height: 46px;
+    background-color: #0078d7;
+    margin-bottom: 3px;
+    line-height: 46px;
+}
+
+.meetEquity-recGen {
+    width: 100%;
+    height: 127px;
+}
+
+.meetEquity-recGen1,
+.meetEquity-recGen2{
+    float: left;
+    display: inline;
+    width: 145px;
+    height: 127px;
+    background-color: #0078d7;
+}
+
+.meetEquity-recGen1 {
+    margin-right: 3px;
+}
+
+.meetEquity-recMon {
+    /*margin-bottom: 20px;*/
+    padding: 20px;
+}
+
+.meetEquity-recGen2 {
+    padding-top: 38px;
+}
+
+.meetEquity-Sp {
+    width: 125px;
+    height: 176px;
+    margin-right: 3px;
+}
+
+.meetEquity-Sp1 {
+    width: 100%;
+    height: 65px;
+    padding-top: 22px;
+    background-color: #0078d7;
+    margin-bottom: 3px;
+}
+
+.meetEquity-Sp2 {
+    width: 100%;
+    height: 65px;
+    padding-top: 22px;
+    background-color: #0078d7;
+}
+
+.meetEquity-In {
+    width: 215px;
+    height: 176px;
+    margin-right: 3px;
+}
+
+.meetEquity-InN {
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    margin-bottom: 3px;
+    background-color: #0078d7;
+}
+
+.meetEquity-Start {
+    width: 100%;
+    height: 41px;
+    background-color: #0078d7;
+}
+
+.meetEquity-Start1 {
+    float: left;
+    display: inline;
+    width: 106px;
+    height: 41px;
+    line-height: 41px;
+    margin-right: 3px;
+    background-color: #0078d7;
+}
+
+.meetEquity-Start2 {
+    float: left;
+    display: inline;
+    width: 106px;
+    height: 41px;
+    line-height: 18px;
+    background-color: #0078d7;
+    margin-top: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*加入会员*/
+.meetAddBox {
+    width: 100%;
+    height: 260px;
+    background: url("../images/meet/meetBottom.jpg") no-repeat center center;
+
+}
+
+.meetAdd {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.meetAdd p {
+    font-size: 22px;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+}
+
+.meetAdd .meetAddFirst {
+    padding-top: 60px;
+}
+

@@ -1,0 +1,425 @@
+/*SDK二级分页面*/
+.sdkBox {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.sdkCharBox {
+    display: table;
+    margin: auto;
+}
+
+.sdkChar {
+    float: left;
+    display: inline;
+    width: 200px;
+    height: 180px;
+    margin: 0 30px;
+    text-align: center;
+}
+
+.sdkChar img {
+    margin-bottom: 20px;
+}
+
+.sdkChar p {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 26px;
+}
+
+.sdkDesBox {
+    width: 1100px;
+    margin: 25px auto;
+    overflow: hidden;
+}
+
+.sdkDesTxt {
+    float: left;
+    width: 500px;
+    padding-top: 55px;
+    padding-left: 100px;
+}
+
+.sdkDesTxt h2 {
+    height: 62px;
+    line-height: 62px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sdkDesTxt p {
+    width: 440px;
+    font-size: 16px;
+}
+
+.sdkDesMore {
+    margin-top: 20px;
+    display: block;
+    font-size: 16px;
+    color: #0078d7;
+    font-weight: bold;
+}
+
+.sdkDesMore:hover {
+    text-decoration: underline;
+}
+
+.sdkDesIcon {
+    float: right;
+    width: 468px;
+    height: 320px;
+}
+
+.sdkSceBox {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.sdkSceItem {
+    width: 100%;
+    height: 268px;
+    /*overflow: hidden;*/
+    position: relative;
+    /*display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    align-items:center;*/
+}
+
+.sdkSceTxt {
+    width: 500px;
+    float: left;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /*padding-top: 20px;*/
+}
+
+
+.sdkSceTxt-Rev {
+    float: right;
+    right: 0;
+}
+
+
+.sdkSceTxt h2 {
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sdkSceTxt p {
+    width: 500px;
+    font-size: 16px;
+}
+
+.sdkSceMore {
+    margin-top: 20px;
+    display: block;
+    font-size: 16px;
+    color: #0078d7;
+    font-weight: bold;
+}
+
+.sdkSceMore:hover {
+    text-decoration: underline;
+}
+
+.sdkSceImg {
+    float: right;
+    width: 450px;
+    height: 268px;
+    position: relative;
+}
+
+.sdkSceImgDark {
+    width: 100%;
+    height: 100%;
+    background: url("../images/page/sdkSceImgDark.png") repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sdkSceImg-Rev {
+    float: left;
+}
+
+.sdkSceImgDark-dec {
+    width: 100%;
+    height: 54px;
+    line-height: 54px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: url("../images/page/sdkSceImgDark-dec.png") repeat;
+    color: #fff;
+    text-align: center;
+    font-size: 21px;
+}
+
+.sdkSce-decoration{
+    width: 1010px;
+    height: 3px;
+    background: url("../images/page/decoration.png") no-repeat center center;
+    margin: 40px 0;
+}
+
+/*第二排*/
+
+
+/*快速接入，hover代码*/
+.sdkAccess {
+    overflow: hidden;
+}
+
+.sdkAccess li {
+    float: left;
+    display: inline;
+    width: 350px;
+    height: 70px;
+    margin-right: 75px;
+    margin-bottom: 60px;
+}
+.sdkAccess .sdkAccessItem-3n {
+    margin-right: 0;
+}
+
+.sdkAccessLink {
+    display: block;
+    width: 360px;
+    height: 70px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+.sdkAccessLink:hover {
+    background-color: #0078d7;
+}
+
+.sdkAccessLink .sdkAccessIcon {
+    float: left;
+    width: 88px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.sdkAccessLink .sdkAccessIcon-MG {
+    float: left;
+    width: 88px;
+    height: 70px;
+    background: url("../images/page/MG-1.png") no-repeat center center;
+}
+
+.sdkAccessLink .sdkAccessIcon i {
+    font-size: 40px;
+    color: #0078d7;
+}
+
+.sdkAccessLink:hover .sdkAccessIcon i {
+    color: #fff;
+}
+
+
+.sdkAccessLink:hover .sdkAccessIcon-MG {
+    background-image: url("../images/page/MG-2.png");
+}
+
+.sdkAccessLink .sdkAccessDec {
+    float: left;
+    width: 1px;
+    font-size: 0;
+    height: 70px;
+    border-right: 1px dashed #dddddd;
+}
+
+.sdkAccessLink:hover .sdkAccessDec {
+    border-right: 1px dashed #fff;
+}
+
+.sdkAccessLink .sdkAccessTxt {
+    float: left;
+    height: 70px;
+    line-height: 70px;
+    margin-left: 40px;
+    font-size: 22px;
+    color:#313131;
+}
+
+.sdkAccessLink:hover .sdkAccessTxt {
+    color: #fff;
+}
+
+/*二级页面-便捷的社交服务*/
+.sdkSerItem {
+    width: 1200px;
+    overflow: hidden;
+}
+
+.sdkSerFlo-L {
+    float: left;
+    display: inline;
+}
+
+.sdkSerImgBox {
+    width: 540px;
+}
+
+.sdkSerBgDec {
+    width: 100%;
+    padding-top: 40px;
+}
+
+.sdkSerBgDec img {
+    width: 162px;
+    height: 135px;
+}
+
+.sdkSerImg {
+    width: 100%;
+    padding-top: 40px;
+}
+
+.sdkSerImg img {
+    width: 450px;
+    height: 268px;
+}
+
+/*完善的游戏中心-第一项-左边的文字特殊化*/
+.sdkGameSpec-p0 {
+    padding-top: 0;
+}
+.sdkGameSpec-p10 {
+    padding-top: 10px;
+}
+
+
+.sdkSerImg-txtL {
+    text-align: left;
+}
+
+.sdkSerImg-txtR {
+    text-align: right;
+}
+
+.sdkSerTxtBox {
+    width: 660px;
+}
+
+.sdkSerTxtBox h2 {
+    font-size: 36px;
+    line-height: 40px;
+    color: #0078d7;
+    font-weight: 600;
+}
+
+.sdkSerExplain {
+    padding: 40px 0;
+    font-size: 16px;
+    color: #313131;
+    line-height: 30px;
+}
+
+.sdkSerTxtBox h3 {
+    font-size: 24px;
+    line-height: 40px;
+    color: #212121;
+}
+
+.sdkSerList {
+    width: 100%;
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+.sdkSerList-dec {
+    float: left;
+    width: 4px;
+    height: 113px;
+    background: url("../images/page/sdk-social-dec.png") no-repeat;
+    margin-top: 10px;
+}
+
+.sdkSerList ul {
+    float: left;
+    margin-left: 20px;
+    width: 636px;
+}
+
+.sdkSerList ul li {
+    font-size: 13px;
+    line-height: 30px;
+    color: #4c4c4c;
+}
+
+.sdkSerList ul .sdkPayBgExplain {
+    width: 450px;
+    color: #888;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+
+    /*多样的支付功能-特殊化的样式*/
+.sdkPayImg {
+    width: 100%;
+}
+
+.sdkPayImg img {
+    width: 500px;
+    height: 353px;
+}
+
+.sdkPayImg-txtL {
+    text-align: left;
+}
+
+.sdkPayExplain {
+    padding:0 0 40px 0;
+    font-size: 16px;
+    color: #313131;
+    line-height: 30px;
+}
+
+.sdkSerTxtBox  .sdkPaySlog {
+    color: #0078d7;
+    font-weight: 600;
+}
+
+.sdkSerList .sdkPayBgIcon {
+    background: url("../images/page/sdkDecRight.png") no-repeat right bottom;
+}
+
+.sdkPayBgImg {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.sdkPayLogo {
+    overflow: hidden;
+}
+
+.sdkPayLogo li {
+    float: left;
+    width: 240px;
+    height: 100px;
+}
+
+.main-brand li a {
+    display: block;
+}
+
+.main-brand li a img{
+    width: 100%;
+    height: 100%;
+}
+
+

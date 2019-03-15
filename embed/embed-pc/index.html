@@ -141,7 +141,7 @@
                     </li>
                     <li>
                         <a href="javascript:void(0)">
-                            Announcement
+                            News
                         </a>
                     </li>
                     <li>
@@ -169,9 +169,45 @@
                                 <span class="c-ne-label-1"></span>
                                 <a class="c-ne-name" href="news_details.html" target="_blank">Grand Opening in the 2019 season, are you ready for the new challenge?</a>
                             </h2>
-                            <p class="c-ne-show">
-                                Event linkage again, DLC sales ranking first conference game day 3: the loser group of the year in the spotlight wins promotion to the next round of competition.Fun and brain burning web game is very brain challenge you to fight!Super members and big members can enter the member mall, exclusive members all serve millions of cash reward
-                            </p>
+                            <div class="c-ne-show">
+                                <!--试验得到的内容开始-->
+                                <div id="cNeTest" style="display: none">
+                                    <img src="img-1.png" style="width: 100px;height: 60px;" align="left">
+                                    <p>burning web game is             very brain</p>
+                                    <h2>
+                                        <span class="c-ne-label-1"></span>
+                                        <a class="c-ne-name" href="newsdetail?token=AB4657C3E099C7AC4CA8749B80626735&amp;type=0&amp;id=1">50 FUN-DEAD LEVELS</a>
+                                    </h2>
+                                    <p class="c-ne-show">
+                                        sales ranking first conference game
+
+
+
+
+
+                                    </p>
+                                    <p class="__web-inspector-hide-shortcut__">
+                                        Conquer all 50 levels of Adventure mode through day in a swimming pool, night, fog, in a swimming pool, on the rooftop and more. Plus fend off a continual wave of mbies as long as you can with
+                                        <span style="font-size:18px;color:#E53333;">
+			<strong>Survival mode!</strong>
+		</span>
+                                    </p>
+
+
+
+
+
+                                    <p>
+		<span style="font-size:18px;color:#E53333;">
+			<strong><img src="http://upload.mguwp.net/mail/luobo01.jpg" alt=""><br></strong>
+		</span>
+                                    </p>
+                                    <p>
+                                    </p>
+                                </div>
+                                <!--试验得到的内容结束-->
+                                <p id="cNeString"></p>
+                            </div>
                         </div>
                         <!--右边新闻时间等-->
                         <div class="c-ne-day">
@@ -492,6 +528,20 @@
         var h = document.documentElement.clientHeight;//获取页面可见高度
         document.getElementById("content").style.height=h-200+"px";
     }
+</script>
+<script src="js/jquery-1.11.1.js"></script>
+<script>
+    /*将文章html变成纯文本*/
+    function removeHTMLTag(str) {
+        str = str.replace(/<\/?[^>]*>/g,''); //去除HTML tag
+        str = str.replace(/[ | ]*\n/g,'\n'); //去除行尾空白
+        str = str.replace(/\n[\s| | ]*\r/g,'\n'); //去除多余空行
+        str=str.replace(/&nbsp;/ig,'');//去掉&nbsp;
+        //str=str.replace(/\s/g,''); //将空格去掉
+        //str = str.replace(/-/g, '') //去掉"-"号
+        return str;
+    }
+    $("#cNeString").html(removeHTMLTag($("#cNeTest").text().toString()));
 </script>
 </body>
 </html>

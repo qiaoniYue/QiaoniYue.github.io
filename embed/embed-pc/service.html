@@ -156,7 +156,7 @@
                             <!--问题描述-->
                             <p class="seItem">
                                 <span class="seName"><span class="red">*</span>BUG Description:</span>
-                                <textarea class="seImp seArea" placeholder="Please describe your problem (no more than 200 words)" required></textarea>
+                                <textarea class="seImp seArea" placeholder="Please describe your problem (no more than 400 words)" required></textarea>
                             </p>
                             <!--图片提交-->
                             <div class="seItem">
@@ -178,11 +178,14 @@
                             <div class="seItem">
                                 <span class="seName"></span>
                                 <div class="seImgBar seNotice">
-                                    <input type="button" class="seUpload" value="Upload">
                                     <div class="seUpTip">
-                                        Note:1.The image supports jpg/gif/bmp/png format.
-                                        <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                                        2.Single image size needs less than 2MB,upload up to five images per submission.
+                                        <div class="seUpNote">
+                                            Note:
+                                        </div>
+                                        <div class="seUpSpe">
+                                            <p>1. The image supports jpg/gif/bmp/png format.</p>
+                                            <p>2. Submit up to 5 images that are smaller than 2MB.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -193,8 +196,8 @@
                                     <input type="text" class="seHalfImp" placeholder="Email">
                                 </p>
                                 <p class="seHalf">
-                                    <label class="seHalfName">QQ:</label>
-                                    <input type="text" class="seHalfImp" placeholder="QQ">
+                                    <label class="seHalfName">Skype:</label>
+                                    <input type="text" class="seHalfImp" placeholder="Skype">
                                 </p>
                             </div>
                             <!--提交按钮以及常见问题解答-->
@@ -226,13 +229,24 @@
                             </h2>
                         </div>
                         <div class="se-contact">
-                            <!--qq信息-->
+                            <!--qq信息
                             <div class="se-con-item">
                                 <div class="se-con-icon"></div>
                                 <div class="se-con-txt-bar">
                                     <div class="se-con-txt">
                                         <p class="se-con-tit">QQ:</p>
                                         <p class="se-con-detail">754649086</p>
+                                    </div>
+                                </div>
+                            </div>
+                            -->
+                            <!--skype-->
+                            <div class="se-con-item">
+                                <div class="se-con-icon se-con-icon-sky"></div>
+                                <div class="se-con-txt-bar">
+                                    <div class="se-con-txt">
+                                        <p class="se-con-tit">Skype:</p>
+                                        <p class="se-con-detail">mg284065423@outlook.com</p>
                                     </div>
                                 </div>
                             </div>
@@ -246,7 +260,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!--qq群信息-->
+                            <!--qq群信息
                             <div class="se-con-item">
                                 <div class="se-con-icon se-con-icon-peoples"></div>
                                 <div class="se-con-txt-bar">
@@ -256,6 +270,18 @@
                                     </div>
                                 </div>
                             </div>
+                            -->
+                            <!--facebook-->
+                            <div class="se-con-item">
+                                <div class="se-con-icon se-con-icon-facebook"></div>
+                                <div class="se-con-txt-bar">
+                                    <div class="se-con-txt">
+                                        <p class="se-con-tit">Facebook:</p>
+                                        <p class="se-con-detail">http://www.facebook.com/WarshipWarsBattleforSunvival.mg284065423@outlook.com</p>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                         <div class="se-hint">
                             <h3>Friendly Tip</h3>
@@ -273,6 +299,7 @@
             </div>
         </div>
     </article>
+
     <script>
         window.onload=function(){
             changeDivHeight();
