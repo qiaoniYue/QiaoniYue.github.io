@@ -51,7 +51,7 @@ document.writeln("                            <span>&nbsp;</span>");
 document.writeln("                        </a>");
 document.writeln("                        <ul class=\'roof-nav-sub-item\'>");
 document.writeln("                            <li>");
-document.writeln("                                <a href=\'https://www.mguwp.net/introduce.html\' target=\'_blank\'>关于MG</a>");
+document.writeln("                                <a href=\'https://www.mguwp.net/index.html\' target=\'_blank\'>关于MG</a>");
 document.writeln("                            </li>");
 document.writeln("                            <li>");
 document.writeln("                                <a href=\'https://www.mguwp.net/join.html\' target=\'_blank\'>招贤纳士</a>");

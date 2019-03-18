@@ -23,6 +23,11 @@
     width: 200px;
 }
 
+.bottomIn-item-right {
+    float: right;
+    width: 340px;
+}
+
 .bottomIn-itemBig {
     width: 340px;
 }
@@ -64,27 +69,47 @@
     color: #fff;
 }
 
-.bottomIn-weChat {
-    float: right;
-    display: inline;
-    margin-top: 20px;
-    margin-right: 40px;
-    width: 200px;
-    text-align: center;
+
+.bottomIn-abroad {
+    width: 100%;
 }
 
-.bottomIn-weChat img {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 10px;
+.bottomIn-abroad li {
+    width: 100%;
+    overflow: hidden;
 }
 
-.bottomIn-weChat p {
-    text-align: center;
+.bottomIn-abroad li a {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.bottomIn-abroad li a img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.bottomIn-abroad li a span {
+    float: left;
+    height: 50px;
+    line-height: 50px;
     font-size: 16px;
     color: #d4d6d9;
-    line-height: 30px;
 }
+
+.bottomIn-abroad li a:hover img,
+.bottomIn-abroad li a:active img {
+    border: none 0;
+    outline: none 0;
+}
+
+.bottomIn-abroad li a:hover span,
+.bottomIn-abroad li a:active span {
+    color: #fff;
+}
+
 
 .bottomIn-mid {
     width: 1200px;
