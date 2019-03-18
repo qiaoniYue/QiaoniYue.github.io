@@ -19,7 +19,7 @@ document.writeln("                    <li>");
 document.writeln("                        <a href=\'javascript:void(0)\'>Press Site</a>");
 document.writeln("                    </li>");
 document.writeln("                    <li>");
-document.writeln("                        <a href=\'join.html\' target=\'_blank\'>Join Us</a>");
+document.writeln("                        <a href=\'https://www.mguwp.net/en/join.html\' target=\'_blank\'>Join Us</a>");
 document.writeln("                    </li>");
 document.writeln("                    <li>");
 document.writeln("                        <a href=\'javascript:void(0)\'>Friend Links</a>");
