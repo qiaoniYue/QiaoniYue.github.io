@@ -2,9 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>js_url</title>
 </head>
 <body>
+    <p>js如何准确获取当前页面url网址信息</p>
+    <script>
+        /*window.location.href(设置或获取整个 URL 为字符串)*/
+        var locHref = window.location.href;
+        /*window.location.protocol(设置或获取 URL 的协议部分)*/
+        var locPro = window.location.protocol;
+        /*window.location.host(设置或获取 URL 的主机部分)*/
+        var locHost = window.location.host;
+        /*window.location.port(设置或获取与 URL 关联的端口号码)*/
+        var locPort = window.location.port;
+        /*返回：空字符(如果采用默认的80端口(update:即使添加了:80)，那么返回值并不是默认的80而是空字符)*/
 
+        console.log(locPort);
+    </script>
 </body>
 </html>
