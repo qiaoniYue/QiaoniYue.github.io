@@ -16,8 +16,33 @@
         /*window.location.port(设置或获取与 URL 关联的端口号码)*/
         var locPort = window.location.port;
         /*返回：空字符(如果采用默认的80端口(update:即使添加了:80)，那么返回值并不是默认的80而是空字符)*/
+        /*window.location.pathname(设置或获取与 URL 的路径部分（就是文件地址）)*/
+        var locPath = window.location.pathname;
+        /*window.location.search(设置或获取 href 属性中跟在问号后面的部分)*/
+        var locSeach = window.location.search;
+        /*window.location.hash(设置或获取 href 属性中在井号“#”后面的分段)*/
+        var locHash = window.location.hash;
+        document.writeln(
+            "href:&nbsp;&nbsp;" + locHref +"<br>"+
+            "protocol:&nbsp;&nbsp;"+locPro+"<br>"+
+            "host:&nbsp;&nbsp;" + locHost +"<br>"+
+            "port:&nbsp;&nbsp;"+locPort+"<br>"+
+            "pathname:&nbsp;&nbsp;"+locPath+"<br>"+
+            "search:&nbsp;&nbsp;"+locSeach+"<br>"+
+            "hash:&nbsp;&nbsp;"+locHash+"<br>"
 
-        console.log(locPort);
+        );
+        /*正则法*/
+        function getQueryString(name){
+            var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)','i');
+            var r = window.location.search.substr(1).match(reg);
+            if (r != null) {
+                return unescape(r[2]);
+            }
+            return null;
+        }
+        /*这样调用*/
+        alert(getQueryString("https://qiaoniyue.github.io/PC/index.html"));
     </script>
 </body>
 </html>
