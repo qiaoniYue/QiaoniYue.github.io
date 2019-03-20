@@ -1021,26 +1021,29 @@ css命名一般不采用下划线
 }
 
 .bottomIn-abroad li {
-    width: 100%;
+    float: left;
+    width: 50%;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .bottomIn-abroad li a {
+    width: 100%;
     display: inline-block;
     overflow: hidden;
 }
 
 .bottomIn-abroad li a img {
     float: left;
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
 }
 
 .bottomIn-abroad li a span {
     float: left;
-    height: 50px;
-    line-height: 50px;
+    height: 40px;
+    line-height: 40px;
     font-size: 16px;
     color: #d4d6d9;
 }

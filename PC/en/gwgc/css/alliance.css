@@ -58,7 +58,8 @@
     font-size: 16px;
     line-height: 20px;
     color: #fff;
-    padding: 20px 15px;
+    /*padding: 20px 15px;*/
+    padding: 20px 10px;
 }
 
 .tabInc li a:hover,

@@ -71,7 +71,7 @@
 }
 
 .introManTxt p {
-    text-indent: 2em;
+    /*text-indent: 2em;*/
     font-size: 13px;
     color: #404d83;
     line-height: 23px;

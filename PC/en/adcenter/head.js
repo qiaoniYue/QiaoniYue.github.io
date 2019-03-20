@@ -51,7 +51,7 @@ document.writeln("                            <span>&nbsp;</span>");
 document.writeln("                        </a>");
 document.writeln("                        <ul class=\'roof-nav-sub-item\'>");
 document.writeln("                            <li>");
-document.writeln("                                <a href=\'https://www.mguwp.net/en/index.html\' target=\'_blank\'>About US</a>");
+document.writeln("                                <a href=\'https://www.mguwp.net/en/introduce.html\' target=\'_blank\'>About US</a>");
 document.writeln("                            </li>");
 document.writeln("                            <li>");
 document.writeln("                                <a href=\'https://www.mguwp.net/en/join.html\' target=\'_blank\'>Join Us</a>");
