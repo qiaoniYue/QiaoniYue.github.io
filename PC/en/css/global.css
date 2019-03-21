@@ -26,10 +26,42 @@ css命名一般不采用下划线
     border: none 0;
 }
 
+.switchBox {
+    float: right;
+    display: inline-block;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.switchBox a {
+    float: left;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 18px;
+    height: 18px;
+    padding: 0 5px;
+    margin-top: 21px;
+    color: #aaa;
+}
+
+.switchBox a:first-child {
+    border-right: 1px solid #aaa;
+    padding-left: 0;
+}
+
+.switchBox .switchable {
+    color: #0078d7;
+}
+
+.switchBox .switchable:hover,
+.switchBox .switchable:active {
+    text-decoration: underline;
+}
+
 .navDeveloper {
     float: right;
     display: inline;
-    padding: 0 15px;
+    padding: 0 5px;
     height:30px;
     line-height:30px;
     margin-top:15px;
@@ -64,7 +96,7 @@ css命名一般不采用下划线
     display: block;
     font-size: 16px;
     line-height: 60px;
-    padding: 0 10px;
+    padding: 0 5px;
     color: #313131;
 }
 
