@@ -33,6 +33,39 @@
     height: 50px;
 }
 
+.roof-switch {
+    float: right;
+    display: inline-block;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.roof-switch a {
+    float: left;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 20px;
+    height: 20px;
+    padding: 0 5px;
+    margin-top: 11px;
+    color: #aaa;
+}
+
+.roof-switch a:first-child {
+    border-right: 1px solid #aaa;
+    padding-left: 0;
+}
+
+.roof-switch .roof-switchable {
+    color: #fff;
+}
+
+.roof-switch .roof-switchable:hover,
+.roof-switch .roof-switchable:active {
+    text-decoration: underline;
+}
+
+
 .roof-sign {
     float: right;
 }

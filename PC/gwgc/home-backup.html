@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="height: 100%;">
+<html lang="en" style="">
 <head>
     <meta charset="UTF-8">
     <title>GWGC-Windows 全球开发者联盟</title>
@@ -14,341 +14,343 @@
     <link rel="stylesheet" href="css/alliance.css" type="text/css">
     <script src="js/jquery-1.8.3.min.js"></script>
     <script src="js/jquery.fullPage.min.js"></script>
+    <script src="js/easings.min.js"></script>
+    <script src="js/scrolloverflow.min.js"></script>
 </head>
-<body style="height: 100%;">
-    <!--头部-->
-    <nav class="tabBox">
-        <div class="tabBar">
-            <div class="tabLogo">
-                <a href="#">
-                    <img src="images/gwgcLogo.png">
-                </a>
-            </div>
-            <div class="tabCont">
-                <ul class="tabInc" id="tabMenu">
-                    <li>
-                        <a href="#page1">首页</a>
-                    </li>
-                    <li data-menuanchor="page1" class="active">
-                        <a href="#page1">关于GWGC</a>
-                    </li>
-                    <li data-menuanchor="page2">
-                        <a href="#page2">核心价值</a>
-                    </li>
-                    <li data-menuanchor="page3">
-                        <a href="#page3">开发者服务</a>
-                    </li>
-                    <li data-menuanchor="page4">
-                        <a href="#page4">加入GWGC</a>
-                    </li>
-                    <li data-menuanchor="page5">
-                        <a href="#page5">GWGC活动</a>
-                    </li>
-                    <li data-menuanchor="page6">
-                        <a href="#page6">联系我们</a>
-                    </li>
-                </ul>
-                <div class="tabLan">
-                    <a href="#">EN</a>
-                    <span>&nbsp;</span>
-                    <a href="#" class="tabLan-cur">CH</a>
-                </div>
-            </div>
+<body style="height: 100%;width: 100%;overflow: hidden;">
+<!--头部-->
+<nav class="tabBox">
+    <div class="tabBar">
+        <div class="tabLogo">
+            <a href="#">
+                <img src="images/gwgcLogo.png">
+            </a>
         </div>
-    </nav>
-    <div id="devContent"  style="height: 100%;">
-        <!--第一屏-轮播图-->
-        <div class="section">
-            <div class="slide">
-                <a class="devCarousel">
-                    <img src="images/gwgc-banner1.jpg" style="width: 100%;height: 100%">
-                </a>
-            </div>
-            <div class="slide">
-                <a class="devCarousel">
-                    <img src="images/gwgc-banner2.jpg">
-                </a>
-            </div>
-        </div>
-        <!--第二屏-核心价值-->
-        <div class="section">
-            <div>
-                <!--背景图-->
-                <div class="devPartBg">
-                    <img src="images/gwgcGrayBg.png">
-                </div>
-                <!--内容-->
-                <div class="devPart">
-                    <h3 class="devPartTitle">核心价值</h3>
-                    <div class="devPartCon">
-                        <div style="width: 100%">
-                            <!--第一个图标-->
-                            <div class="devPartValue">
-                                <div class="devPartImg">
-                                    <img src="images/gwgcValue-1.png">
-                                </div>
-                                <h4>互动交流</h4>
-                            </div>
-                            <!--第二个图标-->
-                            <div class="devPartValue">
-                                <div class="devPartImg">
-                                    <img src="images/gwgcValue-2.png">
-                                </div>
-                                <h4>分享学习</h4>
-                            </div>
-                            <!--第三个图标-->
-                            <div class="devPartValue">
-                                <div class="devPartImg">
-                                    <img src="images/gwgcValue-3.png">
-                                </div>
-                                <h4>资源整合</h4>
-                            </div>
-                            <!--第四个图标-->
-                            <div class="devPartValue">
-                                <div class="devPartImg">
-                                    <img src="images/gwgcValue-4.png">
-                                </div>
-                                <h4>产业孵化</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--第三屏-开发者服务-->
-        <div class="section">
-            <!--背景图直接作为底图出现-->
-            <div class="devPartBg-pic">
-                <!--内容-->
-                <div class="devPart">
-                    <h3 class="devPartTitle devPartTitle-white">开发者服务</h3>
-                    <div class="devServeBox">
-                        <div class="devServeBar">
-                            <div class="devServeValue">
-                                <div class="devPartImg-L">
-                                    <img src="images/gwgcSer-1.png">
-                                </div>
-                                <h4>全球推广</h4>
-                            </div>
-                        </div>
-                        <div class="devServeBar">
-                            <div class="devServeValue">
-                                <div class="devPartImg-L">
-                                    <img src="images/gwgcSer-2.png">
-                                </div>
-                                <h4>社区SDK</h4>
-                            </div>
-                        </div>
-                        <div class="devServeBar">
-                            <div class="devServeValue">
-                                <div class="devPartImg-L">
-                                    <img src="images/gwgcSer-3.png">
-                                </div>
-                                <h4>全球支付</h4>
-                            </div>
-                        </div>
-                        <div class="devServeBar">
-                            <div class="devServeValue">
-                                <div class="devPartImg-L">
-                                    <img src="images/gwgcSer-4.png">
-                                </div>
-                                <h4>众创空间</h4>
-                            </div>
-                        </div>
-                        <div class="devServeBar">
-                            <div class="devServeValue">
-                                <div class="devPartImg-L">
-                                    <img src="images/gwgcSer-5.png">
-                                </div>
-                                <h4>投资/融资</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--第四屏-加入GWGC-->
-        <div class="section">
-            <div>
-                <!--背景图-->
-                <div class="devPartBg">
-                    <img src="images/gwgcGrayBg.png">
-                </div>
-                <!--内容-->
-                <div class="devPart">
-                    <h3 class="devPartTitle">加入GWGC</h3>
-                    <div class="devStepBox">
-                        <div style="width: 100%">
-                            <!--第一个图标-->
-                            <div class="devStepValue">
-                                <div class="devStepImg">
-                                    <img src="images/gwgcStep-1.png">
-                                </div>
-                                <h4>提交项目</h4>
-                                <p>创业者提交项目详情</p>
-                            </div>
-                            <!--箭头-->
-                            <div class="devStepDe">
-                                <div class="devStepImg-Dec">
-                                    <img src="images/gwgcStep-next.png">
-                                </div>
-
-                            </div>
-                            <!--第二个图标-->
-                            <div class="devStepValue">
-                                <div class="devStepImg">
-                                    <img src="images/gwgcStep-2.png">
-                                </div>
-                                <h4>项目评审</h4>
-                                <p>平台对项目进行评审</p>
-                            </div>
-                            <!--箭头-->
-                            <div class="devStepDe">
-                                <div class="devStepImg-Dec">
-                                    <img src="images/gwgcStep-next.png">
-                                </div>
-
-                            </div>
-                            <!--第三个图标-->
-                            <div class="devStepValue">
-                                <div class="devStepImg">
-                                    <img src="images/gwgcStep-3.png">
-                                </div>
-                                <h4>线下沟通</h4>
-                                <p>平台主动联系优质项目方</p>
-                            </div>
-                            <!--箭头-->
-                            <div class="devStepDe">
-                                <div class="devStepImg-Dec">
-                                    <img src="images/gwgcStep-next.png">
-                                </div>
-
-                            </div>
-                            <!--第四个图标-->
-                            <div class="devStepValue">
-                                <div class="devStepImg">
-                                    <img src="images/gwgcStep-4.png">
-                                </div>
-                                <h4>签订合同</h4>
-                                <p>创业者与平台签订合同</p>
-                            </div>
-                            <!--箭头-->
-                            <div class="devStepDe">
-                                <div class="devStepImg-Dec">
-                                    <img src="images/gwgcStep-next.png">
-                                </div>
-
-                            </div>
-                            <!--第五个图标-->
-                            <div class="devStepValue">
-                                <div class="devStepImg">
-                                    <img src="images/gwgcStep-5.png">
-                                </div>
-                                <h4>资源扶持</h4>
-                                <p>平台提供扶持资源</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="devStepLinkBox">
-                    <div class="devStepLinkBar">
-                        <a href="#">会员权益介绍</a>
-                        <a href="#">会员在线申请</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--第五屏-更多活动-->
-        <div class="section"  style="height: 100%;">
-            <div class="devActiveBox">
-                <div class="devActiveBar">
-                    <!--第一排-->
-                    <div class="devActiveItem devActiveItem1">
-                        <!--<img src="images/devActiveImg.jpg" class="devActiveBg">-->
-                    </div>
-                    <div class="devActiveItem">
-                        <p class="devActiveItemT">策划   运营   推广   变现 </p>
-                        <p class="devActiveItemCon">一站式服务，助力内容创业</p>
-                    </div>
-                    <div class="devActiveItem devActiveItem2">
-                        <!--<img src="images/devActiveImg.jpg" class="devActiveBg">-->
-                    </div>
-                    <div class="devActiveItem">
-                        <p class="devActiveItemT">动漫游戏国际化</p>
-                        <p class="devActiveItemCon">隶属于动漫游戏国际化工作委员会</p>
-                    </div>
-                    <!--第二排-->
-                    <div class="devActiveItem">
-                        <p class="devActiveItemT">微软系统开发者</p>
-                        <p class="devActiveItemCon">企业及独立开发者自愿自主</p>
-                    </div>
-                    <div class="devActiveItem devActiveItem3">
-                        <!--<img src="images/devActiveImg.jpg" class="devActiveBg">-->
-                    </div>
-                    <div class="devActiveItem">
-                        <p class="devActiveItemT">广告推广与优化</p>
-                        <p class="devActiveItemCon">开启Win10市场掘金之路</p>
-                    </div>
-                    <div class="devActiveItem devActiveItem4">
-                        <!--<img src="images/devActiveImg.jpg" class="devActiveBg">-->
-                    </div>
-                </div>
-                <div class="devActiveMore">
-                    <a href="#">更多活动>></a>
-                </div>
-            </div>
-        </div>
-        <!--最后：GWGC-->
-        <div class="section">
-            <!--内容介绍-->
-            <div class="devAboutBox">
-                <div class="devAboutTitle">
-                    <img src="images/gwgcCon-title.png">
-                </div>
-                <div class="devAboutSli"></div>
-                <div class="devAboutContent">
-                    <p>Windows全球开发者联盟（Globe Windows Game Conference 简称GWGC）是隶属于动漫游戏国际化工作委员会的分支机构，由北京动漫游戏产业联盟主管主办，本联盟由全球从事微软的企业及独立开发者自愿自主建立的一种非政府性组织，从事微软系统开发者的交流活动。</p>
-                    <p>GWGC致力于把优秀好玩的游戏带给全球玩家，通过与全球领先的Win10发行商和渠道商Miracle Games联手，覆盖全球全平台用户，携手共赢。</p>
-                </div>
-            </div>
-            <!--联系我们-->
-            <div class="devContactBox">
-                <div class="devContactBar">
-                    <div style="devContactOver">
-                        <div class="devContactItem">
-                            <img src="images/gwgcCon-email.png">
-                            <div class="devContactTit">
-                                <p>联系邮箱</p>
-                                <p class="devContactTitDec">&nbsp;</p>
-                            </div>
-                        </div>
-                        <div class="devContactItemCener">
-                            <img src="images/gwgcCon-code.png">
-                        </div>
-                        <div class="devContactItem">
-                            <img src="images/gwgcCon-qq.png">
-                            <div class="devContactTit">
-                                <p>联系QQ</p>
-                                <p class="devContactTitDec">&nbsp;</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div style="clear: both"></div>
-                    <div class="devContactTxt">
-                        <div class="devContactCon">yangyang@mguwp.com</div>
-                        <div class="devContactConCenter">MG微信公众号</div>
-                        <div class="devContactCon">2251467066</div>
-                    </div>
-                </div>
-            </div>
-
-            <!--底部内容-->
-            <div class="devBottomBox">
-                <p>北京奇游灵动科技有限公司版权所有 COPYRIGHT© 2016 MIRACLE GAMES INC. ALL RIGHTS RESERVED.</p>
-                <p>京ICP备16022485号-2 | 京网文[2017]1979-172号</p>
+        <div class="tabCont">
+            <ul class="tabInc" id="tabMenu">
+                <li>
+                    <a href="#page1">首页</a>
+                </li>
+                <li data-menuanchor="page1" class="active">
+                    <a href="#page1">关于GWGC</a>
+                </li>
+                <li data-menuanchor="page2">
+                    <a href="#page2">核心价值</a>
+                </li>
+                <li data-menuanchor="page3">
+                    <a href="#page3">开发者服务</a>
+                </li>
+                <li data-menuanchor="page4">
+                    <a href="#page4">加入GWGC</a>
+                </li>
+                <li data-menuanchor="page5">
+                    <a href="#page5">GWGC活动</a>
+                </li>
+                <li data-menuanchor="page6">
+                    <a href="#page6">联系我们</a>
+                </li>
+            </ul>
+            <div class="tabLan">
+                <a href="#">EN</a>
+                <span>&nbsp;</span>
+                <a href="#" class="tabLan-cur">CH</a>
             </div>
         </div>
     </div>
+</nav>
+<div id="devContent"  style="height: 100%;">
+    <!--第一屏-轮播图-->
+    <div class="section" id="section1">
+        <div class="slide">
+            <a class="devCarousel">
+                <img src="images/gwgc-banner1.jpg" style="width: 100%;height: 100%;">
+            </a>
+        </div>
+        <div class="slide">
+            <a class="devCarousel">
+                <img src="images/gwgc-banner2.jpg" style="width: 100%;height: 100%;">
+            </a>
+        </div>
+    </div>
+    <!--第二屏-核心价值-->
+    <div class="section"  id="section2">
+        <div>
+            <!--背景图-->
+            <div class="devPartBg">
+                <img src="images/gwgcGrayBg.png">
+            </div>
+            <!--内容-->
+            <div class="devPart">
+                <h3 class="devPartTitle">核心价值</h3>
+                <div class="devPartCon">
+                    <div style="width: 100%">
+                        <!--第一个图标-->
+                        <div class="devPartValue">
+                            <div class="devPartImg">
+                                <img src="images/gwgcValue-1.png">
+                            </div>
+                            <h4>互动交流</h4>
+                        </div>
+                        <!--第二个图标-->
+                        <div class="devPartValue">
+                            <div class="devPartImg">
+                                <img src="images/gwgcValue-2.png">
+                            </div>
+                            <h4>分享学习</h4>
+                        </div>
+                        <!--第三个图标-->
+                        <div class="devPartValue">
+                            <div class="devPartImg">
+                                <img src="images/gwgcValue-3.png">
+                            </div>
+                            <h4>资源整合</h4>
+                        </div>
+                        <!--第四个图标-->
+                        <div class="devPartValue">
+                            <div class="devPartImg">
+                                <img src="images/gwgcValue-4.png">
+                            </div>
+                            <h4>产业孵化</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--第三屏-开发者服务-->
+    <div class="section" id="section3">
+        <!--背景图直接作为底图出现-->
+        <div class="devPartBg-pic">
+            <!--内容-->
+            <div class="devPart">
+                <h3 class="devPartTitle devPartTitle-white">开发者服务</h3>
+                <div class="devServeBox">
+                    <div class="devServeBar">
+                        <div class="devServeValue">
+                            <div class="devPartImg-L">
+                                <img src="images/gwgcSer-1.png">
+                            </div>
+                            <h4>全球推广</h4>
+                        </div>
+                    </div>
+                    <div class="devServeBar">
+                        <div class="devServeValue">
+                            <div class="devPartImg-L">
+                                <img src="images/gwgcSer-2.png">
+                            </div>
+                            <h4>社区SDK</h4>
+                        </div>
+                    </div>
+                    <div class="devServeBar">
+                        <div class="devServeValue">
+                            <div class="devPartImg-L">
+                                <img src="images/gwgcSer-3.png">
+                            </div>
+                            <h4>全球支付</h4>
+                        </div>
+                    </div>
+                    <div class="devServeBar">
+                        <div class="devServeValue">
+                            <div class="devPartImg-L">
+                                <img src="images/gwgcSer-4.png">
+                            </div>
+                            <h4>众创空间</h4>
+                        </div>
+                    </div>
+                    <div class="devServeBar">
+                        <div class="devServeValue">
+                            <div class="devPartImg-L">
+                                <img src="images/gwgcSer-5.png">
+                            </div>
+                            <h4>投资/融资</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--第四屏-加入GWGC-->
+    <div class="section" id="section4">
+        <div>
+            <!--背景图-->
+            <div class="devPartBg">
+                <img src="images/gwgcGrayBg.png">
+            </div>
+            <!--内容-->
+            <div class="devPart">
+                <h3 class="devPartTitle">加入GWGC</h3>
+                <div class="devStepBox">
+                    <div style="width: 100%">
+                        <!--第一个图标-->
+                        <div class="devStepValue">
+                            <div class="devStepImg">
+                                <img src="images/gwgcStep-1.png">
+                            </div>
+                            <h4>提交项目</h4>
+                            <p>创业者提交项目详情</p>
+                        </div>
+                        <!--箭头-->
+                        <div class="devStepDe">
+                            <div class="devStepImg-Dec">
+                                <img src="images/gwgcStep-next.png">
+                            </div>
+
+                        </div>
+                        <!--第二个图标-->
+                        <div class="devStepValue">
+                            <div class="devStepImg">
+                                <img src="images/gwgcStep-2.png">
+                            </div>
+                            <h4>项目评审</h4>
+                            <p>平台对项目进行评审</p>
+                        </div>
+                        <!--箭头-->
+                        <div class="devStepDe">
+                            <div class="devStepImg-Dec">
+                                <img src="images/gwgcStep-next.png">
+                            </div>
+
+                        </div>
+                        <!--第三个图标-->
+                        <div class="devStepValue">
+                            <div class="devStepImg">
+                                <img src="images/gwgcStep-3.png">
+                            </div>
+                            <h4>线下沟通</h4>
+                            <p>平台主动联系优质项目方</p>
+                        </div>
+                        <!--箭头-->
+                        <div class="devStepDe">
+                            <div class="devStepImg-Dec">
+                                <img src="images/gwgcStep-next.png">
+                            </div>
+
+                        </div>
+                        <!--第四个图标-->
+                        <div class="devStepValue">
+                            <div class="devStepImg">
+                                <img src="images/gwgcStep-4.png">
+                            </div>
+                            <h4>签订合同</h4>
+                            <p>创业者与平台签订合同</p>
+                        </div>
+                        <!--箭头-->
+                        <div class="devStepDe">
+                            <div class="devStepImg-Dec">
+                                <img src="images/gwgcStep-next.png">
+                            </div>
+
+                        </div>
+                        <!--第五个图标-->
+                        <div class="devStepValue">
+                            <div class="devStepImg">
+                                <img src="images/gwgcStep-5.png">
+                            </div>
+                            <h4>资源扶持</h4>
+                            <p>平台提供扶持资源</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="devStepLinkBox">
+                <div class="devStepLinkBar">
+                    <a href="#">会员权益介绍</a>
+                    <a href="#">会员在线申请</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--第五屏-更多活动-->
+    <div class="section"  id="section5" style="height: 100%;">
+        <div class="devActiveBox">
+            <div class="devActiveBar">
+                <!--第一排-->
+                <div class="devActiveItem devActiveItem1">
+                    <!--<img src="images/devActiveImg.jpg" class="devActiveBg">-->
+                </div>
+                <div class="devActiveItem">
+                    <p class="devActiveItemT">策划   运营   推广   变现 </p>
+                    <p class="devActiveItemCon">一站式服务，助力内容创业</p>
+                </div>
+                <div class="devActiveItem devActiveItem2">
+                    <!--<img src="images/devActiveImg.jpg" class="devActiveBg">-->
+                </div>
+                <div class="devActiveItem">
+                    <p class="devActiveItemT">动漫游戏国际化</p>
+                    <p class="devActiveItemCon">隶属于动漫游戏国际化工作委员会</p>
+                </div>
+                <!--第二排-->
+                <div class="devActiveItem">
+                    <p class="devActiveItemT">微软系统开发者</p>
+                    <p class="devActiveItemCon">企业及独立开发者自愿自主</p>
+                </div>
+                <div class="devActiveItem devActiveItem3">
+                    <!--<img src="images/devActiveImg.jpg" class="devActiveBg">-->
+                </div>
+                <div class="devActiveItem">
+                    <p class="devActiveItemT">广告推广与优化</p>
+                    <p class="devActiveItemCon">开启Win10市场掘金之路</p>
+                </div>
+                <div class="devActiveItem devActiveItem4">
+                    <!--<img src="images/devActiveImg.jpg" class="devActiveBg">-->
+                </div>
+            </div>
+            <div class="devActiveMore">
+                <a href="#">更多活动>></a>
+            </div>
+        </div>
+    </div>
+    <!--最后：GWGC-->
+    <div class="section"  id="section6">
+        <!--内容介绍-->
+        <div class="devAboutBox">
+            <div class="devAboutTitle">
+                <img src="images/gwgcCon-title.png">
+            </div>
+            <div class="devAboutSli"></div>
+            <div class="devAboutContent">
+                <p>Windows全球开发者联盟（Globe Windows Game Conference 简称GWGC）是隶属于动漫游戏国际化工作委员会的分支机构，由北京动漫游戏产业联盟主管主办，本联盟由全球从事微软的企业及独立开发者自愿自主建立的一种非政府性组织，从事微软系统开发者的交流活动。</p>
+                <p>GWGC致力于把优秀好玩的游戏带给全球玩家，通过与全球领先的Win10发行商和渠道商Miracle Games联手，覆盖全球全平台用户，携手共赢。</p>
+            </div>
+        </div>
+        <!--联系我们-->
+        <div class="devContactBox">
+            <div class="devContactBar">
+                <div style="devContactOver">
+                    <div class="devContactItem">
+                        <img src="images/gwgcCon-email.png">
+                        <div class="devContactTit">
+                            <p>联系邮箱</p>
+                            <p class="devContactTitDec">&nbsp;</p>
+                        </div>
+                    </div>
+                    <div class="devContactItemCener">
+                        <img src="images/gwgcCon-code.png">
+                    </div>
+                    <div class="devContactItem">
+                        <img src="images/gwgcCon-qq.png">
+                        <div class="devContactTit">
+                            <p>联系QQ</p>
+                            <p class="devContactTitDec">&nbsp;</p>
+                        </div>
+                    </div>
+                </div>
+                <div style="clear: both"></div>
+                <div class="devContactTxt">
+                    <div class="devContactCon">yangyang@mguwp.com</div>
+                    <div class="devContactConCenter">MG微信公众号</div>
+                    <div class="devContactCon">2251467066</div>
+                </div>
+            </div>
+        </div>
+
+        <!--底部内容-->
+        <div class="devBottomBox">
+            <p>北京奇游灵动科技有限公司版权所有 COPYRIGHT© 2016 MIRACLE GAMES INC. ALL RIGHTS RESERVED.</p>
+            <p>京ICP备16022485号-2 | 京网文[2017]1979-172号</p>
+        </div>
+    </div>
+</div>
 </body>
 <script>
     $(function(){
@@ -356,12 +358,12 @@
             sectionsColor: ['#0078d7', '#e6e6e6', '#000', '#e6e6e6','#fff', '#ffffff'],
             'navigation': true,
             anchors: ['page1', 'page2', 'page3', 'page4','page5', 'page6'],
-            menu: '#menu',
+            menu: '#tabMenu',
 
             verticalCentered: true,
             // 每一页内容是否垂直居中
 
-            scrollingSpeed: 700,
+            scrollingSpeed: 500,
             // 页面滚动速度
 
             css3: true,
@@ -369,18 +371,43 @@
 
             //autoScrolling: false,
             // 是否使用插件的滚动方式，如果选false ，则会出现浏览器自带滚动条，默认行为滚动，不按页滚动
+            //默认值：true，定义屏幕是否自动滚动，还是需要用户触发事件滚动，它也影响了部分适合在平板电脑和手机浏览器/设备窗口。
 
             //scrollBar: true,
             // 是否显示滚动条，显示的话也是按页滚动
 
+            keyboardScrolling: true,
+            //是否可以使用键盘方向键导航，默认为true
+
+            //normalScrollElements:'#section1,#section2,#section3,#section4,#section5,#section6',
+            //避免自动滚动，滚动时的一些元素，例如百度地图
+
             touchSensitivity: 30,
             // 移动设备中滑动页面的敏感性，最大100 越大越难滑动
 
+            //loopHorizontal: true,
+            //横向slide幻灯片是否循环滚动，默认为true
+
+        });
+        $.fn.fullpage.setAutoScrolling(true);
+        //可以实时的控制页面滚动的方式，可选的参数false/true。
+        //如果参数被设置为true，所有的section将自动滚动。
+        //如果参数被设置为false，所有的section将不会自动滚动，需要用户手动或者使用浏览器的滑条滚动网页。
+
+        //$.fn.fullpage.setAllowScrolling(false);
+        //添加或者禁止Fullpage自动绑定的鼠标滑轮和移动触摸事件，不过用户任然可以通过键盘和点击快速导航的方式切换section/slide。要取消键盘事件你应该使用setKeyboardScrolling方法。
+        $.fn.fullpage.stop();//阻止事件
+//自定义事件，并手动切换
+        $().on('tap', function (e) {
+            $.fn.fullpage.moveNext();
         });
 
         setInterval(function(){
             $.fn.fullpage.moveSlideRight();
-        }, 6000);
+        }, 5000);
+
     });
 </script>
+
+
 </html>

@@ -33,6 +33,40 @@
     height: 50px;
 }
 
+
+.roof-switch {
+    float: right;
+    display: inline-block;
+    margin-left: 8px;
+    overflow: hidden;
+}
+
+.roof-switch a {
+    float: left;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    height: 20px;
+    padding: 0 5px;
+    margin-top: 11px;
+    color: #aaa;
+}
+
+.roof-switch a:first-child {
+    border-right: 1px solid #aaa;
+    padding-left: 0;
+}
+
+.roof-switch .roof-switchable {
+    color: #fff;
+}
+
+.roof-switch .roof-switchable:hover,
+.roof-switch .roof-switchable:active {
+    text-decoration: underline;
+}
+
+
 .roof-sign {
     float: right;
 }
@@ -50,7 +84,7 @@
     text-align: center;
     line-height: 40px;
     color: #fff;
-    font-size: 16px;
+    font-size: 15px;
     margin-right: 20px;
 }
 
@@ -62,13 +96,13 @@
 
 .roof-login {
     float: left;
-    width: 84px;
+    width: 80px;
     height: 42px;
     border-radius: 20px;
     text-align: center;
     line-height: 42px;
     color: #fff;
-    font-size: 16px;
+    font-size: 15px;
     background-color: #1da1cd;
 }
 
@@ -88,13 +122,13 @@
 .roof-nav-sort {
     float: left;
     height: 50px;
-    margin-right: 25px;
+    margin-right: 15px;
     position: relative;
 }
 
 .roof-nav-sort .roof-nav-content {
     display: block;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 42px;
     color: #fff;
     margin-bottom: 8px;
