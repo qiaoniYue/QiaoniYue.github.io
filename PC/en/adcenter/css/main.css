@@ -196,6 +196,14 @@
     padding-top: 20px;
 }
 
+.roof-scroll .roof-switch a {
+    color: #aaa;
+}
+
+.roof-scroll .roof-switch .roof-switchable {
+    color: #000;
+}
+
 .roof-scroll .roof-register {
     border:1px solid #ccc;
     color: #000;

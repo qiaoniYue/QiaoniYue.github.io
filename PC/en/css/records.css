@@ -1,6 +1,8 @@
 /*数据中心二级分页面*/
 
 .recRankBg {
+    min-width: 1200px;
+    overflow: hidden;
     background-color: #0078d7;
 }
 

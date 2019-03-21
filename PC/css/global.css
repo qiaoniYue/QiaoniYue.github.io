@@ -13,7 +13,9 @@ css命名一般不采用下划线
 
 .topBox {
     width: 1200px;
+    height: 100%;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .logoBox {
@@ -114,6 +116,7 @@ css命名一般不采用下划线
     top: 60px;
     left: 0;
     width: 100%;
+    min-width: 1200px;
     height: 40px;
     background-color: #313131;
     display: none;

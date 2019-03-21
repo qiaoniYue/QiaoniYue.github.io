@@ -72,24 +72,51 @@
 </div>
 
 <script>
+
     var switchBox = document.getElementsByClassName("roof-switch")[0];
     var switchCh = switchBox.getElementsByTagName("a")[0];
     var switchEn = switchBox.getElementsByTagName("a")[1];
     var pageUrl = window.location.href;
+    var pagePro = window.location.protocol;
+    var pageHost = window.location.host;
+    /*
+    中文网址：
+    http://ad.mguwp.net/
+    https://ad.mguwp.net/
+    https://ad.mguwp.net/principal.html
+    英文网址：
+    http://www.mguwp.net/en/adcenter/principal.html
+    https://www.mguwp.net/en/adcenter/principal.html
+    http://www.mguwp.com/en/adcenter/principal.html
+    https://www.mguwp.com/en/adcenter/principal.html
+    */
 
-    var pageUrlDefault = "file:///C:/GitHubProject/QiaoniYue.github.io/PC/";
-    var pageUrlWords = pageUrl.split("en/");
+    var pageUrlWords = pageUrl.split("/en");
     var pageUrlValue = "";
     if(pageUrlWords.length == 1) {
-        /*在url地址不包含字符串"en/"的时候，则pageUrlWords只有一个值*/
-        var pageUrlWordsLast = pageUrlWords[0].replace(pageUrlDefault,"");
-        pageUrlValue = pageUrlDefault + "en/" + pageUrlWordsLast;
+        /*在url地址不包含字符串"/en"的时候，则pageUrlWords只有一个值*/
+        /*var pageUrlWordsLast = pageUrlWords[0].replace("https://ad.mguwp.net/.net/","");*/
+        var pageUrlWordsLast1 = pageUrlWords[0].replace(pagePro,"");
+        var pageUrlWordsLast2 = pageUrlWordsLast1.slice(2).replace(pageHost,"");
+        /*
+         pageUrlWordsLast2  是 "/"
+         pageUrlWordsLast2 或者是  "/principal.html"
+        */
+        if(pageUrlWordsLast2.length == 1){
+            pageUrlWordsLast2 = "/principal.html";
+        }
+        pageUrlValue = "https://www.mguwp.net/en/adcenter" + pageUrlWordsLast2;
     }
     else{
-        /*在url地址包含字符串"en/"的时候，则pageUrlWords只有两个值*/
-        pageUrlValue = pageUrlDefault + pageUrlWords[1];
+        /*
+            在url地址包含字符串"/en"的时候，则pageUrlWords只有两个值
+            pageUrlWords[1]  是   /adcenter/principal.html
+        */
+        var pageUrlWordsLast = pageUrlWords[1].replace("/adcenter","");
+        /*pageUrlWordsLast   是  "/principal.html" */
+        pageUrlValue = "https://ad.mguwp.net" + pageUrlWordsLast;
     }
-    if(pageUrl.indexOf("en/") >= 0){
+    if(pageUrl.indexOf("/en") >= 0){
         switchCh.className = "roof-switchable";
         switchCh.href = pageUrlValue;
         switchEn.className = "";
@@ -101,4 +128,6 @@
         switchEn.className = "roof-switchable";
         switchEn.href = pageUrlValue;
     }
+
+
 </script>

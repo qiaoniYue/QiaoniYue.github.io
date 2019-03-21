@@ -48,11 +48,11 @@
     height: 20px;
     padding: 0 5px;
     margin-top: 11px;
-    color: #aaa;
+    color: #ccc;
 }
 
 .roof-switch a:first-child {
-    border-right: 1px solid #aaa;
+    border-right: 1px solid #ccc;
     padding-left: 0;
 }
 
@@ -193,6 +193,14 @@
 
 .roof-scroll .roof-box {
     padding-top: 20px;
+}
+
+.roof-scroll .roof-switch a {
+    color: #aaa;
+}
+
+.roof-scroll .roof-switch .roof-switchable {
+    color: #000;
 }
 
 .roof-scroll .roof-register {
