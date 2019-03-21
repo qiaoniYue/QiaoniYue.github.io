@@ -94,9 +94,10 @@ css命名一般不采用下划线
 
 .nav-itemTxt {
     display: block;
-    font-size: 16px;
+    /*font-size: 16px;*/
+    font-size: 14px;
     line-height: 60px;
-    padding: 0 5px;
+    padding: 0 10px;
     color: #313131;
 }
 
