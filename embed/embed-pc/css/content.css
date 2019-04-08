@@ -517,6 +517,7 @@
 .se-Left {
     float: left;
     width: 58.5%;
+    /*width:57.5%;*/
     height: 100%;
     overflow: hidden;
 }
@@ -570,7 +571,10 @@
 
 .seName {
     float: left;
+    /*width: 23%;*/
     width: 23%;
+    padding-left: 1%;
+    box-sizing: border-box;
     text-align: right;
     color: #fff;
     height: 3em;
@@ -789,6 +793,7 @@
 .se-Right {
     float: right;
     width: 40%;
+    /*width: 41%;*/
     height: 100%;
     overflow: hidden;
 }
@@ -834,7 +839,10 @@
     vertical-align: middle;
     width: 82%;
     height: 100%;
+    /*
     margin-left: 2%;
+    */
+    /*margin-left: 1%;*/
     color: #b2a6a2;
     line-height: 1.9em;
 }
@@ -884,6 +892,18 @@
         font-size: 1em;
         line-height: 1.2em;
     }
+
+    .se-Left {
+        width: 55.5%;
+    }
+
+    .se-middle {
+        width: 1.5%;
+    }
+
+    .se-Right {
+        width: 43%;
+    }
 }
 
 @media screen and (min-width:1001px) and (max-width:1100px) {
@@ -891,9 +911,45 @@
         font-size: 1em;
         line-height: 1.4em;
     }
+
+    .se-Left {
+        width: 53.5%;
+    }
+
+    .se-middle {
+        width: 1.5%;
+    }
+
+    .se-Right {
+        width: 45%;
+    }
+
+    .seName {
+        width: 21%;
+    }
+
+    .seImp {
+        width: 77%;
+        margin-left: 2%;
+    }
+
+    .seImgBar {
+        width: 77%;
+        margin-left: 2%;
+    }
+
+    .seHalfName {
+        width: 42%;
+    }
+
+    .seHalfImp {
+        width: 54%;
+        margin-left: 4%;
+    }
+
 }
 
-@media screen and (min-width:1101px){
+@media screen and (min-width:1101px) and (max-width:1200px) {
     .se-hint {
         line-height: 1.7em;
     }
@@ -911,28 +967,69 @@
     }
 
     .seName {
-        width: 18%;
+        width: 20%;
     }
 
     .seImp {
-        width: 80%;
+        width: 78%;
         margin-left: 2%;
     }
 
     .seImgBar {
-        width: 80%;
+        width: 78%;
         margin-left: 2%;
     }
 
     .seHalfName {
-        width: 36%;
+        width: 40%;
     }
 
     .seHalfImp {
-        width: 60%;
+        width: 56%;
         margin-left: 4%;
     }
 
+}
+
+
+@media screen and (min-width:1201px) {
+    .se-hint {
+        line-height: 1.7em;
+    }
+
+    .se-Left {
+        width: 50.5%;
+    }
+
+    .se-middle {
+        width: 1.5%;
+    }
+
+    .se-Right {
+        width: 48%;
+    }
+    .seName {
+        width: 20%;
+    }
+
+    .seImp {
+        width: 78%;
+        margin-left: 2%;
+    }
+
+    .seImgBar {
+        width: 78%;
+        margin-left: 2%;
+    }
+
+    .seHalfName {
+        width: 40%;
+    }
+
+    .seHalfImp {
+        width: 56%;
+        margin-left: 4%;
+    }
 }
 
 .se-hint h3 {
@@ -1588,6 +1685,8 @@
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     cursor: pointer;
+    word-break: keep-all; /*决定单词内该怎么换行*/
+    word-wrap:break-word; /*决定句尾放不下单词时，单词是否换行*/
 }
 
 .gif-value-detail-only {
@@ -1675,8 +1774,8 @@
 }*/
 
 .gif-item-detail {
-    width: 100%;
-    /*width: 150%;*/
+    /*width: 100%;*/
+    width: 118.1%;
     position: absolute;
     top: 0;
     z-index:9999;
@@ -1696,7 +1795,7 @@
 }
 
 .gif-item-detail-4 {
-    left: -100%;
+    left: -118.1%;
 }
 
 .gif-pack-img {
@@ -1720,17 +1819,17 @@
 }
 
 .gif-pack {
-    width: 93.5%;
+    width: 94.6%;
     max-height: 99%;
-    margin: 0.5% 0 0.5% 6%;
-    padding: 0.8em;
+    margin: 0.5% 0 0.5% 5%;
+    padding: 0.8em 1em;
     box-sizing: border-box;
     color: #fff;
     overflow: auto;
 }
 
 .gif-pack-right {
-    margin: 0.5% 6% 0.5% 0;
+    margin: 0.5% 5% 0.5% 0;
 }
 
 

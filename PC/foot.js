@@ -55,7 +55,7 @@ document.writeln("            <div class=\'bottomIn-mid1\'></div>");
 document.writeln("            <div class=\'bottomIn-mid2\'></div>");
 document.writeln("        </div>");
 document.writeln("        <div class=\'bottomIn-copy\'>");
-document.writeln("            <p>北京奇游灵动科技有限公司版权所有 COPYRIGHT© 2016 MIRACLE GAMES LIMITED. ALL RIGHTS RESERVED.</p>");
+document.writeln("            <p>北京奇游灵动科技有限公司版权所有 COPYRIGHT© 2016 MIRACLE GAMES INC ALL RIGHTS RESERVED.</p>");
 document.writeln("            <p>京ICP备16022485号-2 | 京网文[2017]1979-172号</p>");
 document.writeln("        </div>");
 document.writeln("    </div>");

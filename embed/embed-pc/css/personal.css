@@ -1435,15 +1435,27 @@
 
 .per-md {
     width: 100%;
+    margin: 0 auto;
+    padding: 1.5em 0;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 1px solid #262524;
+    -moz-box-shadow:0 1px #595554 inset;               /* For Firefox3.6+ */
+    -webkit-box-shadow:0 1px #595554 inset;               /* For Chrome5+, Safari5+ */
+    box-shadow:0 1px #595554 inset;                      /* For Latest Opera */
 }
 
 .per-md-step-box {
-    width: 80%;
+    /*width: 80%;*/
+    /*width: 90%;*/
+    width: 100%;
+    max-width: 866px;
     margin: 0 auto;
 }
 
 .per-md-step {
-    width: 100%;
+    width: 95%;
+    margin: 0 auto;
     overflow: hidden;
     text-transform:capitalize;
 }
@@ -1451,7 +1463,8 @@
 .per-md-much {
     font-size: 1.1em;
     float: left;
-    width: 33%;
+    /*width: 33%;*/
+    width: 34.6%;
     height: auto;
     max-width: 300px;
     max-height: 66px;
@@ -1531,7 +1544,8 @@
 .per-md-less {
     font-size: 1.1em;
     float: left;
-    width: 50%;
+    /*width: 50%;*/
+    width: 50.9%;
     height: auto;
     max-width: 455px;
     max-height: 66px;
@@ -1600,29 +1614,42 @@
 
 .per-md-alr {
     width: 100%;
+    max-width: 866px;
     padding-top: 1.5em;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.per-md-alr form {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
 }
 
 .per-md-alr-item {
     width: 100%;
     overflow: hidden;
+    line-height: 1.5em;
 }
 
 .per-md-name {
     float: left;
-    width: 33%;
+    /*width: 33%;*/
+    width: 30%;
     text-align: right;
     color: #fff;
-    height: 3em;
-    line-height: 2.8em;
+    /*height: 3em;
+    line-height: 2.8em;*/
     font-size: 1.1em;
+    padding: 0.7em 0;
     text-transform: capitalize;
 }
 
 .per-md-imp {
     float: left;
-    width: 51%;
-    margin-left: 2%;
+    /*width: 51%;*/
+    width: 68%;
+    margin-left: 1.8%;
     height: 3em;
     line-height: 2.8em;
     border: 1px solid #474544;
@@ -1641,11 +1668,11 @@
 }
 
 .per-md-imp-code {
-    width: 36%;
+    width: 43%;
 }
 
 .per-md-imp-get {
-    width: 13%;
+    width: 23%;
     margin-left: 2%;
     background-color: #de3f05;
     border-color: #de3f05;
@@ -1694,6 +1721,7 @@
     margin-left: 10%;
     font-size: 1.1em;
     overflow: hidden;
+    margin-bottom: 1em;
 }
 
 .per-md-remind img {

@@ -2,25 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42c63de5-884d-44f1-8983-b3098961240a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/embed/embed-pc/gift_backup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/embed/embed-pc/js/gift.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/embed/embed-pc/message_pop.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/adcenter/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/PC/adcenter/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/adcenter/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/adcenter/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/adcenter/head.js" beforeDir="false" afterPath="$PROJECT_DIR$/PC/adcenter/head.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/PC/css/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/css/records.css" beforeDir="false" afterPath="$PROJECT_DIR$/PC/css/records.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/en/adcenter/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/PC/en/adcenter/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/en/adcenter/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/en/adcenter/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/en/adcenter/head.js" beforeDir="false" afterPath="$PROJECT_DIR$/PC/en/adcenter/head.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/en/cooperation.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/en/cooperation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/en/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/PC/en/css/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/en/css/introduce.css" beforeDir="false" afterPath="$PROJECT_DIR$/PC/en/css/introduce.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/en/css/records.css" beforeDir="false" afterPath="$PROJECT_DIR$/PC/en/css/records.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/en/records.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/en/records.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/en/switch.js" beforeDir="false" afterPath="$PROJECT_DIR$/PC/en/switch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/records.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/records.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/switch.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/switch.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/switch.js" beforeDir="false" afterPath="$PROJECT_DIR$/PC/switch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/adcenter/foot.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/adcenter/foot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/adcenter/foot.js" beforeDir="false" afterPath="$PROJECT_DIR$/PC/adcenter/foot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/en/adcenter/principal.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/en/adcenter/principal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/en/images/banner-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/PC/en/images/banner-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/foot.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/foot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/foot.js" beforeDir="false" afterPath="$PROJECT_DIR$/PC/foot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/embed/embed-pc/bind_modify.html" beforeDir="false" afterPath="$PROJECT_DIR$/embed/embed-pc/bind_modify.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/embed/embed-pc/css/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/embed/embed-pc/css/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/embed/embed-pc/css/personal.css" beforeDir="false" afterPath="$PROJECT_DIR$/embed/embed-pc/css/personal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/embed/embed-pc/css/pop-up.css" beforeDir="false" afterPath="$PROJECT_DIR$/embed/embed-pc/css/pop-up.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/embed/embed-pc/gift.html" beforeDir="false" afterPath="$PROJECT_DIR$/embed/embed-pc/gift.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/embed/embed-pc/gift_pop_points.html" beforeDir="false" afterPath="$PROJECT_DIR$/embed/embed-pc/gift_pop_points.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/embed/embed-pc/images/gif-value-detail-right.png" beforeDir="false" afterPath="$PROJECT_DIR$/embed/embed-pc/images/gif-value-detail-right.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/embed/embed-pc/images/gif-value-detail.png" beforeDir="false" afterPath="$PROJECT_DIR$/embed/embed-pc/images/gif-value-detail.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/embed/embed-pc/images/wa-game-coin.png" beforeDir="false" afterPath="$PROJECT_DIR$/embed/embed-pc/images/wa-game-coin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/embed/embed-pc/points.html" beforeDir="false" afterPath="$PROJECT_DIR$/embed/embed-pc/points.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/embed/embed-pc/service.html" beforeDir="false" afterPath="$PROJECT_DIR$/embed/embed-pc/service.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/文档/游戏平台-命名规范.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/文档/游戏平台-命名规范.xlsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -85,14 +88,14 @@
     <session id="-557719255">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="245" />
-          <entry key="project.open.time.10" value="37" />
-          <entry key="project.open.time.11" value="40" />
+          <entry key="project.closed" value="254" />
+          <entry key="project.open.time.10" value="38" />
+          <entry key="project.open.time.11" value="41" />
           <entry key="project.open.time.12" value="27" />
-          <entry key="project.open.time.13" value="20" />
+          <entry key="project.open.time.13" value="21" />
           <entry key="project.open.time.14" value="13" />
           <entry key="project.open.time.15" value="4" />
-          <entry key="project.open.time.16" value="4" />
+          <entry key="project.open.time.16" value="5" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
@@ -100,43 +103,43 @@
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="8" />
-          <entry key="project.open.time.6" value="20" />
-          <entry key="project.open.time.7" value="12" />
+          <entry key="project.open.time.6" value="22" />
+          <entry key="project.open.time.7" value="15" />
           <entry key="project.open.time.8" value="23" />
-          <entry key="project.open.time.9" value="36" />
-          <entry key="project.opened" value="251" />
+          <entry key="project.open.time.9" value="38" />
+          <entry key="project.opened" value="262" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="624" />
+          <entry key="css" value="637" />
           <entry key="htc" value="1" />
-          <entry key="html" value="1971" />
+          <entry key="html" value="2021" />
           <entry key="ico" value="13" />
-          <entry key="js" value="159" />
+          <entry key="js" value="165" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="624" />
-          <entry key="HTML" value="1971" />
+          <entry key="CSS" value="637" />
+          <entry key="HTML" value="2021" />
           <entry key="Image" value="13" />
-          <entry key="JavaScript" value="159" />
+          <entry key="JavaScript" value="165" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="76721" />
-          <entry key="html" value="69558" />
-          <entry key="js" value="2244" />
+          <entry key="css" value="77454" />
+          <entry key="html" value="69896" />
+          <entry key="js" value="2722" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="76721" />
-          <entry key="HTML" value="69558" />
-          <entry key="JavaScript" value="2244" />
+          <entry key="CSS" value="77454" />
+          <entry key="HTML" value="69896" />
+          <entry key="JavaScript" value="2722" />
         </counts>
       </usages-collector>
     </session>
@@ -145,36 +148,29 @@
     <favorites_list name="Project" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/embed/embed-pc/points.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="533" column="32" lean-forward="true" selection-start-line="533" selection-start-column="32" selection-end-line="540" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sdkSerFlo-L</find>
-      <find>intro-processBox</find>
-      <find>sdkSerTxtBox</find>
-      <find>devActiveItemT</find>
-      <find>More Advertising Revenue</find>
-      <find>adv-user-title</find>
-      <find>Documents</find>
-      <find>version tra</find>
-      <find>Quick Access</find>
-      <find>加入</find>
-      <find>https://doc</find>
-      <find>introContact-codeMes</find>
-      <find>introContactBtn</find>
-      <find>tabInc</find>
-      <find>bottomIn-abroad</find>
-      <find>introManTxt</find>
-      <find>navDeveloper</find>
       <find>switchBox</find>
       <find>nav-itemTxt</find>
       <find>roof-logo</find>
@@ -188,6 +184,23 @@
       <find>roof-scroll</find>
       <find>recShowBox</find>
       <find>recClassBox</find>
+      <find>word-break</find>
+      <find>se-con-txt-bar</find>
+      <find>se-Right</find>
+      <find>per-md-less</find>
+      <find>per-md-imp</find>
+      <find>per-md-alr</find>
+      <find>per-md</find>
+      <find>se-Left</find>
+      <find>seName</find>
+      <find>se-hint</find>
+      <find>gif-value-detail-only</find>
+      <find>gif-pack-bar</find>
+      <find>gif-item-detail-1</find>
+      <find>gifValue1</find>
+      <find>gif-value-detail</find>
+      <find>ncluding</find>
+      <find>Game Coins</find>
     </findStrings>
     <replaceStrings>
       <replace>https</replace>
@@ -203,22 +216,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PC/cooperation.html" />
-        <option value="$PROJECT_DIR$/PC/data.html" />
-        <option value="$PROJECT_DIR$/PC/download.html" />
-        <option value="$PROJECT_DIR$/PC/game.html" />
-        <option value="$PROJECT_DIR$/PC/history.html" />
-        <option value="$PROJECT_DIR$/PC/intelligent.html" />
-        <option value="$PROJECT_DIR$/PC/introduce.html" />
-        <option value="$PROJECT_DIR$/PC/join.html" />
-        <option value="$PROJECT_DIR$/PC/management.html" />
-        <option value="$PROJECT_DIR$/PC/meeting.html" />
-        <option value="$PROJECT_DIR$/PC/pay.html" />
-        <option value="$PROJECT_DIR$/PC/social.html" />
-        <option value="$PROJECT_DIR$/PC/en/index.html" />
-        <option value="$PROJECT_DIR$/PC/en/contact.html" />
-        <option value="$PROJECT_DIR$/PC/en/data.html" />
-        <option value="$PROJECT_DIR$/PC/en/download.html" />
         <option value="$PROJECT_DIR$/PC/en/game.html" />
         <option value="$PROJECT_DIR$/PC/en/history.html" />
         <option value="$PROJECT_DIR$/PC/en/intelligent.html" />
@@ -254,6 +251,22 @@
         <option value="$PROJECT_DIR$/PC/adcenter/css/main.css" />
         <option value="$PROJECT_DIR$/PC/css/records.css" />
         <option value="$PROJECT_DIR$/PC/records.html" />
+        <option value="$PROJECT_DIR$/PC/foot.html" />
+        <option value="$PROJECT_DIR$/PC/foot.js" />
+        <option value="$PROJECT_DIR$/PC/adcenter/foot.html" />
+        <option value="$PROJECT_DIR$/PC/adcenter/foot.js" />
+        <option value="$PROJECT_DIR$/embed/embed-pc/gift_pop_points.html" />
+        <option value="$PROJECT_DIR$/embed/embed-pc/service.html" />
+        <option value="$PROJECT_DIR$/embed/embed-pc/bind_modify.html" />
+        <option value="$PROJECT_DIR$/embed/embed-pc/css/personal.css" />
+        <option value="$PROJECT_DIR$/embed/embed-pc/css/content.css" />
+        <option value="$PROJECT_DIR$/embed/embed-pc/gift_backup.html" />
+        <option value="$PROJECT_DIR$/embed/embed-pc/gift.html" />
+        <option value="$PROJECT_DIR$/embed/embed-pc/js/gift.js" />
+        <option value="$PROJECT_DIR$/embed/embed-pc/css/pop-up.css" />
+        <option value="$PROJECT_DIR$/embed/embed-pc/message_pop.html" />
+        <option value="$PROJECT_DIR$/PC/en/adcenter/principal.html" />
+        <option value="$PROJECT_DIR$/embed/embed-pc/points.html" />
       </list>
     </option>
   </component>
@@ -263,10 +276,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-96" />
-    <option name="y" value="9" />
-    <option name="width" value="1163" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="620" />
+    <option name="y" value="56" />
+    <option name="width" value="904" />
     <option name="height" value="855" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -277,6 +290,46 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QiaoniYue.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QiaoniYue.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="embed" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QiaoniYue.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="embed" type="462c0819:PsiDirectoryNode" />
+              <item name="embed-pc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QiaoniYue.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="PC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QiaoniYue.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="PC" type="462c0819:PsiDirectoryNode" />
+              <item name="en" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QiaoniYue.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="PC" type="462c0819:PsiDirectoryNode" />
+              <item name="en" type="462c0819:PsiDirectoryNode" />
+              <item name="adcenter" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -301,33 +354,6 @@
               <item name="PC" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="recreation" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QiaoniYue.github.io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QiaoniYue.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="js_url" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QiaoniYue.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="PC" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QiaoniYue.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="PC" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -641,11 +667,22 @@
       <workItem from="1553144526585" duration="13603000" />
       <workItem from="1553159176650" duration="4322000" />
       <workItem from="1553163525556" duration="2836000" />
+      <workItem from="1553228790275" duration="821000" />
+      <workItem from="1553246773077" duration="27000" />
+      <workItem from="1553248663418" duration="3645000" />
+      <workItem from="1553306230348" duration="23618000" />
+      <workItem from="1553336163077" duration="2731000" />
+      <workItem from="1553514949457" duration="719000" />
+      <workItem from="1553565611919" duration="5340000" />
+      <workItem from="1553589682456" duration="598000" />
+      <workItem from="1553658120802" duration="1294000" />
+      <workItem from="1553742636484" duration="134000" />
+      <workItem from="1554189000627" duration="1128000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1685661000" />
+    <option name="totallyTimeSpent" value="1725716000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -659,7 +696,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920762" visible="true" weight="0.168125" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920762" visible="true" weight="0.1375" />
       <window_info id="Structure" order="1" sideWeight="0.50158733" side_tool="true" weight="0.25625" />
       <window_info id="Favorites" order="2" sideWeight="0.5011287" side_tool="true" weight="0.3828198" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -704,220 +741,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PC/plan.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/space.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/the-chart-example.html.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/x-one.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/pay.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="96" column="25" selection-start-line="96" selection-start-column="25" selection-end-line="96" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/en/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/en/data.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="97" column="25" selection-start-line="97" selection-start-column="25" selection-end-line="97" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/en/download.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="81" column="25" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/en/game.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="94" column="25" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/en/history.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/en/intelligent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="82" column="7" lean-forward="true" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/en/introduce.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/en/join.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/en/management.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="82" column="25" lean-forward="true" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/en/pay.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="97" column="25" selection-start-line="97" selection-start-column="25" selection-end-line="97" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/en/records.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/index_backup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="449" lean-forward="true" selection-start-line="449" selection-end-line="449" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/adcenter/principal_backup.html" />
-    <entry file="file://$PROJECT_DIR$/PC/adcenter/xx.html" />
-    <entry file="file://$PROJECT_DIR$/PC/adcenter/head_backup_2.html" />
-    <entry file="file://$PROJECT_DIR$/PC/adcenter/head_backup.html" />
-    <entry file="file://$PROJECT_DIR$/PC/adcenter/head_2.js" />
-    <entry file="file://$PROJECT_DIR$/PC/adcenter/head_2.html" />
-    <entry file="file://$PROJECT_DIR$/PC/gwgc/home-backup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1053">
-          <caret line="390" column="11" lean-forward="true" selection-start-line="390" selection-start-column="11" selection-end-line="390" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/gwgc/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="42" column="48" lean-forward="true" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/en/gwgc/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="48" column="48" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/en/adcenter/head.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="82" column="22" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="22" />
-          <folding>
-            <element signature="e#34#40#1" expanded="true" />
-            <element signature="e#34#40#1" expanded="true" />
-            <element signature="e#34#40#1" expanded="true" />
-            <element signature="e#34#40#1" expanded="true" />
-            <element signature="e#34#40#1" expanded="true" />
-            <element signature="e#34#40#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/aboutMeet.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/en/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="119" column="30" lean-forward="true" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/en/social.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="114" column="32" lean-forward="true" selection-start-line="114" selection-start-column="32" selection-end-line="114" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/social.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="182" column="16" lean-forward="true" selection-start-line="182" selection-start-column="16" selection-end-line="182" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/en/cooperation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="198" column="15" selection-start-line="198" selection-start-column="15" selection-end-line="198" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/en/css/introduce.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="419" column="22" lean-forward="true" selection-start-line="419" selection-start-column="22" selection-end-line="419" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/en/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="335" column="63" lean-forward="true" selection-start-line="335" selection-start-column="63" selection-end-line="335" selection-end-column="112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1113">
-          <caret line="339" column="53" lean-forward="true" selection-start-line="339" selection-start-column="53" selection-end-line="339" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/switch_backup.js" />
-    <entry file="file://$PROJECT_DIR$/PC/en/switch_backup_2.js" />
     <entry file="file://$PROJECT_DIR$/PC/switch.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -942,32 +765,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PC/adcenter/head_backup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/adcenter/head_backup.js" />
     <entry file="file://$PROJECT_DIR$/PC/adcenter/head.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
           <caret line="130" lean-forward="true" selection-start-line="73" selection-end-line="130" />
-          <folding>
-            <element signature="e#34#40#1" expanded="true" />
-            <element signature="e#34#40#1" expanded="true" />
-            <element signature="e#34#40#1" expanded="true" />
-            <element signature="e#34#40#1" expanded="true" />
-            <element signature="e#34#40#1" expanded="true" />
-            <element signature="e#34#40#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/adcenter/principal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="5" column="152" lean-forward="true" selection-start-line="5" selection-start-column="152" selection-end-line="5" selection-end-column="152" />
         </state>
       </provider>
     </entry>
@@ -989,11 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="703">
           <caret line="113" column="10" lean-forward="true" selection-start-line="113" selection-start-column="10" selection-end-line="113" selection-end-column="10" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1013,16 +810,275 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="563">
           <caret line="378" column="6" lean-forward="true" selection-start-line="378" selection-start-column="6" selection-end-line="378" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/adcenter/principal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/foot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/foot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/adcenter/foot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="38" column="68" selection-start-line="38" selection-start-column="68" selection-end-line="38" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/adcenter/foot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="65" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/service_backup.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/bind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="67" column="18" lean-forward="true" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/security_set.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="7" column="236" lean-forward="true" selection-start-line="7" selection-start-column="236" selection-end-line="7" selection-end-column="236" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/security_modify.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="7" column="236" lean-forward="true" selection-start-line="7" selection-start-column="236" selection-end-line="7" selection-end-column="236" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/css/personal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="1484" column="21" lean-forward="true" selection-start-line="1484" selection-start-column="21" selection-end-line="1484" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/bind_modify.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="197" column="51" lean-forward="true" selection-start-line="197" selection-start-column="51" selection-end-line="197" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/x-one.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/service.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="300" column="14" lean-forward="true" selection-start-line="300" selection-start-column="14" selection-end-line="300" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/gift_backup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="1109" column="40" lean-forward="true" selection-start-line="1109" selection-start-column="40" selection-end-line="1109" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/bind_email.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="100" column="18" selection-start-line="100" selection-start-column="18" selection-end-line="100" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/js/gift.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/css/content.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="1684" column="26" selection-start-line="1684" selection-start-column="26" selection-end-line="1684" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/gift.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="200" column="45" selection-start-line="200" selection-start-column="45" selection-end-line="200" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/message_reply_after.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/message_reply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/security_pop_pass.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/service_pop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/set_pop_del.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="84" lean-forward="true" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/skin_pop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/user_pop_avatar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="84" lean-forward="true" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/user_pop_impression.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="84" lean-forward="true" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/user_pop_share.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/security_pop_email.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="19" column="17" lean-forward="true" selection-end-line="54" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/security_pop_code.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/language_pop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/gift_pop_get.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="84" lean-forward="true" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/gift_pop_points.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="84" lean-forward="true" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/message.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/message_pop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/css/pop-up.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="101" column="23" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/news_details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="11" column="68" lean-forward="true" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/en/adcenter/principal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="146" column="21" lean-forward="true" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/points.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="533" column="32" lean-forward="true" selection-start-line="533" selection-start-column="32" selection-end-line="540" selection-end-column="35" />
         </state>
       </provider>
     </entry>
