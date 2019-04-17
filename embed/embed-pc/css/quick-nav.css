@@ -89,6 +89,10 @@
     background-image: url("../images/quick-nav/quick-message-over.png");
 }
 
+.h-quick-bar li.h-quick-flicker .h-quick-link .h-quick-link-mes {
+    background-image: url("../images/quick-nav/quick-message-flicker.gif");
+}
+
 .h-quick-bar li.current .h-quick-link .h-quick-link-ser{
     background-image: url("../images/quick-nav/quick-service-over.png");
 }

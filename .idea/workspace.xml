@@ -2,28 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42c63de5-884d-44f1-8983-b3098961240a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/embed/embed-pc/gift_backup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/embed/embed-pc/js/gift.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/embed/embed-pc/message_pop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/pc/images/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/adcenter/foot.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/adcenter/foot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/adcenter/foot.js" beforeDir="false" afterPath="$PROJECT_DIR$/PC/adcenter/foot.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/en/adcenter/principal.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/en/adcenter/principal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/en/images/banner-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/PC/en/images/banner-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/foot.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC/foot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC/foot.js" beforeDir="false" afterPath="$PROJECT_DIR$/PC/foot.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/embed/embed-pc/bind_modify.html" beforeDir="false" afterPath="$PROJECT_DIR$/embed/embed-pc/bind_modify.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/embed/embed-pc/css/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/embed/embed-pc/css/content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/embed/embed-pc/css/personal.css" beforeDir="false" afterPath="$PROJECT_DIR$/embed/embed-pc/css/personal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/embed/embed-pc/css/pop-up.css" beforeDir="false" afterPath="$PROJECT_DIR$/embed/embed-pc/css/pop-up.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/embed/embed-pc/gift.html" beforeDir="false" afterPath="$PROJECT_DIR$/embed/embed-pc/gift.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/embed/embed-pc/gift_pop_points.html" beforeDir="false" afterPath="$PROJECT_DIR$/embed/embed-pc/gift_pop_points.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/embed/embed-pc/images/gif-value-detail-right.png" beforeDir="false" afterPath="$PROJECT_DIR$/embed/embed-pc/images/gif-value-detail-right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/embed/embed-pc/images/gif-value-detail.png" beforeDir="false" afterPath="$PROJECT_DIR$/embed/embed-pc/images/gif-value-detail.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/embed/embed-pc/images/wa-game-coin.png" beforeDir="false" afterPath="$PROJECT_DIR$/embed/embed-pc/images/wa-game-coin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/embed/embed-pc/points.html" beforeDir="false" afterPath="$PROJECT_DIR$/embed/embed-pc/points.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/embed/embed-pc/service.html" beforeDir="false" afterPath="$PROJECT_DIR$/embed/embed-pc/service.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/文档/游戏平台-命名规范.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/文档/游戏平台-命名规范.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/embed/embed-pc/css/message.css" beforeDir="false" afterPath="$PROJECT_DIR$/embed/embed-pc/css/message.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/embed/embed-pc/css/quick-nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/embed/embed-pc/css/quick-nav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/embed/embed-pc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/embed/embed-pc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/embed/embed-pc/message.html" beforeDir="false" afterPath="$PROJECT_DIR$/embed/embed-pc/message.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -88,11 +72,11 @@
     <session id="-557719255">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="254" />
-          <entry key="project.open.time.10" value="38" />
-          <entry key="project.open.time.11" value="41" />
-          <entry key="project.open.time.12" value="27" />
-          <entry key="project.open.time.13" value="21" />
+          <entry key="project.closed" value="262" />
+          <entry key="project.open.time.10" value="39" />
+          <entry key="project.open.time.11" value="42" />
+          <entry key="project.open.time.12" value="30" />
+          <entry key="project.open.time.13" value="23" />
           <entry key="project.open.time.14" value="13" />
           <entry key="project.open.time.15" value="4" />
           <entry key="project.open.time.16" value="5" />
@@ -106,23 +90,23 @@
           <entry key="project.open.time.6" value="22" />
           <entry key="project.open.time.7" value="15" />
           <entry key="project.open.time.8" value="23" />
-          <entry key="project.open.time.9" value="38" />
-          <entry key="project.opened" value="262" />
+          <entry key="project.open.time.9" value="39" />
+          <entry key="project.opened" value="270" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="637" />
+          <entry key="css" value="643" />
           <entry key="htc" value="1" />
-          <entry key="html" value="2021" />
+          <entry key="html" value="2026" />
           <entry key="ico" value="13" />
           <entry key="js" value="165" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="637" />
-          <entry key="HTML" value="2021" />
+          <entry key="CSS" value="643" />
+          <entry key="HTML" value="2026" />
           <entry key="Image" value="13" />
           <entry key="JavaScript" value="165" />
           <entry key="PLAIN_TEXT" value="1" />
@@ -130,15 +114,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="77454" />
-          <entry key="html" value="69896" />
+          <entry key="css" value="77641" />
+          <entry key="html" value="70163" />
           <entry key="js" value="2722" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="77454" />
-          <entry key="HTML" value="69896" />
+          <entry key="CSS" value="77641" />
+          <entry key="HTML" value="70163" />
           <entry key="JavaScript" value="2722" />
         </counts>
       </usages-collector>
@@ -148,17 +132,7 @@
     <favorites_list name="Project" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/embed/embed-pc/points.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="533" column="32" lean-forward="true" selection-start-line="533" selection-start-column="32" selection-end-line="540" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -171,16 +145,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>switchBox</find>
-      <find>nav-itemTxt</find>
-      <find>roof-logo</find>
-      <find>sub-navBox</find>
-      <find>index-main</find>
-      <find>recRankBg</find>
-      <find>recBox</find>
-      <find>bannerBox</find>
-      <find>intro-process</find>
-      <find>roof-box</find>
       <find>roof-scroll</find>
       <find>recShowBox</find>
       <find>recClassBox</find>
@@ -201,6 +165,16 @@
       <find>gif-value-detail</find>
       <find>ncluding</find>
       <find>Game Coins</find>
+      <find>mes-con-time</find>
+      <find>mes-con</find>
+      <find>cNeString</find>
+      <find>cNeTest</find>
+      <find>mes-con-hold</find>
+      <find>height: 7em;</find>
+      <find>mes-show</find>
+      <find>mes-con-part</find>
+      <find>mes-con-part-txt</find>
+      <find>mes-con-part-txt-par</find>
     </findStrings>
     <replaceStrings>
       <replace>https</replace>
@@ -216,11 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PC/en/game.html" />
-        <option value="$PROJECT_DIR$/PC/en/history.html" />
-        <option value="$PROJECT_DIR$/PC/en/intelligent.html" />
-        <option value="$PROJECT_DIR$/PC/en/introduce.html" />
-        <option value="$PROJECT_DIR$/PC/en/join.html" />
         <option value="$PROJECT_DIR$/PC/en/management.html" />
         <option value="$PROJECT_DIR$/PC/en/pay.html" />
         <option value="$PROJECT_DIR$/PC/en/social.html" />
@@ -267,6 +236,11 @@
         <option value="$PROJECT_DIR$/embed/embed-pc/message_pop.html" />
         <option value="$PROJECT_DIR$/PC/en/adcenter/principal.html" />
         <option value="$PROJECT_DIR$/embed/embed-pc/points.html" />
+        <option value="$PROJECT_DIR$/embed/embed-pc/css/quick-nav.css" />
+        <option value="$PROJECT_DIR$/embed/embed-pc/index.html" />
+        <option value="$PROJECT_DIR$/embed/embed-pc/css/message.css" />
+        <option value="$PROJECT_DIR$/embed/embed-pc/message.html" />
+        <option value="$PROJECT_DIR$/game/pc/images/index.html" />
       </list>
     </option>
   </component>
@@ -276,11 +250,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="620" />
-    <option name="y" value="56" />
-    <option name="width" value="904" />
-    <option name="height" value="855" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-97" />
+    <option name="y" value="14" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -300,31 +274,18 @@
             <path>
               <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="QiaoniYue.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="embed" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="QiaoniYue.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="embed" type="462c0819:PsiDirectoryNode" />
-              <item name="embed-pc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QiaoniYue.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="PC" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="pc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="QiaoniYue.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="PC" type="462c0819:PsiDirectoryNode" />
-              <item name="en" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QiaoniYue.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="PC" type="462c0819:PsiDirectoryNode" />
-              <item name="en" type="462c0819:PsiDirectoryNode" />
-              <item name="adcenter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -678,11 +639,19 @@
       <workItem from="1553658120802" duration="1294000" />
       <workItem from="1553742636484" duration="134000" />
       <workItem from="1554189000627" duration="1128000" />
+      <workItem from="1554704538790" duration="2483000" />
+      <workItem from="1554708011226" duration="12046000" />
+      <workItem from="1554778031040" duration="687000" />
+      <workItem from="1554867376301" duration="643000" />
+      <workItem from="1554954284246" duration="907000" />
+      <workItem from="1554975731042" duration="598000" />
+      <workItem from="1555053764051" duration="641000" />
+      <workItem from="1555484142252" duration="551000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1725716000" />
+    <option name="totallyTimeSpent" value="1744272000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -694,9 +663,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-97" y="14" width="1616" height="876" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920762" visible="true" weight="0.1375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920762" visible="true" weight="0.149375" />
       <window_info id="Structure" order="1" sideWeight="0.50158733" side_tool="true" weight="0.25625" />
       <window_info id="Favorites" order="2" sideWeight="0.5011287" side_tool="true" weight="0.3828198" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -741,30 +710,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PC/switch.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="38" lean-forward="true" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/en/switch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="40" column="33" lean-forward="true" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/adcenter/platform.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/switch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PC/adcenter/head_backup.js" />
     <entry file="file://$PROJECT_DIR$/PC/adcenter/head.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -817,13 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PC/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
@@ -1040,13 +978,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/embed/embed-pc/message.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/embed/embed-pc/message_pop.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1077,8 +1008,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/embed/embed-pc/points.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="533" column="32" lean-forward="true" selection-start-line="533" selection-start-column="32" selection-end-line="540" selection-end-column="35" />
+        <state relative-caret-position="550">
+          <caret line="543" column="26" lean-forward="true" selection-start-line="543" selection-start-column="26" selection-end-line="543" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/message.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="236" column="58" selection-start-line="236" selection-start-column="58" selection-end-line="236" selection-end-column="58" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/css/message.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7922">
+          <caret line="466" column="13" selection-start-line="466" selection-start-column="1" selection-end-line="466" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="532" selection-start-line="532" selection-end-line="545" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embed/embed-pc/css/quick-nav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/pc/images/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PC/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>

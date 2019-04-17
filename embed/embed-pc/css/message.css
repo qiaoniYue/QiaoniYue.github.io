@@ -309,7 +309,20 @@
     text-overflow:ellipsis;
     color: #999999;
     cursor: pointer;
+    height: 2em;
+    line-height: 2em;
 }
+
+.mes-con-part-txt-par {
+    display: block;
+    width: 100%;
+    color: #999999;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    height: 100%;
+    overflow: hidden;
+}
+
 
 .mes-con-system-txt {
     float: left;
@@ -317,6 +330,16 @@
     padding-right: 1%;
     overflow: hidden;
     color: #999999;
+}
+
+.mes-con-system-txt-par {
+    display: block;
+    width: 100%;
+    color: #999999;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    height: 100%;
+    overflow: hidden;
 }
 
 .mes-con-private-txt {
@@ -328,6 +351,16 @@
     white-space:nowrap;
     text-overflow:ellipsis;
     cursor: pointer;
+}
+
+.mes-con-private-txt-par {
+    display: block;
+    width: 100%;
+    color: #999999;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    height: 100%;
+    overflow: hidden;
 }
 
 .mes-con-community-txt {
@@ -434,6 +467,15 @@
 .mes-con-hold {
     width: 100%;
     overflow: hidden;
+    color: #ddd;
+}
+
+.mes-con-hold img {
+    vertical-align: bottom;
+    height: 7em;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .mes-con-del {
@@ -648,6 +690,8 @@
     vertical-align: bottom;
     height: 7em;
     width: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .mes-rev-line {
@@ -694,10 +738,69 @@
 }
 
 @media screen and (min-width:1001px) and (max-width:1100px) {
+    .mes-con-title {
+        width: 84%;
+    }
 
+    .mes-con-part-txt {
+        width: 84%;
+    }
+
+    .mes-con-community-txt {
+        width: 84%;
+    }
+
+    .mes-con-time {
+        width: 15%;
+    }
+
+    .mes-con-system-txt {
+        width: 74%;
+    }
+
+    .mes-con-private-txt {
+        width: 74%;
+    }
+
+    .mes-btn-bar {
+        width: 25%;
+    }
 }
 
-@media screen and (min-width:1101px) {
+@media screen and (min-width:1101px) and (max-width:1150px)  {
+    .mes-con-brief {
+        padding: 0.5em 0;
+    }
+    .mes-con-title {
+        width: 86%;
+    }
+
+    .mes-con-part-txt {
+        width: 86%;
+    }
+
+    .mes-con-community-txt {
+        width: 86%;
+    }
+
+    .mes-con-time {
+        width: 13%;
+    }
+
+    .mes-con-system-txt {
+        width: 76%;
+    }
+
+    .mes-con-private-txt {
+        width: 76%;
+    }
+
+    .mes-btn-bar {
+        width: 23%;
+    }
+}
+
+@media screen and (min-width:1151px)  {
     .mes-con-brief {
         padding: 0.5em 0;
     }
