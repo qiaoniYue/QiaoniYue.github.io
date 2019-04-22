@@ -8,6 +8,7 @@
     width: 1200px;
     height: 120px;
     margin: 0 auto;
+    overflow: hidden;
     background: url("../images/count.png") no-repeat center center;
 }
 
@@ -66,6 +67,7 @@
 .pro_box {
     width: 1200px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .pro_box_room {

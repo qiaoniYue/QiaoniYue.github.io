@@ -12,6 +12,7 @@
     width: 1200px;
     height: 67px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .h_logo {
@@ -265,6 +266,7 @@
     width: 1200px;
     height: 100%;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .nav_list {
@@ -348,6 +350,7 @@
 .f_box {
     width: 1200px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .f_chain {
