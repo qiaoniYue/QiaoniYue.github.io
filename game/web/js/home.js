@@ -9,4 +9,32 @@ window.onload = function(){
             this.getElementsByClassName("pro_code")[0].style.display = 'none';
         };
     }
+    /*热门游戏的动态特效*/
+    var proPopGames = document.getElementsByClassName("pro_pop_item");
+    for(var j=0;j<proPopGames.length;j++){
+        proPopGames[j].onmouseover = function(){
+            for(var h=0;h<proPopGames.length;h++){
+                proPopGames[h].style.width = "232px";
+                proPopGames[h].getElementsByClassName("pro_pop_add")[0].style.display = "none";
+            }
+            this.style.width = "474px";
+            this.getElementsByClassName("pro_pop_add")[0].style.display = "block";
+        }
+    }
+
+    /*热门游戏-大图两个来回切换*/
+    function popSwitch(){
+        var oProPopSwitchIcon = document.getElementsByClassName("pro_pop_switch_icon")[0];
+        var aProPopSwitchSpan = oProPopSwitchIcon.getElementsByTagName("span");
+        for(var k=0; k<aProPopSwitchSpan.length;k++) {
+            if(aProPopSwitchSpan[i].classList.contains("current")){
+                aProPopSwitchSpan[i].classList.remove("current")
+            }
+        }
+
+    }
+
+
+
 }
+

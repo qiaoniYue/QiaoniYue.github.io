@@ -24,9 +24,7 @@
 .h_mail {
     float: left;
     height: 100%;
-    border-left: 1px solid #999;
-    border-right: 1px solid #999;
-    padding: 0 5px;
+    padding-left: 8px;
     overflow: hidden;
 }
 
@@ -111,6 +109,11 @@
     background: url("../images/head-dec.png") no-repeat;
     margin-top: 9px;
     margin-left: 10px;
+}
+
+.h_dec_l {
+    float: left;
+    margin-left: 5px;
 }
 
 .h_plat {

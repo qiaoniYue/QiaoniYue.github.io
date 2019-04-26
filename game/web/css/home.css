@@ -462,7 +462,19 @@
     height: 506px;
     background-color: #1a1a1a;
     margin-bottom: 10px;
+    position: relative;
 }
+
+.pro_pop_turn {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
 
 .pro_pop_feat_img {
     float: left;
@@ -477,7 +489,6 @@
     width: 260px;
     padding: 0 20px;
     height: 506px;
-    position: relative;
 }
 
 .pro_pop_feat_name {
@@ -725,9 +736,13 @@
     margin-right: 10px;
 }
 
+.pro_pop_item_last {
+    margin-right: 0;
+}
+
 .pro_pop_item_img {
-    width: 100%;
-    height: 100%;
+    width: 232px;
+    height: 348px;
     border: none 0;
     outline: none 0;
 }
