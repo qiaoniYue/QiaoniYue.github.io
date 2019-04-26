@@ -773,7 +773,7 @@
 
 .pro_pop_add_bar {
     width: 212px;
-    height: 100%;
+    /*height: 100%;*/
     padding: 0 15px 0 37px;
 }
 
@@ -808,14 +808,15 @@
 
 .pro_pop_add_description {
     width: 100%;
-    max-height: 60px;
+    /*max-height: 60px;*/
+    max-height: 90px;
     line-height: 30px;
     font-size: 14px;
     color: #a6a6a6;
     overflow: hidden;
     text-overflow:ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     margin-bottom: 15px;
 }
@@ -828,7 +829,8 @@
     margin-top: 20px;
     width: 420px;
     padding: 0 10px;
-    height: 1130px;
+    /*height: 1130px;*/
+    height: 580px;
     background-color: #262626;
 }
 
@@ -948,13 +950,14 @@
     float: right;
     margin-top: 20px;
     width: 740px;
-    height: 1130px;
+    /*height: 1130px;*/
 }
 
 .pro_h5 {
     width: 720px;
     padding: 0 10px;
-    height: 520px;
+    /*height: 520px;*/
+    height: 580px;
     background-color: #262626;
 }
 
@@ -962,6 +965,8 @@
     width: 100%;
     height: 460px;
     overflow: hidden;
+    /*这个margin-top为30，当恢复正常的时候去除*/
+    margin-top: 20px;
 }
 
 .pro_h5_item {

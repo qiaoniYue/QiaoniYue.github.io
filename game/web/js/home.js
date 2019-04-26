@@ -27,13 +27,19 @@ window.onload = function(){
         var oProPopSwitchIcon = document.getElementsByClassName("pro_pop_switch_icon")[0];
         var aProPopSwitchSpan = oProPopSwitchIcon.getElementsByTagName("span");
         for(var k=0; k<aProPopSwitchSpan.length;k++) {
-            if(aProPopSwitchSpan[i].classList.contains("current")){
-                aProPopSwitchSpan[i].classList.remove("current")
+
+            if(aProPopSwitchSpan[k].classList.contains("current")){
+                aProPopSwitchSpan[k].classList.remove("current");
+            }
+            else {
+                aProPopSwitchSpan[k].classList.add("current");
             }
         }
-
     }
 
+    var timer = setInterval(function(){
+        popSwitch();
+    },1000);
 
 
 }
