@@ -23,6 +23,7 @@ window.onload = function(){
     }
 
     /*热门游戏-大图两个来回切换*/
+    /*
     function popSwitch(){
         var oProPopSwitchIcon = document.getElementsByClassName("pro_pop_switch_icon")[0];
         var aProPopSwitchSpan = oProPopSwitchIcon.getElementsByTagName("span");
@@ -40,6 +41,7 @@ window.onload = function(){
     var timer = setInterval(function(){
         popSwitch();
     },1000);
+    */
 
 
 }
