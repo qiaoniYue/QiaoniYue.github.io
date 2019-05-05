@@ -9,6 +9,7 @@
     		height: 200px;
     		border:5px solid pink;
     		background-color: #000;
+    		/*position: absolute;*/
     	}
     </style>
 </head>
@@ -37,12 +38,18 @@
 	if (os.isAndroid || os.isPhone) {
 	  //console.log("手机")
 	  document.getElementById("div1").style.backgroundColor = "red";
+	  document.getElementById("div1").style.position = "absolute";
+	  document.getElementById("div1").style.bottom = "0";
+	  document.getElementById("div1").style.left = "0";
 	} else if (os.isTablet) {
 	  //console.log("平板")
 	  document.getElementById("div1").style.backgroundColor = "blue";
 	} else if(os.isPc) {
 	  //console.log("电脑")
 	  document.getElementById("div1").style.backgroundColor = "green";
+	  document.getElementById("div1").style.position = "absolute";
+	  document.getElementById("div1").style.bottom = "0";
+	  document.getElementById("div1").style.left = "0";
 	}
 	</script>
 </body>
