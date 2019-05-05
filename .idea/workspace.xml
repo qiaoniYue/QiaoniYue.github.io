@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42c63de5-884d-44f1-8983-b3098961240a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/game/web/single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/single.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -111,14 +110,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="87829" />
-          <entry key="html" value="77390" />
+          <entry key="html" value="77395" />
           <entry key="js" value="4938" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="87829" />
-          <entry key="HTML" value="77390" />
+          <entry key="HTML" value="77395" />
           <entry key="JavaScript" value="4938" />
         </counts>
       </usages-collector>
@@ -134,8 +133,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/game/web/single.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="390">
-                  <caret line="70" column="23" lean-forward="true" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+                <state relative-caret-position="424">
+                  <caret line="72" column="31" lean-forward="true" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
                 </state>
               </provider>
             </entry>
@@ -749,12 +748,12 @@
       <workItem from="1556278216381" duration="162000" />
       <workItem from="1556279732472" duration="347000" />
       <workItem from="1556284442198" duration="147000" />
-      <workItem from="1557030340509" duration="1944000" />
+      <workItem from="1557030340509" duration="2223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1899512000" />
+    <option name="totallyTimeSpent" value="1899791000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1151,8 +1150,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/game/web/single.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="70" column="23" lean-forward="true" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+        <state relative-caret-position="424">
+          <caret line="72" column="31" lean-forward="true" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
         </state>
       </provider>
     </entry>
