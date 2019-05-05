@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MIRACLE GAMES</title>
+    <meta name="keywords" content="MIRACLE GAMES,Advertising,Windows Phone,WindowsPhone,WP,Phone,Microsoft,Advertising  Platform,Point Wall,Advertising Wall,Third-party Payment,Payment,Service,Developer,WP Developer,dev,Game,APP,Promotion,Media,Ranking Burst,Comment,Rank">
+    <meta name="description" content="MIRACLE GAMES (MG) dedicated to the mobile Internet and gaming social platforms. Our MIRACLE GAMES platform is a gaming and social networking platform on Microsoft Windows 10 and Windows Phone (WP) systems. It provides cross-platform SDK services for developers worldwide, including but not limited to: game center, social sharing, payment solutions and cross-promotions. As one of Microsoft's top partners and one of Nokia's strategic partners, MIRACLE GAMES is committed to becoming the world's largest Windows 10 gaming platform and publisher.">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/base.css" type="text/css" />
+    <link rel="stylesheet" href="css/public.css" type="text/css" />
+    <style>
+        body {
+            width: 100%;
+            height: 4500px;
+            background-color: pink;
+        }
+
+        #right {
+            width: 200px;
+            border: 1px solid #cc8491;
+            position: fixed;
+            right: 3px;
+            top: 20%;
+            display: block;
+        }
+
+        .ver-down {
+            width: 100%;
+        }
+
+        .ver-down li {
+            width: 100%;
+            height: 100px;
+            line-height: 100px;
+            color: #d87889;
+            border-bottom: 1px solid #d87889;
+            font-size: 14px;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        .ver-down li:hover,
+        .ver-down li:active {
+            background-color: #ffe1e6;
+        }
+
+        .ver-down li:last-child {
+            border-bottom: 0 solid #d87889;
+        }
+
+        #bottom {
+            width: 100%;
+            height: 100px;
+            border: 1px solid #cc8491;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            box-sizing: border-box;
+            display: none;
+        }
+
+        .hor-list {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .hor-list li{
+            float: left;
+            width: 25%;
+            box-sizing: border-box;
+            line-height: 100px;
+            color: #d87889;
+            border-right: 1px solid #d87889;
+            font-size: 14px;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        .hor-list li:hover,
+        .hor-list li:active {
+            background-color: #ffe1e6;
+        }
+
+        .hor-list li:last-child {
+            border-right: 0px solid #d87889;
+        }
+
+
+    </style>
+    <!-- html5shiv.js和respond.js IE8支持HTML5元素和媒体查询 -->
+    <!--[if lt IE 9]>
+    <script src="js/respond.js"></script>
+    <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div id="right">
+        <ul class="ver-down">
+            <li>MG Store</li>
+            <li>UWP</li>
+            <li>Html5</li>
+            <li>iOS</li>
+        </ul>
+    </div>
+    <div id="bottom">
+        <ul class="hor-list">
+            <li>MG Store</li>
+            <li>UWP</li>
+            <li>Html5</li>
+            <li>iOS</li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        console.log(navigator.userAgent);
+        var right = document.getElementById("right");
+        var bottom = document.getElementById("bottom");
+        var os = function (){
+            var ua = navigator.userAgent,
+                isWindowsPhone = /(?:Windows Phone)/.test(ua),
+                isSymbian = /(?:SymbianOS)/.test(ua) || isWindowsPhone,
+                isAndroid = /(?:Android)/.test(ua),
+                isFireFox = /(?:Firefox)/.test(ua),
+                isChrome = /(?:Chrome|CriOS)/.test(ua),
+                isTablet = /(?:iPad|PlayBook)/.test(ua) || (isAndroid && !/(?:Mobile)/.test(ua)) || (isFireFox && /(?:Tablet)/.test(ua)),
+                isPhone = /(?:iPhone)/.test(ua) && !isTablet,
+                isPc = !isPhone && !isAndroid && !isSymbian;
+            return {
+                isTablet: isTablet,
+                isPhone: isPhone,
+                isAndroid: isAndroid,
+                isPc: isPc
+            };
+        }();
+
+        if (os.isAndroid || os.isPhone) {
+            //console.log("手机")
+            right.style.display = "none";
+            bottom.style.display = "block";
+        } else if (os.isTablet) {
+            //console.log("平板")
+            right.style.display = "none";
+            bottom.style.display = "block";
+
+        } else if(os.isPc) {
+            //console.log("电脑")
+            right.style.display = "block";
+            bottom.style.display = "none";
+
+        }
+    </script>
+</body>
+</html>
