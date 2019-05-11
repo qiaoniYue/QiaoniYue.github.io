@@ -225,6 +225,16 @@
     overflow: hidden;
 }
 
+.h_social span {
+    float: left;
+    font-size: 13px;
+    height: 26px;
+    line-height: 26px;
+    color: #808080;
+    margin-right: 8px;
+    margin-top: 20px;
+}
+
 .h_social a {
     float: left;
     width: 26px;
@@ -344,7 +354,7 @@
 .footer {
     width: 100%;
     min-width: 1200px;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     background-color: #202020;
     padding: 30px 0;
     overflow: hidden;

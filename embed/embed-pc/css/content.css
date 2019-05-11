@@ -140,7 +140,7 @@
 }
 
 .c-ne-label-1:before {
-    content: "News";
+    /*content: "News";*/
 }
 
 .c-ne-label-1 {
@@ -164,7 +164,7 @@
 }
 
 .c-ne-label-2:before {
-    content: "Events";
+    /*content: "Events";*/
 }
 
 .c-ne-label-2 {
@@ -189,7 +189,7 @@
 }
 
 .c-ne-label-3:before {
-    content: "Raiders";
+    /*content: "Raiders";*/
 }
 
 .c-ne-label-3 {
