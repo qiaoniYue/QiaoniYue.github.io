@@ -71,10 +71,12 @@ a {
     outline: 0;
 }
 
+/*
 a:link,
 a:visited {
     text-decoration: none;
 }
+*/
 
 a:hover,
 a:active {

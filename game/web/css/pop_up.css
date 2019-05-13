@@ -1,0 +1,153 @@
+/*弹出框的样式*/
+#powCodePopLayer {
+    display: none;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    -moz-opacity: 0.4;
+    opacity:.40;
+    filter: alpha(opacity=40);/* 只支持IE6、7、8、9 */
+}
+
+/*二维码弹出框的样式*/
+#powCodePopBox {
+    display: none;
+    background-color: #fff;
+    border: 1px solid #4b4b4b;
+    width: 400px;
+    height: 500px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    overflow: hidden;
+    z-index: 10000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.pow-code-front {
+    width: 100%;
+    height: 225px;
+    overflow: hidden;
+}
+
+.pow-code-front img {
+    width: 100%;
+    height: 100%;
+}
+
+.pow-code-scan {
+    width: 100%;
+    text-align: center;
+}
+
+.pow-code-scan img {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+}
+
+.pow-code-slogan {
+    color: #000;
+    line-height: 30px;
+}
+
+.pow-code-close-bar {
+    width: 100%;
+    padding-right: 20px;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+.pow-code-close-mt20 {
+    margin-top: 20px;
+}
+
+.pow-code-close {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 30px;
+    color: #2c91ed;
+    border: 2px solid #2c91ed;
+    border-radius: 3px;
+}
+
+.pow-code-close:hover,
+.pow-code-close:active {
+    color: #fff;
+    border: 2px solid #2c91ed;
+    background-color: #46b6ea;
+    background: -webkit-linear-gradient(#4ac6ff, #49a8ff); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#4ac6ff, #49a8ff); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#4ac6ff, #49a8ff); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#4ac6ff, #49a8ff); /* 标准的语法 */
+}
+
+/*语言弹出框的css样式*/
+#powLanguageBox {
+    display: none;
+    background-color: #fff;
+    border: 1px solid #4b4b4b;
+    width: 600px;
+    height: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    z-index: 10000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.pow-item-language-pop-limit {
+    width: 100%;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+
+.pow-item-language-pop {
+    display: block;
+    width: 100%;
+    line-height: 30px;
+    font-size: 18px;
+    color: #333;
+    word-break: keep-all; /*决定单词内该怎么换行*/
+    word-wrap:break-word; /*决定句尾放不下单词时，单词是否换行*/
+}
+
+.pow-item-language-pop span:after {
+    content: "|";
+    padding-left: 10px;
+}
+
+.pow-item-language-pop .pow-item-language-pop-last:after {
+    content: "";
+    padding-right: 0;
+}
+
+.pow-item-language-pop span {
+    padding-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
