@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="42c63de5-884d-44f1-8983-b3098961240a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/game/web/css/template.css" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/css/template.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/web/js/switch_template.js" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/js/switch_template.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/web/template_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/template_info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/web/template_info_backup.html" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/template_info_backup.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -114,15 +112,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="97596" />
-          <entry key="html" value="84464" />
+          <entry key="css" value="97598" />
+          <entry key="html" value="84494" />
           <entry key="js" value="5815" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="97596" />
-          <entry key="HTML" value="84464" />
+          <entry key="CSS" value="97598" />
+          <entry key="HTML" value="84494" />
           <entry key="JavaScript" value="5815" />
         </counts>
       </usages-collector>
@@ -132,14 +130,14 @@
     <favorites_list name="Project" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49056605">
+    <splitter split-orientation="horizontal" split-proportion="0.5624093">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/game/web/template_info.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="459">
-                  <caret line="680" column="18" lean-forward="true" selection-start-line="680" selection-start-column="18" selection-end-line="680" selection-end-column="18" />
+                <state relative-caret-position="501">
+                  <caret line="683" column="74" selection-start-line="683" selection-start-column="74" selection-end-line="683" selection-end-column="74" />
                   <folding>
                     <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -179,6 +177,8 @@
                     <element signature="n#li#7;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#li#8;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#li#9;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
@@ -204,7 +204,7 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/game/web/js/switch_template.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="187">
@@ -213,11 +213,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/game/web/css/template.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="363">
-                  <caret line="1094" column="1" lean-forward="true" selection-start-line="1094" selection-start-column="1" selection-end-line="1094" selection-end-column="1" />
+                <state relative-caret-position="244">
+                  <caret line="1148" column="16" lean-forward="true" selection-start-line="1148" selection-start-column="16" selection-end-line="1148" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -332,9 +332,9 @@
         <option value="$PROJECT_DIR$/game/web/template_info_del.html" />
         <option value="$PROJECT_DIR$/game/web/js/cutover_template.js" />
         <option value="$PROJECT_DIR$/game/web/template_info_backup.html" />
-        <option value="$PROJECT_DIR$/game/web/template_info.html" />
-        <option value="$PROJECT_DIR$/game/web/css/template.css" />
         <option value="$PROJECT_DIR$/game/web/js/switch_template.js" />
+        <option value="$PROJECT_DIR$/game/web/css/template.css" />
+        <option value="$PROJECT_DIR$/game/web/template_info.html" />
       </list>
     </option>
   </component>
@@ -344,7 +344,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-9" />
     <option name="y" value="18" />
     <option name="width" value="939" />
@@ -780,12 +780,12 @@
       <workItem from="1557576829342" duration="663000" />
       <workItem from="1557713252436" duration="26274000" />
       <workItem from="1557752572501" duration="763000" />
-      <workItem from="1557801604024" duration="9102000" />
+      <workItem from="1557801604024" duration="9788000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2030785000" />
+    <option name="totallyTimeSpent" value="2031471000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1220,10 +1220,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/game/web/js/switch_template.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/web/css/template.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="1148" column="16" lean-forward="true" selection-start-line="1148" selection-start-column="16" selection-end-line="1148" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/game/web/template_info.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="680" column="18" lean-forward="true" selection-start-line="680" selection-start-column="18" selection-end-line="680" selection-end-column="18" />
+        <state relative-caret-position="501">
+          <caret line="683" column="74" selection-start-line="683" selection-start-column="74" selection-end-line="683" selection-end-column="74" />
           <folding>
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -1263,6 +1277,8 @@
             <element signature="n#li#7;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#8;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#9;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
@@ -1280,20 +1296,6 @@
             <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#9;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game/web/css/template.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="1094" column="1" lean-forward="true" selection-start-line="1094" selection-start-column="1" selection-end-line="1094" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game/web/js/switch_template.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
         </state>
       </provider>
     </entry>

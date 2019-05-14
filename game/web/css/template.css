@@ -1134,6 +1134,7 @@
 */
 
 .pow-also-icon {
+    display: block;
     width: 230px;
     height: 345px;
     border: 1px solid #47494c;
