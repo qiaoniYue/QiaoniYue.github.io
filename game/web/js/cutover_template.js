@@ -1,5 +1,6 @@
 /*游戏产品单页的动态特效*/
 /*弹出二维码*/
+
 var oPowCode = document.getElementById("powCode");
 var oPowCodePopLayer = document.getElementById("powCodePopLayer");
 var oPowCodePopBox = document.getElementById("powCodePopBox");
@@ -15,7 +16,10 @@ oPowCodeClose.onclick = function(){
     oPowCodePopBox.style.display = "none";
 }
 
-/*语言弹出框*/
+
+/*语言弹出框-非常重要的*/
+/*
+
 var oPowItemMore = document.getElementById("powItemMore");
 var oPowLanguageBox = document.getElementById("powLanguageBox");
 var oPowLanguageClose = document.getElementById("powLanguageClose");
@@ -30,6 +34,8 @@ oPowLanguageClose.onclick = function(){
     oPowCodePopLayer.style.display = "none";
     oPowLanguageBox.style.display = "none";
 };
+
+*/
 
 /*游戏产品单页内容部分选项卡的切换*/
 var oPowFunNav = document.getElementById("powFunNav");
@@ -52,9 +58,9 @@ for(var i=0;i<aPowFunNav.length;i++){
 }
 
 /*弹出的视频以及图片展示*/
-
+/*
 var oPowScrList = document.getElementById("powScrList");
-var aPowScrLi = oPowScrList.getElementsByTagName("li");
+var aPowScrLi = oPowScrList.getElementsByTagName("li");*/
 
 
 
