@@ -1059,19 +1059,59 @@
     padding: 0 15px;
 }
 
-.pow-also-list {
+
+.pow-also-screen {
     width: 100%;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.pow-but-prev {
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    left: -45px;
+    top: 150px;
+}
+
+.pow-but-next {
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    right: -45px;
+    top: 150px;
+}
+
+
+
+
+
+.pow-also-screen-box {
+    width: 1200px;
+    overflow: hidden;
+}
+
+
+
+
+
+.pow-also-list {
+    width: 2420px;
+    overflow: hidden;
 }
 
 .pow-also-list li {
     float: left;
     width: 230px;
-    margin-right: 12px;
+    /*margin-right: 12px;*/
+    margin-left: 12px;
 }
+/*
 
 .pow-also-list li:last-child {
     margin-right: 0;
 }
+*/
 
 .pow-also-icon {
     width: 230px;

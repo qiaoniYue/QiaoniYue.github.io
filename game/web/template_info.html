@@ -588,12 +588,13 @@ Requirements</span>
         <h2 class="pow-title">
             You Might Like
         </h2>
-        <div class="pow-screen">
-            <div class="pow-screen-box">
-                <ul class="pow-also-list">
+        <div class="pow-also-screen" id="powFiveFlash">
+            <!--游戏列表-->
+            <div class="pow-also-screen-box">
+                <ul class="pow-also-list" id="powAlsoList">
                     <li>
                         <div class="pow-also-icon">
-                            <img src="images/example/model/example-ver-other-1.png">
+                            <img src="images/example/model/example_model_others/example-ver-other-1.png">
                         </div>
                         <p class="pow-also-name">
                             <a href="javascript:void(0)">Survivor Pass : Wild Card</a>
@@ -601,7 +602,7 @@ Requirements</span>
                     </li>
                     <li>
                         <div class="pow-also-icon">
-                            <img src="images/example/model/example-ver-other-2.png">
+                            <img src="images/example/model/example_model_others/example-ver-other-2.png">
                         </div>
                         <p class="pow-also-name">
                             <a href="javascript:void(0)">Coloring Game</a>
@@ -609,7 +610,7 @@ Requirements</span>
                     </li>
                     <li>
                         <div class="pow-also-icon">
-                            <img src="images/example/model/example-ver-other-3.png">
+                            <img src="images/example/model/example_model_others/example-ver-other-3.png">
                         </div>
                         <p class="pow-also-name">
                             <a href="javascript:void(0)">One Finger Death Punch 2</a>
@@ -617,7 +618,7 @@ Requirements</span>
                     </li>
                     <li>
                         <div class="pow-also-icon">
-                            <img src="images/example/model/example-ver-other-4.png">
+                            <img src="images/example/model/example_model_others/example-ver-other-4.png">
                         </div>
                         <p class="pow-also-name">
                             <a href="javascript:void(0)">Tower Unite</a>
@@ -625,13 +626,62 @@ Requirements</span>
                     </li>
                     <li>
                         <div class="pow-also-icon">
-                            <img src="images/example/model/example-ver-other-5.png">
+                            <img src="images/example/model/example_model_others/example-ver-other-5.png">
+                        </div>
+                        <p class="pow-also-name">
+                            <a href="javascript:void(0)">Total War: WAR</a>
+                        </p>
+                    </li>
+
+                    <li>
+                        <div class="pow-also-icon">
+                            <img src="images/example/model/example_model_others/example-ver-other-6.png">
+                        </div>
+                        <p class="pow-also-name">
+                            <a href="javascript:void(0)">Survivor Pass : Wild Card</a>
+                        </p>
+                    </li>
+                    <li>
+                        <div class="pow-also-icon">
+                            <img src="images/example/model/example_model_others/example-ver-other-7.png">
+                        </div>
+                        <p class="pow-also-name">
+                            <a href="javascript:void(0)">Coloring Game</a>
+                        </p>
+                    </li>
+                    <li>
+                        <div class="pow-also-icon">
+                            <img src="images/example/model/example_model_others/example-ver-other-8.png">
+                        </div>
+                        <p class="pow-also-name">
+                            <a href="javascript:void(0)">One Finger Death Punch 2</a>
+                        </p>
+                    </li>
+                    <li>
+                        <div class="pow-also-icon">
+                            <img src="images/example/model/example_model_others/example-ver-other-9.png">
+                        </div>
+                        <p class="pow-also-name">
+                            <a href="javascript:void(0)">Tower Unite</a>
+                        </p>
+                    </li>
+                    <li>
+                        <div class="pow-also-icon">
+                            <img src="images/example/model/example_model_others/example-ver-other-10.png">
                         </div>
                         <p class="pow-also-name">
                             <a href="javascript:void(0)">Total War: WAR</a>
                         </p>
                     </li>
                 </ul>
+            </div>
+            <!--左按钮-->
+            <div class="pow-but-prev" id="powButPrev">
+                <img src="images/previous.png">
+            </div>
+            <!--右按钮-->
+            <div class="pow-but-next" id="powButNext">
+                <img src="images/next.png">
             </div>
         </div>
     </div>
@@ -1016,5 +1066,21 @@ Requirements</span>
 
 <!--游戏产品单页的动态特效-->
 <script src="js/cutover_template.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<!--<script src="js/switch_template.js"></script>-->
+<script>
+    $("#powFiveFlash #powButNext img").click(function(){
+        $self = $('#powAlsoList');
+        $self.stop().animate({"margin-left" : -242 +"px"},800 , function(){
+            $self.css({"margin-left":"0px"}).find("li:first").appendTo($self);
+        });
+    });
+
+    $("#powFiveFlash #powButPrev img").click(function(){
+        $self = $('#powAlsoList');
+        $self.css({"margin-left" : -242 +"px"}).find("li:last").prependTo($self);
+        $self.stop().animate({"margin-left" : "0px"},800 , function(){});
+    });
+</script>
 </body>
 </html>
