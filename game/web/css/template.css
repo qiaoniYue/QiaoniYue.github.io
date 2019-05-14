@@ -610,15 +610,64 @@
 .pow-screen {
     width: 100%;
     margin-bottom: 30px;
+    position: relative;
+}
+
+
+.pow-but-screen-prev {
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    left: -45px;
+    top: 124px;
+}
+
+.pow-but-screen-prev a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("../images/previous.png");
+}
+
+.pow-but-screen-prev a:hover,
+.pow-but-screen-prev a:active {
+    background: url("../images/previous-hover.png");
+}
+
+.pow-but-screen-next {
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    right: -45px;
+    top: 124px;
+}
+
+.pow-but-screen-next a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("../images/next.png");
+}
+
+.pow-but-screen-next a:hover,
+.pow-but-screen-next a:active {
+    background: url("../images/next-hover.png");
 }
 
 .pow-screen-box {
     width: 1200px;
+    height: 298px;
     overflow: hidden;
+    position: relative;
 }
 
 .pow-screen-bar {
-    width: 2700px;
+    /*
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    */
     height: 298px;
 }
 
@@ -630,6 +679,11 @@
     border: 1px solid #47494c;
     box-sizing: border-box;
     margin-right: 10px;
+}
+
+.pow-screen-bar li img {
+    width: 100%;
+    height: 100%;
 }
 
 .pow-screen-bar .pow-screen-video-cover {
@@ -1123,8 +1177,8 @@
 .pow-also-list li {
     float: left;
     width: 230px;
-    /*margin-right: 12px;*/
-    margin-left: 12px;
+    margin-right: 12px;
+    /*margin-left: 12px;*/
 }
 /*
 

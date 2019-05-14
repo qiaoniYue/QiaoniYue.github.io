@@ -51,8 +51,10 @@ for(var i=0;i<aPowFunNav.length;i++){
     }
 }
 
-/*你可能喜欢板块左右切换*/
+/*弹出的视频以及图片展示*/
 
+var oPowScrList = document.getElementById("powScrList");
+var aPowScrLi = oPowScrList.getElementsByTagName("li");
 
 
 

@@ -221,9 +221,10 @@
         <h2 class="pow-title">
             Screenshots
         </h2>
-        <div class="pow-screen">
+        <div class="pow-screen" id="powTwoScrFlash">
+            <!--截图列表-->
             <div class="pow-screen-box">
-                <ul class="pow-screen-bar">
+                <ul class="pow-screen-bar" id="powScrList">
                     <li class="pow-screen-video-cover">
                         <img src="images/example/model/example-video-cover.png">
                         <div class="pow-screen-video">
@@ -236,8 +237,23 @@
                     <li>
                         <img src="images/example/model/example-wide-2.png">
                     </li>
+                    <li>
+                        <img src="images/example/model/example-wide-3.png">
+                    </li>
+                    <li>
+                        <img src="images/example/model/example-wide-4.png">
+                    </li>
                 </ul>
             </div>
+            <!--左按钮-->
+            <div class="pow-but-screen-prev" id="powButScrPrev">
+                <a></a>
+            </div>
+            <!--右按钮-->
+            <div class="pow-but-screen-next" id="powButScrNext">
+                <a></a>
+            </div>
+
         </div>
     </div>
 </div>
@@ -677,11 +693,11 @@ Requirements</span>
                 </ul>
             </div>
             <!--左按钮-->
-            <div class="pow-but-prev" id="powButPrev" style="display: none">
+            <div class="pow-but-prev" id="powButPrev">
                 <a></a>
             </div>
             <!--右按钮-->
-            <div class="pow-but-next" id="powButNext" style="display: none">
+            <div class="pow-but-next" id="powButNext">
                 <a></a>
             </div>
         </div>
@@ -1069,21 +1085,7 @@ Requirements</span>
 <script src="js/cutover_template.js"></script>
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/switch_template.js"></script>
-<!--
-<script>
-    $("#powFiveFlash #powButNext img").click(function(){
-        $self = $('#powAlsoList');
-        $self.stop().animate({"margin-left" : -242 +"px"},800 , function(){
-            $self.css({"margin-left":"0px"}).find("li:first").appendTo($self);
-        });
-    });
 
-    $("#powFiveFlash #powButPrev img").click(function(){
-        $self = $('#powAlsoList');
-        $self.css({"margin-left" : -242 +"px"}).find("li:last").prependTo($self);
-        $self.stop().animate({"margin-left" : "0px"},800 , function(){});
-    });
-</script>
--->
+
 </body>
 </html>
