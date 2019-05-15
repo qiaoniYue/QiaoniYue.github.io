@@ -6,15 +6,20 @@ var oPowCodePopLayer = document.getElementById("powCodePopLayer");
 var oPowCodePopBox = document.getElementById("powCodePopBox");
 var oPowCodeClose = document.getElementById("powCodeClose");
 
-oPowCode.onclick = function(){
-    oPowCodePopLayer.style.display = "block";
-    oPowCodePopBox.style.display = "block";
-};
-
-oPowCodeClose.onclick = function(){
-    oPowCodePopLayer.style.display = "none";
-    oPowCodePopBox.style.display = "none";
+if(oPowCode){
+    oPowCode.onclick = function(){
+        oPowCodePopLayer.style.display = "block";
+        oPowCodePopBox.style.display = "block";
+    };
 }
+
+if(oPowCodeClose){
+    oPowCodeClose.onclick = function(){
+        oPowCodePopLayer.style.display = "none";
+        oPowCodePopBox.style.display = "none";
+    }
+}
+
 
 
 /*语言弹出框-非常重要的*/

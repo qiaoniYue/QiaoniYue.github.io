@@ -27,10 +27,16 @@ oPowScrList.onmouseout = function(){
 
 */
 /*得到截图list的宽度*/
+/*
+
 var oPowScrList = document.getElementById("powScrList");
 var aPowScrLi = oPowScrList.getElementsByTagName("li");
-oPowScrList.innerHTML = oPowScrList.innerHTML + oPowScrList.innerHTML;
-oPowScrList.style.width = aPowScrLi[0].offsetWidth * aPowScrLi.length + "px";
+if(oPowScrList){
+    oPowScrList.innerHTML = oPowScrList.innerHTML + oPowScrList.innerHTML;
+    oPowScrList.style.width = aPowScrLi[0].offsetWidth * aPowScrLi.length + "px";
+}
+
+*/
 
 /*截图的左右切换*/
 $("#powTwoScrFlash #powButScrNext a").click(function(){

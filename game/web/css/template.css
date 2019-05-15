@@ -668,6 +668,7 @@
     top: 0;
     overflow: hidden;
     */
+    min-width: 4500px;
     height: 298px;
 }
 
@@ -682,8 +683,8 @@
 }
 
 .pow-screen-bar li img {
-    width: 100%;
-    height: 100%;
+    width: 530px;
+    height: 298px;
 }
 
 .pow-screen-bar .pow-screen-video-cover {
@@ -1170,7 +1171,8 @@
 
 
 .pow-also-list {
-    width: 2420px;
+    /*width: 2420px;*/
+    width: 2662px;
     overflow: hidden;
 }
 

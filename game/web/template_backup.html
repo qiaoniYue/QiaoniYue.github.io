@@ -2,15 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>MIRACLE GAMES</title>
-    <meta name="keywords" content="MIRACLE GAMES,Advertising,Windows Phone,WindowsPhone,WP,Phone,Microsoft,Advertising  Platform,Point Wall,Advertising Wall,Third-party Payment,Payment,Service,Developer,WP Developer,dev,Game,APP,Promotion,Media,Ranking Burst,Comment,Rank">
-    <meta name="description" content="MIRACLE GAMES (MG) dedicated to the mobile Internet and gaming social platforms. Our MIRACLE GAMES platform is a gaming and social networking platform on Microsoft Windows 10 and Windows Phone (WP) systems. It provides cross-platform SDK services for developers worldwide, including but not limited to: game center, social sharing, payment solutions and cross-promotions. As one of Microsoft's top partners and one of Nokia's strategic partners, MIRACLE GAMES is committed to becoming the world's largest Windows 10 gaming platform and publisher.">
+    <title>MIRACLE GAMES STORE: CONNECTING TO THE BEST GAMES</title>
+    <meta name="keywords" content="MIRACLE GAMES, Advertising ,Phone, Microsoft, Advertising Platform, Point Wall, Advertising Wall, Third-party Payment, Payment, Service, Developer, WP Developer, dev, Game, APP, Promotion, Media, Ranking Burst, Comment, Rank, Windows Dev Center, Windows apps, UWP, Universal Windows Platform, Fluent design, mobile game community, download genuine mobile games, fun games, Google Play game charts, iOS game charts, Android free games, Android game charts, h5 game charts,HTML5,h5,webgame, app store, store, Win10, Windows 10, computer, PC, surface, mobile, pad">
+    <meta name="description" content="MIRACLE GAMES (MG) Store dedicated to the mobile Internet and gaming social platforms. We provide the latest Windows 10, Android, IOS and HTML5 applications, games, music, movies, TV shows, books, magazines and other projects for users all over the world. We are welcome to access them through your devices anytime, anywhere. MIRACLE GAMES is committed to becoming the world's largest cross-terminal digital entertainment platform.">
     <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/base.css" type="text/css" />
     <link rel="stylesheet" href="css/public.css" type="text/css" />
     <link rel="stylesheet" href="css/template.css" type="text/css" />
-
+    <link rel="stylesheet" href="css/pop_up.css" type="text/css" />
     <!-- html5shiv.js和respond.js IE8支持HTML5元素和媒体查询 -->
     <!--[if lt IE 9]>
     <script src="js/respond.js"></script>
@@ -24,20 +25,20 @@
 <nav class="nav">
     <div class="nav_box">
         <ul class="nav_list">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
             <li class="current">
-                <a>Home</a>
+                <a href="javascript:void(0)">Game Info</a>
             </li>
             <li>
-                <a>Game Info</a>
+                <a href="javascript:void(0)">Gift Package</a>
             </li>
             <li>
-                <a>Gift Package</a>
+                <a href="javascript:void(0)">Recharge</a>
             </li>
             <li>
-                <a>Recharge</a>
-            </li>
-            <li>
-                <a>News</a>
+                <a href="javascript:void(0)">News</a>
             </li>
         </ul>
     </div>
@@ -56,7 +57,7 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a class="pow-next" href="javascript:void(0)">Html5 Games</a>
+                        <a href="javascript:void(0)" class="pow-next">Html5 Games</a>
                     </li>
                     <li>
                         <span class="pow-next">Serious Sam VR</span>
@@ -71,7 +72,7 @@
             <!--左边-->
             <div class="pow-intro">
                 <!--二维码弹出框入口-->
-                <div class="pow-code">
+                <div class="pow-code" id="powCode">
                     <a></a>
                 </div>
                 <div class="pow-ver-icon">
@@ -94,7 +95,7 @@
                         </div>
                         <div class="pow-dis">
                             <p class="pow-dis-num">
-                                <a href="">196</a>
+                                <a href="#powReviewsTitle">196</a>
                             </p>
                             <p>
                                 <span>Ratings</span>
@@ -157,17 +158,17 @@
                         <!--游戏类型-->
                         <div class="pow-sys">
                             <span>Game Type: </span>
-                            <a href="" class="pow-sys-first">Sexual Content</a>
-                            <a href="">Tower Defense</a>
-                            <a href="">Casual</a>
-                            <a href="">Physics</a>
+                            <a href="javascript:void(0)" class="pow-sys-first">Sexual Content</a>
+                            <a href="javascript:void(0)">Tower Defense</a>
+                            <a href="javascript:void(0)">Casual</a>
+                            <a href="javascript:void(0)">Physics</a>
                         </div>
                         <!--游戏简介详情-->
                         <div class="pow-basic-detail">
                             <p class="pow-basic">
                                 A time of untold chaos has come. Mighty forces clash behind the scenes in a struggle for power and influence. The Northern Kingdoms mobilize for war bloody conspiracy.Clash behind the scenes in a struggle for power and influence.
                             </p>
-                            <a href="" class="pow-basic-link">More>></a>
+                            <a href="#powFunNav" class="pow-basic-link">More>></a>
                         </div>
                     </div>
                     <!--分割线-->
@@ -186,29 +187,29 @@
                     MG下载按钮的一般态：class为pow-dow-mg
                     MG下载按钮的禁用态：class为pow-dow-mg-dis
                     -->
-                    <a href="" class="pow-dow-mg">MG Store Download</a>
+                    <a href="" class="pow-dow-mg" target="_blank">MG Store Download</a>
                     <!--
                     h5下载按钮的一般态：class为pow-dow-h5-normal
                     h5下载按钮的禁用态：class为pow-dow-h5-dis
                     -->
-                    <a href="" class="pow-dow-h5-normal">Html5 Play Now</a>
+                    <a href="" class="pow-dow-h5-normal" target="_blank">Html5 Play Now</a>
                     <!--
                     win10下载按钮的一般态：class为pow-dow-win10-normal
                     win10下载按钮的禁用态：class为pow-dow-win10-dis
                     -->
-                    <a href="" class="pow-dow-win10-normal">Win10 UWP Download</a>
+                    <a href="" class="pow-dow-win10-normal" target="_blank">Win10 UWP Download</a>
 
 
                     <!--
                     Google下载按钮的一般态：class为pow-dow-store-normal
                     Google下载按钮的禁用态：class为pow-dow-store-dis
                     -->
-                    <a href="" class="pow-dow-store-normal">Google Play Download</a>
+                    <a href="" class="pow-dow-store-normal" target="_blank">Google Play Download</a>
                     <!--
                     ios下载按钮的一般态：class为pow-dow-ios-normal
                     ios下载按钮的禁用态：class为pow-dow-ios-dis
                     -->
-                    <a href="" class="pow-dow-ios-normal">APP Store Download</a>
+                    <a href="" class="pow-dow-ios-normal" target="_blank">APP Store Download</a>
 
                 </div>
             </div>
@@ -221,9 +222,10 @@
         <h2 class="pow-title">
             Screenshots
         </h2>
-        <div class="pow-screen">
+        <div class="pow-screen" id="powTwoScrFlash">
+            <!--截图列表-->
             <div class="pow-screen-box">
-                <ul class="pow-screen-bar">
+                <ul class="pow-screen-bar" id="powScrList">
                     <li class="pow-screen-video-cover">
                         <img src="images/example/model/example-video-cover.png">
                         <div class="pow-screen-video">
@@ -236,8 +238,23 @@
                     <li>
                         <img src="images/example/model/example-wide-2.png">
                     </li>
+                    <li>
+                        <img src="images/example/model/example-wide-3.png">
+                    </li>
+                    <li>
+                        <img src="images/example/model/example-wide-4.png">
+                    </li>
                 </ul>
             </div>
+            <!--左按钮-->
+            <div class="pow-but-screen-prev" id="powButScrPrev">
+                <a></a>
+            </div>
+            <!--右按钮-->
+            <div class="pow-but-screen-next" id="powButScrNext">
+                <a></a>
+            </div>
+
         </div>
     </div>
 </div>
@@ -247,9 +264,9 @@
         <div class="pow-sum-bar">
             <!--左边-->
             <div class="pow-nav-box">
-                <ul class="pow-nav">
+                <ul class="pow-nav" id="powFunNav">
                     <!--nav-游戏描述-->
-                    <li>
+                    <li class="current">
                         <a href="javascript:void(0)">
                             <i></i>
                             <span>Description</span>
@@ -263,7 +280,7 @@
                         </a>
                     </li>
                     <!--nav-系统配置-->
-                    <li class="current">
+                    <li>
                         <a href="javascript:void(0)" class="pow-nav-sys">
                             <i></i>
                             <span>System
@@ -281,9 +298,9 @@ Requirements</span>
             </div>
             <!--右边-->
             <div class="pow-con-box">
-                <ul class="pow-con-list">
+                <ul class="pow-con-list" id="powFunCon">
                     <!--游戏描述-->
-                    <li>
+                    <li class="pow-con-list-item active">
                         <div class="pow-con-sub">
                             <h3>
                                 <span>Description</span>
@@ -327,7 +344,7 @@ Requirements</span>
                         </div>
                     </li>
                     <!--新功能-->
-                    <li>
+                    <li class="pow-con-list-item">
                         <div class="pow-con-sub">
                             <h3>
                                 <span>New Function</span>
@@ -353,7 +370,7 @@ Requirements</span>
                         </div>
                     </li>
                     <!--系统配置-->
-                    <li class="active">
+                    <li class="pow-con-list-item">
                         <div class="pow-con-sub">
                             <h3>
                                 <span>System Requirements</span>
@@ -423,7 +440,160 @@ Requirements</span>
                             </div>
                         </div>
                     </li>
+                    <!--新闻-->
+                    <li class="pow-con-list-item">
+                        <div class="pow-con-sub">
+                            <div class="pow-con-news-box">
+                                <ul class="pow-con-new-nav">
+                                    <li class="pow-con-new-cur">
+                                        <a href="javascript:void(0)">News</a>
+                                        <i></i>
+                                    </li>
+                                    <p class="pow-con-new-nav-dec">/</p>
+                                    <li>
+                                        <a href="javascript:void(0)">Event</a>
+                                        <i></i>
+                                    </li>
+                                    <p class="pow-con-new-nav-dec">/</p>
+                                    <li>
+                                        <a href="javascript:void(0)">Raiders</a>
+                                        <i></i>
+                                    </li>
+                                </ul>
+                                <a class="pow-con-new-more" href="javascript:void(0)">MORE>></a>
+                            </div>
+                            <!--新闻列表-->
+                            <div class="pow-con-space">
+                                <div class="pow-con-news-bar">
+                                    <div class="pow-con-news-item pow-con-news-item-first">
+                                        <a class="pow-con-news-img" href="javascript:void(0)">
+                                            <img src="images/example/model/example_model_news/pow_news_1.png">
+                                        </a>
+                                        <div class="pow-con-news-detail">
+                                            <a href="javascript:void(0)" class="pow-con-news-detail-sig">
+                                                <span class="pow-con-news-detail-cla">[ Event ] </span>
+                                                <span>League of Angels Version Update 1/4: New Angel</span>
+                                            </a>
+                                            <p class="pow-con-news-detail-date">
+                                                4/13/2019
+                                            </p>
+                                        </div>
+                                        <a href="javascript:void(0)" class="pow-con-news-read">Read More></a>
+                                    </div>
+                                    <div class="pow-con-news-item">
+                                        <a class="pow-con-news-img" href="javascript:void(0)">
+                                            <img src="images/example/model/example_model_news/pow_news_2.png">
+                                        </a>
+                                        <div class="pow-con-news-detail">
+                                            <a href="javascript:void(0)" class="pow-con-news-detail-sig">
+                                                <span class="pow-con-news-detail-cla">[ Event ] </span>
+                                                <span>League of Angels Version Update 1/4: New Angel</span>
+                                            </a>
+                                            <p class="pow-con-news-detail-date">
+                                                4/13/2019
+                                            </p>
+                                        </div>
+                                        <a href="javascript:void(0)" class="pow-con-news-read">Read More></a>
+                                    </div>
+                                    <div class="pow-con-news-item">
+                                        <a class="pow-con-news-img" href="javascript:void(0)">
+                                            <img src="images/example/model/example_model_news/pow_news_3.png">
+                                        </a>
+                                        <div class="pow-con-news-detail">
+                                            <a href="javascript:void(0)" class="pow-con-news-detail-sig">
+                                                <span class="pow-con-news-detail-cla">[ Event ] </span>
+                                                <span>League of Angels Version Update 1/4: New Angel</span>
+                                            </a>
+                                            <p class="pow-con-news-detail-date">
+                                                4/13/2019
+                                            </p>
+                                        </div>
+                                        <a href="javascript:void(0)" class="pow-con-news-read">Read More></a>
+                                    </div>
+                                    <div class="pow-con-news-item">
+                                        <a class="pow-con-news-img" href="javascript:void(0)">
+                                            <img src="images/example/model/example_model_news/pow_news_4.png">
+                                        </a>
+                                        <div class="pow-con-news-detail">
+                                            <a href="javascript:void(0)" class="pow-con-news-detail-sig">
+                                                <span class="pow-con-news-detail-cla">[ Event ] </span>
+                                                <span>League of Angels Version Update 1/4: New Angel</span>
+                                            </a>
+                                            <p class="pow-con-news-detail-date">
+                                                4/13/2019
+                                            </p>
+                                        </div>
+                                        <a href="javascript:void(0)" class="pow-con-news-read">Read More></a>
+                                    </div>
+                                    <div class="pow-con-news-item pow-con-news-item-last">
+                                        <a class="pow-con-news-img" href="javascript:void(0)">
+                                            <img src="images/example/model/example_model_news/pow_news_5.png">
+                                        </a>
+                                        <div class="pow-con-news-detail">
+                                            <a href="javascript:void(0)" class="pow-con-news-detail-sig">
+                                                <span class="pow-con-news-detail-cla">[ Event ] </span>
+                                                <span>League of Angels Version Update 1/4: New Angel</span>
+                                            </a>
+                                            <p class="pow-con-news-detail-date">
+                                                4/13/2019
+                                            </p>
+                                        </div>
+                                        <a href="javascript:void(0)" class="pow-con-news-read">Read More></a>
+                                    </div>
+                                    <!--页码-->
+                                    <ul class="pow-con-page">
+                                        <li>
+                                            <a class="pow-con-page-rad">
+                                                Previous
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                1
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                2
+                                            </a>
+                                        </li>
+                                        <li class="current">
+                                            <a>
+                                                3
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                4
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                5
+                                            </a>
+                                        </li>
+                                        <span>...</span>
+                                        <li>
+                                            <a class="pow-con-page-rad">
+                                                Next
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="pow-con-page-rad">
+                                                Last
+                                            </a>
+                                        </li>
 
+
+                                    </ul>
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -435,50 +605,101 @@ Requirements</span>
         <h2 class="pow-title">
             You Might Like
         </h2>
-        <div class="pow-screen">
-            <div class="pow-screen-box">
-                <ul class="pow-also-list">
+        <div class="pow-also-screen" id="powFiveFlash">
+            <!--游戏列表-->
+            <div class="pow-also-screen-box">
+                <ul class="pow-also-list" id="powAlsoList">
                     <li>
-                        <div class="pow-also-icon">
+                        <a href="" class="pow-also-icon" target="_blank">
                             <img src="images/example/model/example_model_others/example-ver-other-1.png">
-                        </div>
+                        </a>
                         <p class="pow-also-name">
-                            <a href="javascript:void(0)">Survivor Pass : Wild Card</a>
+                            <a href="" target="_blank">Survivor Pass : Wild Card</a>
                         </p>
                     </li>
                     <li>
-                        <div class="pow-also-icon">
+                        <a href="" class="pow-also-icon" target="_blank">
                             <img src="images/example/model/example_model_others/example-ver-other-2.png">
-                        </div>
+                        </a>
                         <p class="pow-also-name">
-                            <a href="javascript:void(0)">Coloring Game</a>
+                            <a href="" target="_blank">Coloring Game</a>
                         </p>
                     </li>
                     <li>
-                        <div class="pow-also-icon">
+                        <a href="" class="pow-also-icon" target="_blank">
                             <img src="images/example/model/example_model_others/example-ver-other-3.png">
-                        </div>
+                        </a>
                         <p class="pow-also-name">
-                            <a href="javascript:void(0)">One Finger Death Punch 2</a>
+                            <a href="" target="_blank">One Finger Death Punch 2</a>
                         </p>
                     </li>
                     <li>
-                        <div class="pow-also-icon">
+                        <a href="" class="pow-also-icon" target="_blank">
                             <img src="images/example/model/example_model_others/example-ver-other-4.png">
-                        </div>
+                        </a>
                         <p class="pow-also-name">
-                            <a href="javascript:void(0)">Tower Unite</a>
+                            <a href="" target="_blank">Tower Unite</a>
                         </p>
                     </li>
                     <li>
-                        <div class="pow-also-icon">
+                        <a href="" class="pow-also-icon" target="_blank">
                             <img src="images/example/model/example_model_others/example-ver-other-5.png">
-                        </div>
+                        </a>
                         <p class="pow-also-name">
-                            <a href="javascript:void(0)">Total War: WAR</a>
+                            <a href="" target="_blank">Total War: WAR</a>
+                        </p>
+                    </li>
+
+
+                    <li>
+                        <a href="" class="pow-also-icon" target="_blank">
+                            <img src="images/example/model/example_model_others/example-ver-other-6.png">
+                        </a>
+                        <p class="pow-also-name">
+                            <a href="" target="_blank">Survivor Pass : Wild Card</a>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="" class="pow-also-icon" target="_blank">
+                            <img src="images/example/model/example_model_others/example-ver-other-7.png">
+                        </a>
+                        <p class="pow-also-name">
+                            <a href="" target="_blank">Coloring Game</a>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="" class="pow-also-icon" target="_blank">
+                            <img src="images/example/model/example_model_others/example-ver-other-8.png">
+                        </a>
+                        <p class="pow-also-name">
+                            <a href="" target="_blank">One Finger Death Punch 2</a>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="" class="pow-also-icon" target="_blank">
+                            <img src="images/example/model/example_model_others/example-ver-other-9.png">
+                        </a>
+                        <p class="pow-also-name">
+                            <a href="" target="_blank">Tower Unite</a>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="" class="pow-also-icon" target="_blank">
+                            <img src="images/example/model/example_model_others/example-ver-other-10.png">
+                        </a>
+                        <p class="pow-also-name">
+                            <a href="" target="_blank">Total War: WAR</a>
                         </p>
                     </li>
                 </ul>
+            </div>
+            <!--左按钮-->
+            <div class="pow-but-prev" id="powButPrev">
+                <a></a>
+            </div>
+            <!--右按钮-->
+            <div class="pow-but-next" id="powButNext">
+                <a></a>
             </div>
         </div>
     </div>
@@ -494,7 +715,7 @@ Requirements</span>
             <div class="pow-col-first">
                 <div class="pow-item">
                     <h4>Official Website</h4>
-                    <a href="javascript:void(0)" class="pow-item-link">www.facebook.com</a>
+                    <a href="http://www.mguwp.com" class="pow-item-link" target="_blank">www.mguwp.com</a>
                 </div>
                 <div class="pow-item">
                     <h4>Update Time</h4>
@@ -509,14 +730,14 @@ Requirements</span>
                     <div class="pow-col-other-1">
                         <div class="pow-item">
                             <h4>Customer Service Email</h4>
-                            <a href="javascript:void(0)" class="pow-item-link">www.mguwp.com</a>
+                            <a href="mailto:Support@mguwp.com" class="pow-item-link">Support@mguwp.com</a>
                         </div>
                     </div>
                     <!--分开的两列B-->
                     <div class="pow-col-other-2">
                         <div class="pow-item">
                             <h4>Additional Terms</h4>
-                            <a href="javascript:void(0)" class="pow-item-link">Privacy Policy</a>
+                            <a href="javascript:void(0)" class="pow-item-link" target="_blank">Privacy Policy</a>
                         </div>
                     </div>
                 </div>
@@ -529,7 +750,7 @@ Requirements</span>
                             默认一行显示的class=""
                             点击后的第二态class="pow-item-show"
                             -->
-                            <a class="pow-item-show"></a>
+                            <!--<a class="pow-item-show"></a>-->
                         </h4>
                         <div class="pow-item-language">
                             <span>English</span>
@@ -558,7 +779,7 @@ Requirements</span>
 
                             <span class="pow-item-language-last">Persian</span>
                         </div>
-                        <a href="javascript:void(0)" class="pow-item-more">
+                        <a href="javascript:void(0)" class="pow-item-more" id="powItemMore">
                             <span>Show more</span><i></i>
                         </a>
                     </div>
@@ -572,7 +793,7 @@ Requirements</span>
 <!--游戏评论-->
 <div class="power power-dark-only">
     <div class="pow-box">
-        <h4 class="pow-reviews-title">Reviews</h4>
+        <h4 class="pow-reviews-title" id="powReviewsTitle">Reviews</h4>
         <!--总的评论-->
         <div class="pow-reviews">
             <!--评分展示-->
@@ -592,7 +813,7 @@ Requirements</span>
             <div class="pow-percent-box">
                 <ul class="pow-percent-list">
                     <li>
-                        <!--5星的百分比 title与width的百分比保持一致-->
+                        <!--5星的百分比 title与width的百分比保持一致,需要同时设置-->
                         <div class="pow-percent-pro-bg">
                             <div class="pow-percent-pro" title="70%" style="width: 70%"></div>
                         </div>
@@ -798,11 +1019,74 @@ Requirements</span>
 </div>
 <!--底部开始-->
 <script src="footer.js"></script>
-<!--最后可以删除的部分-->
-<!--
-<script>
-    /*alert(document.getElementById("x").offsetHeight);*/
-</script>
--->
+<!--弹出框开始-->
+
+<!--弹出框底图-->
+<div id="powCodePopLayer"></div>
+
+<!--游戏二维码弹框-->
+<div id="powCodePopBox">
+    <p class="pow-code-front">
+        <img src="images/example/model/example-wide.png">
+    </p>
+    <div class="pow-code-scan">
+        <img src="images/example/model/example-code.png">
+        <p class="pow-code-slogan">Scan to play</p>
+    </div>
+    <!--
+    <div class="pow-code-close-bar">
+        <a id="powCodeClose">Close</a>
+    </div>
+    -->
+    <div class="pow-code-close-bar">
+        <a class="pow-code-close" id="powCodeClose">Close</a>
+    </div>
+</div>
+<!--多出来的支持的语言弹框-->
+<div id="powLanguageBox">
+    <div class="pow-item-language-pop-limit">
+        <div class="pow-item-language-pop">
+            <span>English</span>
+            <span>English (US)</span>
+            <span>French</span>
+            <span>Arabic</span>
+            <span>Spanish</span>
+
+            <span>Russian</span>
+            <span>Portuguese</span>
+            <span>German</span>
+            <span>Italian</span>
+            <span>Dutch</span>
+
+            <span>Simplified Chinese</span>
+            <span>Traditional Chinese</span>
+            <span>Japanese</span>
+            <span>Korean</span>
+            <span>Malay</span>
+
+            <span>Vietnamese</span>
+            <span>Indonesian</span>
+            <span>Turkish</span>
+            <span>Thai</span>
+            <span>Hindi</span>
+
+            <span class="pow-item-language-pop-last">Persian</span>
+
+        </div>
+
+    </div>
+    <div class="pow-code-close-bar pow-code-close-mt20">
+        <a class="pow-code-close" id="powLanguageClose">Close</a>
+    </div>
+
+</div>
+<!--弹出框结束-->
+
+<!--游戏产品单页的动态特效-->
+<script src="js/cutover_template.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/switch_template.js"></script>
+
+
 </body>
 </html>
