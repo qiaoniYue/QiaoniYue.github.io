@@ -23,26 +23,62 @@ window.onload = function(){
     }
 
     /*热门游戏-大图两个来回切换*/
-    /*
-    function popSwitch(){
-        var oProPopSwitchIcon = document.getElementsByClassName("pro_pop_switch_icon")[0];
-        var aProPopSwitchSpan = oProPopSwitchIcon.getElementsByTagName("span");
-        for(var k=0; k<aProPopSwitchSpan.length;k++) {
+    var oProFeat = document.getElementById("proPopFeat");
+    var aProTurnGames = oProFeat.getElementsByClassName("pro_pop_turn");
 
-            if(aProPopSwitchSpan[k].classList.contains("current")){
-                aProPopSwitchSpan[k].classList.remove("current");
+    var oProSwitchImg = oProFeat.getElementsByClassName("pro_pop_switch_img")[0];
+    var aProSwitchImgs = oProSwitchImg.getElementsByTagName("li");
+
+    var oProPopSwitchIcon = oProFeat.getElementsByClassName("pro_pop_switch_icon_bar")[0];
+    var aProPopSwitchSpan = oProPopSwitchIcon.getElementsByTagName("span");
+
+    /*热门游戏定时器*/
+    function popSwitch(){
+        for(var n=0; n<aProPopSwitchSpan.length;n++) {
+            aProPopSwitchSpan[n].index = n;
+            if(aProPopSwitchSpan[n].classList.contains("current")){
+                aProPopSwitchSpan[n].classList.remove("current");
+                aProSwitchImgs[aProPopSwitchSpan[n].index].classList.remove("active");
+                aProTurnGames[aProPopSwitchSpan[n].index].style.display = "none";
             }
             else {
-                aProPopSwitchSpan[k].classList.add("current");
+                aProPopSwitchSpan[n].classList.add("current");
+                aProSwitchImgs[aProPopSwitchSpan[n].index].classList.add("active");
+                aProTurnGames[aProPopSwitchSpan[n].index].style.display = "block";
             }
         }
     }
 
-    var timer = setInterval(function(){
-        popSwitch();
-    },1000);
-    */
+    timer = setInterval(popSwitch,3000);
 
+    oProFeat.onmouseover = function(){
+        clearInterval(timer);
+    }
+    oProFeat.onmouseout = function(){
+        timer = setInterval(popSwitch,3000);
+    }
+
+
+    for(var k=0;k<aProSwitchImgs.length;k++) {
+        aProSwitchImgs[k].index = k;
+        aProSwitchImgs[k].onmouseover = function(){
+            if(this.classList.contains("active")){
+
+            }
+            else {
+                for(var m=0;m<aProSwitchImgs.length;m++){
+                    aProSwitchImgs[m].classList.remove("active");
+                    aProPopSwitchSpan[m].classList.remove("current");
+                    aProTurnGames[m].style.display = "none";
+                }
+                this.classList.add("active");
+                aProPopSwitchSpan[this.index].classList.add("current");
+                aProTurnGames[this.index].style.display = "block";
+            }
+
+        }
+    }
+    /*热门游戏-大图两个来回切换结束*/
 
 }
 

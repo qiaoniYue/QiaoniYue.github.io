@@ -259,6 +259,15 @@
     background-position: -30px -30px;
 }
 
+.h_social .h_youtube {
+    background-position: 0 -60px;
+}
+
+.h_social .h_youtube:hover,
+.h_social .h_youtube:active {
+    background-position: -30px -60px;
+}
+
 .h_social .h_ins {
     background-position: 0 -90px;
 }
@@ -549,25 +558,71 @@
     text-align: center;
 }
 
+/*条款*/
+.agreement {
+    width: 100%;
+}
 
+.agr-box {
+    width: 1200px;
+    margin: 0 auto;
+}
 
+.agr-back {
+    width: 100%;
+    margin-top: 20px;
+}
 
+.agr-home {
+    color: #9c9c9c;
+    font-size: 14px;
+    line-height: 24px;
+}
 
+.agr-home:hover,
+.agr-home:active {
+    text-decoration: underline;
+}
 
+.agr-title {
+    font-size: 24px;
+    color: #fff;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
 
+.agr-bar {
+    width: 100%;
+    background-color: #212224;
+    padding: 30px 30px 40px 30px;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: #999;
+    margin-bottom: 30px;
+}
 
+.agr-caption {
+    display: inline-block;
+    height: 40px;
+    padding: 0 10px;
+    line-height: 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #de3f05;
+    background: -webkit-linear-gradient(#e06013, #de3f05); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#e06013, #de3f05); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#e06013, #de3f05); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#e06013, #de3f05); /* 标准的语法 */
+}
 
+.agr-bar p {
+    margin-top: 15px;
+}
 
-
-
-
-
-
-
-
-
-
-
+.agr-bar .agr-white {
+    color: #eee;
+}
 
 
 

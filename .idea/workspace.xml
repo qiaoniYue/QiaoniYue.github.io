@@ -2,32 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42c63de5-884d-44f1-8983-b3098961240a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/game/web/digitalworldevolution.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/web/template_backup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/web/privacy_agreement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/web/subscriber_agreement.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/web/css/template.css" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/css/template.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/web/game.html" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/game.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/css/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/css/public.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/web/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/web/images/example/model/example_model_others/example-ver-other-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/images/example/model/example_model_others/example-ver-other-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/web/images/example/model/example_model_others/example-ver-other-10.png" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/images/example/model/example_model_others/example-ver-other-10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/web/images/example/model/example_model_others/example-ver-other-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/images/example/model/example_model_others/example-ver-other-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/web/images/example/model/example_model_others/example-ver-other-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/images/example/model/example_model_others/example-ver-other-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/web/images/example/model/example_model_others/example-ver-other-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/images/example/model/example_model_others/example-ver-other-4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/web/images/example/model/example_model_others/example-ver-other-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/images/example/model/example_model_others/example-ver-other-5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/web/images/example/model/example_model_others/example-ver-other-6.png" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/images/example/model/example_model_others/example-ver-other-6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/web/images/example/model/example_model_others/example-ver-other-7.png" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/images/example/model/example_model_others/example-ver-other-7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/web/images/example/model/example_model_others/example-ver-other-8.png" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/images/example/model/example_model_others/example-ver-other-8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/web/images/example/model/example_model_others/example-ver-other-9.png" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/images/example/model/example_model_others/example-ver-other-9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/images/banner/banner-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/images/banner/banner-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/images/banner/banner-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/images/banner/banner-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/images/banner/banner-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/images/banner/banner-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/images/banner/banner-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/images/banner/banner-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/images/banner/banner-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/images/banner/banner-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/images/count.png" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/images/count.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/images/example/product_name/blr/blr-wide.png" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/images/example/product_name/blr/blr-wide.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/images/example/product_name/bmt/bmt-ver.png" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/images/example/product_name/bmt/bmt-ver.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/images/example/product_name/cave/cave-code.png" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/images/example/product_name/cave/cave-code.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/images/example/product_name/cave/cave-ver.png" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/images/example/product_name/cave/cave-ver.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/images/example/product_name/daw/daw-ver.png" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/images/example/product_name/daw/daw-ver.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/images/example/product_name/digital/digital-ver.png" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/images/example/product_name/digital/digital-ver.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/images/example/product_name/khans/khans-ver.png" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/images/example/product_name/khans/khans-ver.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/images/example/product_name/legend/legend-ver.png" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/images/example/product_name/legend/legend-ver.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/images/example/product_name/oz/oz-ver.png" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/images/example/product_name/oz/oz-ver.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/images/example/product_name/ride/ride-ver.png" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/images/example/product_name/ride/ride-ver.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/images/example/product_name/rok/rok-ver.png" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/images/example/product_name/rok/rok-ver.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/images/example/product_name/savage/ch/savage-wide.png" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/images/example/product_name/savage/ch/savage-wide.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/images/example/product_name/savage/en/savage-ver.png" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/images/example/product_name/savage/en/savage-ver.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/images/example/product_name/savage/en/savage-wide.png" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/images/example/product_name/savage/en/savage-wide.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/images/example/product_name/trojan/trojan-wide.png" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/images/example/product_name/trojan/trojan-wide.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/images/fpic10314.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/images/photoA.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/images/photoB.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/images/photoC.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/images/photoD.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/images/tooopen_sy_209068589482.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/images/tooopen_sy_241629694524.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/images/tooopen_sy_241630585832.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/images/tooopen_sy_241631031241.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/game/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/web/js/cutover_template.js" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/js/cutover_template.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/web/js/switch_template.js" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/js/switch_template.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/web/screen.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/web/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/web/template_function.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/web/template_info.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/web/template_info_backup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/web/template_info_del.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/web/template_system.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/js/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/js/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/文档/游戏平台-命名规范.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/文档/游戏平台-命名规范.xlsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -92,13 +108,13 @@
     <session id="-557719255">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="299" />
-          <entry key="project.open.time.10" value="44" />
+          <entry key="project.closed" value="308" />
+          <entry key="project.open.time.10" value="46" />
           <entry key="project.open.time.11" value="49" />
           <entry key="project.open.time.12" value="30" />
-          <entry key="project.open.time.13" value="26" />
-          <entry key="project.open.time.14" value="14" />
-          <entry key="project.open.time.15" value="5" />
+          <entry key="project.open.time.13" value="27" />
+          <entry key="project.open.time.14" value="16" />
+          <entry key="project.open.time.15" value="6" />
           <entry key="project.open.time.16" value="5" />
           <entry key="project.open.time.17" value="3" />
           <entry key="project.open.time.18" value="1" />
@@ -111,41 +127,41 @@
           <entry key="project.open.time.5" value="11" />
           <entry key="project.open.time.6" value="24" />
           <entry key="project.open.time.7" value="19" />
-          <entry key="project.open.time.8" value="30" />
-          <entry key="project.open.time.9" value="42" />
-          <entry key="project.opened" value="310" />
+          <entry key="project.open.time.8" value="31" />
+          <entry key="project.open.time.9" value="43" />
+          <entry key="project.opened" value="318" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="747" />
+          <entry key="css" value="759" />
           <entry key="htc" value="1" />
-          <entry key="html" value="2155" />
+          <entry key="html" value="2172" />
           <entry key="ico" value="13" />
-          <entry key="js" value="231" />
+          <entry key="js" value="240" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="747" />
-          <entry key="HTML" value="2155" />
+          <entry key="CSS" value="759" />
+          <entry key="HTML" value="2172" />
           <entry key="Image" value="13" />
-          <entry key="JavaScript" value="231" />
+          <entry key="JavaScript" value="240" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="97867" />
-          <entry key="html" value="85271" />
-          <entry key="js" value="6236" />
+          <entry key="css" value="98492" />
+          <entry key="html" value="86612" />
+          <entry key="js" value="7155" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="97867" />
-          <entry key="HTML" value="85271" />
-          <entry key="JavaScript" value="6236" />
+          <entry key="CSS" value="98492" />
+          <entry key="HTML" value="86612" />
+          <entry key="JavaScript" value="7155" />
         </counts>
       </usages-collector>
     </session>
@@ -154,49 +170,35 @@
     <favorites_list name="Project" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6416023">
+    <splitter split-orientation="horizontal" split-proportion="0.73124146">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/game/web/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1275">
-                  <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/game/web/header.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="54" column="31" lean-forward="true" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
+                <state relative-caret-position="409">
+                  <caret line="70" column="55" lean-forward="true" selection-start-line="70" selection-start-column="55" selection-end-line="70" selection-end-column="55" />
                   <folding>
-                    <element signature="e#1497#1503#1" expanded="true" />
-                    <element signature="e#1841#1847#1" expanded="true" />
-                    <element signature="e#2113#2119#1" expanded="true" />
-                    <element signature="e#1921#1927#1" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/game/web/game.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="244">
-                  <caret line="571" column="61" lean-forward="true" selection-start-line="571" selection-start-column="37" selection-end-line="571" selection-end-column="61" />
-                  <folding>
-                    <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#2;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#3;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#2;n#div#1;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
                   </folding>
                 </state>
               </provider>
@@ -205,12 +207,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/game/web/css/public.css">
+            <entry file="file://$PROJECT_DIR$/game/web/css/home.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="227">
-                  <caret line="89" column="12" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="12" />
+                <state relative-caret-position="482">
+                  <caret line="929" column="17" selection-start-line="929" selection-start-column="17" selection-end-line="929" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -230,22 +232,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;a href=&quot;mailto:Support@mguwp.com&quot; class=&quot;pow-item-link&quot;&gt;Support@mguwp.com&lt;/a&gt;</find>
-      <find>&lt;a href=&quot;&quot; class=&quot;pow-item-link&quot;&gt;Privacy Policy&lt;/a&gt;</find>
-      <find>Privacy Policy</find>
-      <find>&lt;a href=&quot;http://www.mguwp.com&quot; class=&quot;pow-item-link&quot; target=&quot;_blank&quot;&gt;www.mguwp.com&lt;/a&gt;</find>
-      <find>&lt;a href=&quot;javascript:void(0)&quot; class=&quot;pow-item-link&quot; target=&quot;_blank&quot;&gt;Privacy Policy&lt;/a&gt;</find>
-      <find>&lt;a href=&quot;&quot; class=&quot;pow-item-link&quot; target=&quot;_blank&quot;&gt;Privacy Policy&lt;/a&gt;</find>
-      <find>target=&quot;_blank</find>
-      <find>The Legend of Goddess</find>
-      <find>model/example-ver.png</find>
-      <find>&lt;span&gt;UWP&lt;/span&gt;</find>
-      <find>&lt;span&gt;Store&lt;/span&gt;</find>
-      <find>1、Screen Recorder Lite - Your wonderful video &amp; audio capture! 100% Free, Easy and Fast!</find>
-      <find>&lt;!--新功能--&gt;</find>
-      <find>powFunCon</find>
-      <find>Intel Core i3-2100 M</find>
-      <find>Survivor</find>
       <find>English</find>
       <find>VR</find>
       <find>Bill</find>
@@ -258,8 +244,24 @@
       <find>游戏截图</find>
       <find>pow-screen-bar</find>
       <find>h_mail</find>
-      <find>mail</find>
       <find>Share:</find>
+      <find>mail</find>
+      <find>mailto</find>
+      <find>pro_pop_switch_icon</find>
+      <find>pro_pop_switch</find>
+      <find>pro_pop_switch_icon_bar</find>
+      <find>pro_pop_feat</find>
+      <find>proPopFeat</find>
+      <find>opt</find>
+      <find>pro_pop_switch_img</find>
+      <find>opa</find>
+      <find>h_lang</find>
+      <find>agr-</find>
+      <find>pro_pop_turn</find>
+      <find>agr-bar</find>
+      <find>The Savage King</find>
+      <find>pro_game_name</find>
+      <find>pro_rank_de_caption</find>
     </findStrings>
     <replaceStrings>
       <replace>https</replace>
@@ -278,8 +280,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PC/en/adcenter/principal.html" />
-        <option value="$PROJECT_DIR$/embed/embed-pc/points.html" />
         <option value="$PROJECT_DIR$/embed/embed-pc/css/quick-nav.css" />
         <option value="$PROJECT_DIR$/embed/embed-pc/css/message.css" />
         <option value="$PROJECT_DIR$/embed/embed-pc/message.html" />
@@ -297,18 +297,12 @@
         <option value="$PROJECT_DIR$/game/web/css/swiper/banner.css" />
         <option value="$PROJECT_DIR$/game/web/js/home-2.js" />
         <option value="$PROJECT_DIR$/PC/x-one.html" />
-        <option value="$PROJECT_DIR$/game/web/js/home.js" />
         <option value="$PROJECT_DIR$/game/web/single.html" />
         <option value="$PROJECT_DIR$/embed/embed-pc/css/content.css" />
         <option value="$PROJECT_DIR$/embed/embed-pc/index.html" />
         <option value="$PROJECT_DIR$/game/web/product.html" />
         <option value="$PROJECT_DIR$/PC/download.html" />
         <option value="$PROJECT_DIR$/PC/en/download.html" />
-        <option value="$PROJECT_DIR$/game/web/header.js" />
-        <option value="$PROJECT_DIR$/game/web/footer.html" />
-        <option value="$PROJECT_DIR$/game/web/footer.js" />
-        <option value="$PROJECT_DIR$/game/web/css/public.css" />
-        <option value="$PROJECT_DIR$/game/web/css/home.css" />
         <option value="$PROJECT_DIR$/game/web/css/power.css" />
         <option value="$PROJECT_DIR$/game/web/power.html" />
         <option value="$PROJECT_DIR$/game/web/template_function.html" />
@@ -322,13 +316,21 @@
         <option value="$PROJECT_DIR$/game/web/js/cutover_template.js" />
         <option value="$PROJECT_DIR$/game/web/digitalworldevolution.html" />
         <option value="$PROJECT_DIR$/game/web/js/switch_template.js" />
-        <option value="$PROJECT_DIR$/game/web/css/template.css" />
         <option value="$PROJECT_DIR$/game/web/template.html" />
         <option value="$PROJECT_DIR$/game/web/template_backup.html" />
         <option value="$PROJECT_DIR$/game/web/game.html" />
         <option value="$PROJECT_DIR$/game/web/thelegendofgoddess.html" />
-        <option value="$PROJECT_DIR$/game/web/index.html" />
+        <option value="$PROJECT_DIR$/game/web/js/home.js" />
         <option value="$PROJECT_DIR$/game/web/header.html" />
+        <option value="$PROJECT_DIR$/game/web/header.js" />
+        <option value="$PROJECT_DIR$/game/web/css/template.css" />
+        <option value="$PROJECT_DIR$/game/web/privacy_agreement.html" />
+        <option value="$PROJECT_DIR$/game/web/css/public.css" />
+        <option value="$PROJECT_DIR$/game/web/subscriber_agreement.html" />
+        <option value="$PROJECT_DIR$/game/web/footer.html" />
+        <option value="$PROJECT_DIR$/game/web/footer.js" />
+        <option value="$PROJECT_DIR$/game/web/css/home.css" />
+        <option value="$PROJECT_DIR$/game/web/index.html" />
       </list>
     </option>
   </component>
@@ -339,7 +341,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="49" />
+    <option name="x" value="430" />
     <option name="width" value="1168" />
     <option name="height" value="867" />
   </component>
@@ -351,28 +353,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QiaoniYue.github.io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QiaoniYue.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QiaoniYue.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -397,6 +377,35 @@
               <item name="PC" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="recreation" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QiaoniYue.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QiaoniYue.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QiaoniYue.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QiaoniYue.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QiaoniYue.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -768,12 +777,20 @@
       <workItem from="1557891003687" duration="1014000" />
       <workItem from="1557892651150" duration="6088000" />
       <workItem from="1557900371633" duration="4862000" />
-      <workItem from="1557908959829" duration="7492000" />
+      <workItem from="1557908959829" duration="10827000" />
+      <workItem from="1557922095733" duration="383000" />
+      <workItem from="1557973430316" duration="1734000" />
+      <workItem from="1557977897147" duration="6134000" />
+      <workItem from="1557992933723" duration="5272000" />
+      <workItem from="1558008086353" duration="1099000" />
+      <workItem from="1558058938561" duration="17868000" />
+      <workItem from="1558086837594" duration="4990000" />
+      <workItem from="1558099097345" duration="207000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2075566000" />
+    <option name="totallyTimeSpent" value="2116588000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -786,9 +803,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920762" visible="true" weight="0.110625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920762" visible="true" weight="0.08375" />
       <window_info id="Structure" order="1" sideWeight="0.50158733" side_tool="true" weight="0.25625" />
       <window_info id="Favorites" order="2" sideWeight="0.5011287" side_tool="true" weight="0.3828198" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -833,14 +849,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/game/web/js/slideShow/slideshow.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game/web/js/slideShow/slideBannerLink.js" />
     <entry file="file://$PROJECT_DIR$/embed/embed-pc/played.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -859,13 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game/web/js/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -953,35 +954,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game/web/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="99" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game/web/footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="81" column="30" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game/web/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/下拉框自定义.html" />
-    <entry file="file://$PROJECT_DIR$/game/web/css/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="213" column="19" selection-start-line="213" selection-start-column="19" selection-end-line="213" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/game/web/template_function.html" />
     <entry file="file://$PROJECT_DIR$/game/web/template_system.html" />
     <entry file="file://$PROJECT_DIR$/game/web/css/base.css">
@@ -1001,13 +974,6 @@
     <entry file="file://$USER_HOME$/Desktop/查看大图-点击图片左右切换/相册图片点击弹出预览且支持图片切换jquery特效代码.html" />
     <entry file="file://$PROJECT_DIR$/game/web/template_info_backup.html" />
     <entry file="file://$PROJECT_DIR$/game/web/template_info_del.html" />
-    <entry file="file://$PROJECT_DIR$/game/web/css/pop_up.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="154" column="27" selection-start-line="154" selection-start-column="27" selection-end-line="154" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/game/web/js/banner-cutover.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1051,76 +1017,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game/web/css/template.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="670" column="7" selection-start-line="670" selection-start-column="7" selection-end-line="670" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game/web/template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="8" column="72" lean-forward="true" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/game/web/game.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="571" column="61" lean-forward="true" selection-start-line="571" selection-start-column="37" selection-end-line="571" selection-end-column="61" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="5474">
+          <caret line="571" column="61" selection-start-line="571" selection-start-column="37" selection-end-line="571" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PC/x-one.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="7" lean-forward="true" selection-end-line="9" selection-end-column="7" />
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game/web/index.html">
+    <entry file="file://$PROJECT_DIR$/game/web/css/pop_up.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1275">
-          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="12" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game/web/css/public.css">
+    <entry file="file://$PROJECT_DIR$/game/web/js/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="89" column="12" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="12" />
+        <state relative-caret-position="1785">
+          <caret line="82" column="1" lean-forward="true" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/web/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="44" column="30" lean-forward="true" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/game/web/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="54" column="31" lean-forward="true" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
+        <state relative-caret-position="323">
+          <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/web/css/template.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="664" column="6" lean-forward="true" selection-start-line="664" selection-start-column="6" selection-end-line="664" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/web/template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="1048" column="6" lean-forward="true" selection-start-line="1048" selection-start-column="6" selection-end-line="1048" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/web/privacy_agreement.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/web/subscriber_agreement.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="298" column="14" lean-forward="true" selection-start-line="298" selection-start-column="14" selection-end-line="298" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/web/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="98" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/web/footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="80" column="30" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/web/css/public.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="622" column="10" selection-start-line="622" selection-start-column="10" selection-end-line="622" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/web/css/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="929" column="17" selection-start-line="929" selection-start-column="17" selection-end-line="929" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="70" column="55" lean-forward="true" selection-start-line="70" selection-start-column="55" selection-end-line="70" selection-end-column="55" />
           <folding>
-            <element signature="e#1497#1503#1" expanded="true" />
-            <element signature="e#1841#1847#1" expanded="true" />
-            <element signature="e#2113#2119#1" expanded="true" />
-            <element signature="e#1921#1927#1" expanded="true" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>

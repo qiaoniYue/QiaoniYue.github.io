@@ -25,76 +25,36 @@
 </head>
 <body>
     <!--头部开始-->
-    <header class="header">
-        <div class="h_box">
-            <!--头部左边-->
-            <a href="index.html" class="h_logo">
-                <img src="images/logo.png">
-            </a>
-            <div class="h_dec h_dec_l"></div>
-            <div class="h_mail">
-                <span class="h_mail_icon">&nbsp;</span>
-                <span class="h_mail_title">Mail:</span>
-                <span>Support@mguwp.com</span>
-            </div>
-            <!--头部右边-->
-            <div class="h_lang">
-                <div class="h_lang_con">
-                    <div class="h_lang_txt">EN</div>
-                    <div class="h_lang_icon"></div>
-                </div>
-                <div class="h_lang_down"></div>
-            </div>
-            <div class="h_dec"></div>
-            <div class="h_plat">
-                <span class="h_plat_icon">&nbsp;</span>
-                <span class="h_plat_txt">MG Open Platform</span>
-            </div>
-            <div class="h_client">
-                <span class="h_client_icon">&nbsp;</span>
-                <span class="h_client_txt">Install Client</span>
-            </div>
-            <div class="h_enter">
-                <a class="h_login">Login</a>
-                <span class="h_enter_dec">|</span>
-                <a class="h_login">Sign up</a>
-            </div>
-            <div class="h_social">
-                <a>&nbsp;</a>
-                <a class="h_twi">&nbsp;</a>
-                <a class="h_ins">&nbsp;</a>
-            </div>
-        </div>
-    </header>
+    <script src="header.js"></script>
     <!--nav开始-->
     <nav class="nav">
         <div class="nav_box">
             <ul class="nav_list">
                 <li class="current">
-                    <a>Home</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a>Games</a>
+                    <a href="javascript:void(0)">Games</a>
                 </li>
                 <li>
-                    <a>Apps</a>
+                    <a href="javascript:void(0)">Apps</a>
                 </li>
                 <li>
-                    <a>Gift Package</a>
+                    <a href="javascript:void(0)">Recharge</a>
                 </li>
                 <li>
-                    <a>Recharge</a>
+                    <a href="javascript:void(0)">Gift Package</a>
                 </li>
                 <li>
-                    <a>News</a>
+                    <a href="javascript:void(0)">Point Store</a>
                 </li>
                 <li>
-                    <a>Point Store</a>
+                    <a href="javascript:void(0)">News</a>
                 </li>
             </ul>
-            <div class="nav_search">
-                <input id="navSearch" name="navSearch" type="text" class="nav_search_ipt" placeholder="Search" size="22">
-                <a class="nav_search_btn"></a>
+            <div class="nav_search" title="Coming soon...">
+                <input id="navSearch" name="navSearch" type="text" class="nav_search_ipt" placeholder="Search" size="22" disabled="disabled">
+                <a href="javascript:void(0)" class="nav_search_btn"></a>
             </div>
         </div>
     </nav>
@@ -103,19 +63,19 @@
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide Slide Slide1">
-                    <a href="">&nbsp;</a>
+                    <a href="rageofkings.html" target="_blank">&nbsp;</a>
                 </div>
                 <div class="swiper-slide Slide Slide2">
-                    <a href="">&nbsp;</a>
+                    <a href="warshipempire.html" target="_blank">&nbsp;</a>
                 </div>
                 <div class="swiper-slide Slide Slide3">
-                    <a href="">&nbsp;</a>
+                    <a href="digitalworldevolution.html" target="_blank">&nbsp;</a>
                 </div>
                 <div class="swiper-slide Slide Slide4" >
-                    <a href="">&nbsp;</a>
+                    <a href="fantasyhero.html" target="_blank">&nbsp;</a>
                 </div>
                 <div class="swiper-slide Slide Slide5">
-                    <a href="">&nbsp;</a>
+                    <a href="thelegendofgoddess.html" target="_blank">&nbsp;</a>
                 </div>
             </div>
             <div class="pagination"></div>
@@ -365,7 +325,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="">
+                                        <a href="http://bit.ly/2UoiElq" target="_blank">
                                             <img src="images/pro-type-h5.png">
                                             <span>H5</span>
                                         </a>
@@ -420,8 +380,9 @@
                 </a>
             </div>
             <div class="pro_popular">
-                <div class="pro_pop_feat">
-                    <div class="pro_pop_turn">
+                <div class="pro_pop_feat" id="proPopFeat">
+                    <!--热门游戏第一个游戏-->
+                    <div class="pro_pop_turn" style="display: block;">
                         <img src="images/example/product_name/blr/blr-wide.png" class="pro_pop_feat_img">
                         <div class="pro_pop_feat_bar">
                             <h3 class="pro_pop_feat_name">不良人2</h3>
@@ -439,6 +400,7 @@
                                             <span>Store</span>
                                         </a>
                                     </li>
+                                    <!--h5标签-->
                                     <!--
                                     <li>
                                         <a href="">
@@ -468,6 +430,7 @@
                                     <a class="pro_pop_icon pro_pop_icon_last pro_pop_download"></a>
                                 </div>
                             </div>
+                            <!--二维码标签-->
                             <!--
                             <div class="pro_pop_link">
                                 <div class="pro_pop_code">
@@ -483,7 +446,8 @@
                             -->
                         </div>
                     </div>
-                    <div class="pro_pop_turn" style="display: none;">
+                    <!--热门游戏第二个游戏-->
+                    <div class="pro_pop_turn">
                         <img src="images/example/product_name/junior/junior-wide.png" class="pro_pop_feat_img">
                         <div class="pro_pop_feat_bar">
                             <h3 class="pro_pop_feat_name">Legend of Junior</h3>
@@ -501,6 +465,7 @@
                                             <span>Store</span>
                                         </a>
                                     </li>
+                                    <!--h5标签-->
                                     <!--
                                     <li>
                                         <a href="">
@@ -530,6 +495,7 @@
                                     <a class="pro_pop_icon pro_pop_icon_last pro_pop_download"></a>
                                 </div>
                             </div>
+                            <!--二维码标签-->
                             <!--
                             <div class="pro_pop_link">
                                 <div class="pro_pop_code">
@@ -547,16 +513,20 @@
                     </div>
                     <div class="pro_pop_switch">
                         <ul class="pro_pop_switch_img">
-                            <li>
+                            <li class="active">
+                                <span></span>
                                 <img src="images/example/product_name/blr/blr-wide.png">
                             </li>
-                            <li class="pro_pop_switch_img_last">
+                            <li>
+                                <span></span>
                                 <img src="images/example/product_name/junior/junior-wide.png">
                             </li>
                         </ul>
                         <div class="pro_pop_switch_icon">
-                            <span class="current"></span>
-                            <span></span>
+                            <div class="pro_pop_switch_icon_bar">
+                                <span class="current"></span>
+                                <span></span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -884,17 +854,19 @@
                             &nbsp;
                         </div>
                         <div class="pro_rank_goods">
-                            <img src="images/example/product_name/rok/rok-ver.png">
+                            <a href="rageofkings.html" target="_blank">
+                                <img src="images/example/product_name/rok/rok-ver.png">
+                            </a>
                         </div>
                         <div class="pro_rank_detail">
                             <div class="pro_rank_de_box">
-                                <h3>Rage of Kings</h3>
+                                <a href="rageofkings.html" target="_blank" class="pro_rank_de_caption">Rage of Kings</a>
                                 <p class="pro_game_class">
-                                    <a class="pro_game_class_first" href="">Adventure&nbsp;</a>
-                                    <a href="">Action&nbsp;</a>
-                                    <a href="">Open World&nbsp;</a>
+                                    <a class="pro_game_class_first" href="javascript:void(0)">Adventure&nbsp;</a>
+                                    <a href="javascript:void(0)">Action&nbsp;</a>
+                                    <a href="javascript:void(0)">Open World&nbsp;</a>
                                 </p>
-                                <a class="pro_rank_btn">
+                                <a href="https://www.microsoft.com/store/apps/9NCN5W2XMRGP" target="_blank" class="pro_rank_btn">
                                     PLAY NOW
                                 </a>
                             </div>
@@ -905,17 +877,19 @@
                             &nbsp;
                         </div>
                         <div class="pro_rank_goods">
-                            <img src="images/example/product_name/digital/digital-ver.png">
+                            <a href="digitalworldevolution.html" target="_blank">
+                                <img src="images/example/product_name/digital/digital-ver.png">
+                            </a>
                         </div>
                         <div class="pro_rank_detail">
                             <div class="pro_rank_de_box">
-                                <h3>Digital World Evolution</h3>
+                                <a href="digitalworldevolution.html" target="_blank" class="pro_rank_de_caption">Digital World Evolution</a>
                                 <p class="pro_game_class">
-                                    <a class="pro_game_class_first" href="">Adventure&nbsp;</a>
-                                    <a href="">Action&nbsp;</a>
-                                    <a href="">Open World&nbsp;</a>
+                                    <a class="pro_game_class_first" href="javascript:void(0)">Adventure&nbsp;</a>
+                                    <a href="javascript:void(0)">Action&nbsp;</a>
+                                    <a href="javascript:void(0)">Open World&nbsp;</a>
                                 </p>
-                                <a class="pro_rank_btn">
+                                <a href="https://www.microsoft.com/store/apps/9P44R51Z21WW" target="_blank" class="pro_rank_btn">
                                     PLAY NOW
                                 </a>
                             </div>
@@ -926,17 +900,19 @@
                             &nbsp;
                         </div>
                         <div class="pro_rank_goods">
-                            <img src="images/example/product_name/legend/legend-ver.png">
+                            <a href="thelegendofgoddess.html" target="_blank">
+                                <img src="images/example/product_name/legend/legend-ver.png">
+                            </a>
                         </div>
                         <div class="pro_rank_detail">
                             <div class="pro_rank_de_box">
-                                <h3>The Legend of Goddess</h3>
+                                <a href="thelegendofgoddess.html" target="_blank" class="pro_rank_de_caption">The Legend of Goddess</a>
                                 <p class="pro_game_class">
-                                    <a class="pro_game_class_first" href="">Adventure&nbsp;</a>
-                                    <a href="">Action&nbsp;</a>
-                                    <a href="">Open World&nbsp;</a>
+                                    <a class="pro_game_class_first" href="javascript:void(0)">Adventure&nbsp;</a>
+                                    <a href="javascript:void(0)">Action&nbsp;</a>
+                                    <a href="javascript:void(0)">Open World&nbsp;</a>
                                 </p>
-                                <a class="pro_rank_btn">
+                                <a href="https://www.microsoft.com/store/apps/9MVTGVJ6VWWD" target="_blank" class="pro_rank_btn">
                                     PLAY NOW
                                 </a>
                             </div>
@@ -1029,15 +1005,15 @@
                                     <div class="pro_h5_opera">
                                         <div class="pro_pop_handle pro_pop_handle_mt145">
                                             <div class="pro_pop_handle_box pro_pop_handle_box_center">
-                                                <a class="pro_pop_icon pro_pop_home"></a>
-                                                <a class="pro_pop_icon pro_pop_gift"></a>
-                                                <a class="pro_pop_icon pro_pop_icon_last pro_pop_download"></a>
+                                                <a href="thesavageking.html" target="_blank" class="pro_pop_icon pro_pop_home"></a>
+                                                <a href="javascript:void(0)" class="pro_pop_icon pro_pop_gift"></a>
+                                                <a href="https://store.mguwp.com/download/the-savage-king/the-savage-king.apk" target="_blank" class="pro_pop_icon pro_pop_icon_last pro_pop_download"></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="pro_h5_detail">
-                                    <h3 class="pro_game_name">The Savage King</h3>
+                                    <a href="thesavageking.html" target="_blank" class="pro_game_name">The Savage King</a>
                                     <div class="pro_game_type">
                                         <ul class="pro_game_type_bar">
                                             <li>
@@ -1047,19 +1023,19 @@
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="">
+                                                <a href="javascript:void(0)">
                                                     <img src="images/pro-type-store.png">
                                                     <span>Store</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="">
+                                                <a href="https://api.mguwp.net/web/start?page=https%3a%2f%2fh5mg.hzmofeng.com%2fwdjqmg%2ftwh5s1%2fh5.html" target="_blank">
                                                     <img src="images/pro-type-h5.png">
                                                     <span>H5</span>
                                                 </a>
                                             </li>
                                             <li class="pro_game_type_last">
-                                                <a href="">
+                                                <a href="javascript:void(0)">
                                                     <img src="images/pro-type-ios.png">
                                                     <span>iOS</span>
                                                 </a>
@@ -1068,12 +1044,12 @@
                                     </div>
                                     <div class="pro_h5_class">
                                         <p class="pro_h5_class_collect">
-                                            <a class="pro_h5_class_collect_first" href="">Adventure&nbsp;</a>
-                                            <a href="">Action&nbsp;</a>
-                                            <a href="">Open World&nbsp;</a>
+                                            <a class="pro_h5_class_collect_first" href="javascript:void(0)">Adventure&nbsp;</a>
+                                            <a href="javascript:void(0)">Action&nbsp;</a>
+                                            <a href="javascript:void(0)">Open World&nbsp;</a>
                                         </p>
                                         <div class="pro_play pro_play_mt6">
-                                            <a href="javascript:void(0)" class="pro_play_btn">
+                                            <a href="https://api.mguwp.net/web/start?page=https%3a%2f%2fh5mg.hzmofeng.com%2fwdjqmg%2ftwh5s1%2fh5.html" target="_blank" class="pro_play_btn">
                                                 <span class="pro_play_txt">Play Game</span>
                                                 <i class="pro_play_icon"></i>
                                             </a>
@@ -1094,15 +1070,15 @@
                                     <div class="pro_h5_opera">
                                         <div class="pro_pop_handle pro_pop_handle_mt145">
                                             <div class="pro_pop_handle_box pro_pop_handle_box_center">
-                                                <a class="pro_pop_icon pro_pop_home"></a>
-                                                <a class="pro_pop_icon pro_pop_gift"></a>
-                                                <a class="pro_pop_icon pro_pop_icon_last pro_pop_download"></a>
+                                                <a href="beimoting.html" target="_blank" class="pro_pop_icon pro_pop_home"></a>
+                                                <a href="javascript:void(0)" class="pro_pop_icon pro_pop_gift"></a>
+                                                <a href="https://www.microsoft.com/store/apps/9NQNMRS3JXNT" target="_blank" class="pro_pop_icon pro_pop_icon_last pro_pop_download"></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="pro_h5_detail">
-                                    <h3 class="pro_game_name">画江湖之杯莫停H5</h3>
+                                    <a href="beimoting.html" target="_blank" class="pro_game_name">画江湖之杯莫停H5</a>
                                     <div class="pro_game_type">
                                         <ul class="pro_game_type_bar">
                                             <li>
@@ -1112,19 +1088,19 @@
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="">
+                                                <a href="javascript:void(0)">
                                                     <img src="images/pro-type-store.png">
                                                     <span>Store</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="">
+                                                <a href="https://api.mguwp.net/web/start?page=http%3a%2f%2ffx.wan855.cn%2fh5j%2fmg%2fg%2fbmt" target="_blank">
                                                     <img src="images/pro-type-h5.png">
                                                     <span>H5</span>
                                                 </a>
                                             </li>
                                             <li class="pro_game_type_last">
-                                                <a href="">
+                                                <a href="javascript:void(0)">
                                                     <img src="images/pro-type-ios.png">
                                                     <span>iOS</span>
                                                 </a>
@@ -1133,12 +1109,12 @@
                                     </div>
                                     <div class="pro_h5_class">
                                         <p class="pro_h5_class_collect">
-                                            <a class="pro_h5_class_collect_first" href="">Adventure&nbsp;</a>
-                                            <a href="">Action&nbsp;</a>
-                                            <a href="">Open World&nbsp;</a>
+                                            <a class="pro_h5_class_collect_first" href="javascript:void(0)">Adventure&nbsp;</a>
+                                            <a href="javascript:void(0)">Action&nbsp;</a>
+                                            <a href="javascript:void(0)">Open World&nbsp;</a>
                                         </p>
                                         <div class="pro_play pro_play_mt6">
-                                            <a href="javascript:void(0)" class="pro_play_btn">
+                                            <a href="https://api.mguwp.net/web/start?page=http%3a%2f%2ffx.wan855.cn%2fh5j%2fmg%2fg%2fbmt" target="_blank" class="pro_play_btn">
                                                 <span class="pro_play_txt">Play Game</span>
                                                 <i class="pro_play_icon"></i>
                                             </a>
@@ -1160,15 +1136,15 @@
                                     <div class="pro_h5_opera">
                                         <div class="pro_pop_handle pro_pop_handle_mt145">
                                             <div class="pro_pop_handle_box pro_pop_handle_box_center">
-                                                <a class="pro_pop_icon pro_pop_home"></a>
-                                                <a class="pro_pop_icon pro_pop_gift"></a>
-                                                <a class="pro_pop_icon pro_pop_icon_last pro_pop_download"></a>
+                                                <a href="thegreedycave.html" target="_blank" class="pro_pop_icon pro_pop_home"></a>
+                                                <a href="javascript:void(0)" class="pro_pop_icon pro_pop_gift"></a>
+                                                <a href="https://www.microsoft.com/store/apps/9PCDB5KGZW38" target="_blank" class="pro_pop_icon pro_pop_icon_last pro_pop_download"></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="pro_h5_detail">
-                                    <h3 class="pro_game_name">The Greedy Cave</h3>
+                                    <a href="thegreedycave.html" target="_blank" class="pro_game_name">The Greedy Cave</a>
                                     <div class="pro_game_type">
                                         <ul class="pro_game_type_bar">
                                             <li>
@@ -1178,19 +1154,19 @@
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="">
+                                                <a href="javascript:void(0)">
                                                     <img src="images/pro-type-store.png">
                                                     <span>Store</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="">
+                                                <a href="http://api.mguwp.net/web/start?page=http%3a%2f%2ftldkupdate.vrseastar.com%2fwin10web.html" target="_blank">
                                                     <img src="images/pro-type-h5.png">
                                                     <span>H5</span>
                                                 </a>
                                             </li>
                                             <li class="pro_game_type_last">
-                                                <a href="">
+                                                <a href="javascript:void(0)">
                                                     <img src="images/pro-type-ios.png">
                                                     <span>iOS</span>
                                                 </a>
@@ -1199,12 +1175,12 @@
                                     </div>
                                     <div class="pro_h5_class">
                                         <p class="pro_h5_class_collect">
-                                            <a class="pro_h5_class_collect_first" href="">Adventure&nbsp;</a>
-                                            <a href="">Action&nbsp;</a>
-                                            <a href="">Open World&nbsp;</a>
+                                            <a class="pro_h5_class_collect_first" href="javascript:void(0)">Adventure&nbsp;</a>
+                                            <a href="javascript:void(0)">Action&nbsp;</a>
+                                            <a href="javascript:void(0)">Open World&nbsp;</a>
                                         </p>
                                         <div class="pro_play pro_play_mt6">
-                                            <a href="javascript:void(0)" class="pro_play_btn">
+                                            <a href="http://api.mguwp.net/web/start?page=http%3a%2f%2ftldkupdate.vrseastar.com%2fwin10web.html" target="_blank" class="pro_play_btn">
                                                 <span class="pro_play_txt">Play Game</span>
                                                 <i class="pro_play_icon"></i>
                                             </a>
@@ -1543,89 +1519,8 @@
             </div>
         </div>
     </div>
-    <!--底部-->
-    <footer class="footer">
-        <div class="f_box">
-            <!--公司相关链接展示-->
-            <div class="f_chain">
-                <div class="f_item f_item_less">
-                    <h3 class="f_item_title">MIRACLE GAMES</h3>
-                    <ul class="f_item_list">
-                        <li>
-                            <a>Privacy Policy</a>
-                        </li>
-                        <li>
-                            <a>Terms of Service</a>
-                        </li>
-                        <li>
-                            <a>Join Us</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="f_item">
-                    <h3 class="f_item_title">Social Networking</h3>
-                    <ul class="f_item_social">
-                        <li>
-                            <a href="https://www.facebook.com/MiracleGamesStore" target="_blank">
-                                <i></i>
-                                <span>Facebook</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.youtube.com/channel/UCnD8zYpFgOr0hCLHfdxufSQ/" target="_blank">
-                                <i class="f_item_youtube"></i>
-                                <span>YouTube</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/SMiraclegames" target="_blank">
-                                <i class="f_item_twitter"></i>
-                                <span>Twitter</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/store.miraclegames/" target="_blank">
-                                <i class="f_item_ins"></i>
-                                <span>Instagram</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="f_item">
-                    <h3 class="f_item_title">Customer Service </h3>
-                    <ul class="f_item_contact">
-                        <li>
-                            <a>
-                                <i></i>
-                                <span>Mail: Support@mguwp.com</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                                <i class="f_item_contact_sky"></i>
-                                <span>Skype: MG20151203@outlook.com</span>
-                            </a>
-                        </li>
-                    </ul>
-
-                </div>
-                <!--语言选择-->
-                <div class="h_lang">
-                    <div class="h_lang_con">
-                        <div class="h_lang_txt h_lang_txt_reversed">EN</div>
-                        <div class="h_lang_icon h_lang_icon_reversed"></div>
-                    </div>
-                    <div class="h_lang_down h_lang_down_reversed"></div>
-                </div>
-            </div>
-            <!--分割线-->
-            <div class="f_dec"></div>
-            <!--公司COPYRIGHT-->
-            <p class="f_copyright">
-                COPYRIGHT© 2016 MIRACLE GAMES INC ALL RIGHTS RESERVED.
-            </p>
-        </div>
-    </footer>
+    <!--底部开始-->
+    <script src="footer.js"></script>
 
     <!--控制轮播图js-->
     <script src="js/slideShow/jquery-1.10.1.min.js"></script>
