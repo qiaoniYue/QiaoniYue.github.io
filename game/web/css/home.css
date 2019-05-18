@@ -78,7 +78,7 @@
 
 .pro_head {
     width: 100%;
-    margin: 10px auto;
+    margin: 20px auto;
     height: 24px;
 }
 
@@ -93,7 +93,7 @@
     color: #fff;
     padding-left: 10px;
     line-height: 24px;
-    border-left: 4px solid #de3f05;
+    border-left: 5px solid #de3f05;
 }
 
 .pro_opera {
@@ -495,6 +495,7 @@
 }
 
 .pro_pop_feat_name {
+    display: block;
     width: 100%;
     max-height: 72px;
     line-height: 36px;

@@ -39,7 +39,7 @@ document.writeln("            <a href=\'http://twitter.com/home?status=https://s
 document.writeln("            <!--");
 document.writeln("            这个twitter只分享网址");
 document.writeln("            <a href=\'http://twitter.com/share?url=https://store.mguwp.com/\' target=\'_blank\' title=\'twitter\' class=\'h_twi\'>&nbsp;</a>-->");
-document.writeln("            <a href=\'javascript:void(0)\' title=\'YouTube\' class=\'h_youtube\'>&nbsp;</a>");
+document.writeln("            <!--<a href=\'javascript:void(0)\' title=\'YouTube\' class=\'h_youtube\'>&nbsp;</a>-->");
 document.writeln("        </div>");
 document.writeln("    </div>");
 document.writeln("</header>");
