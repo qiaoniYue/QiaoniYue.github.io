@@ -22,7 +22,8 @@
 	position: absolute;
 	left: 0;
 	text-align: center;
-	bottom: 35px;
+	/*bottom: 35px;*/
+	bottom: 10px;
 	width: 100%;
 }
 
