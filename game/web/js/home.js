@@ -9,6 +9,30 @@ window.onload = function(){
             this.getElementsByClassName("pro_code")[0].style.display = 'none';
         };
     }
+
+    /*最新产品的动态特效展示*/
+    document.getElementById("proOperaIcon").onclick = function(){
+        var proLatest = document.getElementById("proLatest");
+        var aProLatests = proLatest.getElementsByClassName("pro_latest");
+        var proLatest_1 = aProLatests[0];
+        var proLatest_2 = aProLatests[1];
+
+        if(proLatest_2.getElementsByTagName("*").length){
+            if(proLatest_2.style.display == "none"){
+                for(var i =0;i<aProLatests.length;i++){
+                    aProLatests[i].style.display = "none";
+                }
+                proLatest_2.style.display = "block";
+            }else {
+                for(var j =0;j<aProLatests.length;j++){
+                    aProLatests[j].style.display = "none";
+                }
+                proLatest_1.style.display = "block";
+            }
+        }
+
+    }
+
     /*热门游戏的动态特效*/
     var proPopGames = document.getElementsByClassName("pro_pop_item");
     for(var j=0;j<proPopGames.length;j++){

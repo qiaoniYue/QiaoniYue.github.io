@@ -67,6 +67,40 @@ for(var i=0;i<aPowFunNav.length;i++){
 var oPowScrList = document.getElementById("powScrList");
 var aPowScrLi = oPowScrList.getElementsByTagName("li");*/
 
+/*评论弹出二维码*/
+var oPowRevCom = document.getElementById("powRevCom");
+
+var oPowCommentCtn = document.getElementById("powCommentCtn");
+var oPowCommentAnswer = document.getElementById("powCommentAnswer");
+
+var oPowCommentBox = document.getElementById("powCommentBox");
+var oPowCommentClose = document.getElementById("powCommentClose");
+var oPowCommentCancel = document.getElementById("powCommentCancel");
+var oPowCommentAnswerBtn = document.getElementById("powCommentAnswerBtn");
+var oPowCommentSubmit = document.getElementById("powCommentSubmit");
+
+if(oPowRevCom){
+    oPowRevCom.onclick = function(){
+        oPowCodePopLayer.style.display = "block";
+        oPowCommentBox.style.display = "block";
+    };
+}
+
+if(oPowCommentClose){
+    oPowCommentClose.onclick = oPowCommentCancel.onclick = oPowCommentAnswerBtn.onclick = function(){
+        oPowCodePopLayer.style.display = "none";
+        oPowCommentBox.style.display = "none";
+        oPowCommentCtn.style.display = "block";
+        oPowCommentAnswer.style.display = "none";
+    }
+}
+
+if(oPowCommentSubmit){
+    oPowCommentSubmit.onclick = function(){
+        oPowCommentCtn.style.display = "none";
+        oPowCommentAnswer.style.display = "block";
+    }
+}
 
 
 

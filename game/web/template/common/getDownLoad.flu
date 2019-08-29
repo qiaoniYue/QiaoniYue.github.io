@@ -1,0 +1,35 @@
+	<!--定义类型下载按钮-宏 -->
+	<#macro getDownLoad item>
+			<ul class="pro_game_type_bar">
+           	<!-- 判断 LatestApps.mgUrl存在且不等于空的时候，展现li-->
+           	<#if item.mgUrl?? && item.mgUrl!="" >
+            <li>
+                <a href="${item.mgUrl!}" target="_blank" class="pro_game_type_mg"></a>
+            </li>
+           	</#if>
+        
+           	<!-- 判断 LatestApps.win10Url存在且不等于空的时候，展现li-->
+           	<#if item.win10Url?? && item.win10Url!="" >
+            <li>
+                <a href="${item.win10Url!}" target="_blank" class="pro_game_type_uwp"></a>
+            </li>
+            </#if>
+            <#if item.androidUrl?? && item.androidUrl!="" >
+            <li>
+                <a href="${item.androidUrl!}" target="_blank" class="pro_game_type_store"></a>
+            </li>
+            </#if>
+            
+            <#if item.h5Url?? && item.h5Url!="" >
+            <li>
+                <a href="${item.h5Url!}" target="_blank" class="pro_game_type_h5"></a>
+            </li>
+            </#if>
+            
+            <#if item.iosUrl?? && item.iosUrl!="" >
+            <li class="pro_game_type_last">
+                <a href="${item.iosUrl!}" target="_blank" class="pro_game_type_ios"></a>
+            </li>
+            </#if>
+            </ul>
+	</#macro>

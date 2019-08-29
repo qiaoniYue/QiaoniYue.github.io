@@ -39,6 +39,7 @@ if(oPowScrList){
 */
 
 /*截图的左右切换*/
+
 $("#powTwoScrFlash #powButScrNext a").click(function(){
     $self = $('#powScrList');
     $self.stop().animate({"margin-right" : -540 +"px"},200 , function(){
@@ -65,3 +66,4 @@ $("#powFiveFlash #powButPrev a").click(function(){
     $self.css({"margin-right" : -242 +"px"}).find("li:last").prependTo($self);
     $self.stop().animate({"margin-right" : "0px"},200 , function(){});
 });
+

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MIRACLE GAMES</title>
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/base.css" type="text/css" />
+    <link rel="stylesheet" href="css/public.css" type="text/css" />
+    <!-- html5shiv.js和respond.js IE8支持HTML5元素和媒体查询 -->
+    <!--[if lt IE 9]>
+    <script src="js/respond.js"></script>
+    <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--头部开始-->
+
+
+<header class="header">
+    <div class="h_box">
+
+        <!--头部左边-->
+        <a href="index" class="h_logo">
+            <img src="images/logo.png">
+        </a>
+        <p class="h_beta"><span class="h_beta_important">Beta</span>&nbsp;Version</p>
+        <div class="h_dec h_dec_l"></div>
+        <a class="h_mail" href="mailto:Support@mguwp.com">
+            <span class="h_mail_icon">&nbsp;</span>
+            <span class="h_mail_title">Mail:</span>
+            <span>Support@mguwp.com</span>
+        </a>
+        <!--头部右边-->
+        <div class="h_lang">
+            <div class="h_lang_vis" id="hLangVis">
+                <div class="h_lang_con">
+                    <div class="h_lang_txt">EN</div>
+                    <div class="h_lang_icon"></div>
+                </div>
+                <a href="javascript:void(0)" class="h_lang_down"></a>
+            </div>
+            <div class="h_lang_pack" id="hLangPack">
+                <div class="h_lang_pack_item"><a href="javascript:void(0)">English - EN</a></div>
+                <div class="h_lang_pack_item"><a href="javascript:void(0)">简体中文 - ZH</a></div>
+            </div>
+        </div>
+        <div class="h_dec"></div>
+        <a href="http://www.mguwp.com/en/index.html" target="_blank" class="h_plat">
+            <span class="h_plat_icon">&nbsp;</span>
+            <span class="h_plat_txt">MG Open Platform</span>
+        </a>
+        <a href="javascript:void(0)" title="Coming soon..." class="h_client">
+            <span class="h_client_icon">&nbsp;</span>
+            <span class="h_client_txt">Install Client</span>
+        </a>
+        <div class="h_enter" style="display: none;">
+            <a href="javascript:void(0)" class="h_login">Login</a>
+            <span class="h_enter_dec">|</span>
+            <a href="javascript:void(0)" class="h_login">Sign up</a>
+        </div>
+
+        <div class="h_enter" id="mgUserPanl">
+            <a href="javascript:void(0)" id="mgUserId" class="h_login">已经登陆的用户名</a>
+
+            <div class="h_lang_pack" id="hLangExit">
+                <div class="h_lang_pack_item h_lang_pack_item_exit"><a href="javascript:void(0)">退出</a></div>
+            </div>
+        </div>
+
+        <div class="h_social">
+            <span>Share:</span>
+            <a href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://www.mguwp.com/&sharesource=qzone&title=MIRACLE GAMES应用商店：提供零距离的最佳游戏&summary=北京奇游灵动科技有限公司（MG）专门致力于移动互联网和游戏社交平台。 我们为世界各地的用户提供最新的Windows 10，Android，IOS和HTML5应用程序，游戏，音乐，电影，电视节目，书籍，杂志和其他项目。 我们欢迎随时随地通过您的设备访问它们。北京奇游灵动科技有限公司致力于成为全球最大的跨终端数字娱乐平台。" target="_blank" title="微信" class="h_qzone">&nbsp;</a>
+            <a href="http://service.weibo.com/share/share.php?url=https://www.mguwp.com/&sharesource=weibo&title=MIRACLE GAMES应用商店：提供零距离的最佳游戏" target="_blank" title="微博" class="h_weibo">&nbsp;</a>
+            <!--
+            这个twitter只分享网址
+            <a href="http://twitter.com/share?url=https://www.mguwp.com/" target="_blank" title="twitter" class="h_twi">&nbsp;</a>-->
+            <!--<a href="javascript:void(0)" title="YouTube" class="h_youtube">&nbsp;</a>-->
+        </div>
+
+
+    </div>
+</header>
+<script>
+    var ohLangVis = document.getElementById("hLangVis");
+    var ohLangPack = document.getElementById("hLangPack");
+    var timer = null;
+    ohLangPack.onmouseover = ohLangVis.onmouseover = function(){
+        clearTimeout(timer);
+        ohLangPack.style.display = "block";
+    }
+    ohLangPack.onmouseout = ohLangVis.onmouseout = function(){
+        timer = setTimeout(function(){
+            ohLangPack.style.display = "none";
+        },800)
+    }
+
+    var omgUserPanl = document.getElementById("mgUserPanl");
+    var ohLangExit = document.getElementById("hLangExit");
+    var exitTimer = null;
+    ohLangExit.onmouseover = omgUserPanl.onmouseover = function(){
+        clearTimeout(timer);
+        ohLangExit.style.display = "block";
+    };
+    ohLangExit.onmouseout = omgUserPanl.onmouseout = function(){
+        timer = setTimeout(function(){
+            ohLangExit.style.display = "none";
+        },800);
+    };
+
+</script>
+
+
+<!--头部结束-->
+</body>
+</html>

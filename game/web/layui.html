@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>layui的使用</title>
+    <link rel="stylesheet" href="layer/theme/default/layer.css">
+</head>
+<body>
+<a id="parentIframe" onclick="">点击出现弹框</a>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/layer.js"></script>
+<script>
+    /*
+    $('#parentIframe').on('click', function(){
+
+        layer.open({
+            type: 2,
+            title: '新闻详情',
+            maxmin: true,
+            shadeClose: true, //点击遮罩关闭层
+            area : ['800px' , '520px'],
+            content: 'game-news-detail.html'
+        });
+    });
+    */
+    function first(newsId){
+        layer.open({
+            type: 2,
+            title: '新闻详情',
+            maxmin: true,
+            shadeClose: true, //点击遮罩关闭层
+            area : ['800px' , '520px'],
+            content: 'game-news-detail.html'
+        });
+    }
+</script>
+</body>
+</html>

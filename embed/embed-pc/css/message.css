@@ -80,6 +80,15 @@
 
 .mod-nav-bar li:hover,
 .mod-nav-bar li:active {
+    border: 1px solid #6d402c;
+    -moz-box-shadow:0 0 20px rgba(255,111,47,.3) inset;
+    -webkit-box-shadow:0 0 20px rgba(255,111,47,.3) inset;
+    box-shadow:0 0 20px rgba(255,111,47,.3) inset;
+
+}
+
+.mod-nav-bar li.current:hover,
+.mod-nav-bar li.current:active {
     border: 1px solid #ff6f2f;
     -moz-box-shadow:0 0 20px rgba(255,111,47,.6) inset;               /* For Firefox3.6+ */
     -webkit-box-shadow:0 0 20px rgba(255,111,47,.6) inset;               /* For Chrome5+, Safari5+ */

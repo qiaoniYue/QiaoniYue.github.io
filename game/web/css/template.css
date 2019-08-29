@@ -29,7 +29,7 @@
 
 .pow-path {
     width: 100%;
-    color: #454648;
+    color: #e5e5e5;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -56,6 +56,10 @@
 .pow-path li a:hover,
 .pow-path li a:active {
     color: #fff;
+}
+
+.pow-path li .pow-last {
+    color: #e5e5e5;
 }
 
 .pow-path li .pow-next:before{
@@ -116,7 +120,8 @@
 
 .pow-detail {
     float: right;
-    width: 590px;
+    /*width: 590px;*/
+    width: 580px;
     margin-top: 25px;
     height: 300px;
     position: relative;
@@ -226,7 +231,7 @@
 }
 
 .pow-short {
-    width: 435px;
+    width: 425px;
     overflow: hidden;
 }
 
@@ -303,7 +308,7 @@
 
 .pow-plat-type li {
     float: left;
-    margin-right: 4px;
+    margin-right: 5px;
 }
 
 .pow-plat-type li.pow-plat-type-last {
@@ -312,21 +317,67 @@
 
 .pow-plat-type li a {
     display: block;
-    background-color: #414446;
-    padding: 0 5px;
+    width: 20px;
     height: 20px;
     line-height: 20px;
-    color: #ccc;
-    font-size: 12px;
     overflow: hidden;
-    border-radius: 2px;
+    background: url("../images/pro-type.png") no-repeat 0 0;
+}
+
+.pow-plat-type li .pow-plat-type-mg {
+    background-position: 0 0;
+}
+
+.pow-plat-type li .pow-plat-type-uwp {
+    background-position: 0 -20px;
+}
+
+.pow-plat-type li .pow-plat-type-store {
+    background-position: 0 -40px;
+}
+
+.pow-plat-type li .pow-plat-type-h5 {
+    background-position: 0 -60px;
+}
+
+.pow-plat-type li .pow-plat-type-ios {
+    background-position: 0 -80px;
 }
 
 .pow-plat-type li a:hover,
 .pow-plat-type li a:active {
-    background-color: #4d5153;
+    background-position: -20px 0;
 }
 
+.pow-plat-type li .pow-plat-type-mg:hover,
+.pow-plat-type li .pow-plat-type-mg:active {
+    background-position: -20px 0;
+}
+
+.pow-plat-type li .pow-plat-type-uwp:hover,
+.pow-plat-type li .pow-plat-type-uwp:active {
+    background-position: -20px -20px;
+}
+
+.pow-plat-type li .pow-plat-type-store:hover,
+.pow-plat-type li .pow-plat-type-store:active {
+    background-position: -20px -40px;
+}
+
+.pow-plat-type li .pow-plat-type-h5:hover,
+.pow-plat-type li .pow-plat-type-h5:active {
+    background-position: -20px -60px;
+}
+
+.pow-plat-type li .pow-plat-type-ios:hover,
+.pow-plat-type li .pow-plat-type-ios:active {
+    background-position: -20px -80px;
+}
+
+
+
+
+/*
 .pow-plat-type li img {
     float: left;
     vertical-align: top;
@@ -338,7 +389,7 @@
 .pow-plat-type li span {
     float: left;
 }
-
+*/
 .pow-sys {
     width: 100%;
     height: 20px;
@@ -346,8 +397,9 @@
     font-size: 13px;
     line-height: 20px;
     margin: 5px 0;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+    /*white-space: nowrap;*/
+    /*text-overflow: ellipsis;*/
+    color: #219eeb;
 }
 
 .pow-sys span {
@@ -356,22 +408,33 @@
     vertical-align: top;
 }
 
-.pow-sys a {
+.pow-sys-type {
     display: inline-block;
-    color: #219eeb;
-    vertical-align: top;
+    max-width: 500px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
-.pow-sys a:before {
+.pow-sys-type i a {
+    /*display: inline-block;*/
+    color: #219eeb;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.pow-sys-type i a:before {
     content: " / ";
 }
 
-.pow-sys .pow-sys-first:before {
+
+.pow-sys-type i:first-child a:before {
     content: " ";
 }
 
-.pow-sys a:hover,
-.pow-sys a:active {
+
+.pow-sys-type i a:hover,
+.pow-sys-type i a:active {
     color: #30a8f2;
     text-decoration: underline;
 }
@@ -1000,12 +1063,8 @@
     border-bottom: 1px dashed #494d55;
 }
 
-.pow-con-news-item-first {
+.pow-con-news-item:first-child {
     padding-top: 0;
-}
-
-.pow-con-news-item-last {
-    border-bottom: 0 dashed #494d55;
 }
 
 .pow-con-news-img {
@@ -1077,6 +1136,7 @@
 
 .pow-con-page li {
     display: inline-block;
+    margin-right: 5px;
 }
 
 .pow-con-page li a {
@@ -1088,6 +1148,7 @@
     border: 1px solid #626467;
     border-radius: 2px;
     font-size: 13px;
+    outline: none 0;
 }
 
 .pow-con-page li.current a {
@@ -1114,6 +1175,40 @@
     padding: 0 15px;
 }
 
+.pow-con-unfold {
+    width: 100%;
+    margin: 15px 0;
+    height: 35px;
+    background-color: #21201f;
+    border: 1px solid #66605f;
+    border-radius: 6px;
+    line-height: 35px;
+    overflow: hidden;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.pow-con-unfold a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 16px;
+    color: #999;
+    box-sizing: border-box;
+}
+
+.pow-con-unfold a:hover,
+.pow-con-unfold a:active {
+    text-decoration: underline;
+}
+
+.pow-con-all-result {
+    display: block;
+    margin: 15px 0;
+    color: #999;
+    text-align: center;
+}
 
 .pow-also-screen {
     width: 100%;
@@ -1316,31 +1411,35 @@
 .pow-item-language {
     display: block;
     width: 100%;
-    max-height: 105px;
-    overflow: hidden;
+    /*max-height: 105px;
+    overflow: hidden;*/
     line-height: 35px;
     font-size: 20px;
     color: #7d7e80;
-    word-break: keep-all; /*决定单词内该怎么换行*/
-    word-wrap:break-word; /*决定句尾放不下单词时，单词是否换行*/
-    /*white-space: pre-wrap;*/ /*解决多空格压缩显示问题*/
-    text-overflow:ellipsis;
+    /*word-break: keep-all;*/ /*决定单词内该怎么换行*/
+    /*word-wrap:break-word;*/ /*决定句尾放不下单词时，单词是否换行*/
+    /*text-overflow:ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: vertical;*/
 }
 
-.pow-item-language span:after {
+.pow-item-language i span:after {
     content: "|";
     padding-left: 10px;
 }
 
-.pow-item-language .pow-item-language-last:after {
+.pow-item-language i:last-child span:after {
     content: "";
     padding-right: 0;
 }
 
-.pow-item-language span {
+/*.pow-item-language i .pow-item-language-last:after {
+    content: "";
+    padding-right: 0;
+}*/
+
+.pow-item-language i span {
     padding-right: 5px;
 }
 
@@ -1408,12 +1507,19 @@
     width: 115px;
     text-align: center;
     line-height: 85px;
-    margin-bottom: 10px;
     font-size: 60px;
     font-weight: bold;
     color: #fff;
 }
 /*一排星的css代码开始*/
+.pow-star-default {
+    display: block;
+    width: 115px;
+    height: 20px;
+    overflow: hidden;
+    background: url("../images/pow-star.png") no-repeat 0 0;
+}
+
 .pow-star-5 {
     display: block;
     width: 115px;
@@ -1463,6 +1569,27 @@
 }
 
 /*一排星的css代码结束*/
+
+.pow-rev-com {
+    display: block;
+    width: 115px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #219eeb;
+    outline: none 0;
+    border: none 0;
+    color: #fff;
+    border-radius: 2px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.pow-rev-com:hover,
+.pow-rev-com:active {
+    background-color: #38aaf1;
+}
+
 .pow-percent-box {
     float: right;
     max-width: 1000px;
@@ -1575,6 +1702,16 @@
     position: relative;
 }
 
+.pow-eva-sort-sel a {
+    color: #219eeb;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.pow-eva-sort-sel a:hover,
+.pow-eva-sort-sel a:active {
+    text-decoration: underline;
+}
 
 .pow-eva-sort-sel:after {
     /* 给select添加右侧下拉图标 */

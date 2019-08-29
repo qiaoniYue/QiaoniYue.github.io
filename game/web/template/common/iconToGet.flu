@@ -1,0 +1,19 @@
+	<!--定义下载按钮-宏 -->
+	<#macro iconToGet sub>
+             <#if sub.mgUrl?? && sub.mgUrl!="" >
+             <a href="${sub.mgUrl!}" class="pro_download" target="_blank"></a>
+             
+             <#elseif sub.win10Url?? && sub.win10Url!="" >
+             <a href="${sub.win10Url!}" class="pro_download" target="_blank"></a>
+             
+             <#elseif sub.androidUrl?? && sub.androidUrl!="" >
+             <a href="${sub.androidUrl!}" class="pro_download" target="_blank"></a>
+             
+             <#elseif sub.iosUrl?? && sub.iosUrl!="" >
+             <a href="${sub.iosUrl!}" class="pro_download" target="_blank"></a>
+             
+             <#else>
+             <a href="javascript:void(0)" class="pro_download-invalid" target="_blank"></a>
+             
+             </#if>
+	</#macro>

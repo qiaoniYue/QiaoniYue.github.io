@@ -63,7 +63,7 @@
                         <a href="javascript:void(0)" class="pow-next">Html5 Games</a>
                     </li>
                     <li>
-                        <span class="pow-next">Serious Sam VR</span>
+                        <span class="pow-next pow-last">Serious Sam VR</span>
                     </li>
                 </ol>
             </div>
@@ -131,27 +131,28 @@
                                 <span class="pow-plat-name">App Platform:</span>
                                 <ul class="pow-plat-type">
                                     <li>
-                                        <a href="" target="_blank">
-                                            <img src="images/pro-type-uwp.png">
-                                            <span>UWP</span>
+                                        <a href="" target="_blank" class="pow-plat-type-mg">
+
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="" target="_blank">
-                                            <img src="images/pro-type-store.png">
-                                            <span>Store</span>
+                                        <a href="" target="_blank" class="pow-plat-type-uwp">
+
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="" target="_blank">
-                                            <img src="images/pro-type-h5.png">
-                                            <span>H5</span>
+                                        <a href="" target="_blank" class="pow-plat-type-store">
+
                                         </a>
                                     </li>
                                     <li class="pow-plat-type-last">
-                                        <a href="" target="_blank">
-                                            <img src="images/pro-type-ios.png">
-                                            <span>iOS</span>
+                                        <a href="" target="_blank" class="pow-plat-type-h5">
+
+                                        </a>
+                                    </li>
+                                    <li class="pow-plat-type-last">
+                                        <a href="" target="_blank" class="pow-plat-type-ios">
+
                                         </a>
                                     </li>
                                 </ul>
@@ -161,10 +162,12 @@
                         <!--游戏类型-->
                         <div class="pow-sys">
                             <span>Game Type: </span>
-                            <a href="javascript:void(0)" class="pow-sys-first">Sexual Content</a>
-                            <a href="javascript:void(0)">Tower Defense</a>
-                            <a href="javascript:void(0)">Casual</a>
-                            <a href="javascript:void(0)">Physics</a>
+                            <div class="pow-sys-type">
+                                <i><a href="javascript:void(0)">Sexual Content</a></i>
+                                <i><a href="javascript:void(0)">Tower Defense</a></i>
+                                <i><a href="javascript:void(0)">Casual</a></i>
+                                <i><a href="javascript:void(0)">Physics</a></i>
+                            </div>
                         </div>
                         <!--游戏简介详情-->
                         <div class="pow-basic-detail">
@@ -183,6 +186,7 @@
                 </div>
             </div>
             <!--右边-->
+
             <div class="pow-download">
                 <h3>Game Download</h3>
                 <div class="pow-download-bar">
@@ -758,12 +762,12 @@ Requirements</span>
                             <!--<a class="pow-item-show"></a>-->
                         </h4>
                         <div class="pow-item-language">
-                            <span>English</span>
-                            <span>English (US)</span>
-                            <span>French</span>
-                            <span>Arabic</span>
-                            <span>Spanish</span>
-
+                            <i><span>English</span></i>
+                            <i><span>English (US)</span></i>
+                            <i><span>French</span></i>
+                            <i><span>Arabic</span></i>
+                            <i><span>Spanish</span></i>
+<!--
                             <span>Russian</span>
                             <span>Portuguese</span>
                             <span>German</span>
@@ -782,11 +786,14 @@ Requirements</span>
                             <span>Thai</span>
                             <span>Hindi</span>
 
-                            <span class="pow-item-language-last">Persian</span>
+                            <span class="pow-item-language-last">Persian</span>-->
                         </div>
+                        <!--如果有很多的语言，显示show more按钮-->
+                        <!--
                         <a href="javascript:void(0)" class="pow-item-more" id="powItemMore">
                             <span>Show more</span><i></i>
                         </a>
+                        -->
                     </div>
                 </div>
             </div>
@@ -812,7 +819,8 @@ Requirements</span>
                 一星-class变为pow-star-1
                 没有星评-class变为pow-star-0
                 -->
-                <i class="pow-star-4"></i>
+                <i class="pow-star-default pow-star-4"></i>
+                <a class="pow-rev-com" id="powRevCom">Rate and review</a>
             </div>
             <!--各星级评分百分比-->
             <div class="pow-percent-box">
@@ -879,10 +887,15 @@ Requirements</span>
             <div class="pow-eva-sort">
                 <span class="pow-eva-sort-tit">Sort by:</span>
                 <div class="pow-eva-sort-sel">
+                    <!--
                     <select class="pow-eva-sort-opera">
                         <option value="helpful">Most helpful</option>
                         <option value="recent">Most recent</option>
                     </select>
+                    -->
+                    <a href="javascript:void(0)">Most recent</a>
+                    <a href="javascript:void(0)">Highest rated</a>
+
                 </div>
             </div>
             <!--评论1-->
@@ -1085,6 +1098,58 @@ Requirements</span>
     </div>
 
 </div>
+<!--评论弹出框-->
+<div id="powCommentBox">
+    <div class="pow-comment-title">
+        <h1>Rate and review</h1>
+        <a class="pow-comment-close" id="powCommentClose"></a>
+    </div>
+    <div class="pow-comment">
+        <form action="" method="get">
+
+            <div id="powCommentCtn">
+                <div class="pow-comment-item">
+                    <label class="pow-comment-name">Headline:</label>
+                    <input type="text" class="pow-comment-text" placeholder="Give your review a headline">
+                </div>
+                <div class="pow-comment-item">
+                    <label class="pow-comment-name"><span class="pow-comment-necessary">*&nbsp;</span>Rate:</label>
+                    <p class="pow-comment-star">
+                        <i class="pow-comment-star-singal"></i>
+                        <i class="pow-comment-star-singal"></i>
+                        <i class="pow-comment-star-singal"></i>
+                        <i class="pow-comment-star-singal"></i>
+                        <i class="pow-comment-star-disable"></i>
+                    </p>
+                </div>
+                <div class="pow-comment-item">
+                    <label class="pow-comment-name">Review:</label>
+                    <textarea class="pow-comment-area" placeholder="Write your review"></textarea>
+                </div>
+                <div class="pow-comment-result">
+                    <a class="pow-comment-submit" id="powCommentSubmit">Done</a>
+                    <a class="pow-comment-cancel" id="powCommentCancel">Cancel</a>
+                </div>
+            </div>
+            <div id="powCommentAnswer" style="display: none;">
+                <div class="pow-comment-answer-box">
+                    <img src="images/per-step-ok.png">
+                </div>
+                <p class="pow-comment-answer">
+                    Thank you!<br>
+                    Submitted successfully!
+                </p>
+                <div class="pow-comment-answer-box">
+                    <a class="pow-comment-answer-btn" id="powCommentAnswerBtn">Ok</a>
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+</div>
+
+
 <!--弹出框结束-->
 
 <!--游戏产品单页的动态特效-->
@@ -1092,6 +1157,5 @@ Requirements</span>
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/switch_template.js"></script>
 <script src="js/lightbox.js"></script>
-
 </body>
 </html>

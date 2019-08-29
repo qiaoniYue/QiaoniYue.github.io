@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MIRACLE GAMES STORE: CONNECTING TO THE BEST GAMES</title>
+    <meta name="keywords" content="MIRACLE GAMES, Advertising ,Phone, Microsoft, Advertising Platform, Point Wall, Advertising Wall, Third-party Payment, Payment, Service, Developer, WP Developer, dev, Game, APP, Promotion, Media, Ranking Burst, Comment, Rank, Windows Dev Center, Windows apps, UWP, Universal Windows Platform, Fluent design, mobile game community, download genuine mobile games, fun games, Google Play game charts, iOS game charts, Android free games, Android game charts, h5 game charts,HTML5,h5,webgame, app store, store, Win10, Windows 10, computer, PC, surface, mobile, pad">
+    <meta name="description" content="MIRACLE GAMES (MG) Store dedicated to the mobile Internet and gaming social platforms. We provide the latest Windows 10, Android, IOS and HTML5 applications, games, music, movies, TV shows, books, magazines and other projects for users all over the world. We are welcome to access them through your devices anytime, anywhere. MIRACLE GAMES is committed to becoming the world's largest cross-terminal digital entertainment platform.">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/base.css" type="text/css" />
+    <link rel="stylesheet" href="css/public.css" type="text/css" />
+    <link rel="stylesheet" href="css/template.css" type="text/css" />
+    <link rel="stylesheet" href="css/pop_up.css" type="text/css" />
+    <!--lightbox的使用-->
+    <link rel="stylesheet" href="css/lightbox.css" type="text/css" />
+    <!--layui的使用-->
+    <link rel="stylesheet" href="layer/theme/default/layer.css">
+    <!-- html5shiv.js和respond.js IE8支持HTML5元素和媒体查询 -->
+    <!--[if lt IE 9]>
+    <script src="js/respond.js"></script>
+    <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div class="pow-con-sub">
+    <div class="pow-con-news-box">
+        <ul class="pow-con-new-nav">
+            <li class="pow-con-new-cur" onclick="changeNav(0)">
+                <a href="javascript:void(0)">最新</a>
+                <i></i>
+            </li>
+            <p class="pow-con-new-nav-dec">/</p>
+            <li onclick="changeNav(1)">
+                <a href="javascript:void(0)">公告</a>
+                <i></i>
+            </li>
+            <p class="pow-con-new-nav-dec">/</p>
+            <li onclick="changeNav(2)">
+                <a href="javascript:void(0)">活动</a>
+                <i></i>
+            </li>
+            <p class="pow-con-new-nav-dec">/</p>
+            <li onclick="changeNav(3)">
+                <a href="javascript:void(0)">攻略</a>
+                <i></i>
+            </li>
+        </ul>
+    </div>
+    <!--新闻列表-->
+    <div class="pow-con-space">
+        <div class="pow-con-news-bar">
+
+
+
+            <div id="powConNewsList">
+
+            </div>
+            <!--查看更多-->
+            <div id="powConMoreBtn" class="pow-con-unfold">
+                <a onclick="morenews()">More>></a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+<!--游戏产品单页的动态特效-->
+<script src="js/cutover_template.js"></script>
+<!--<script src="js/jquery-3.3.1.min.js"></script>-->
+<!--游戏新闻-->
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/layer.js"></script>
+<script>
+    //var urlParam="&${csdParam.queryString!}";
+    var labNewsTypeContent=["","公告","活动","攻略"];
+    var labDetail="详情>>";
+    var labNoCon='<span class="pow-con-all-result">* 产品已全部展示 *</span>';
+
+    var labDetailtitle = "新闻详情";
+</script>
+<script src="js/news.js"></script>
+
+
+</body>
+</html>

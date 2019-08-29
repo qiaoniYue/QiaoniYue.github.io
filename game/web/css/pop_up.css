@@ -36,6 +36,7 @@
     width: 100%;
     height: 225px;
     overflow: hidden;
+    background-color: #e5e5e5;
 }
 
 .pow-code-front img {
@@ -154,6 +155,236 @@
     z-index: 10001;
     background-color: #fff;
 }
+
+
+/*评论弹出框的样式*/
+#powCommentBox {
+    display: none;
+    background-color: #fff;
+    box-shadow:0 0 20px rgba(0, 0, 0, .8);
+    width: 900px;
+    height: 600px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 10002;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.pow-comment-title {
+    width: 100%;
+    height: 55px;
+    background-color: #de3f05;
+    position: relative;
+}
+
+.pow-comment-title h1 {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    line-height: 55px;
+    color: #fff;
+    text-align: center;
+}
+
+.pow-comment-close {
+    width: 18px;
+    height: 18px;
+    background: url("../images/h-close-pop.png");
+    overflow: hidden;
+    position: absolute;
+    right: 30px;
+    top: 19px;
+}
+
+.pow-comment-close:hover,
+.pow-comment-close:active {
+    background: url("../images/h-close-pop-hover.png");
+}
+
+.pow-comment {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.pow-comment-item {
+    width: 100%;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.pow-comment-name {
+    float: left;
+    width: 12%;
+    height: 40px;
+    margin-right: 20px;
+    line-height: 40px;
+    text-align: right;
+    color: #000;
+    font-size: 14px;
+}
+
+.pow-comment-necessary {
+    color: #de3f05;
+    line-height: 40px;
+}
+
+.pow-comment-text {
+    float: left;
+    width: 75%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    color: #000;
+    outline: none 0;
+    border: 1px solid #aaa;
+    background-color: #efefef;
+    font-size: 14px;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+.pow-comment-text:hover,
+.pow-comment-text:active {
+    border: 1px solid #aaa;
+    outline: none 0;
+}
+
+.pow-comment-star {
+    float: left;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.pow-comment-star-singal {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/pow-star-singal.png");
+    overflow: hidden;
+    margin-right: 3px;
+}
+
+.pow-comment-star-disable {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/pow-star-disable.png");
+    overflow: hidden;
+    margin-right: 3px;
+}
+
+.pow-comment-area {
+    float: left;
+    width: 75%;
+    height: 200px;
+    line-height: 30px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    color: #000;
+    outline: none 0;
+    border: 1px solid #aaa;
+    background-color: #efefef;
+    font-size: 14px;
+    border-radius: 2px;
+    overflow-y: auto;
+}
+
+.pow-comment-area:hover,
+.pow-comment-area:active {
+    border: 1px solid #aaa;
+    outline: none 0;
+}
+
+.pow-comment-result {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.pow-comment-submit{
+    border: none 0;
+    outline: none 0;
+    display: inline-block;
+    width: 300px;
+    height: 40px;
+    background-color: #de3f05;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.pow-comment-submit:hover,
+.pow-comment-submit:active {
+    outline: none 0;
+    border: none 0;
+    background-color: #e95b27;
+    color: #fff;
+}
+
+.pow-comment-cancel {
+    display: inline-block;
+    line-height: 40px;
+    color: #666666;
+}
+
+.pow-comment-cancel:hover,
+.pow-comment-cancel:active {
+    text-decoration: underline;
+}
+
+#powCommentAnswer {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.pow-comment-answer-box {
+    width: 100%;
+    text-align: center;
+}
+
+.pow-comment-answer {
+    color: #666564;
+    font-size: 16px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.pow-comment-answer-btn {
+    display: inline-block;
+    border: none 0;
+    outline: none 0;
+    width: 300px;
+    height: 40px;
+    background-color: #de3f05;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.pow-comment-answer-btn:hover,
+.pow-comment-answer-btn:active {
+    outline: none 0;
+    border: none 0;
+    background-color: #e95b27;
+}
+
+
+
+
+
+
 
 
 

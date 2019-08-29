@@ -1,0 +1,19 @@
+	<!--定义下载按钮2-宏 -->
+	<#macro circleToGet item>
+             <#if item.mgUrl?? && item.mgUrl!="" >
+             <a href="${item.mgUrl!}" class="pro_pop_icon pro_pop_icon_last pro_pop_download" target="_blank"></a>
+             
+             <#elseif item.win10Url?? && item.win10Url!="" >
+             <a href="${item.win10Url!}" class="pro_pop_icon pro_pop_icon_last pro_pop_download" target="_blank"></a>
+             
+             <#elseif item.androidUrl?? && item.androidUrl!="" >
+             <a href="${item.androidUrl!}" class="pro_pop_icon pro_pop_icon_last pro_pop_download" target="_blank"></a>
+             
+             <#elseif item.iosUrl?? && item.iosUrl!="" >
+             <a href="${item.iosUrl!}" class="pro_pop_icon pro_pop_icon_last pro_pop_download" target="_blank"></a>
+             
+             <#else>
+             <a href="javascript:void(0)" class="pro_pop_icon pro_pop_icon_last pro_pop_download-invalid" target="_blank"></a>
+             
+             </#if>
+	</#macro>

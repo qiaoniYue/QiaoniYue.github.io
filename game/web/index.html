@@ -5,8 +5,13 @@
     <title>MIRACLE GAMES STORE: CONNECTING TO THE BEST GAMES</title>
     <meta name="keywords" content="MIRACLE GAMES, Advertising ,Phone, Microsoft, Advertising Platform, Point Wall, Advertising Wall, Third-party Payment, Payment, Service, Developer, WP Developer, dev, Game, APP, Promotion, Media, Ranking Burst, Comment, Rank, Windows Dev Center, Windows apps, UWP, Universal Windows Platform, Fluent design, mobile game community, download genuine mobile games, fun games, Google Play game charts, iOS game charts, Android free games, Android game charts, h5 game charts,HTML5,h5,webgame, app store, store, Win10, Windows 10, computer, PC, surface, mobile, pad">
     <meta name="description" content="MIRACLE GAMES (MG) Store dedicated to the mobile Internet and gaming social platforms. We provide the latest Windows 10, Android, IOS and HTML5 applications, games, music, movies, TV shows, books, magazines and other projects for users all over the world. We are welcome to access them through your devices anytime, anywhere. MIRACLE GAMES is committed to becoming the world's largest cross-terminal digital entertainment platform.">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/base.css" type="text/css" />
     <link rel="stylesheet" href="css/public.css" type="text/css" />
@@ -22,10 +27,75 @@
     <script src="js/respond.js"></script>
     <script src="js/html5shiv.min.js"></script>
     <![endif]-->
+
 </head>
 <body>
     <!--头部开始-->
-    <script src="header.js"></script>
+    <header class="header">
+        <div class="h_box">
+
+            <!--头部左边-->
+            <a href="index" class="h_logo">
+                <img src="images/logo.png">
+            </a>
+            <p class="h_beta"><span class="h_beta_important">Beta</span>&nbsp;Version</p>
+            <div class="h_dec h_dec_l"></div>
+            <a class="h_mail" href="mailto:Support@mguwp.com">
+                <span class="h_mail_icon">&nbsp;</span>
+                <span class="h_mail_title">Mail:</span>
+                <span>Support@mguwp.com</span>
+            </a>
+            <!--头部右边-->
+            <div class="h_lang">
+                <div class="h_lang_vis" id="hLangVis">
+                    <div class="h_lang_con">
+                        <div class="h_lang_txt">EN</div>
+                        <div class="h_lang_icon"></div>
+                    </div>
+                    <a href="javascript:void(0)" class="h_lang_down"></a>
+                </div>
+                <div class="h_lang_pack" id="hLangPack">
+                    <div class="h_lang_pack_item"><a href="javascript:void(0)">English - EN</a></div>
+                    <div class="h_lang_pack_item"><a href="javascript:void(0)">简体中文 - ZH</a></div>
+                </div>
+            </div>
+            <div class="h_dec"></div>
+            <a href="http://www.mguwp.com/en/index.html" target="_blank" class="h_plat">
+                <span class="h_plat_icon">&nbsp;</span>
+                <span class="h_plat_txt">MG Open Platform</span>
+            </a>
+            <a href="javascript:void(0)" title="Coming soon..." class="h_client">
+                <span class="h_client_icon">&nbsp;</span>
+                <span class="h_client_txt">Install Client</span>
+            </a>
+            <div class="h_enter" style="display: none;">
+                <a href="javascript:void(0)" class="h_login">Login</a>
+                <span class="h_enter_dec">|</span>
+                <a href="javascript:void(0)" class="h_login">Sign up</a>
+            </div>
+
+            <div class="h_enter" id="mgUserPanl">
+                <a href="javascript:void(0)" id="mgUserId" class="h_login">已经登陆的用户名</a>
+
+                <div class="h_lang_pack" id="hLangExit">
+                    <div class="h_lang_pack_item h_lang_pack_item_exit"><a href="javascript:void(0)">退出</a></div>
+                </div>
+            </div>
+
+            <div class="h_social">
+                <span>Share:</span>
+                <a href="http://www.facebook.com/sharer/sharer.php?u=https://www.mguwp.com/" target="_blank" title="facebook">&nbsp;</a>
+                <a href="http://twitter.com/home?status=https://www.mguwp.com/" target="_blank" title="twitter" class="h_twi">&nbsp;</a>
+                <!--
+                这个twitter只分享网址
+                <a href="http://twitter.com/share?url=https://store.mguwp.com/" target="_blank" title="twitter" class="h_twi">&nbsp;</a>-->
+                <!--<a href="javascript:void(0)" title="YouTube" class="h_youtube">&nbsp;</a>-->
+            </div>
+
+
+        </div>
+    </header>
+
     <!--nav开始-->
     <nav class="nav">
         <div class="nav_box">
@@ -52,39 +122,61 @@
                     <a href="javascript:void(0)">News</a>
                 </li>
             </ul>
-            <div class="nav_search" title="Coming soon...">
-                <input id="navSearch" name="navSearch" type="text" class="nav_search_ipt" placeholder="Search" size="22" disabled="disabled">
-                <a href="javascript:void(0)" class="nav_search_btn"></a>
+            <div class="nav_search-bar">
+                <div class="nav_search" title="Coming soon...">
+                    <input id="navSearch" name="navSearch" type="text" class="nav_search_ipt" placeholder="Search" size="22" disabled="disabled">
+                    <a href="javascript:void(0)" class="nav_search_btn"></a>
+                </div>
+
             </div>
+
         </div>
     </nav>
     <!--banner开始-->
     <div class="banner">
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide Slide Slide1">
-                    <a href="rageofkings.html" target="_blank">&nbsp;</a>
+        <div class="swiper-container" style="min-width: 1200px;margin: 0 auto;">
+            <div class="swiper-wrapper" style="width: 1200px;">
+
+                <div class="swiper-slide Slide" style="background-image: url('images/banner/banner-1.jpg')">
+                    <a href="rageofkings.html" target="_blank">
+                        &nbsp;
+                    </a>
                 </div>
-                <div class="swiper-slide Slide Slide2">
-                    <a href="warshipempire.html" target="_blank">&nbsp;</a>
+                <div class="swiper-slide Slide" style="background-image: url('images/banner/banner-2.jpg')">
+                    <a href="warshipempire.html" target="_blank">
+                        &nbsp;
+
+                    </a>
                 </div>
-                <div class="swiper-slide Slide Slide3">
-                    <a href="digitalworldevolution.html" target="_blank">&nbsp;</a>
+                <div class="swiper-slide Slide" style="background-image: url('images/banner/banner-3.jpg')">
+                    <a href="digitalworldevolution.html" target="_blank">
+                        &nbsp;
+
+                    </a>
                 </div>
-                <div class="swiper-slide Slide Slide4" >
-                    <a href="fantasyhero.html" target="_blank">&nbsp;</a>
+                <div class="swiper-slide Slide" style="background-image: url('images/banner/banner-4.jpg')">
+                    <a href="fantasyhero.html" target="_blank">
+                        &nbsp;
+
+                    </a>
                 </div>
-                <div class="swiper-slide Slide Slide5">
-                    <a href="dragonawaken.html" target="_blank">&nbsp;</a>
+                <div class="swiper-slide Slide" style="background-image: url('images/banner/banner-5.jpg')">
+                    <a href="dragonawaken.html" target="_blank">
+                        &nbsp;
+
+                    </a>
                 </div>
+
+
+
             </div>
             <div class="pagination"></div>
         </div>
     </div>
     <!--统计条开始-->
-    <!--
     <div class="count">
         <div class="co_box">
+            <!--
             <div class="co_bar">
                 <div class="co_item">
                     <p class="co_item_name">Online Games</p>
@@ -101,280 +193,242 @@
                     <p class="co_item_num">856,336</p>
                 </div>
             </div>
+            -->
+            <img src="images/en-long.png">
         </div>
     </div>
-    -->
+
     <!--Latest Products-->
     <div class="products">
         <div class="pro_box">
             <div class="pro_head">
                 <h2 class="pro_title">Latest Products</h2>
-                <a class="pro_opera">
+                <a class="pro_opera" id="proOperaIcon">
                     <span class="pro_opera_txt">Refresh</span>
                     <i class="pro_refresh_icon"></i>
                 </a>
             </div>
-            <div class="pro_latest">
-                <!--第一个产品-竖向-->
-                <div class="pro_late_ver">
-                    <a class="pro_img_spa" href="mongolianempire.html" target="_blank">
-                        <img src="images/example/product_name/khans/khans-ver.png" class="pro_late_ver_icon">
-                    </a>
-                    <div class="pro_late_bar">
-                        <a class="pro_game_name" href="mongolianempire.html" target="_blank">Mongol Empire</a>
-                        <div class="pro_game_type">
-                            <ul class="pro_game_type_bar">
-                                <li>
-                                    <a href="https://www.microsoft.com/store/apps/9N68WSZ0PG67" target="_blank">
-                                        <img src="images/pro-type-uwp.png">
-                                        <span>UWP</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0)">
-                                        <img src="images/pro-type-store.png">
-                                        <span>Store</span>
-                                    </a>
-                                </li>
-                                <!--
-                                <li>
-                                    <a href="">
-                                        <img src="images/pro-type-h5.png">
-                                        <span>H5</span>
-                                    </a>
-                                </li>
-                                -->
-                                <li class="pro_game_type_last">
-                                    <a href="javascript:void(0)">
-                                        <img src="images/pro-type-ios.png">
-                                        <span>iOS</span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <a href="mongolianempire.html" target="_blank" class="pro_home">&nbsp;</a>
-                        </div>
-                        <p class="pro_game_class">
-                            <a class="pro_game_class_first" href="javascript:void(0)">Strategy</a>
-                            <a href="javascript:void(0)">Massively Multiplayer</a>
-                            <a href="javascript:void(0)">Real-Time Strategy</a>
-                        </p>
-                        <div class="pro_boost">
-                            <div class="pro_favor">
-                                <a href="javascript:void(0)" class="pro_gift">
-                                    <i></i>
-                                    <span>Receive Gifts</span>
-                                </a>
-                                <a href="https://www.microsoft.com/store/apps/9N68WSZ0PG67" target="_blank" class="pro_download"></a>
-                            </div>
-                            <!--
-                            <div class="pro_play">
-                                <a href="javascript:void(0)" class="pro_play_btn">
-                                    <span class="pro_play_txt">Play Game</span>
-                                    <i class="pro_play_icon"></i>
-                                </a>
-                                <div class="pro_code" style="display: none">
-                                    <img src="images/code.png" class="pro_code_img">
-                                    <p class="pro_code_txt">[ Scan to play ]</p>
-                                </div>
-                            </div>
-                            -->
-                        </div>
-                    </div>
-                </div>
-                <!--第二个产品-竖向-->
-                <div class="pro_late_ver">
-                    <a class="pro_img_spa" href="thelegendofgoddess.html" target="_blank">
-                        <img src="images/example/product_name/legend/legend-ver.png" class="pro_late_ver_icon">
-                    </a>
-                    <div class="pro_late_bar">
-                        <a href="thelegendofgoddess.html" target="_blank" class="pro_game_name">The Legend of Goddess</a>
-                        <div class="pro_game_type">
-                            <ul class="pro_game_type_bar">
-                                <li>
-                                    <a href="https://www.microsoft.com/store/apps/9MVTGVJ6VWWD" target="_blank">
-                                        <img src="images/pro-type-uwp.png">
-                                        <span>UWP</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0)">
-                                        <img src="images/pro-type-store.png">
-                                        <span>Store</span>
-                                    </a>
-                                </li>
-                                <!--
-                                <li>
-                                    <a href="">
-                                        <img src="images/pro-type-h5.png">
-                                        <span>H5</span>
-                                    </a>
-                                </li>-->
-                                <li class="pro_game_type_last">
-                                    <a href="javascript:void(0)">
-                                        <img src="images/pro-type-ios.png">
-                                        <span>iOS</span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <a href="thelegendofgoddess.html" target="_blank" class="pro_home">&nbsp;</a>
-                        </div>
-                        <p class="pro_game_class">
-                            <a class="pro_game_class_first" href="javascript:void(0)">Strategy</a>
-                            <a href="javascript:void(0)">Role-Playing</a>
-                            <a href="javascript:void(0)">Massively Multiplayer</a>
-                            <a href="javascript:void(0)">Action</a>
-                            <a href="javascript:void(0)">Adventure</a>
-                        </p>
-                        <div class="pro_boost">
-                            <div class="pro_favor">
-                                <a href="javascript:void(0)" class="pro_gift">
-                                    <i></i>
-                                    <span>Receive Gifts</span>
-                                </a>
-                                <a href="https://www.microsoft.com/store/apps/9MVTGVJ6VWWD" target="_blank" class="pro_download"></a>
-                            </div>
-                            <!--
-                            <div class="pro_play">
-                                <a href="javascript:void(0)" class="pro_play_btn">
-                                    <span class="pro_play_txt">Play Game</span>
-                                    <i class="pro_play_icon"></i>
-                                </a>
-                                <div class="pro_code" style="display: none">
-                                    <img src="images/code.png" class="pro_code_img">
-                                    <p class="pro_code_txt">[ Scan to play ]</p>
-                                </div>
-                            </div>
-                            -->
-                        </div>
-                    </div>
-                </div>
-                <div class="pro_horizon">
-                    <!--第三个产品-横向-->
-                    <div class="pro_late_wide">
-                        <a class="pro_img_spa" href="javascript:void(0)">
-                            <img src="images/example/product_name/starlord/starlord-wide.png" class="pro_late_wide_icon">
+            <div id="proLatest">
+                <div class="pro_latest">
+                    <!--第一个产品-竖向-->
+                    <div class="pro_late_ver">
+                        <a class="pro_img_spa" href="mongolianempire.html" target="_blank">
+                            <img src="images/example/product_name/khans/khans-ver.png" class="pro_late_ver_icon">
                         </a>
-                        <div class="pro_late_wide_bar">
-                            <a href="javascript:void(0)" class="pro_game_name pro_game_name-mt">
-                                Star Lord</a>
+                        <div class="pro_late_bar">
+                            <a class="pro_game_name" href="mongolianempire.html" target="_blank">Mongol Empire</a>
                             <div class="pro_game_type">
                                 <ul class="pro_game_type_bar">
                                     <li>
-                                        <a href="https://www.microsoft.com/store/apps/9N2THXNJBW46" target="_blank">
-                                            <img src="images/pro-type-uwp.png">
-                                            <span>UWP</span>
-                                        </a>
+                                        <a href="https://www.microsoft.com/store/apps/9N68WSZ0PG67" target="_blank" class="pro_game_type_mg"></a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void(0)">
-                                            <img src="images/pro-type-store.png">
-                                            <span>Store</span>
-                                        </a>
+                                        <a href="https://www.microsoft.com/store/apps/9N68WSZ0PG67" target="_blank" class="pro_game_type_uwp"></a>
                                     </li>
-                                    <!--
                                     <li>
-                                        <a href="">
-                                            <img src="images/pro-type-h5.png">
-                                            <span>H5</span>
-                                        </a>
+                                        <a href="javascript:void(0)" class="pro_game_type_store"></a>
                                     </li>
-                                    -->
+
+                                    <li>
+                                        <a href="" class="pro_game_type_h5"></a>
+                                    </li>
+
                                     <li class="pro_game_type_last">
-                                        <a href="javascript:void(0)">
-                                            <img src="images/pro-type-ios.png">
-                                            <span>iOS</span>
-                                        </a>
+                                        <a href="javascript:void(0)" class="pro_game_type_ios"></a>
                                     </li>
                                 </ul>
-                                <a href="javascript:void(0)" class="pro_home">&nbsp;</a>
+                                <a href="mongolianempire.html" target="_blank" class="pro_home">&nbsp;</a>
                             </div>
-                            <p class="pro_game_class pro_game_class-mt">
-                                <a class="pro_game_class_first" href="javascript:void(0)">Action</a>
-                                <a href="javascript:void(0)">Adventure</a>
-                                <a href="javascript:void(0)">Role-Playing</a>
-                                <a href="javascript:void(0)">Strategy</a>
+                            <p class="pro_game_class">
+                                <i><a href="javascript:void(0)">Strategy</a></i>
+                                <i><a href="javascript:void(0)">Massively Multiplayer</a></i>
+                                <i><a href="javascript:void(0)">Real-Time Strategy</a></i>
                             </p>
-                            <div class="pro_boost pro_boost-mt">
+                            <div class="pro_boost">
                                 <div class="pro_favor">
                                     <a href="javascript:void(0)" class="pro_gift">
                                         <i></i>
                                         <span>Receive Gifts</span>
                                     </a>
-                                    <a href="https://www.microsoft.com/store/apps/9N2THXNJBW46" target="_blank" class="pro_download"></a>
+                                    <a href="https://www.microsoft.com/store/apps/9N68WSZ0PG67" target="_blank" class="pro_download"></a>
                                 </div>
-                                <!--
                                 <div class="pro_play">
                                     <a href="javascript:void(0)" class="pro_play_btn">
                                         <span class="pro_play_txt">Play Game</span>
                                         <i class="pro_play_icon"></i>
                                     </a>
                                     <div class="pro_code" style="display: none">
-                                        <img src="images/example/product_name/savage/savage-code.png" class="pro_code_img">
-                                        <p class="pro_code_txt">[ Scan to play ]</p>
+                                        <img src="images/code.png" class="pro_code_img">
+                                        <!--<p class="pro_code_txt">[ Scan to play ]</p>-->
                                     </div>
                                 </div>
-                                -->
                             </div>
                         </div>
                     </div>
-                    <!--第四个产品-横向-->
-                    <div class="pro_late_wide pro_late_wide_mb">
-                        <a class="pro_img_spa" href="thesavageking.html" target="_blank">
-                            <img src="images/example/product_name/savage/en/savage-wide.png" class="pro_late_wide_icon">
+                    <!--第二个产品-竖向-->
+                    <div class="pro_late_ver">
+                        <a class="pro_img_spa" href="thelegendofgoddess.html" target="_blank">
+                            <img src="images/example/product_name/legend/legend-ver.png" class="pro_late_ver_icon">
                         </a>
-                        <div class="pro_late_wide_bar">
-                            <a href="thesavageking.html" target="_blank" class="pro_game_name pro_game_name-mt">The Savage King</a>
+                        <div class="pro_late_bar">
+                            <a href="thelegendofgoddess.html" target="_blank" class="pro_game_name">The Legend of Goddess</a>
                             <div class="pro_game_type">
                                 <ul class="pro_game_type_bar">
                                     <li>
-                                        <a href="https://www.microsoft.com/store/apps/9NKGR7ZBJHQZ" target="_blank">
-                                            <img src="images/pro-type-uwp.png">
-                                            <span>UWP</span>
-                                        </a>
+                                        <a href="https://www.microsoft.com/store/apps/9MVTGVJ6VWWD" target="_blank" class="pro_game_type_mg"></a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void(0)">
-                                            <img src="images/pro-type-store.png">
-                                            <span>Store</span>
-                                        </a>
+                                        <a href="https://www.microsoft.com/store/apps/9MVTGVJ6VWWD" target="_blank" class="pro_game_type_uwp"></a>
                                     </li>
                                     <li>
-                                        <a href="https://api.mguwp.net/web/start?page=https%3a%2f%2fh5mg.hzmofeng.com%2fwdjqmg%2ftwh5s1%2fh5.html" target="_blank">
-                                            <img src="images/pro-type-h5.png">
-                                            <span>H5</span>
-                                        </a>
+                                        <a href="javascript:void(0)" class="pro_game_type_store"></a>
                                     </li>
+                                    <!--
+                                    <li>
+                                        <a href="" class="pro_game_type_h5"></a>
+                                    </li>-->
                                     <li class="pro_game_type_last">
-                                        <a href="javascript:void(0)">
-                                            <img src="images/pro-type-ios.png">
-                                            <span>iOS</span>
-                                        </a>
+                                        <a href="javascript:void(0)" class="pro_game_type_ios"></a>
                                     </li>
                                 </ul>
-                                <a href="thesavageking.html" target="_blank" class="pro_home">&nbsp;</a>
+                                <a href="thelegendofgoddess.html" target="_blank" class="pro_home">&nbsp;</a>
                             </div>
-                            <p class="pro_game_class pro_game_class-mt">
-                                <a class="pro_game_class_first" href="javascript:void(0)">Strategy</a>
-                                <a href="javascript:void(0)">Massively Multiplayer</a>
-                                <a href="javascript:void(0)">Real-Time Strategy</a>
-                                <a href="javascript:void(0)">Role-Playing</a>
+                            <p class="pro_game_class">
+                                <i><a href="javascript:void(0)">Strategy</a></i>
+                                <i><a href="javascript:void(0)">Role-Playing</a></i>
+                                <i><a href="javascript:void(0)">Massively Multiplayer</a></i>
+                                <i><a href="javascript:void(0)">Action</a></i>
+                                <i><a href="javascript:void(0)">Adventure</a></i>
                             </p>
-                            <div class="pro_boost pro_boost-mt">
+                            <div class="pro_boost">
                                 <div class="pro_favor">
                                     <a href="javascript:void(0)" class="pro_gift">
                                         <i></i>
                                         <span>Receive Gifts</span>
                                     </a>
-                                    <a href="https://store.mguwp.com/download/the-savage-king/the-savage-king.apk" target="_blank" class="pro_download"></a>
+                                    <a href="https://www.microsoft.com/store/apps/9MVTGVJ6VWWD" target="_blank" class="pro_download"></a>
                                 </div>
                                 <div class="pro_play">
-                                    <a href="https://api.mguwp.net/web/start?page=https%3a%2f%2fh5mg.hzmofeng.com%2fwdjqmg%2ftwh5s1%2fh5.html" target="_blank" class="pro_play_btn">
+                                    <a href="javascript:void(0)" class="pro_play_btn">
                                         <span class="pro_play_txt">Play Game</span>
                                         <i class="pro_play_icon"></i>
                                     </a>
                                     <div class="pro_code" style="display: none">
-                                        <img src="images/example/product_name/savage/savage-code.png" class="pro_code_img">
-                                        <p class="pro_code_txt">[ Scan to play ]</p>
+                                        <img src="images/code.png" class="pro_code_img">
+                                        <!--<p class="pro_code_txt">[ Scan to play ]</p>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pro_horizon">
+                        <!--第三个产品-横向-->
+                        <div class="pro_late_wide">
+                            <a class="pro_img_spa" href="javascript:void(0)">
+                                <img src="images/example/product_name/starlord/starlord-wide.png" class="pro_late_wide_icon">
+                            </a>
+                            <div class="pro_late_wide_bar">
+                                <a href="javascript:void(0)" class="pro_game_name pro_game_name-mt">
+                                    Star Lord</a>
+                                <div class="pro_game_type">
+                                    <ul class="pro_game_type_bar">
+                                        <li>
+                                            <a href="https://www.microsoft.com/store/apps/9N2THXNJBW46" target="_blank" class="pro_game_type_mg"></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.microsoft.com/store/apps/9N2THXNJBW46" target="_blank" class="pro_game_type_uwp"></a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" class="pro_game_type_store"></a>
+                                        </li>
+                                        <!--
+                                        <li>
+                                            <a href="" class="pro_game_type_h5"></a>
+                                        </li>
+                                        -->
+                                        <li class="pro_game_type_last">
+                                            <a href="javascript:void(0)" class="pro_game_type_ios"></a>
+                                        </li>
+                                    </ul>
+                                    <a href="javascript:void(0)" class="pro_home">&nbsp;</a>
+                                </div>
+                                <p class="pro_game_class pro_game_class-mt">
+                                    <i><a class="pro_game_class_first" href="javascript:void(0)">Action</a></i>
+                                    <i><a href="javascript:void(0)">Adventure</a></i>
+                                    <i><a href="javascript:void(0)">Role-Playing</a></i>
+                                    <i><a href="javascript:void(0)">Strategy</a></i>
+                                </p>
+                                <div class="pro_boost pro_boost-mt">
+                                    <div class="pro_favor">
+                                        <a href="javascript:void(0)" class="pro_gift">
+                                            <i></i>
+                                            <span>Receive Gifts</span>
+                                        </a>
+                                        <a href="https://www.microsoft.com/store/apps/9N2THXNJBW46" target="_blank" class="pro_download-invalid"></a>
+                                    </div>
+                                    <div class="pro_play">
+                                        <a href="javascript:void(0)" class="pro_play_btn">
+                                            <span class="pro_play_txt">Play Game</span>
+                                            <i class="pro_play_icon"></i>
+                                        </a>
+                                        <div class="pro_code" style="display: none">
+                                            <img src="images/example/pokemon-code.png" class="pro_code_img">
+                                            <!--<p class="pro_code_txt">[ Scan to play ]</p>-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--第四个产品-横向-->
+                        <div class="pro_late_wide pro_late_wide_mb">
+                            <a class="pro_img_spa" href="thesavageking.html" target="_blank">
+                                <img src="images/example/product_name/savage/en/savage-wide.png" class="pro_late_wide_icon">
+                            </a>
+                            <div class="pro_late_wide_bar">
+                                <a href="thesavageking.html" target="_blank" class="pro_game_name pro_game_name-mt">The Savage King</a>
+                                <div class="pro_game_type">
+                                    <ul class="pro_game_type_bar">
+                                        <li>
+                                            <a href="https://www.microsoft.com/store/apps/9NKGR7ZBJHQZ" target="_blank" class="pro_game_type_mg"></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.microsoft.com/store/apps/9NKGR7ZBJHQZ" target="_blank" class="pro_game_type_uwp"></a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" class="pro_game_type_store"></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://api.mguwp.net/web/start?page=https%3a%2f%2fh5mg.hzmofeng.com%2fwdjqmg%2ftwh5s1%2fh5.html" target="_blank" class="pro_game_type_h5"></a>
+                                        </li>
+                                        <li class="pro_game_type_last">
+                                            <a href="javascript:void(0)" class="pro_game_type_ios"></a>
+                                        </li>
+                                    </ul>
+                                    <a href="thesavageking.html" target="_blank" class="pro_home">&nbsp;</a>
+                                </div>
+                                <p class="pro_game_class pro_game_class-mt">
+                                    <i><a class="pro_game_class_first" href="javascript:void(0)">Strategy</a></i>
+                                    <i><a href="javascript:void(0)">Massively Multiplayer</a></i>
+                                    <i><a href="javascript:void(0)">Real-Time Strategy</a></i>
+                                    <i><a href="javascript:void(0)">Role-Playing</a></i>
+                                </p>
+                                <div class="pro_boost pro_boost-mt">
+                                    <div class="pro_favor">
+                                        <a href="javascript:void(0)" class="pro_gift">
+                                            <i></i>
+                                            <span>Receive Gifts</span>
+                                        </a>
+                                        <a href="https://store.mguwp.com/download/the-savage-king/the-savage-king.apk" target="_blank" class="pro_download"></a>
+                                    </div>
+                                    <div class="pro_play">
+                                        <a href="https://api.mguwp.net/web/start?page=https%3a%2f%2fh5mg.hzmofeng.com%2fwdjqmg%2ftwh5s1%2fh5.html" target="_blank" class="pro_play_btn">
+                                            <span class="pro_play_txt">Play Game</span>
+                                            <i class="pro_play_icon"></i>
+                                        </a>
+                                        <div class="pro_code" style="display: none">
+                                            <img src="images/example/product_name/savage/savage-code.png" class="pro_code_img">
+                                            <!--<p class="pro_code_txt">[ Scan to play ]</p>-->
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -382,6 +436,7 @@
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
     <!--Popular Games-->
@@ -406,40 +461,29 @@
                             <div class="pro_game_type">
                                 <ul class="pro_game_type_bar">
                                     <li>
-                                        <a href="https://www.microsoft.com/store/apps/9NN8MW5FG435" target="_blank">
-                                            <img src="images/pro-type-uwp.png">
-                                            <span>UWP</span>
-                                        </a>
+                                        <a href="https://www.microsoft.com/store/apps/9NN8MW5FG435" target="_blank" class="pro_game_type_mg"></a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void(0)">
-                                            <img src="images/pro-type-store.png">
-                                            <span>Store</span>
-                                        </a>
+                                        <a href="https://www.microsoft.com/store/apps/9NN8MW5FG435" target="_blank" class="pro_game_type_uwp"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)" target="_blank" class="pro_game_type_store"></a>
                                     </li>
                                     <!--h5标签-->
-                                    <!--
                                     <li>
-                                        <a href="">
-                                            <img src="images/pro-type-h5.png">
-                                            <span>H5</span>
-                                        </a>
+                                        <a href="" target="_blank" class="pro_game_type_h5"></a>
                                     </li>
-                                    -->
                                     <li class="pro_game_type_last">
-                                        <a href="javascript:void(0)">
-                                            <img src="images/pro-type-ios.png">
-                                            <span>iOS</span>
-                                        </a>
+                                        <a href="javascript:void(0)" target="_blank" class="pro_game_type_ios"></a>
                                     </li>
                                 </ul>
                             </div>
                             <p class="pro_pop_feat_class">
-                                <a class="pro_pop_feat_class_first" href="javascript:void(0)">Action</a>
-                                <a href="javascript:void(0)">Adventure</a>
-                                <a href="javascript:void(0)">Massively Multiplayer</a>
-                                <a href="javascript:void(0)">MOBA</a>
-                                <a href="javascript:void(0)">Role-Playing</a>
+                                <i><a href="javascript:void(0)">Action</a></i>
+                                <i><a href="javascript:void(0)">Adventure</a></i>
+                                <i><a href="javascript:void(0)">Massively Multiplayer</a></i>
+                                <i><a href="javascript:void(0)">MOBA</a></i>
+                                <i><a href="javascript:void(0)">Role-Playing</a></i>
                             </p>
                             <div class="pro_pop_handle">
                                 <div class="pro_pop_handle_box">
@@ -449,7 +493,6 @@
                                 </div>
                             </div>
                             <!--二维码标签-->
-                            <!--
                             <div class="pro_pop_link">
                                 <div class="pro_pop_code">
                                     <img src="images/code.png">
@@ -461,7 +504,6 @@
                                     </a>
                                 </div>
                             </div>
-                            -->
                         </div>
                     </div>
                     <!--热门游戏第二个游戏-->
@@ -474,40 +516,29 @@
                             <div class="pro_game_type">
                                 <ul class="pro_game_type_bar">
                                     <li>
-                                        <a href="https://www.microsoft.com/store/apps/9N6SSZ56JN79" target="_blank">
-                                            <img src="images/pro-type-uwp.png">
-                                            <span>UWP</span>
-                                        </a>
+                                        <a href="https://www.microsoft.com/store/apps/9N6SSZ56JN79" target="_blank" class="pro_game_type_mg"></a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void(0)">
-                                            <img src="images/pro-type-store.png">
-                                            <span>Store</span>
-                                        </a>
+                                        <a href="javascript:void(0)" target="_blank" class="pro_game_type_uwp"></a>
                                     </li>
                                     <!--h5标签-->
-                                    <!--
                                     <li>
                                         <a href="">
                                             <img src="images/pro-type-h5.png">
                                             <span>H5</span>
                                         </a>
                                     </li>
-                                    -->
                                     <li class="pro_game_type_last">
-                                        <a href="javascript:void(0)">
-                                            <img src="images/pro-type-ios.png">
-                                            <span>iOS</span>
-                                        </a>
+                                        <a href="javascript:void(0)" target="_blank" class="pro_game_type_ios"></a>
                                     </li>
                                 </ul>
                             </div>
                             <p class="pro_pop_feat_class">
-                                <a class="pro_pop_feat_class_first" href="javascript:void(0)">Action</a>
-                                <a href="javascript:void(0)">Adventure</a>
-                                <a href="javascript:void(0)">Card</a>
-                                <a href="javascript:void(0)">Puzzle</a>
-                                <a href="javascript:void(0)">Casual</a>
+                                <i><a href="javascript:void(0)">Action</a></i>
+                                <i><a href="javascript:void(0)">Adventure</a></i>
+                                <i><a href="javascript:void(0)">Card</a></i>
+                                <i><a href="javascript:void(0)">Puzzle</a></i>
+                                <i><a href="javascript:void(0)">Casual</a></i>
                             </p>
                             <div class="pro_pop_handle">
                                 <div class="pro_pop_handle_box">
@@ -517,7 +548,6 @@
                                 </div>
                             </div>
                             <!--二维码标签-->
-                            <!--
                             <div class="pro_pop_link">
                                 <div class="pro_pop_code">
                                     <img src="images/code.png">
@@ -529,7 +559,6 @@
                                     </a>
                                 </div>
                             </div>
-                            -->
                         </div>
                     </div>
                     <div class="pro_pop_switch">
@@ -552,6 +581,8 @@
                     </div>
                 </div>
                 <div class="pro_pop_sum">
+
+
                     <!--热门游戏-1-->
                     <div class="pro_pop_item">
                         <a class="pro_img_spa" href="javascript:void(0)">
@@ -560,41 +591,32 @@
                         <div class="pro_pop_box">
                             <a href="javascript:void(0)" class="pro_game_name">Zombies Invaded</a>
                             <div class="pro_game_type">
-                                <ul class="pro_game_type_bar pro_game_type_bar_light">
+                                <ul class="pro_game_type_bar">
                                     <li>
-                                        <a href="https://www.microsoft.com/store/apps/9NP24S1SSQ0S" target="_blank">
-                                            <img src="images/pro-type-uwp.png">
-                                            <span>UWP</span>
-                                        </a>
+                                        <i><a href="https://www.microsoft.com/store/apps/9NP24S1SSQ0S" target="_blank" class="pro_game_type_mg"></a></i>
                                     </li>
                                     <li>
-                                        <a href="javascript:void(0)">
-                                            <img src="images/pro-type-store.png">
-                                            <span>Store</span>
-                                        </a>
+                                        <i><a href="https://www.microsoft.com/store/apps/9NP24S1SSQ0S" target="_blank" class="pro_game_type_uwp"></a></i>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)" target="_blank" class="pro_game_type_store"></a>
                                     </li>
                                     <!--
                                     <li>
-                                        <a href="">
-                                            <img src="images/pro-type-h5.png">
-                                            <span>H5</span>
-                                        </a>
+                                        <a href="" target="_blank" class="pro_game_type_h5"></a>
                                     </li>
                                     -->
                                     <li class="pro_game_type_last">
-                                        <a href="javascript:void(0)">
-                                            <img src="images/pro-type-ios.png">
-                                            <span>iOS</span>
-                                        </a>
+                                        <a href="javascript:void(0)" target="_blank" class="pro_game_type_ios"></a>
                                     </li>
                                 </ul>
                             </div>
                             <p class="pro_game_class">
-                                <a class="pro_game_class_first" href="javascript:void(0)">Action</a>
-                                <a href="javascript:void(0)">Adventure</a>
-                                <a href="javascript:void(0)">Massively Multiplayer</a>
-                                <a href="javascript:void(0)">MOBA</a>
-                                <a href="javascript:void(0)">Role-Playing</a>
+                                <i><a href="javascript:void(0)">Action</a></i>
+                                <i><a href="javascript:void(0)">Adventure</a></i>
+                                <i><a href="javascript:void(0)">Massively Multiplayer</a></i>
+                                <i><a href="javascript:void(0)">MOBA</a></i>
+                                <i><a href="javascript:void(0)">Role-Playing</a></i>
                             </p>
                         </div>
                         <div class="pro_pop_add">
@@ -605,7 +627,7 @@
                                     <i class="pro_pop_add_title_l pro_pop_add_title_r"></i>
                                 </h3>
                                 <p class="pro_pop_add_description">
-                                    This is a classic game,you have to selectively plant 49 plants to resist the attack of zombies,if the choice is not good,the zombies will eat the brain Oh!See if you can stick to the last pass!
+                                    This is a classic game , you have to selectively plant 49 plants to resist the attack of zombies, if the choice is not good, the zombies will eat the brain Oh! See if you can stick to the last pass!
                                 </p>
                                 <div class="pro_pop_handle">
                                     <div class="pro_pop_handle_box pro_pop_handle_box_center">
@@ -614,7 +636,7 @@
                                         <a href="https://www.microsoft.com/store/apps/9NP24S1SSQ0S" target="_blank" class="pro_pop_icon pro_pop_icon_last pro_pop_download"></a>
                                     </div>
                                 </div>
-                                <!--
+
                                 <div class="pro_pop_link">
                                     <div class="pro_pop_code">
                                         <img src="images/code.png">
@@ -626,53 +648,44 @@
                                         </a>
                                     </div>
                                 </div>
-                                -->
+
                             </div>
                         </div>
                     </div>
                     <!--热门游戏-2-->
                     <div class="pro_pop_item">
-                        <a class="pro_img_spa" href="ultimateknight.html" target="_blank">
-                            <img src="images/example/product_name/ultimate/ultimate-ver.png" class="pro_pop_item_img">
+                        <a class="pro_img_spa" href="" target="_blank">
+                            <img src="images/example/product_name/trojan/trojan-ver.png" class="pro_pop_item_img">
                         </a>
                         <div class="pro_pop_box">
-                            <a href="ultimateknight.html" target="_blank" class="pro_game_name">Ultimate Knight</a>
+                            <a href="" target="_blank" class="pro_game_name">Game of Glory</a>
                             <div class="pro_game_type">
-                                <ul class="pro_game_type_bar pro_game_type_bar_light">
+                                <ul class="pro_game_type_bar">
                                     <li>
-                                        <a href="https://www.microsoft.com/store/apps/9P77G5TGS8NC" target="_blank">
-                                            <img src="images/pro-type-uwp.png">
-                                            <span>UWP</span>
-                                        </a>
+                                        <a href="" target="_blank" class="pro_game_type_mg"></a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void(0)">
-                                            <img src="images/pro-type-store.png">
-                                            <span>Store</span>
-                                        </a>
+                                        <a href="" target="_blank" class="pro_game_type_uwp"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)" target="_blank" class="pro_game_type_store"></a>
                                     </li>
                                     <!--
                                     <li>
-                                        <a href="">
-                                            <img src="images/pro-type-h5.png">
-                                            <span>H5</span>
-                                        </a>
+                                        <a href=""></a>
                                     </li>
                                     -->
                                     <li class="pro_game_type_last">
-                                        <a href="javascript:void(0)">
-                                            <img src="images/pro-type-ios.png">
-                                            <span>iOS</span>
-                                        </a>
+                                        <a href="javascript:void(0)" target="_blank" class="pro_game_type_ios"></a>
                                     </li>
                                 </ul>
                             </div>
                             <p class="pro_game_class">
-                                <a class="pro_game_class_first" href="javascript:void(0)">Action</a>
-                                <a href="javascript:void(0)">Adventure</a>
-                                <a href="javascript:void(0)">Role-Playing</a>
-                                <a href="javascript:void(0)">Fight Technology</a>
-                                <a href="javascript:void(0)">Multiplayer</a>
+                                <i><a href="javascript:void(0)">Action</a></i>
+                                <i><a href="javascript:void(0)">Adventure</a></i>
+                                <i><a href="javascript:void(0)">Role-Playing</a></i>
+                                <i><a href="javascript:void(0)">Fight Technology</a></i>
+                                <i><a href="javascript:void(0)">Multiplayer</a></i>
                             </p>
                         </div>
                         <div class="pro_pop_add">
@@ -684,13 +697,13 @@
                                     <i class="pro_pop_add_title_l pro_pop_add_title_r"></i>
                                 </h3>
                                 <p class="pro_pop_add_description">
-                                    Ultimate Knight: For Honor is a 3D ARPG of magic theme game, simple operation, cool skills, large equipment system, a variety of skills, original real-time team adventure, field rogue PK and other synchronous interactive content, together with stable and smooth cross Service mechanism to create MMO-style combat interactive experience.
+                                    Game of Glory: Trojan War is a war strategy game based on the Greek mythology war. The game uses the most sophisticated Flash technology, with a large number of real-time calculus, to achieve the multiplayer battle effect. At the same time, the game refers to many well-known historical myths, creates the famous scenes and heroic characters of Greek mythology from every detail, and gives players an immersive sense of substitution.
                                 </p>
                                 <div class="pro_pop_handle">
                                     <div class="pro_pop_handle_box pro_pop_handle_box_center">
-                                        <a href="ultimateknight.html" target="_blank" class="pro_pop_icon pro_pop_home"></a>
+                                        <a href="" target="_blank" class="pro_pop_icon pro_pop_home"></a>
                                         <a href="javascript:void(0)" class="pro_pop_icon pro_pop_gift"></a>
-                                        <a href="https://www.microsoft.com/store/apps/9P77G5TGS8NC" target="_blank" class="pro_pop_icon pro_pop_icon_last pro_pop_download"></a>
+                                        <a href="" target="_blank" class="pro_pop_icon pro_pop_icon_last pro_pop_download"></a>
                                     </div>
                                 </div>
                                 <!--
@@ -717,41 +730,32 @@
                         <div class="pro_pop_box">
                             <a href="javascript:void(0)" class="pro_game_name">Jedi Battlefield</a>
                             <div class="pro_game_type">
-                                <ul class="pro_game_type_bar pro_game_type_bar_light">
+                                <ul class="pro_game_type_bar">
                                     <li>
-                                        <a href="https://www.microsoft.com/store/apps/9NQ9TKLNT37C" target="_blank">
-                                            <img src="images/pro-type-uwp.png">
-                                            <span>UWP</span>
-                                        </a>
+                                        <a href="https://www.microsoft.com/store/apps/9NQ9TKLNT37C" target="_blank" class="pro_game_type_mg"></a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void(0)">
-                                            <img src="images/pro-type-store.png">
-                                            <span>Store</span>
-                                        </a>
+                                        <a href="https://www.microsoft.com/store/apps/9NQ9TKLNT37C" target="_blank" class="pro_game_type_uwp"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)" target="_blank" class="pro_game_type_store"></a>
                                     </li>
                                     <!--
                                     <li>
-                                        <a href="">
-                                            <img src="images/pro-type-h5.png">
-                                            <span>H5</span>
-                                        </a>
+                                        <a href=""></a>
                                     </li>
                                     -->
                                     <li class="pro_game_type_last">
-                                        <a href="javascript:void(0)">
-                                            <img src="images/pro-type-ios.png">
-                                            <span>iOS</span>
-                                        </a>
+                                        <a href="javascript:void(0)" target="_blank" class="pro_game_type_ios"></a>
                                     </li>
                                 </ul>
                             </div>
                             <p class="pro_game_class">
-                                <a class="pro_game_class_first" href="javascript:void(0)">Action</a>
-                                <a href="javascript:void(0)">Adventure</a>
-                                <a href="javascript:void(0)">MOBA</a>
-                                <a href="javascript:void(0)">Role-Playing</a>
-                                <a href="javascript:void(0)">Multiplayer</a>
+                                <i><a href="javascript:void(0)">Action</a></i>
+                                <i><a href="javascript:void(0)">Adventure</a></i>
+                                <i><a href="javascript:void(0)">MOBA</a></i>
+                                <i><a href="javascript:void(0)">Role-Playing</a></i>
+                                <i><a href="javascript:void(0)">Multiplayer</a></i>
                             </p>
                         </div>
                         <div class="pro_pop_add">
@@ -788,7 +792,7 @@
                         </div>
                     </div>
                     <!--热门游戏-4-->
-                    <div class="pro_pop_item pro_pop_item_last" style="width: 474px;">
+                    <div class="pro_pop_item">
                         <a class="pro_img_spa" href="omegazodiac.html" target="_blank">
                             <img src="images/example/product_name/oz/oz-ver.png" class="pro_pop_item_img">
                         </a>
@@ -797,42 +801,31 @@
                             <div class="pro_game_type">
                                 <ul class="pro_game_type_bar pro_game_type_bar_light">
                                     <li>
-                                        <a href="https://www.microsoft.com/store/apps/9PDFCVDVX3B1" target="_blank">
-                                            <img src="images/pro-type-uwp.png">
-                                            <span>UWP</span>
-                                        </a>
+                                        <a href="https://www.microsoft.com/store/apps/9PDFCVDVX3B1" target="_blank" class="pro_game_type_mg"></a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void(0)">
-                                            <img src="images/pro-type-store.png">
-                                            <span>Store</span>
-                                        </a>
+                                        <a href="https://www.microsoft.com/store/apps/9PDFCVDVX3B1" target="_blank" class="pro_game_type_uwp"></a>
                                     </li>
-                                    <!--
                                     <li>
-                                        <a href="">
-                                            <img src="images/pro-type-h5.png">
-                                            <span>H5</span>
-                                        </a>
+                                        <a href="javascript:void(0)" target="_blank" class="pro_game_type_store"></a>
                                     </li>
-                                    -->
+                                    <li>
+                                        <a href=""></a>
+                                    </li>
                                     <li class="pro_game_type_last">
-                                        <a href="javascript:void(0)">
-                                            <img src="images/pro-type-ios.png">
-                                            <span>iOS</span>
-                                        </a>
+                                        <a href="javascript:void(0)" target="_blank" class="pro_game_type_ios"></a>
                                     </li>
                                 </ul>
                             </div>
                             <p class="pro_game_class">
-                                <a class="pro_game_class_first" href="javascript:void(0)">Action</a>
-                                <a href="javascript:void(0)">Adventure</a>
-                                <a href="javascript:void(0)">Strategy</a>
-                                <a href="javascript:void(0)">Multiplayer</a>
-                                <a href="javascript:void(0)">Online</a>
+                                <i><a class="pro_game_class_first" href="javascript:void(0)">Action</a></i>
+                                <i><a href="javascript:void(0)">Adventure</a></i>
+                                <i><a href="javascript:void(0)">Strategy</a></i>
+                                <i><a href="javascript:void(0)">Multiplayer</a></i>
+                                <i><a href="javascript:void(0)">Online</a></i>
                             </p>
                         </div>
-                        <div class="pro_pop_add" style="display: block;">
+                        <div class="pro_pop_add">
                             <div class="pro_pop_add_bar">
 
                                 <h3 class="pro_pop_add_title">
@@ -850,10 +843,9 @@
                                         <a href="https://www.microsoft.com/store/apps/9PDFCVDVX3B1" target="_blank" class="pro_pop_icon pro_pop_icon_last pro_pop_download"></a>
                                     </div>
                                 </div>
-                                <!--
                                 <div class="pro_pop_link">
                                     <div class="pro_pop_code">
-                                        <img src="images/code.png">
+                                        <img src="images/example/pokemon-code.png">
                                     </div>
                                     <div class="pro_pop_play">
                                         <a href="javascript:void(0)" class="pro_pop_play_btn">
@@ -862,11 +854,12 @@
                                         </a>
                                     </div>
                                 </div>
-                                -->
 
                             </div>
                         </div>
                     </div>
+
+
                 </div>
             </div>
         </div>
@@ -886,9 +879,9 @@
                     -->
                 </div>
                 <ul class="pro_rank_list">
-                    <li class="pro_rank_list_first">
-                        <div class="pro_rank_num pro_rank_num_1">
-                            &nbsp;
+                    <li>
+                        <div class="pro_rank_num">
+                            01
                         </div>
                         <div class="pro_rank_goods">
                             <a href="rageofkings.html" target="_blank">
@@ -899,9 +892,9 @@
                             <div class="pro_rank_de_box">
                                 <a href="rageofkings.html" target="_blank" class="pro_rank_de_caption">Rage of Kings</a>
                                 <p class="pro_game_class">
-                                    <a class="pro_game_class_first" href="javascript:void(0)">Adventure&nbsp;</a>
-                                    <a href="javascript:void(0)">Action&nbsp;</a>
-                                    <a href="javascript:void(0)">Open World&nbsp;</a>
+                                    <i><a href="javascript:void(0)">Adventure&nbsp;</a></i>
+                                    <i><a href="javascript:void(0)">Action&nbsp;</a></i>
+                                    <i><a href="javascript:void(0)">Open World&nbsp;</a></i>
                                 </p>
                                 <a href="https://www.microsoft.com/store/apps/9NCN5W2XMRGP" target="_blank" class="pro_rank_btn">
                                     PLAY NOW
@@ -910,8 +903,8 @@
                         </div>
                     </li>
                     <li>
-                        <div class="pro_rank_num pro_rank_num_2">
-                            &nbsp;
+                        <div class="pro_rank_num">
+                            02
                         </div>
                         <div class="pro_rank_goods">
                             <a href="digitalworldevolution.html" target="_blank">
@@ -922,9 +915,9 @@
                             <div class="pro_rank_de_box">
                                 <a href="digitalworldevolution.html" target="_blank" class="pro_rank_de_caption">Digital World Evolution</a>
                                 <p class="pro_game_class">
-                                    <a class="pro_game_class_first" href="javascript:void(0)">Adventure&nbsp;</a>
-                                    <a href="javascript:void(0)">Action&nbsp;</a>
-                                    <a href="javascript:void(0)">Open World&nbsp;</a>
+                                    <i><a href="javascript:void(0)">Adventure&nbsp;</a></i>
+                                    <i><a href="javascript:void(0)">Action&nbsp;</a></i>
+                                    <i><a href="javascript:void(0)">Open World&nbsp;</a></i>
                                 </p>
                                 <a href="https://www.microsoft.com/store/apps/9P44R51Z21WW" target="_blank" class="pro_rank_btn">
                                     PLAY NOW
@@ -932,9 +925,9 @@
                             </div>
                         </div>
                     </li>
-                    <li class="pro_rank_list_last">
-                        <div class="pro_rank_num pro_rank_num_3">
-                            &nbsp;
+                    <li>
+                        <div class="pro_rank_num">
+                            03
                         </div>
                         <div class="pro_rank_goods">
                             <a href="thelegendofgoddess.html" target="_blank">
@@ -945,9 +938,9 @@
                             <div class="pro_rank_de_box">
                                 <a href="thelegendofgoddess.html" target="_blank" class="pro_rank_de_caption">The Legend of Goddess</a>
                                 <p class="pro_game_class">
-                                    <a class="pro_game_class_first" href="javascript:void(0)">Adventure&nbsp;</a>
-                                    <a href="javascript:void(0)">Action&nbsp;</a>
-                                    <a href="javascript:void(0)">Open World&nbsp;</a>
+                                    <i><a href="javascript:void(0)">Adventure&nbsp;</a></i>
+                                    <i><a href="javascript:void(0)">Action&nbsp;</a></i>
+                                    <i><a href="javascript:void(0)">Open World&nbsp;</a></i>
                                 </p>
                                 <a href="https://www.microsoft.com/store/apps/9MVTGVJ6VWWD" target="_blank" class="pro_rank_btn">
                                     PLAY NOW
@@ -960,11 +953,11 @@
                             04
                         </div>
                         <div class="pro_rank_goods">
-                            <img src="images/example/example720-ver-10.png">
+                            <img src="images/example/product_name/glor/glor-ver.png">
                         </div>
                         <div class="pro_rank_detail">
                             <div class="pro_rank_de_box">
-                                <h3>Hero of Constellation</h3>
+                                <h3>Glorious Sagan</h3>
                                 <p class="pro_game_class">
                                     <a class="pro_game_class_first" href="">Adventure&nbsp;</a>
                                     <a href="">Action&nbsp;</a>
@@ -981,11 +974,11 @@
                             05
                         </div>
                         <div class="pro_rank_goods">
-                            <img src="images/example/example720-ver-11.png">
+                            <img src="images/example/product_name/zombie/zombie-ver.png">
                         </div>
                         <div class="pro_rank_detail">
                             <div class="pro_rank_de_box">
-                                <h3>Hero of Constellation</h3>
+                                <h3>Zombie Survival</h3>
                                 <p class="pro_game_class">
                                     <a class="pro_game_class_first" href="">Adventure&nbsp;</a>
                                     <a href="">Action&nbsp;</a>
@@ -997,7 +990,7 @@
                             </div>
                         </div>
                     </li>
-                    <!--排行榜的后三个部分
+                    <!--
                     <li class="pro_rank_list_last">
                         <div class="pro_rank_num">
                             06
@@ -1038,61 +1031,52 @@
                         <div class="pro_h5_item">
                             <div class="pro_h5_item_link">
                                 <div class="pro_h5_show">
-                                    <img src="images/example/product_name/savage/en/savage-ver.png" class="pro_h5_show_img">
+                                    <img src="images/example/product_name/chaos/chaos-ver.png" class="pro_h5_show_img">
                                     <div class="pro_h5_opera">
                                         <div class="pro_pop_handle pro_pop_handle_mt145">
                                             <div class="pro_pop_handle_box pro_pop_handle_box_center">
-                                                <a href="thesavageking.html" target="_blank" class="pro_pop_icon pro_pop_home"></a>
+                                                <a href="" target="_blank" class="pro_pop_icon pro_pop_home"></a>
                                                 <a href="javascript:void(0)" class="pro_pop_icon pro_pop_gift"></a>
-                                                <a href="https://store.mguwp.com/download/the-savage-king/the-savage-king.apk" target="_blank" class="pro_pop_icon pro_pop_icon_last pro_pop_download"></a>
+                                                <a href="" target="_blank" class="pro_pop_icon pro_pop_icon_last pro_pop_download"></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="pro_h5_detail">
-                                    <a href="thesavageking.html" target="_blank" class="pro_game_name">The Savage King</a>
+                                    <a href="" target="_blank" class="pro_game_name">The World of Chaos</a>
                                     <div class="pro_game_type">
                                         <ul class="pro_game_type_bar">
                                             <li>
-                                                <a href="https://www.microsoft.com/store/apps/9NKGR7ZBJHQZ" target="_blank">
-                                                    <img src="images/pro-type-uwp.png">
-                                                    <span>UWP</span>
-                                                </a>
+                                                <a href="" target="_blank" class="pro_game_type_mg"></a>
                                             </li>
                                             <li>
-                                                <a href="javascript:void(0)">
-                                                    <img src="images/pro-type-store.png">
-                                                    <span>Store</span>
-                                                </a>
+                                                <a href="" target="_blank" class="pro_game_type_uwp"></a>
                                             </li>
                                             <li>
-                                                <a href="https://api.mguwp.net/web/start?page=https%3a%2f%2fh5mg.hzmofeng.com%2fwdjqmg%2ftwh5s1%2fh5.html" target="_blank">
-                                                    <img src="images/pro-type-h5.png">
-                                                    <span>H5</span>
-                                                </a>
+                                                <a href="javascript:void(0)" target="_blank" class="pro_game_type_store"></a>
+                                            </li>
+                                            <li>
+                                                <a href="" target="_blank" class="pro_game_type_h5"></a>
                                             </li>
                                             <li class="pro_game_type_last">
-                                                <a href="javascript:void(0)">
-                                                    <img src="images/pro-type-ios.png">
-                                                    <span>iOS</span>
-                                                </a>
+                                                <a href="javascript:void(0)" target="_blank" class="pro_game_type_ios"></a>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="pro_h5_class">
                                         <p class="pro_h5_class_collect">
-                                            <a class="pro_h5_class_collect_first" href="javascript:void(0)">Adventure&nbsp;</a>
-                                            <a href="javascript:void(0)">Action&nbsp;</a>
-                                            <a href="javascript:void(0)">Open World&nbsp;</a>
+                                            <i><a href="javascript:void(0)">Adventure&nbsp;</a></i>
+                                            <i><a href="javascript:void(0)">Action&nbsp;</a></i>
+                                            <i><a href="javascript:void(0)">Open World&nbsp;</a></i>
                                         </p>
                                         <div class="pro_play pro_play_mt6">
-                                            <a href="https://api.mguwp.net/web/start?page=https%3a%2f%2fh5mg.hzmofeng.com%2fwdjqmg%2ftwh5s1%2fh5.html" target="_blank" class="pro_play_btn">
+                                            <a href="" target="_blank" class="pro_play_btn">
                                                 <span class="pro_play_txt">Play Game</span>
                                                 <i class="pro_play_icon"></i>
                                             </a>
                                             <div class="pro_code" style="display: none">
-                                                <img src="images/example/product_name/savage/savage-code.png" class="pro_code_img">
-                                                <p class="pro_code_txt">[ Scan to play ]</p>
+                                                <img src="images/example/product_name/chaos/chaos-code.png" class="pro_code_img">
+                                                <!--<p class="pro_code_txt">[ Scan to play ]</p>-->
                                             </div>
                                         </div>
                                     </div>
@@ -1103,61 +1087,52 @@
                         <div class="pro_h5_item">
                             <div class="pro_h5_item_link">
                                 <div class="pro_h5_show">
-                                    <img src="images/example/product_name/bmt/bmt-ver.png" class="pro_h5_show_img">
+                                    <img src="images/example/product_name/csf/csf-ver.png" class="pro_h5_show_img">
                                     <div class="pro_h5_opera">
                                         <div class="pro_pop_handle pro_pop_handle_mt145">
                                             <div class="pro_pop_handle_box pro_pop_handle_box_center">
-                                                <a href="beimoting.html" target="_blank" class="pro_pop_icon pro_pop_home"></a>
+                                                <a href="" target="_blank" class="pro_pop_icon pro_pop_home"></a>
                                                 <a href="javascript:void(0)" class="pro_pop_icon pro_pop_gift"></a>
-                                                <a href="https://www.microsoft.com/store/apps/9NQNMRS3JXNT" target="_blank" class="pro_pop_icon pro_pop_icon_last pro_pop_download"></a>
+                                                <a href="" target="_blank" class="pro_pop_icon pro_pop_icon_last pro_pop_download"></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="pro_h5_detail">
-                                    <a href="beimoting.html" target="_blank" class="pro_game_name">画江湖之杯莫停H5</a>
+                                    <a href="" target="_blank" class="pro_game_name">Candy Shooter Fight</a>
                                     <div class="pro_game_type">
                                         <ul class="pro_game_type_bar">
                                             <li>
-                                                <a href="https://www.microsoft.com/store/apps/9NQNMRS3JXNT" target="_blank">
-                                                    <img src="images/pro-type-uwp.png">
-                                                    <span>UWP</span>
-                                                </a>
+                                                <a href="" target="_blank" class="pro_game_type_mg"></a>
                                             </li>
                                             <li>
-                                                <a href="javascript:void(0)">
-                                                    <img src="images/pro-type-store.png">
-                                                    <span>Store</span>
-                                                </a>
+                                                <a href="" target="_blank" class="pro_game_type_uwp"></a>
                                             </li>
                                             <li>
-                                                <a href="https://api.mguwp.net/web/start?page=http%3a%2f%2ffx.wan855.cn%2fh5j%2fmg%2fg%2fbmt" target="_blank">
-                                                    <img src="images/pro-type-h5.png">
-                                                    <span>H5</span>
-                                                </a>
+                                                <a href="javascript:void(0)" target="_blank" class="pro_game_type_store"></a>
+                                            </li>
+                                            <li>
+                                                <a href="" target="_blank" class="pro_game_type_h5"></a>
                                             </li>
                                             <li class="pro_game_type_last">
-                                                <a href="javascript:void(0)">
-                                                    <img src="images/pro-type-ios.png">
-                                                    <span>iOS</span>
-                                                </a>
+                                                <a href="javascript:void(0)" target="_blank" class="pro_game_type_ios"></a>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="pro_h5_class">
                                         <p class="pro_h5_class_collect">
-                                            <a class="pro_h5_class_collect_first" href="javascript:void(0)">Adventure&nbsp;</a>
-                                            <a href="javascript:void(0)">Action&nbsp;</a>
-                                            <a href="javascript:void(0)">Open World&nbsp;</a>
+                                            <i><a href="javascript:void(0)">Adventure&nbsp;</a></i>
+                                            <i><a href="javascript:void(0)">Action&nbsp;</a></i>
+                                            <i><a href="javascript:void(0)">Open World&nbsp;</a></i>
                                         </p>
                                         <div class="pro_play pro_play_mt6">
-                                            <a href="https://api.mguwp.net/web/start?page=http%3a%2f%2ffx.wan855.cn%2fh5j%2fmg%2fg%2fbmt" target="_blank" class="pro_play_btn">
+                                            <a href="" target="_blank" class="pro_play_btn">
                                                 <span class="pro_play_txt">Play Game</span>
                                                 <i class="pro_play_icon"></i>
                                             </a>
                                             <div class="pro_code" style="display: none">
                                                 <img src="images/example/product_name/bmt/bmt-code.png" class="pro_code_img">
-                                                <p class="pro_code_txt">[ Scan to play ]</p>
+                                                <!--<p class="pro_code_txt">[ Scan to play ]</p>-->
                                             </div>
                                         </div>
                                     </div>
@@ -1185,36 +1160,27 @@
                                     <div class="pro_game_type">
                                         <ul class="pro_game_type_bar">
                                             <li>
-                                                <a href="https://www.microsoft.com/store/apps/9PCDB5KGZW38" target="_blank">
-                                                    <img src="images/pro-type-uwp.png">
-                                                    <span>UWP</span>
-                                                </a>
+                                                <a href="https://www.microsoft.com/store/apps/9PCDB5KGZW38" target="_blank" class="pro_game_type_mg"></a>
                                             </li>
                                             <li>
-                                                <a href="javascript:void(0)">
-                                                    <img src="images/pro-type-store.png">
-                                                    <span>Store</span>
-                                                </a>
+                                                <a href="https://www.microsoft.com/store/apps/9PCDB5KGZW38" target="_blank" class="pro_game_type_uwp"></a>
                                             </li>
                                             <li>
-                                                <a href="http://api.mguwp.net/web/start?page=http%3a%2f%2ftldkupdate.vrseastar.com%2fwin10web.html" target="_blank">
-                                                    <img src="images/pro-type-h5.png">
-                                                    <span>H5</span>
-                                                </a>
+                                                <a href="javascript:void(0)" target="_blank" class="pro_game_type_store"></a>
+                                            </li>
+                                            <li>
+                                                <a href="http://api.mguwp.net/web/start?page=http%3a%2f%2ftldkupdate.vrseastar.com%2fwin10web.html" target="_blank" class="pro_game_type_h5"></a>
                                             </li>
                                             <li class="pro_game_type_last">
-                                                <a href="javascript:void(0)">
-                                                    <img src="images/pro-type-ios.png">
-                                                    <span>iOS</span>
-                                                </a>
+                                                <a href="javascript:void(0)" target="_blank" class="pro_game_type_ios"></a>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="pro_h5_class">
                                         <p class="pro_h5_class_collect">
-                                            <a class="pro_h5_class_collect_first" href="javascript:void(0)">Adventure&nbsp;</a>
-                                            <a href="javascript:void(0)">Action&nbsp;</a>
-                                            <a href="javascript:void(0)">Open World&nbsp;</a>
+                                            <i><a href="javascript:void(0)">Adventure&nbsp;</a></i>
+                                            <i><a href="javascript:void(0)">Action&nbsp;</a></i>
+                                            <i><a href="javascript:void(0)">Open World&nbsp;</a></i>
                                         </p>
                                         <div class="pro_play pro_play_mt6">
                                             <a href="http://api.mguwp.net/web/start?page=http%3a%2f%2ftldkupdate.vrseastar.com%2fwin10web.html" target="_blank" class="pro_play_btn">
@@ -1223,7 +1189,7 @@
                                             </a>
                                             <div class="pro_code" style="display: none">
                                                 <img src="images/example/product_name/cave/cave-code.png" class="pro_code_img">
-                                                <p class="pro_code_txt">[ Scan to play ]</p>
+                                                <!--<p class="pro_code_txt">[ Scan to play ]</p>-->
                                             </div>
                                         </div>
                                     </div>
@@ -1368,15 +1334,18 @@
                     </div>
                     <div class="pro_term_list">
 
+
                         <div class="pro_term_item">
                             <div class="pro_term_item_link">
                                 <div class="pro_term_show">
-                                    <img src="images/example/wide/example1920-wide-5.png" class="pro_term_show_img">
+                                    <img src="images/example/product_name/chive/chive-wide.png" class="pro_term_show_img">
                                     <div class="pro_term_opera">
                                         <div class="pro_pop_handle pro_pop_handle_mt37">
-                                            <div class="pro_pop_handle_box pro_pop_handle_box_center">
+                                            <div class="pro_pop_handle_box pro_pop_handle_box_center_2">
                                                 <a class="pro_pop_icon pro_pop_home"></a>
+                                                <!--
                                                 <a class="pro_pop_icon pro_pop_gift"></a>
+                                                -->
                                                 <a class="pro_pop_icon pro_pop_icon_last pro_pop_download"></a>
                                             </div>
                                         </div>
@@ -1384,34 +1353,31 @@
                                     </div>
                                 </div>
                                 <div class="pro_h5_detail">
-                                    <h3 class="pro_game_name">Realm of guardians</h3>
+                                    <h3 class="pro_game_name">theCHIVE</h3>
                                     <div class="pro_game_type">
                                         <ul class="pro_game_type_bar">
                                             <li>
-                                                <a href="">
-                                                    <img src="images/pro-type-uwp.png">
-                                                    <span>UWP</span>
-                                                </a>
+                                                <a href="" target="_blank" class="pro_game_type_mg"></a>
                                             </li>
                                             <li>
-                                                <a href="">
-                                                    <img src="images/pro-type-store.png">
-                                                    <span>Store</span>
-                                                </a>
+                                                <a href="" target="_blank" class="pro_game_type_uwp"></a>
+                                            </li>
+                                            <li>
+                                                <a href="" target="_blank" class="pro_game_type_store"></a>
+                                            </li>
+                                            <li>
+                                                <a href="" target="_blank" class="pro_game_type_h5"></a>
                                             </li>
                                             <li class="pro_game_type_last">
-                                                <a href="">
-                                                    <img src="images/pro-type-ios.png">
-                                                    <span>iOS</span>
-                                                </a>
+                                                <a href="" target="_blank" class="pro_game_type_ios"></a>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="pro_h5_class">
-                                        <p class="pro_h5_class_collect">
-                                            <a class="pro_h5_class_collect_first" href="">Adventure&nbsp;</a>
-                                            <a href="">Action&nbsp;</a>
-                                            <a href="">Open World&nbsp;</a>
+                                        <p class="pro_h5_class_collect_tran">
+                                            <i><a href="">Adventure&nbsp;</a></i>
+                                            <i><a href="">Action&nbsp;</a></i>
+                                            <i><a href="">Open World&nbsp;</a></i>
                                         </p>
                                     </div>
                                 </div>
@@ -1421,12 +1387,14 @@
                         <div class="pro_term_item">
                             <div class="pro_term_item_link">
                                 <div class="pro_term_show">
-                                    <img src="images/example/wide/example1920-wide-6.png" class="pro_term_show_img">
+                                    <img src="images/example/product_name/pgamer/pgamer-wide.png" class="pro_term_show_img">
                                     <div class="pro_term_opera">
                                         <div class="pro_pop_handle pro_pop_handle_mt37">
-                                            <div class="pro_pop_handle_box pro_pop_handle_box_center">
+                                            <div class="pro_pop_handle_box pro_pop_handle_box_center_2">
                                                 <a class="pro_pop_icon pro_pop_home"></a>
+                                                <!--
                                                 <a class="pro_pop_icon pro_pop_gift"></a>
+                                                -->
                                                 <a class="pro_pop_icon pro_pop_icon_last pro_pop_download"></a>
                                             </div>
                                         </div>
@@ -1434,41 +1402,33 @@
                                     </div>
                                 </div>
                                 <div class="pro_h5_detail">
-                                    <h3 class="pro_game_name">Hentai Sweet Battle</h3>
+                                    <h3 class="pro_game_name">PC Gamer</h3>
                                     <div class="pro_game_type">
                                         <ul class="pro_game_type_bar">
                                             <li>
-                                                <a href="">
-                                                    <img src="images/pro-type-uwp.png">
-                                                    <span>UWP</span>
-                                                </a>
+                                                <a href="" target="_blank" class="pro_game_type_mg"></a>
                                             </li>
                                             <li>
-                                                <a href="">
-                                                    <img src="images/pro-type-store.png">
-                                                    <span>Store</span>
-                                                </a>
+                                                <a href="" target="_blank" class="pro_game_type_uwp"></a>
                                             </li>
                                             <li>
-                                                <a href="">
-                                                    <img src="images/pro-type-h5.png">
-                                                    <span>H5</span>
-                                                </a>
+                                                <a href="" target="_blank" class="pro_game_type_store"></a>
+                                            </li>
+                                            <li>
+                                                <a href="" target="_blank" class="pro_game_type_h5"></a>
                                             </li>
                                             <li class="pro_game_type_last">
-                                                <a href="">
-                                                    <img src="images/pro-type-ios.png">
-                                                    <span>iOS</span>
-                                                </a>
+                                                <a href="" target="_blank" class="pro_game_type_ios"></a>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="pro_h5_class">
-                                        <p class="pro_h5_class_collect">
-                                            <a class="pro_h5_class_collect_first" href="">Adventure&nbsp;</a>
-                                            <a href="">Action&nbsp;</a>
-                                            <a href="">Open World&nbsp;</a>
+                                        <p class="pro_h5_class_collect_tran">
+                                            <i><a href="">Adventure&nbsp;</a></i>
+                                            <i><a href="">Action&nbsp;</a></i>
+                                            <i><a href="">Open World&nbsp;</a></i>
                                         </p>
+                                        <!--
                                         <div class="pro_play pro_play_mt6">
                                             <a href="javascript:void(0)" class="pro_play_btn">
                                                 <span class="pro_play_txt">Play Game</span>
@@ -1479,6 +1439,7 @@
                                                 <p class="pro_code_txt">[ Scan to play ]</p>
                                             </div>
                                         </div>
+                                        -->
                                     </div>
                                 </div>
                             </div>
@@ -1487,12 +1448,14 @@
                         <div class="pro_term_item pro_term_item_last">
                             <div class="pro_term_item_link">
                                 <div class="pro_term_show">
-                                    <img src="images/example/wide/example1920-wide-7.png" class="pro_term_show_img">
+                                    <img src="images/example/product_name/twitch/twitch-wide.png" class="pro_term_show_img">
                                     <div class="pro_term_opera">
                                         <div class="pro_pop_handle pro_pop_handle_mt37">
-                                            <div class="pro_pop_handle_box pro_pop_handle_box_center">
+                                            <div class="pro_pop_handle_box pro_pop_handle_box_center_2">
                                                 <a class="pro_pop_icon pro_pop_home"></a>
+                                                <!--
                                                 <a class="pro_pop_icon pro_pop_gift"></a>
+                                                -->
                                                 <a class="pro_pop_icon pro_pop_icon_last pro_pop_download"></a>
                                             </div>
                                         </div>
@@ -1500,41 +1463,33 @@
                                     </div>
                                 </div>
                                 <div class="pro_h5_detail">
-                                    <h3 class="pro_game_name">Hentai Sweet Battle</h3>
+                                    <h3 class="pro_game_name">Twitch</h3>
                                     <div class="pro_game_type">
                                         <ul class="pro_game_type_bar">
                                             <li>
-                                                <a href="">
-                                                    <img src="images/pro-type-uwp.png">
-                                                    <span>UWP</span>
-                                                </a>
+                                                <a href="" target="_blank" class="pro_game_type_mg"></a>
                                             </li>
                                             <li>
-                                                <a href="">
-                                                    <img src="images/pro-type-store.png">
-                                                    <span>Store</span>
-                                                </a>
+                                                <a href="" target="_blank" class="pro_game_type_uwp"></a>
                                             </li>
                                             <li>
-                                                <a href="">
-                                                    <img src="images/pro-type-h5.png">
-                                                    <span>H5</span>
-                                                </a>
+                                                <a href="" target="_blank" class="pro_game_type_store"></a>
+                                            </li>
+                                            <li>
+                                                <a href="" target="_blank" class="pro_game_type_h5"></a>
                                             </li>
                                             <li class="pro_game_type_last">
-                                                <a href="">
-                                                    <img src="images/pro-type-ios.png">
-                                                    <span>iOS</span>
-                                                </a>
+                                                <a href="" target="_blank" class="pro_game_type_ios"></a>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="pro_h5_class">
-                                        <p class="pro_h5_class_collect">
-                                            <a class="pro_h5_class_collect_first" href="">Adventure&nbsp;</a>
-                                            <a href="">Action&nbsp;</a>
-                                            <a href="">Open World&nbsp;</a>
+                                        <p class="pro_h5_class_collect_tran">
+                                            <i><a href="">Adventure&nbsp;</a></i>
+                                            <i><a href="">Action&nbsp;</a></i>
+                                            <i><a href="">Open World&nbsp;</a></i>
                                         </p>
+                                        <!--
                                         <div class="pro_play pro_play_mt6">
                                             <a href="javascript:void(0)" class="pro_play_btn">
                                                 <span class="pro_play_txt">Play Game</span>
@@ -1545,17 +1500,106 @@
                                                 <p class="pro_code_txt">[ Scan to play ]</p>
                                             </div>
                                         </div>
+                                        -->
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <!--底部开始-->
-    <script src="footer.js"></script>
+    <!--底部分割线-->
+    <div class="footer-dec">
+        <div class="footer-empty"></div>
+    </div>
+    <footer class="footer">
+        <div class="f_box">
+
+            <div class="f_chain">
+                <div class="f_item f_item_less">
+                    <h3 class="f_item_title">MIRACLE GAMES</h3>
+                    <ul class="f_item_list">
+                        <li>
+                            <a href="privacyAgreement" target="_blank">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="subscriberAgreement" target="_blank">Terms of Service</a>
+                        </li>
+                        <li>
+                            <a href="http://mguwp.net/en/join.html" target="_blank">Join Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="f_item">
+                    <h3 class="f_item_title">Social Networking</h3>
+                    <ul class="f_item_social">
+                        <li>
+                            <a href="https://www.facebook.com/MiracleGamesStore" target="_blank">
+                                <i></i>
+                                <span>Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCnD8zYpFgOr0hCLHfdxufSQ/" target="_blank">
+                                <i class="f_item_youtube"></i>
+                                <span>YouTube</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/SMiraclegames" target="_blank">
+                                <i class="f_item_twitter"></i>
+                                <span>Twitter</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/store.miraclegames/" target="_blank">
+                                <i class="f_item_ins"></i>
+                                <span>Instagram</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="f_item">
+                    <h3 class="f_item_title">Customer Service </h3>
+                    <ul class="f_item_contact">
+                        <li>
+                            <a href="mailto:Support@mguwp.com">
+                                <i></i>
+                                <span>Mail: Support@mguwp.com</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="skype:live:mg20151203?chat">
+                                <i class="f_item_contact_sky"></i>
+                                <span>Skype: MG20151203@outlook.com</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="h_lang">
+                    <div class="h_lang_con">
+                        <div class="h_lang_txt h_lang_txt_reversed">EN</div>
+                        <div class="h_lang_icon h_lang_icon_reversed"></div>
+                    </div>
+                    <div class="h_lang_down h_lang_down_reversed"></div>
+                </div>
+            </div>
+
+            <div class="f_dec"></div>
+
+            <p class="f_copyright">
+                COPYRIGHT© 2016 MIRACLE GAMES INC ALL RIGHTS RESERVED.
+            </p>
+        </div>
+    </footer>
+    <!--底部结束-->
 
     <!--控制轮播图js-->
     <script src="js/slideShow/jquery-1.10.1.min.js"></script>
@@ -1565,5 +1609,35 @@
     <!--控制轮播图js结束-->
     <!--鼠标经过弹出二维码-->
     <script src="js/home.js"></script>
+
+    <script>
+        var ohLangVis = document.getElementById("hLangVis");
+        var ohLangPack = document.getElementById("hLangPack");
+        var timer = null;
+        ohLangPack.onmouseover = ohLangVis.onmouseover = function(){
+            clearTimeout(timer);
+            ohLangPack.style.display = "block";
+        }
+        ohLangPack.onmouseout = ohLangVis.onmouseout = function(){
+            timer = setTimeout(function(){
+                ohLangPack.style.display = "none";
+            },800)
+        }
+
+        var omgUserPanl = document.getElementById("mgUserPanl");
+        var ohLangExit = document.getElementById("hLangExit");
+        var exitTimer = null;
+        ohLangExit.onmouseover = omgUserPanl.onmouseover = function(){
+            clearTimeout(timer);
+            ohLangExit.style.display = "block";
+        };
+        ohLangExit.onmouseout = omgUserPanl.onmouseout = function(){
+            timer = setTimeout(function(){
+                ohLangExit.style.display = "none";
+            },800);
+        };
+
+    </script>
+
 </body>
 </html>

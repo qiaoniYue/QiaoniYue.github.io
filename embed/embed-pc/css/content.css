@@ -495,7 +495,7 @@
 
 /*service*/
 .service {
-    overflow: hidden;
+    overflow: auto;
     height: 100%;
     width: 100%;
 }
@@ -508,8 +508,8 @@
 
 .se-middle-bg {
     width: 100%;
-    height: 80%;
-    margin-top: 10%;
+    height: 95%;
+    margin-top: 3%;
     background: url("../images/se-dec.png") no-repeat right center;
     background-size: contain;
 }
@@ -567,6 +567,7 @@
 .seItem {
     width: 100%;
     overflow: hidden;
+    margin-top: .8em;
 }
 
 .seName {
@@ -612,7 +613,7 @@
 */
 
 .seArea {
-    height: 7em;
+    height: 8.7em;
     line-height: 1.2em;
 }
 
@@ -705,6 +706,7 @@
 .seLine {
     width: 100%;
     overflow: hidden;
+    margin-top: .8em;
 }
 
 .seHalf {
@@ -794,8 +796,8 @@
     float: right;
     width: 40%;
     /*width: 41%;*/
-    height: 100%;
-    overflow: hidden;
+    /*height: 100%;
+    overflow: hidden;*/
 }
 
 .se-contact {
@@ -834,6 +836,10 @@
     background-image: url("../images/se-facebook.png");
 }
 
+.se-con-icon-mg {
+    background-image: url("../images/se-mg.png");
+}
+
 .se-con-txt-bar {
     display: inline-block;
     vertical-align: middle;
@@ -859,8 +865,17 @@
 
 .se-con-detail {
     width: 100%;
-    overflow: hidden;
+    /*overflow: hidden;*/
     word-wrap: break-word;
+}
+
+.se-con-link {
+    color: #b2a6a2;
+}
+
+.se-con-link:hover,
+.se-con-link:active {
+    color: #d6cdc9;
 }
 
 .se-hint {
@@ -1434,6 +1449,14 @@
 
 .gif-nav-bar li:hover,
 .gif-nav-bar li:active {
+    border: 1px solid #6d402c;
+    -moz-box-shadow:0 0 20px rgba(255,111,47,.3) inset;               /* For Firefox3.6+ */
+    -webkit-box-shadow:0 0 20px rgba(255,111,47,.3) inset;               /* For Chrome5+, Safari5+ */
+    box-shadow:0 0 20px rgba(255,111,47,.3) inset;                  /* For Latest Opera */
+}
+
+.gif-nav-bar li.current:hover,
+.gif-nav-bar li.current:active {
     border: 1px solid #ff6f2f;
     -moz-box-shadow:0 0 20px rgba(255,111,47,.6) inset;               /* For Firefox3.6+ */
     -webkit-box-shadow:0 0 20px rgba(255,111,47,.6) inset;               /* For Chrome5+, Safari5+ */
@@ -2018,4 +2041,5 @@
     transform: translateY(-50%);
     z-index: 9998;
 }
+
 

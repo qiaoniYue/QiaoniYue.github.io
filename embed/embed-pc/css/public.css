@@ -1,0 +1,48 @@
+/*页码*/
+.pow-con-page {
+    width: 100%;
+    text-align: center;
+    clear: both;
+    padding-top: 2.2em;
+}
+
+.pow-con-page li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.pow-con-page li a {
+    display: inline-block;
+    color: #fff;
+    padding: 0 8px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #626467;
+    border-radius: 2px;
+    font-size: 13px;
+    outline: none 0;
+}
+
+.pow-con-page li.current a {
+    border: 1px solid #cc3e0a;
+    background: #f97c4e;
+    background: -webkit-linear-gradient(#f97c4e, #df4107); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#f97c4e, #df4107); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#f97c4e, #df4107); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#f97c4e, #df4107); /* 标准的语法 */
+}
+
+.pow-con-page li a:hover,
+.pow-con-page li a:active {
+    border: 1px solid #cc3e0a;
+    background: #f97c4e;
+    background: -webkit-linear-gradient(#f97c4e, #df4107); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#f97c4e, #df4107); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#f97c4e, #df4107); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#f97c4e, #df4107); /* 标准的语法 */
+}
+
+.pow-con-page li .pow-con-page-rad {
+    border-radius: 20px;
+    padding: 0 15px;
+}

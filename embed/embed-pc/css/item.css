@@ -1,0 +1,545 @@
+/*Points Task*/
+.points {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.po-left {
+    float: left;
+    width: 14%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #2a2a2a;
+    border:1px solid #232121;
+    /*-moz-box-shadow:0 1px #4a4847 inset;*/               /* For Firefox3.6+ */
+    /*-webkit-box-shadow:0 1px #4a4847 inset;*/               /* For Chrome5+, Safari5+ */
+    /*box-shadow:0 1px #4a4847 inset;  */                    /* For Latest Opera */
+    behavior: url(PIE.htc);
+    position: relative;
+}
+
+.po-nav-bar {
+    width: 100%;
+}
+
+.po-nav-bar li {
+    width: 100%;
+    padding: 1em 0;
+    border-bottom: 1px solid #474544;
+    box-shadow: inset 0 1px 0 0 #232121;
+}
+
+.po-nav-bar li.current {
+    background-color: #373737;
+}
+
+.po-nav-bar li:hover,
+.po-nav-bar li:active {
+    background-color: #373737;
+}
+
+.po-nav-bar li a {
+    display: block;
+    width: 100%;
+    height: 3em;
+    line-height: 3em;
+    font-size: 1.0714285714285714em;
+    position: relative;
+}
+
+.po-nav-bar li a i {
+    display: none;
+    position: absolute;
+    left: 4%;
+    top: .2em;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    background: #714a3c;
+    background: -webkit-linear-gradient(#714a3c, #6a3a29); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#714a3c, #6a3a29); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#714a3c, #6a3a29); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#714a3c, #6a3a29); /* 标准的语法 */
+}
+
+.po-nav-bar li.current a i {
+    display: block;
+}
+
+.po-nav-bar li:hover a i,
+.po-nav-bar li:active a i{
+    display: block;
+}
+
+.po-nav-bar li a span {
+    position: absolute;
+    left: 10%;
+    top: .2em;
+    box-sizing: border-box;
+    height: 2.3em;
+    line-height: 2.3em;
+    color: #9f9f9f;
+    font-weight: bold;
+}
+
+.po-nav-bar li.current a span {
+    color: #ff6224;
+}
+
+.po-nav-bar li:hover a span,
+.po-nav-bar li:active a span{
+    color: #ff6224;
+}
+
+@media screen and (min-width:901px){
+    .po-nav-bar li a {
+        font-size: 1.2em;
+    }
+}
+
+.po-nav-explain {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: .5em;
+    color: #787878;
+}
+
+.po-nav-tip {
+    color: #b83a0c;
+}
+
+.po-right {
+    float: right;
+    margin-right: 1%;
+    width: 84%;
+    height: 100%;
+}
+
+.po-list {
+    width: 100%;
+    /*height: 100%;*/
+    height: auto;
+    content: "";
+    display: block;
+    margin-top: .8em;
+    clear: both;
+}
+
+.po-list li {
+    float: left;
+    width: 24.625%;
+    margin-right: 0.5%;
+    background-color: #2a2a2a;
+    border: 1px solid #232121;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.po-list li:last-child {
+    margin-right: 0;
+}
+
+.po-list-img {
+    width: 70.4%;
+    margin-left: 14.8%;
+}
+
+.po-list-square {
+    width: 100%;
+    padding-top: 100%;
+    height: 0;
+    margin-top: .5em;
+    border: 1px solid #3e3e3e;
+    box-sizing: border-box;
+    position: relative;
+    /*background-image: url("../images/example/points/points-img-1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;*/
+}
+
+.po-list-show {
+    border: none 0;
+    outline: none 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.po-list-title {
+    width: 100%;
+    height: 2.5em;
+    overflow: hidden;
+    text-align: center;
+    line-height: 2.5em;
+    padding: 0 .5em;
+    font-size: 1.2em;
+    color: #d4d4d4;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+}
+
+.po-list-dec {
+    width: 100%;
+    text-align: center;
+    line-height: 0;
+}
+
+.po-list-content {
+    width: 100%;
+    margin-top: .5em;
+    height: 3em;
+    line-height: 1.5em;
+    overflow: hidden;
+    padding: 0 .5em;
+    color: #666464;
+    font-size: 1.0714285714285714em;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    box-sizing: border-box;
+}
+
+.po-bonus {
+    width: 100%;
+    margin-top: .5em;
+    background: #221f1d;
+    background: -webkit-linear-gradient(#3f3d3c, #221f1d); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#3f3d3c, #221f1d); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#3f3d3c, #221f1d); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#3f3d3c, #221f1d); /* 标准的语法 */
+    position: relative;
+}
+
+:root .po-bonus {
+    border-top-left-radius: 50% 4em;
+    border-top-right-radius: 50% 4em;
+    border-bottom-right-radius: 0 0;
+    border-bottom-left-radius: 0 0;
+    border-top: 1px solid #161515;
+}
+
+.po-bonus-reward {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.po-bonus-main {
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid #474544;
+    box-shadow: 0 1px 0 0 #000;
+    padding:.5em 0 .5em 0;
+}
+
+:root .po-bonus-main {
+    padding:2em 0 .5em 0;
+}
+
+.po-bonus-item {
+    float: left;
+    width: 49%;
+    overflow: hidden;
+    position: relative;
+}
+
+.po-bonus-item-right {
+    float: left;
+    width: 51%;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.po-bonus-icon {
+    float: left;
+    width: 14%;
+    max-width: 2.5em;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform:translateY(-50%);
+}
+
+.po-bonus-icon img {
+    border: none 0;
+    outline: none 0;
+    width: 100%;
+    vertical-align: top;
+}
+
+.po-bonus-txt {
+    float: right;
+    width: 86%;
+    overflow: hidden;
+    letter-spacing: -0.05em;
+}
+
+.po-bonus-title {
+    color: #a6a6a6;
+    width: 100%;
+    line-height: 1.2em;
+    max-height: 2.4em;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    padding-top: .5em;
+}
+
+.po-bonus-num {
+    display: block;
+    width: 100%;
+    height: 2em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    font-size: 1.1em;
+    line-height: 2em;
+    vertical-align: top;
+}
+
+.po-bonus-num span {
+    display: inline-block;
+    color: #ffffff;
+}
+
+
+.po-bonus-num .po-bonus-num-float {
+    display: inline-block;
+    color: #888685;
+    transform: scale(0.8);           //缩放中心点
+    transform-origin: 0 0;  //缩放比例
+
+    -ms-transform: scale(0.8);      	/* IE 9 */
+    -ms-transform-origin:0 0; 		/* IE 9 */
+
+    -webkit-transform: scale(0.8);	/* Safari 和 Chrome */
+    -webkit-transform-origin:0 0;	/* Safari 和 Chrome */
+
+    -moz-transform:  scale(0.8);		/* Firefox */
+    -moz-transform-origin:0 0;		/* Firefox */
+
+    -o-transform:  scale(0.8);		/* Opera */
+    -o-transform-origin:0 0;		/* Opera */
+}
+
+.po-bonus-describe-bar {
+    padding: .5em 0 3em 0;
+}
+
+.po-bonus-describe {
+    width: 100%;
+    height: 3em;
+    overflow: hidden;
+    color: #a6a6a6;
+    line-height: 1.5em;
+    text-overflow:ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.po-bonus-describe-title {
+    color: #ff6f3b;
+}
+
+
+
+.po-trace {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8em;
+    height: 8em;
+    background: url("../images/points-trace.png") no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:940px){
+    .po-bonus-icon {
+        display: none;
+    }
+
+    .po-bonus-txt {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:941px) and (max-width:1000px){
+    .po-left {
+        width: 12%;
+    }
+
+    .po-right {
+        width: 86%;
+    }
+
+    .po-bonus-reward {
+        padding: 0 .1em;
+    }
+
+    .po-bonus-icon {
+        width: 17%;
+    }
+
+    .po-bonus-txt {
+        width: 83%;
+    }
+}
+
+@media screen and (min-width:1001px) and (max-width:1100px){
+    .po-left {
+        width: 12%;
+    }
+
+    .po-right {
+        width: 86%;
+    }
+
+    .po-bonus-reward {
+        padding: 0 .1em;
+    }
+
+    .po-bonus-icon {
+        width: 19%;
+    }
+
+    .po-bonus-txt {
+        width: 81%;
+    }
+}
+
+@media screen and (min-width:1101px){
+    .po-left {
+        width: 11%;
+    }
+
+    .po-right {
+        width: 87%;
+    }
+
+    .po-bonus-reward {
+        padding: 0 .3em;
+    }
+
+    .po-bonus-icon {
+        width: 25%;
+    }
+
+    .po-bonus-txt {
+        width: 75%;
+    }
+}
+
+.po-jump {
+    width: 100%;
+    position: absolute;
+    bottom: -1.5em;
+    left: 0;
+}
+
+.po-jump a {
+    float: left;
+    width: 44%;
+    height: 3em;
+    line-height: 3em;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.po-jump .po-jump-detail {
+    margin: 0 2% 0 5%;
+    background: #fdbc4c;
+    background: -webkit-linear-gradient(#fdbc4c, #e27e21); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#fdbc4c, #e27e21); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#fdbc4c, #e27e21); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#fdbc4c, #e27e21); /* 标准的语法 */
+
+}
+
+.po-jump .po-jump-detail:hover,
+.po-jump .po-jump-detail:active {
+    background: -webkit-linear-gradient(#feb23e, #db641a); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#feb23e, #db641a); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#feb23e, #db641a); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#feb23e, #db641a); /* 标准的语法 */
+}
+
+
+.po-jump .po-jump-install {
+    background: #f97c4e;
+    background: -webkit-linear-gradient(#f97c4e, #df4107); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#f97c4e, #df4107); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#f97c4e, #df4107); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#f97c4e, #df4107); /* 标准的语法 */
+}
+
+.po-jump .po-jump-install:hover,
+.po-jump .po-jump-install:active {
+    background: -webkit-linear-gradient(#f76e44, #db3905); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#f76e44, #db3905); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#f76e44, #db3905); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#f76e44, #db3905); /* 标准的语法 */
+}
+
+.po-jump a span {
+    font-size: 1.2em;
+}
+
+.po-jump .po-jump-detail span {
+    text-shadow:1px 1px 0 #ed761c;
+}
+
+.po-jump .po-jump-install span {
+    text-shadow:1px 1px 0 #eb4c26;
+}
+
+.po-jump-or-box {
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10%;
+    padding-top: 10%;
+    height: 0;
+    background: url("../images/points-or.png") no-repeat center center;
+    background-size: cover;
+}
