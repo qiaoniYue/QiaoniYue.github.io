@@ -2,91 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42c63de5-884d-44f1-8983-b3098961240a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/css/backup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/css/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/css/global.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/css/mob.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/css/normal.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/img/bottomBan.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/img/company-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/img/company-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/img/company-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/img/company-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/img/company-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/img/company-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/img/company-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/img/company-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/img/content-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/img/content-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/img/content-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/img/content-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/img/index-banner-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/img/index-banner-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/img/index-banner-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/img/index-banner-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/img/nav.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/img/people-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/img/people.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/img/service-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/img/service-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/img/service-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/img/service-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/imgs/banner-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/imgs/buttonExpe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/imgs/content-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/imgs/content-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/imgs/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/mob-index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/global.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mob.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/game/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html-demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bottomBan.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/company-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/company-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/company-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/company-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/company-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/company-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/company-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/company-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/content-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/content-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/content-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/content-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/index-banner-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/index-banner-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/index-banner-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/index-banner-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/nav.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/people-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/people.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/service-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/service-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/service-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/service-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_url/js_url.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mob-index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pcOrPhone.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smallBig/images/fpic10314.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smallBig/images/imgIcons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smallBig/images/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smallBig/images/photoA.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smallBig/images/photoB.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smallBig/images/photoC.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smallBig/images/photoD.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smallBig/images/tooopen_sy_209068589482.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smallBig/images/tooopen_sy_241629694524.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smallBig/images/tooopen_sy_241630585832.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smallBig/images/tooopen_sy_241631031241.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smallBig/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/文档/PC命名规范.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/文档/PC命名规范.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/文档/mguwp服务器所在地址.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/文档/游戏平台-命名规范.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/文档/游戏平台-命名规范.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/文档/游戏平台代码服务器所在地址.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/web/index_backup.html" beforeDir="false" afterPath="$PROJECT_DIR$/game/web/index_backup.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -241,7 +158,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="136" />
-          <entry key="html" value="346" />
+          <entry key="html" value="348" />
           <entry key="ico" value="1" />
           <entry key="jpg" value="2" />
           <entry key="js" value="86" />
@@ -251,7 +168,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="136" />
-          <entry key="HTML" value="346" />
+          <entry key="HTML" value="348" />
           <entry key="Image" value="3" />
           <entry key="JavaScript" value="86" />
           <entry key="TypeScript" value="1" />
@@ -260,14 +177,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="9120" />
-          <entry key="html" value="10615" />
+          <entry key="html" value="10616" />
           <entry key="js" value="2330" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="9120" />
-          <entry key="HTML" value="10615" />
+          <entry key="HTML" value="10616" />
           <entry key="JavaScript" value="2330" />
         </counts>
       </usages-collector>
@@ -277,27 +194,50 @@
     <favorites_list name="Project" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/game/web/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#a#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#a#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#a#2;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#a#3;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#5;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#script#5;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/game/web/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="646">
+                  <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
+                  <folding>
+                    <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#a#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#a#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#a#2;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#a#3;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#4;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#5;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#script#5;n#body#0;n#html#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/game/web/index_backup.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="459">
+                  <caret line="134" column="15" lean-forward="true" selection-start-line="134" selection-start-column="15" selection-end-line="134" selection-end-column="15" />
+                  <folding>
+                    <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -416,8 +356,8 @@
         <option value="$PROJECT_DIR$/game/web/css/swiper/banner.css" />
         <option value="$PROJECT_DIR$/game/web/css/home.css" />
         <option value="$PROJECT_DIR$/game/web/css/public.css" />
-        <option value="$PROJECT_DIR$/game/web/index_backup.html" />
         <option value="$PROJECT_DIR$/embed/embed-pc/demo.html" />
+        <option value="$PROJECT_DIR$/game/web/index_backup.html" />
         <option value="$PROJECT_DIR$/game/web/index.html" />
       </list>
     </option>
@@ -428,7 +368,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="519" />
     <option name="y" value="69" />
     <option name="width" value="1189" />
@@ -966,12 +906,12 @@
       <workItem from="1567051960287" duration="11623000" />
       <workItem from="1567077225090" duration="2147000" />
       <workItem from="1567130854261" duration="260000" />
-      <workItem from="1567131498416" duration="604000" />
+      <workItem from="1567131498416" duration="1147000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2576986000" />
+    <option name="totallyTimeSpent" value="2577529000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -983,7 +923,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920762" visible="true" weight="0.16822916" />
@@ -1309,13 +1249,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game/web/index_backup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="20" column="74" lean-forward="true" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/embed/embed-pc/demo.html" />
     <entry file="file://$PROJECT_DIR$/embed/embed-pc/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -1333,17 +1266,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/game/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        <state relative-caret-position="646">
+          <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#a#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#a#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#a#2;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#a#3;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#5;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#5;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/web/index_backup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="134" column="15" lean-forward="true" selection-start-line="134" selection-start-column="15" selection-end-line="134" selection-end-column="15" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
