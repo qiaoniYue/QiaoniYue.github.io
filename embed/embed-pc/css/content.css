@@ -1056,7 +1056,7 @@
     overflow: hidden;
 }
 
-.se-hint-num {
+.se-hint-list .se-hint-num {
     float: left;
     width: 5%;
     margin-right: 2%;
@@ -1065,9 +1065,14 @@
     color: #fff;
 }
 
-.se-shit-ctn {
+.se-hint-list .se-shit-ctn {
     float: left;
     width: 93%;
+    line-height: 1.3em;
+}
+
+.se-hint-list .se-shit-ctn:nth-child(2) {
+    padding-bottom: 1em;
 }
 
 

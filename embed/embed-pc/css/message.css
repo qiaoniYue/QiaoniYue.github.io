@@ -208,7 +208,19 @@
     min-width: 45px;
     max-width: 90px;
     overflow: hidden;
+    position: relative;
 }
+
+.mes-icon-small-vip {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 30%;
+    height: 30%;
+    border: none 0;
+    outline: none 0;
+}
+
 
 .mes-icon {
     width: 100%;
